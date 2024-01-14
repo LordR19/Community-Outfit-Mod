@@ -1,0 +1,11 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+#####################################
+#									#
+# 			 Male Sasshes			#
+#									#
+#####################################
+
+male_sash_european_light_blue = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_sash_european_light_blue_entity" }	
+}
