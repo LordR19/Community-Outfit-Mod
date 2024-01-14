@@ -3,20 +3,28 @@
 
 	#####################################
 	#									#
-	# 			   SASHES 			    #
+	# 			   LEGWEAR 			    #
 	#									#
 	#####################################
 
-		special_sashes = {
+		com_legwear = {
 			inheritable = no
 			
-			all_special_sashes = {
+			com_no_legwear = {
 				index = 0
 				male = {
 					1 = empty
-					1 = male_sash_european_light_blue
-				}
+				}		   
+				female = male
+				boy = male
+				girl = male
+			}
 
+			com_all_legwear = {
+				index = 1
+				male = {
+					1 = com_male_legwear_european_dark_blue
+				}
 				female = {
 					1 = empty
 				}

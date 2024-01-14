@@ -6,6 +6,6 @@
 #											#
 #############################################
 
-male_military_coat_sweden_royal_01 = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_special_military_coat_sweden_ruler_01_entity" }	
+com_male_military_coat_sweden_royal_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_sweden_royal_01_entity" }	
 }

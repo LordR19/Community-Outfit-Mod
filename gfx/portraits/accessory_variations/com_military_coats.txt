@@ -2,8 +2,9 @@
 #	Texture sets	#
 ##################
 
+#Royal Swedish Uniform
 variation = {
-	name = "male_uniform_sweden_royal"
+	name = "com_male_uniform_sweden_royal"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -21,5 +22,5 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_swedish_uniform_royal.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/com_color_palette_swedish_uniform_royal.dds" }	
 }
