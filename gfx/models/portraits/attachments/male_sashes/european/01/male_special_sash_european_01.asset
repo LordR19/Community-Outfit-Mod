@@ -1,5 +1,5 @@
 pdxmesh = {
-	name = "male_sash_european_light_blue_mesh"
+	name = "male_special_sash_european_01_mesh"
 	file = "male_sash_european_01.mesh"
 
 	blend_shape = { id = "male_sash_european_01_bs_fat"                type = "male_sash_european_01_bs_fat.mesh" }
@@ -22,7 +22,7 @@ pdxmesh = {
 
 entity = {
 	name = "male_sash_european_light_blue_entity"
-	pdxmesh = "male_sash_european_light_blue_mesh"
+	pdxmesh = "male_special_sash_european_01_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }

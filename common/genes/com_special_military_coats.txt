@@ -1,0 +1,28 @@
+﻿special_genes = {
+	accessory_genes = {
+
+	#############################################
+	#											#
+	# 			   MILITARY COATS 			    #
+	#											#
+	#############################################
+
+		special_military_coats = {
+			inheritable = no
+			
+			all_special_military_coats = {
+				index = 0
+				male = {
+					1 = empty
+					1 = male_military_coat_sweden_royal_01
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}		
+		}
+	}
+}
