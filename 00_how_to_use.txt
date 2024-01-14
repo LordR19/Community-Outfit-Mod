@@ -1,0 +1,15 @@
+##############
+# How to use #
+##############
+
+# To change the color of a piece of clothing, you can use the "color_palettes" in "gfx\portraits\accessory_variations\textures\color_palettes".
+
+# If you want to use a piece of clothing with a specific color, it is advisable to create a new "gene" in "common\genes".
+# The gene references an "accessory" in "gfx\portraits\accessories".
+# The accessory references an "entity" in a subfolder of "gfx\models\portraits\attachments".
+# In the file with the "entity" a "variation" is referenced, that you can find in "gfx\portraits\accessory_variations".
+# That variation references a ".dds" file in "gfx\portraits\accessory_variations\textures\color_palettes"
+
+# I usually copy the relevant parts of vanilla files into the correct folders and change the ".dds" file when I already implemented the Gene.
+# By doing that you can directly see how the changes in the texture change the clothes.
+# Be sure to save the .dds file with the RGB8 Format and see the file in the folder for more informations.
