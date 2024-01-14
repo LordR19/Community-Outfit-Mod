@@ -36,7 +36,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_uniform_sweden_royal"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_uniform_sweden_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -58,7 +58,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_uniform_switzerland_early"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_uniform_switzerland_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

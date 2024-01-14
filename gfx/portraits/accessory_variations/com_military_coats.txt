@@ -2,9 +2,9 @@
 #	Texture sets	#
 ##################
 
-#Royal Swedish Uniform
+#Royal Swedish Uniform 01
 variation = {
-	name = "com_male_uniform_sweden_royal"
+	name = "com_male_uniform_sweden_royal_01"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -12,10 +12,10 @@ variation = {
 	pattern = { 
 		weight = 1
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
-		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
-		g = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
 		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
-		a = { textures = "generic_wool_standard_plain_01"			layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01"			layout = "plain_fabric_layout" }
 	}	
 
 	# Color palette textures are 4-wide and N-high.
@@ -25,8 +25,26 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/com_color_palette_swedish_uniform_royal.dds" }	
 }
 
+#Royal Swedish Uniform 06
 variation = {
-	name = "com_male_uniform_switzerland_early"
+	name = "com_male_uniform_sweden_royal_06"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_06" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/com_color_palette_swedish_uniform_royal.dds" }	
+}
+
+variation = {
+	name = "com_male_uniform_switzerland_early_01"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
