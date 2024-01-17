@@ -14,7 +14,7 @@ variation = {
 		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
 		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
-		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
 		a = { textures = "generic_wool_standard_fine_01"			layout = "plain_fabric_layout" }
 	}	
 
