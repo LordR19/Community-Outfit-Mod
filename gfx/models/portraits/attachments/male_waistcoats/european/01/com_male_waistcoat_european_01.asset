@@ -5,7 +5,7 @@ pdxmesh = {
 
 	blend_shape = { id = "male_waistcoat_european_01_bs_fat"              type = "male_waistcoat_european_01_bs_fat.mesh" }
     blend_shape = { id = "male_waistcoat_european_01_bs_gaunt"            type = "male_waistcoat_european_01_bs_gaunt.mesh" }
-  #  blend_shape = { id = "male_waistcoat_european_01_bs_infant"           type = "male_waistcoat_european_01_bs_infant.mesh" }
+#	blend_shape = { id = "male_waistcoat_european_01_bs_infant"           type = "male_waistcoat_european_01_bs_infant.mesh" }
     blend_shape = { id = "male_waistcoat_european_01_bs_old"              type = "male_waistcoat_european_01_bs_old.mesh" }
     blend_shape = { id = "male_waistcoat_european_01_bs_thick"            type = "male_waistcoat_european_01_bs_thick.mesh" }
     blend_shape = { id = "male_waistcoat_european_01_bs_thin"             type = "male_waistcoat_european_01_bs_thin.mesh" }
