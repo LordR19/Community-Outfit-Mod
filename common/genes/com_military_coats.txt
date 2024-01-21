@@ -32,7 +32,7 @@
 				}
 
 				female = {
-					1 = empty
+					1 = female_outfit_european_common_01
 				}
 				boy = male
 				girl = female
@@ -46,7 +46,7 @@
 				}
 
 				female = {
-					1 = empty
+					1 = female_outfit_european_common_01
 				}
 				boy = male
 				girl = female
@@ -60,7 +60,7 @@
 				}
 
 				female = {
-					1 = empty
+					1 = female_outfit_european_common_01
 				}
 				boy = male
 				girl = female
@@ -74,7 +74,7 @@
 				}
 
 				female = {
-					1 = empty
+					1 = female_outfit_european_common_01
 				}
 				boy = male
 				girl = female
