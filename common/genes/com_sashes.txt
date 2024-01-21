@@ -31,7 +31,21 @@
 				}
 				boy = male
 				girl = female
-			}		
+			}
+			
+			com_swedish_sashes = {
+				index = 2
+				male = {
+					1 = 0
+					2 = com_male_sash_european_light_blue
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
