@@ -9,3 +9,7 @@
 com_male_sash_european_light_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_light_blue_entity" }	
 }
+
+com_male_sash_european_dark_green = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_dark_green_entity" }	
+}

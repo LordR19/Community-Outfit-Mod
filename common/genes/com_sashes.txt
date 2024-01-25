@@ -24,6 +24,7 @@
 				index = 1
 				male = {
 					1 = com_male_sash_european_light_blue
+					1 = com_male_sash_european_dark_green
 				}
 
 				female = {
