@@ -40,7 +40,7 @@
 				girl = female
 			}
 
-			com_swedish_noble_coats = {
+			com_SWE_noble_coats = {
 				index = 2
 				male = {
 					1 = com_male_military_coat_sweden_royal_01
@@ -68,7 +68,7 @@
 				girl = female
 			}
 
-			com_swedish_military_coats = {
+			com_SWE_military_coats = {
 				index = 4
 				male = {
 					1 = com_male_military_coat_sweden_early_01

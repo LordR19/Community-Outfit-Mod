@@ -37,7 +37,7 @@
 				girl = female
 			}
 			
-			com_swedish_sashes = {
+			com_SWE_sashes = {
 				index = 2
 				male = {
 					1 = 0
