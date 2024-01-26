@@ -25,6 +25,8 @@
 				male = {
 					1 = com_male_military_coat_sweden_royal_01
 					1 = com_male_military_coat_sweden_royal_06
+					1 = com_male_military_coat_SAR_royal_01
+					1 = com_male_military_coat_SAR_royal_06
 					1 = com_male_military_coat_sweden_early_01
 					1 = com_male_military_coat_sweden_early_06
 					1 = com_male_military_coat_switzerland_early_01
@@ -37,7 +39,7 @@
 				boy = male
 				girl = female
 			}
-			
+
 			com_swedish_noble_coats = {
 				index = 2
 				male = {
@@ -52,8 +54,22 @@
 				girl = female
 			}
 
-			com_swedish_military_coats = {
+			com_SAR_noble_coats = {
 				index = 3
+				male = {
+					1 = com_male_military_coat_SAR_royal_01
+					1 = com_male_military_coat_SAR_royal_06
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_swedish_military_coats = {
+				index = 4
 				male = {
 					1 = com_male_military_coat_sweden_early_01
 					1 = com_male_military_coat_sweden_early_06
@@ -67,7 +83,7 @@
 			}
 
 			com_swiss_military_coats = {
-				index = 4
+				index = 5
 				male = {
 					1 = com_male_military_coat_switzerland_early_01
 					1 = com_male_military_coat_switzerland_early_06

@@ -24,6 +24,8 @@
 				index = 1
 				male = {
 					1 = com_male_sash_european_light_blue
+					1 = com_male_sash_european_medium_light_blue
+					1 = com_male_sash_european_blue
 					1 = com_male_sash_european_green
 					1 = com_male_sash_european_dark_green
 				}
@@ -50,7 +52,18 @@
 			}
 
 			com_SAR_sashes = {
-				
+				index = 3
+				male = {
+					1 = 0
+					1 = com_male_sash_european_light_blue
+					1 = com_male_sash_european_green
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
 			}
 		}
 	}

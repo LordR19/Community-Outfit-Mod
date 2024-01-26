@@ -30,7 +30,20 @@
 				}
 				boy = male
 				girl = female
-			}		
+			}
+			
+			com_SAR_legwear = {
+				index = 2
+				male = {
+					1 = male_legwear_european_01_white
+					1 = com_male_legwear_european_light_blue
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
