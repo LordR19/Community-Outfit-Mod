@@ -36,12 +36,6 @@
                 template = all_belts
                 range = { 0 1 } # For the randomness to work correctly
             }
-            accessory = {
-                mode = add
-                gene = com_epaulettes
-                template = SWE_epaulettes
-                range = { 0 1 } # For the randomness to work correctly
-            }
 
             #Remove
             accessory = {
@@ -142,6 +136,12 @@
                 mode = add
                 gene = belts
                 template = all_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = DEN_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
 
