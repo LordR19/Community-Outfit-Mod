@@ -51,11 +51,11 @@
 				girl = female
 			}
 
-			com_SWE_sashes = {
+			com_BEL_sashes = {
 				index = 3
 				male = {
 					1 = 0
-					3 = com_male_sash_european_light_blue
+					3 = com_male_sash_european_red
 				}
 
 				female = {
@@ -79,6 +79,22 @@
 				boy = male
 				girl = female
 			}
+
+			com_SWE_sashes = {
+				index = 5
+				male = {
+					1 = 0
+					3 = com_male_sash_european_light_blue
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			
 		}
 	}
 }

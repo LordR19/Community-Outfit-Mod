@@ -26,6 +26,10 @@ com_male_sash_european_dark_green = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_dark_green_entity" }	
 }
 
+com_male_sash_european_red = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_red_entity" }	
+}
+
 com_male_sash_AUS = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_AUS_entity" }	
 }
