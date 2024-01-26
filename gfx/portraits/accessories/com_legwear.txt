@@ -6,6 +6,10 @@
 #									#
 #####################################
 
+com_male_legwear_european_blue = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_blue_entity" }	
+}
+
 com_male_legwear_european_dark_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_entity" }	
 }
