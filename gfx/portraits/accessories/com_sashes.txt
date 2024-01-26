@@ -45,3 +45,11 @@ com_male_sash_NET = {
 com_male_sash_SIC = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SIC_entity" }	
 }
+
+com_male_sash_SPA_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_1_entity" }	
+}
+
+com_male_sash_SPA_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_2_entity" }	
+}

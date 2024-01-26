@@ -125,6 +125,21 @@
 				boy = male
 				girl = female
 			}
+
+			com_SPA_sashes = {
+				index = 8
+				male = {
+					1 = 0
+					2 = com_male_sash_SPA_1
+					2 = com_male_sash_SPA_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
