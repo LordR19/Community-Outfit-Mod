@@ -28,6 +28,9 @@
 					1 = com_male_sash_european_blue
 					1 = com_male_sash_european_green
 					1 = com_male_sash_european_dark_green
+					1 = com_male_sash_AUS
+					1 = com_male_sash_AUS2
+					1 = com_male_sash_NET
 				}
 
 				female = {
@@ -41,7 +44,7 @@
 				index = 2
 				male = {
 					1 = 0
-					3 = com_male_sash_AUS
+					3 = com_male_sash_AUS2
 				}
 
 				female = {
@@ -65,8 +68,22 @@
 				girl = female
 			}
 
-			com_SAR_sashes = {
+			com_NET_sashes = {
 				index = 4
+				male = {
+					1 = 0
+					3 = com_male_sash_NET
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SAR_sashes = {
+				index = 5
 				male = {
 					1 = 0
 					2 = com_male_sash_european_light_blue
@@ -81,7 +98,7 @@
 			}
 
 			com_SWE_sashes = {
-				index = 5
+				index = 6
 				male = {
 					1 = 0
 					3 = com_male_sash_european_light_blue
