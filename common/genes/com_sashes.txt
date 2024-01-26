@@ -39,6 +39,7 @@
 					1 = com_male_sash_POR_3
 					1 = com_male_sash_SAX_1
 					1 = com_male_sash_SAX_2
+					1 = com_male_sash_TUS
 				}
 
 				female = {
@@ -167,6 +168,20 @@
 					1 = com_male_sash_european_red
 					1 = com_male_sash_SAX_1
 					1 = com_male_sash_SAX_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_TUS_sashes = {
+				index = 11
+				male = {
+					1 = com_male_sash_SAX_1
+					1 = com_male_sash_TUS
 				}
 
 				female = {

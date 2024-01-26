@@ -140,6 +140,18 @@
 				boy = male
 				girl = female
 			}
+
+			com_TUS_legwear = {
+				index = 10
+				male = {
+					1 = com_male_legwear_european_red
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
