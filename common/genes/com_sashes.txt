@@ -34,6 +34,11 @@
 					1 = com_male_sash_SIC
 					1 = com_male_sash_SPA_1
 					1 = com_male_sash_SPA_2
+					1 = com_male_sash_POR_1
+					1 = com_male_sash_POR_2
+					1 = com_male_sash_POR_3
+					1 = com_male_sash_SAX_1
+					1 = com_male_sash_SAX_2
 				}
 
 				female = {
@@ -47,7 +52,7 @@
 				index = 2
 				male = {
 					1 = 0
-					3 = com_male_sash_AUS2
+					5 = com_male_sash_AUS2
 				}
 
 				female = {
@@ -88,7 +93,6 @@
 			com_SAR_sashes = {
 				index = 5
 				male = {
-					1 = 0
 					2 = com_male_sash_european_light_blue
 					2 = com_male_sash_european_green
 				}
@@ -104,7 +108,7 @@
 				index = 6
 				male = {
 					1 = 0
-					3 = com_male_sash_european_light_blue
+					5 = com_male_sash_european_light_blue
 				}
 
 				female = {
@@ -131,7 +135,6 @@
 			com_SPA_sashes = {
 				index = 8
 				male = {
-					1 = 0
 					2 = com_male_sash_SPA_1
 					2 = com_male_sash_SPA_2
 				}
@@ -149,6 +152,21 @@
 					1 = com_male_sash_POR_1
 					1 = com_male_sash_POR_2
 					1 = com_male_sash_POR_3
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+			
+			com_SAX_sashes = {
+				index = 10
+				male = {
+					1 = com_male_sash_european_red
+					1 = com_male_sash_SAX_1
+					1 = com_male_sash_SAX_2
 				}
 
 				female = {
