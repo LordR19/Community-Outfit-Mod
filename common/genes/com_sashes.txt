@@ -32,6 +32,8 @@
 					1 = com_male_sash_AUS2
 					1 = com_male_sash_NET
 					1 = com_male_sash_SIC
+					1 = com_male_sash_SPA_1
+					1 = com_male_sash_SPA_2
 				}
 
 				female = {
@@ -132,6 +134,21 @@
 					1 = 0
 					2 = com_male_sash_SPA_1
 					2 = com_male_sash_SPA_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_POR_sashes = {
+				index = 9
+				male = {
+					1 = com_male_sash_POR_1
+					1 = com_male_sash_POR_2
+					1 = com_male_sash_POR_3
 				}
 
 				female = {

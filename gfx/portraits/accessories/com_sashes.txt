@@ -53,3 +53,15 @@ com_male_sash_SPA_1 = {
 com_male_sash_SPA_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_2_entity" }	
 }
+
+com_male_sash_POR_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_POR_1_entity" }	
+}
+
+com_male_sash_POR_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_POR_2_entity" }	
+}
+
+com_male_sash_POR_3 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_POR_3_entity" }	
+}

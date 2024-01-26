@@ -159,13 +159,27 @@
 				boy = male
 				girl = female
 			}
-			
+
 			com_SIC_noble_coats = {
 				index = 10
 				male = {
 					2 = com_male_military_coat_SIC_a_royal_01
 					2 = com_male_military_coat_SIC_b_royal_01
 					1 = com_male_military_coat_SIC_royal_06
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+	
+			com_POR_noble_coats = {
+				index = 11
+				male = {
+					2 = com_male_military_coat_POR_royal_01
+					1 = com_male_military_coat_POR_royal_06
 				}
 
 				female = {
