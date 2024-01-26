@@ -44,6 +44,18 @@
 				boy = male
 				girl = female
 			}
+
+			com_SWE_legwear = {
+				index = 3
+				male = {
+					1 = com_male_legwear_european_dark_blue
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
