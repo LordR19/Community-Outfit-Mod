@@ -37,8 +37,24 @@
 				girl = female
 			}
 
-			SWE_epaulettes = {
+			DEN_epaulettes = {
 				index = 2
+				male = {
+					2 = 0
+					4 = male_epaulettes_02
+					4 = male_epaulettes_03
+					4 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}	
+
+			SWE_epaulettes = {
+				index = 3
 				male = {
 					2 = 0
 					5 = male_epaulettes_04

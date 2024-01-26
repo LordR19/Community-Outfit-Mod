@@ -91,8 +91,8 @@
                     scope:character = {
                         owner ?= {
                             OR = {
-                                c:DEN ?= this
-                                was_formed_from = DEN
+                                c:AUS ?= this
+                                was_formed_from = AUS
                             }
                         }
                         exists = home_country
@@ -193,8 +193,8 @@
                     scope:character = {
                         owner ?= {
                             OR = {
-                                c:AUS ?= this
-                                was_formed_from = AUS
+                                c:DEN ?= this
+                                was_formed_from = DEN
                             }
                         }
                         exists = home_country
