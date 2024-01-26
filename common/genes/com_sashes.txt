@@ -31,6 +31,7 @@
 					1 = com_male_sash_AUS
 					1 = com_male_sash_AUS2
 					1 = com_male_sash_NET
+					1 = com_male_sash_SIC
 				}
 
 				female = {
@@ -111,7 +112,19 @@
 				girl = female
 			}
 
-			
+			com_SIC_sashes = {
+				index = 7
+				male = {
+					1 = 0
+					3 = com_male_sash_SIC
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
