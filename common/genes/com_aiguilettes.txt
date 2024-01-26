@@ -35,7 +35,7 @@
 			}
 
 			silver_aiguillettes = {
-				index = 0
+				index = 2
 				male = {
 					1 = com_male_aiguillettes_01_silver
 				}
