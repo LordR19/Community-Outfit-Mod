@@ -15,9 +15,9 @@ com_male_legwear_european_light_blue = {
 }
 
 com_male_legwear_european_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_red_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_red_entity" }	
 }
 
 com_male_legwear_european_white = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_white_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_white_entity" }	
 }

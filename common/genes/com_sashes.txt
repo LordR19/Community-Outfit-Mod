@@ -41,7 +41,7 @@
 				index = 2
 				male = {
 					1 = 0
-					2 = com_male_sash_AUS
+					3 = com_male_sash_AUS
 				}
 
 				female = {
@@ -55,7 +55,7 @@
 				index = 3
 				male = {
 					1 = 0
-					2 = com_male_sash_european_light_blue
+					3 = com_male_sash_european_light_blue
 				}
 
 				female = {
@@ -69,8 +69,8 @@
 				index = 4
 				male = {
 					1 = 0
-					1 = com_male_sash_european_light_blue
-					1 = com_male_sash_european_green
+					2 = com_male_sash_european_light_blue
+					2 = com_male_sash_european_green
 				}
 
 				female = {
