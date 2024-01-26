@@ -219,7 +219,7 @@
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_BEL_noble_coats
+                template = com_NET_noble_coats
                 range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
@@ -249,7 +249,7 @@
             accessory = {
                 mode = add
                 gene = com_epaulettes
-                template = SWE_epaulettes
+                template = NET_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
 

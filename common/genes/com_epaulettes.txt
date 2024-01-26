@@ -51,10 +51,23 @@
 				}
 				boy = male
 				girl = female
+			}
+			
+			NET_epaulettes = {
+				index = 3
+				male = {
+					1 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
 			}	
 
 			SWE_epaulettes = {
-				index = 3
+				index = 4
 				male = {
 					2 = 0
 					5 = male_epaulettes_04
