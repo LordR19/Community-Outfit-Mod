@@ -26,6 +26,10 @@ com_male_military_coat_sweden_royal_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_sweden_royal_06_entity" }	
 }
 
+com_male_military_coat_SAR_royal_06 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SAR_royal_06_entity" }	
+}
+
 com_male_military_coat_sweden_early_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_sweden_early_06_entity" }	
 }
