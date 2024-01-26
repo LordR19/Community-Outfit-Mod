@@ -23,7 +23,12 @@
 			com_all_legwear = {
 				index = 1
 				male = {
+					1 = male_legwear_european_01_blue
 					1 = com_male_legwear_european_dark_blue
+					1 = com_male_legwear_european_light_blue
+					1 = male_legwear_european_01_black
+					1 = male_legwear_european_01_red
+					1 = male_legwear_european_01_white
 				}
 				female = {
 					1 = empty
@@ -31,9 +36,22 @@
 				boy = male
 				girl = female
 			}
-			
-			com_SAR_legwear = {
+
+			com_AUS_legwear = {
 				index = 2
+				male = {
+					1 = male_legwear_european_01_red
+					1 = male_legwear_european_01_white
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SAR_legwear = {
+				index = 3
 				male = {
 					1 = male_legwear_european_01_white
 					1 = com_male_legwear_european_light_blue
@@ -46,7 +64,7 @@
 			}
 
 			com_SWE_legwear = {
-				index = 3
+				index = 4
 				male = {
 					1 = com_male_legwear_european_dark_blue
 				}
