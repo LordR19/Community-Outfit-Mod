@@ -6,6 +6,10 @@
 #											#
 #############################################
 
+com_male_military_coat_AUS_royal_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_royal_01_entity" }	
+}
+
 com_male_military_coat_sweden_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_sweden_royal_01_entity" }	
 }
@@ -20,6 +24,10 @@ com_male_military_coat_sweden_early_01 = {
 
 com_male_military_coat_switzerland_early_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_early_01_entity" }	
+}
+
+com_male_military_coat_AUS_royal_06 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_royal_06_entity" }	
 }
 
 com_male_military_coat_sweden_royal_06 = {
