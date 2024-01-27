@@ -1680,6 +1680,12 @@
                 
                 AND = {
                     exists = scope:character
+                    trigger_if = {
+                        limit = { bf_is_active = yes }
+                        scope:character = {
+                            is_historical = no
+                        }
+                    }
                     scope:character = {
                         owner ?= {
                             OR = {

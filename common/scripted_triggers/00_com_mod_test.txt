@@ -1,0 +1,7 @@
+﻿###############################
+# COM CHECK SCRPITED TRIGGERS #
+###############################
+
+bf_is_active = {
+	always = no
+}
