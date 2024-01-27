@@ -45,6 +45,7 @@
 					1 = com_male_military_coat_WUR_royal_09
 					1 = com_male_military_coat_SWE_early_01
 					1 = com_male_military_coat_SWE_early_06
+					1 = com_male_military_coat_SWE_early_09
 					1 = com_male_military_coat_switzerland_early_01
 					1 = com_male_military_coat_switzerland_early_06
 				}
@@ -277,6 +278,20 @@
 					1 = com_male_military_coat_GRE_royal_01a
 					5 = com_male_military_coat_GRE_royal_01b
 					4 = com_male_military_coat_GRE_royal_01c
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BYZ_noble_coats = {
+				index = 18
+				male = {
+					1 = com_male_military_coat_BYZ_royal_01
+					5 = com_male_military_coat_BYZ_royal_03
 				}
 
 				female = {

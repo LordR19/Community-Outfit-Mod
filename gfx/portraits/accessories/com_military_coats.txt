@@ -18,6 +18,10 @@ com_male_military_coat_BEL_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BEL_royal_01_entity" }	
 }
 
+com_male_military_coat_BYZ_royal_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BYZ_royal_01_entity" }	
+}
+
 com_male_military_coat_GRE_royal_01a = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_GRE_royal_01a_entity" }	
 }
@@ -70,6 +74,10 @@ com_male_military_coat_switzerland_early_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_early_01_entity" }	
 }
 
+com_male_military_coat_BYZ_royal_03 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BYZ_royal_03_entity" }	
+}
+
 com_male_military_coat_AUS_royal_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_royal_06_entity" }	
 }
@@ -86,20 +94,20 @@ com_male_military_coat_NET_royal_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_NET_royal_06_entity" }	
 }
 
-com_male_military_coat_SAR_royal_06 = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SAR_royal_06_entity" }	
-}
-
 com_male_military_coat_POR_royal_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_POR_royal_06_entity" }	
 }
 
-com_male_military_coat_SWE_royal_06 = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SWE_royal_06_entity" }	
+com_male_military_coat_SAR_royal_06 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SAR_royal_06_entity" }	
 }
 
 com_male_military_coat_SIC_royal_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SIC_royal_06_entity" }	
+}
+
+com_male_military_coat_SWE_royal_06 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SWE_royal_06_entity" }	
 }
 
 com_male_military_coat_SWE_early_06 = {
@@ -114,10 +122,10 @@ com_male_military_coat_LUC_royal_09 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_LUC_royal_09_entity" }	
 }
 
-com_male_military_coat_WUR_royal_09 = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_royal_09_entity" }	
-}
-
 com_male_military_coat_SWE_royal_09 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SWE_royal_09_entity" }	
+}
+
+com_male_military_coat_WUR_royal_09 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_royal_09_entity" }	
 }

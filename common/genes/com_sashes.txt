@@ -29,6 +29,7 @@
 					1 = com_male_sash_european_green
 					1 = com_male_sash_european_dark_green
 					1 = com_male_sash_european_white
+					1 = com_male_sash_european_gold
 					1 = com_male_sash_AUS
 					1 = com_male_sash_BAD
 					1 = com_male_sash_LUC
@@ -286,6 +287,7 @@
 				male = {
 					1 = com_male_sash_BYZ_1
 					1 = com_male_sash_BYZ_2
+					1 = com_male_sash_european_gold
 				}
 
 				female = {
