@@ -191,6 +191,18 @@
 				boy = male
 				girl = female
 			}
+
+			com_GRE_legwear = {
+				index = 12
+				male = {
+					1 = male_legwear_european_01_black
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

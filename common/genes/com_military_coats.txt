@@ -269,6 +269,21 @@
 				boy = male
 				girl = female
 			}
+
+			com_GRE_noble_coats = {
+				index = 17
+				male = {
+					1 = com_male_military_coat_GRE_royal_01a
+					4 = com_male_military_coat_BEL_royal_01
+					4 = com_male_military_coat_BEL_royal_06
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
