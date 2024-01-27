@@ -44,6 +44,7 @@
 					1 = com_male_sash_MOD
 					1 = com_male_sash_LUC
 					1 = com_male_sash_PAR
+					1 = com_male_sash_BAD
 				}
 
 				female = {
@@ -230,6 +231,19 @@
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_LUC
 					3 = com_male_sash_PAR
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BAD_sashes = {
+				index = 14
+				male = {
+					1 = com_male_sash_BAD
 				}
 
 				female = {

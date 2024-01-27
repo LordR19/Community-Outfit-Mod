@@ -98,7 +98,219 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
+                    }
+                }
+            }
+        }
+    }
+
+    #Clothes for the Baden Royals (early)
+    com_BAD_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_SIC_noble_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SWE_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BAD_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = LUC_epaulettes
+                range = { 0 1 }
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                AND = {
+                    year < 1871
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:BAD ?= this
+                                was_formed_from = BAD
+                            }
+                        }
+                        exists = home_country
+                        OR = {
+                            is_ruler = yes
+                            is_heir = yes
+                        }
+                        home_country = {
+                            has_law = law_type:law_monarchy
+                        }
+                        is_female = no
+                        age >= 16
+                    }
+                }
+            }
+        }
+    }
+
+    #Clothes for the Baden Royals (late)
+    com_BAD_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_SIC_noble_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SWE_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BAD_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = BAD_epaulettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 1 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                AND = {
+                    year >= 1871
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:BAD ?= this
+                                was_formed_from = BAD
+                            }
+                        }
+                        exists = home_country
+                        OR = {
+                            is_ruler = yes
+                            is_heir = yes
+                        }
+                        home_country = {
+                            has_law = law_type:law_monarchy
+                        }
+                        is_female = no
+                        age >= 16
                     }
                 }
             }
@@ -144,6 +356,12 @@
                 template = all_epaulettes
                 range = { 0 0.79 }
             }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 0.79 }
+            }
 
             #Remove
             accessory = {
@@ -151,12 +369,6 @@
                 gene = coats
                 template = no_coat
                 range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = aiguillettes
-                template = no_aiguillettes
-                range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -200,7 +412,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -308,7 +520,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -416,7 +628,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -524,7 +736,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -626,7 +838,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -734,7 +946,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -836,7 +1048,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -944,7 +1156,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -1052,7 +1264,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -1160,7 +1372,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -1269,7 +1481,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -1377,7 +1589,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -1479,7 +1691,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }
@@ -1587,7 +1799,7 @@
                             has_law = law_type:law_monarchy
                         }
                         is_female = no
-                        age >= 10
+                        age >= 16
                     }
                 }
             }

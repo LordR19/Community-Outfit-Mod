@@ -93,6 +93,20 @@
 				boy = male
 				girl = female
 			}
+
+			BAD_epaulettes = {
+				index = 6
+				male = {
+					2 = male_epaulettes_02
+					2 = male_epaulettes_03
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

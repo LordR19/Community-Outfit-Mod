@@ -231,6 +231,21 @@
 				boy = male
 				girl = female
 			}
+
+			com_BAD_noble_coats = {
+				index = 15
+				male = {
+					1 = com_male_military_coat_PAR_royal_01
+					1 = com_male_military_coat_switzerland_early_06
+					1 = com_male_military_coat_SIC_b_royal_01
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
