@@ -280,6 +280,20 @@
 				boy = male
 				girl = female
 			}
+
+			com_BYZ_sashes = {
+				index = 18
+				male = {
+					1 = com_male_sash_BYZ_1
+					1 = com_male_sash_BYZ_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

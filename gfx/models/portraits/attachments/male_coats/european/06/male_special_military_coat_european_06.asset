@@ -153,7 +153,7 @@ entity = {
 }
 
 entity = {
-	name = "com_male_military_coat_sweden_royal_06_entity"
+	name = "com_male_military_coat_SWE_royal_06_entity"
 	pdxmesh = "com_male_special_military_coat_european_06_mesh"
 
     attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_06_bs_fat" }
@@ -197,7 +197,7 @@ entity = {
 }
 
 entity = {
-	name = "com_male_military_coat_sweden_early_06_entity"
+	name = "com_male_military_coat_SWE_early_06_entity"
 	pdxmesh = "com_male_special_military_coat_european_06_mesh"
 
     attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_06_bs_fat" }

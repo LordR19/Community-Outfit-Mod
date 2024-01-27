@@ -1,6 +1,6 @@
-﻿##############################
-# MR CHECK SCRPITED TRIGGERS #
-##############################
+﻿###############################
+# COM CHECK SCRPITED TRIGGERS #
+###############################
 
 # You can use this trigger to see if Morgenröte is active for in a playset.
 # This is useful if you want your mod to interact with Morgenröte.

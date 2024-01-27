@@ -23,8 +23,8 @@
 			com_all_military_coats = {
 				index = 1
 				male = {
-					1 = com_male_military_coat_sweden_royal_01
-					1 = com_male_military_coat_sweden_royal_06
+					1 = com_male_military_coat_SWE_royal_01
+					1 = com_male_military_coat_SWE_royal_06
 					1 = com_male_military_coat_AUS_royal_01
 					1 = com_male_military_coat_AUS_royal_06
 					1 = com_male_military_coat_BAV_royal_01
@@ -43,8 +43,8 @@
 					1 = com_male_military_coat_SIC_b_royal_01
 					1 = com_male_military_coat_SIC_royal_06
 					1 = com_male_military_coat_WUR_royal_09
-					1 = com_male_military_coat_sweden_early_01
-					1 = com_male_military_coat_sweden_early_06
+					1 = com_male_military_coat_SWE_early_01
+					1 = com_male_military_coat_SWE_early_06
 					1 = com_male_military_coat_switzerland_early_01
 					1 = com_male_military_coat_switzerland_early_06
 				}
@@ -115,8 +115,9 @@
 			com_SWE_noble_coats = {
 				index = 6
 				male = {
-					1 = com_male_military_coat_sweden_royal_01
-					1 = com_male_military_coat_sweden_royal_06
+					3 = com_male_military_coat_SWE_royal_01
+					3 = com_male_military_coat_SWE_royal_06
+					1 = com_male_military_coat_SWE_royal_09
 				}
 
 				female = {
@@ -143,8 +144,8 @@
 			com_SWE_military_coats = {
 				index = 8
 				male = {
-					1 = com_male_military_coat_sweden_early_01
-					1 = com_male_military_coat_sweden_early_06
+					1 = com_male_military_coat_SWE_early_01
+					1 = com_male_military_coat_SWE_early_06
 				}
 
 				female = {
