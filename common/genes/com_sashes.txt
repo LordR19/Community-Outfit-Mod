@@ -43,6 +43,7 @@
 					1 = com_male_sash_TUS
 					1 = com_male_sash_MOD
 					1 = com_male_sash_LUC
+					1 = com_male_sash_PAR
 				}
 
 				female = {
@@ -214,6 +215,21 @@
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_SPA_2
 					1 = com_male_sash_LUC
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PAR_sashes = {
+				index = 13
+				male = {
+					1 = com_male_sash_european_light_blue
+					1 = com_male_sash_LUC
+					3 = com_male_sash_PAR
 				}
 
 				female = {

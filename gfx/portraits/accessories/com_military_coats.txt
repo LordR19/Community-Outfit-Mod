@@ -26,6 +26,10 @@ com_male_military_coat_NET_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_NET_royal_01_entity" }	
 }
 
+com_male_military_coat_PAR_royal_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_PAR_royal_01_entity" }	
+}
+
 com_male_military_coat_POR_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_POR_royal_01_entity" }	
 }

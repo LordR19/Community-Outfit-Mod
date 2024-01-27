@@ -178,6 +178,19 @@
 				boy = male
 				girl = female
 			}
+
+			com_PAR_legwear = {
+				index = 12
+				male = {
+					1 = com_male_legwear_european_white
+					3 = com_male_legwear_european_blue
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
