@@ -1,0 +1,22 @@
+﻿###################
+#	Texture sets	#
+##################
+
+## Male Epaulettes ##
+
+variation = {
+	name = "com_male_epaulettes_04_silver"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_trims_standard_plain_01" 		layout = "plain_fabric_male_epaulettes_layout_01" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_01_silver.dds" }	
+}

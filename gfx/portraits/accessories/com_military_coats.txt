@@ -18,6 +18,10 @@ com_male_military_coat_BEL_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BEL_royal_01_entity" }	
 }
 
+com_male_military_coat_LUC_royal_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_LUC_royal_01_entity" }	
+}
+
 com_male_military_coat_NET_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_NET_royal_01_entity" }	
 }
@@ -88,4 +92,8 @@ com_male_military_coat_sweden_early_06 = {
 
 com_male_military_coat_switzerland_early_06 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_early_06_entity" }	
+}
+
+com_male_military_coat_LUC_royal_09 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_LUC_royal_09_entity" }	
 }

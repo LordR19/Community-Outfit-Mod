@@ -30,6 +30,10 @@ com_male_sash_european_red = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_red_entity" }	
 }
 
+com_male_sash_european_white = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_white_entity" }	
+}
+
 com_male_sash_AUS = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_AUS_entity" }	
 }
@@ -76,4 +80,12 @@ com_male_sash_SAX_2 = {
 
 com_male_sash_TUS = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_TUS_entity" }	
+}
+
+com_male_sash_MOD = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_MOD_entity" }	
+}
+
+com_male_sash_LUC = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_LUC_entity" }	
 }

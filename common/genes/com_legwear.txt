@@ -152,6 +152,32 @@
 				boy = male
 				girl = female
 			}
+
+			com_MOD_legwear = {
+				index = 10
+				male = {
+					1 = com_male_legwear_european_white
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_LUC_legwear = {
+				index = 11
+				male = {
+					1 = com_male_legwear_european_white
+					1 = com_male_legwear_european_red
+					1 = com_male_legwear_european_grey
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

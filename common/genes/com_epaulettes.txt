@@ -78,7 +78,21 @@
 				}
 				boy = male
 				girl = female
-			}	
+			}
+
+			LUC_epaulettes = {
+				index = 5
+				male = {
+					2 = 0
+					5 = com_male_epaulettes_04_silver
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
