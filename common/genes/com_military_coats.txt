@@ -31,10 +31,18 @@
 					1 = com_male_military_coat_BAV_royal_06
 					1 = com_male_military_coat_BEL_royal_01
 					1 = com_male_military_coat_BEL_royal_06
+					1 = com_male_military_coat_LUC_royal_01
+					1 = com_male_military_coat_LUC_royal_09
 					1 = com_male_military_coat_NET_royal_01
 					1 = com_male_military_coat_NET_royal_06
+					1 = com_male_military_coat_POR_royal_01
+					1 = com_male_military_coat_POR_royal_06
 					1 = com_male_military_coat_SAR_royal_01
 					1 = com_male_military_coat_SAR_royal_06
+					1 = com_male_military_coat_SIC_a_royal_01
+					1 = com_male_military_coat_SIC_b_royal_01
+					1 = com_male_military_coat_SIC_royal_06
+					1 = com_male_military_coat_WUR_royal_09
 					1 = com_male_military_coat_sweden_early_01
 					1 = com_male_military_coat_sweden_early_06
 					1 = com_male_military_coat_switzerland_early_01
@@ -238,6 +246,21 @@
 					1 = com_male_military_coat_PAR_royal_01
 					1 = com_male_military_coat_switzerland_early_06
 					1 = com_male_military_coat_SIC_b_royal_01
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			com_WUR_noble_coats = {
+				index = 16
+				male = {
+					1 = com_male_military_coat_SIC_a_royal_01
+					1 = com_male_military_coat_SIC_royal_06
+					1 = com_male_military_coat_WUR_royal_09
 				}
 
 				female = {

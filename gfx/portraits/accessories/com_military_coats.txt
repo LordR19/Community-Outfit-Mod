@@ -101,3 +101,7 @@ com_male_military_coat_switzerland_early_06 = {
 com_male_military_coat_LUC_royal_09 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_LUC_royal_09_entity" }	
 }
+
+com_male_military_coat_WUR_royal_09 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_royal_09_entity" }	
+}

@@ -252,6 +252,19 @@
 				boy = male
 				girl = female
 			}
+
+			com_WUR_sashes = {
+				index = 15
+				male = {
+					1 = com_male_sash_WUR
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
