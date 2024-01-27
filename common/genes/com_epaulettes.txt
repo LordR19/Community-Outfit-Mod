@@ -107,6 +107,21 @@
 				boy = male
 				girl = female
 			}
+
+			GRE_epaulettes = {
+				index = 7
+				male = {
+					2 = male_epaulettes_02
+					2 = male_epaulettes_03
+					4 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

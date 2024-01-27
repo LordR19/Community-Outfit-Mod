@@ -22,6 +22,14 @@ com_male_military_coat_GRE_royal_01a = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_GRE_royal_01a_entity" }	
 }
 
+com_male_military_coat_GRE_royal_01b = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_GRE_royal_01b_entity" }	
+}
+
+com_male_military_coat_GRE_royal_01c = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_GRE_royal_01c_entity" }	
+}
+
 com_male_military_coat_LUC_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_LUC_royal_01_entity" }	
 }
