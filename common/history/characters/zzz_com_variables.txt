@@ -1,0 +1,18 @@
+﻿###################
+# COM CHARACTERS  #
+###################
+
+#by Lord R
+
+############################
+
+CHARACTERS = {
+	if = {
+		limit = { exists = c:GRE }
+		c:GRE = {
+			ruler = { #Otherwise Otto won't wear his correct clothes
+				set_variable = com_is_otto_i_var
+			}
+		}
+	}
+}

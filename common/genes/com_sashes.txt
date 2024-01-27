@@ -30,7 +30,6 @@
 					1 = com_male_sash_european_dark_green
 					1 = com_male_sash_european_white
 					1 = com_male_sash_AUS
-					1 = com_male_sash_AUS2
 					1 = com_male_sash_BAD
 					1 = com_male_sash_LUC
 					1 = com_male_sash_GRE
@@ -61,7 +60,7 @@
 				index = 2
 				male = {
 					1 = 0
-					5 = com_male_sash_AUS2
+					5 = com_male_sash_AUS
 				}
 
 				female = {
@@ -200,7 +199,7 @@
 			}
 
 			com_MOD_sashes = {
-				index = 11
+				index = 12
 				male = {
 					1 = com_male_sash_MOD
 					1 = com_male_sash_european_white
@@ -214,7 +213,7 @@
 			}
 
 			com_LUC_sashes = {
-				index = 12
+				index = 13
 				male = {
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_SPA_2
@@ -229,7 +228,7 @@
 			}
 
 			com_PAR_sashes = {
-				index = 13
+				index = 14
 				male = {
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_LUC
@@ -244,7 +243,7 @@
 			}
 
 			com_BAD_sashes = {
-				index = 14
+				index = 15
 				male = {
 					1 = com_male_sash_BAD
 				}
@@ -257,7 +256,7 @@
 			}
 
 			com_WUR_sashes = {
-				index = 15
+				index = 16
 				male = {
 					1 = com_male_sash_WUR
 				}
@@ -270,7 +269,7 @@
 			}
 
 			com_GRE_sashes = {
-				index = 16
+				index = 17
 				male = {
 					1 = com_male_sash_GRE
 				}

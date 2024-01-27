@@ -192,7 +192,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_sash_AUS2_entity"
+	name = "com_male_sash_AUS_entity"
 	pdxmesh = "com_male_sash_european_01_3_band_AUS_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }

@@ -1,7 +1,6 @@
 ﻿com_clothes = {
 	usage = game
 	selection_behavior = weighted_random
-	fallback = default_clothes
 
     #Clothes for the Austrian Royals
     com_AUS_royal_clothes = {
@@ -546,7 +545,7 @@
                 mode = add
                 gene = com_sashes
                 template = com_SWE_sashes
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -671,7 +670,7 @@
             accessory = {
                 mode = add
                 gene = com_epaulettes
-                template = lucca_epaulettes
+                template = LUC_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
 

@@ -154,7 +154,7 @@
 			}
 
 			com_MOD_legwear = {
-				index = 10
+				index = 11
 				male = {
 					1 = com_male_legwear_european_white
 				}
@@ -166,7 +166,7 @@
 			}
 
 			com_LUC_legwear = {
-				index = 11
+				index = 12
 				male = {
 					1 = com_male_legwear_european_white
 					1 = com_male_legwear_european_red
@@ -180,7 +180,7 @@
 			}
 
 			com_PAR_legwear = {
-				index = 12
+				index = 13
 				male = {
 					1 = com_male_legwear_european_white
 					3 = com_male_legwear_european_blue
@@ -193,7 +193,7 @@
 			}
 
 			com_GRE_legwear = {
-				index = 12
+				index = 14
 				male = {
 					1 = male_legwear_european_01_black
 				}
