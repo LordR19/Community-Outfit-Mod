@@ -58,6 +58,10 @@ com_male_sash_SPA_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_2_entity" }	
 }
 
+com_male_sash_SWE = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SWE_entity" }	
+}
+
 com_male_sash_POR_1 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_POR_1_entity" }	
 }

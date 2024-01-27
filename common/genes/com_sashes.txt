@@ -40,6 +40,7 @@
 					1 = com_male_sash_POR_3
 					1 = com_male_sash_SAX_1
 					1 = com_male_sash_SAX_2
+					1 = com_male_sash_SWE
 					1 = com_male_sash_TUS
 					1 = com_male_sash_MOD
 					1 = com_male_sash_LUC
@@ -113,8 +114,8 @@
 			com_SWE_sashes = {
 				index = 6
 				male = {
-					1 = 0
-					5 = com_male_sash_european_light_blue
+					4 = com_male_sash_european_light_blue
+					1 = com_male_sash_SWE
 				}
 
 				female = {
