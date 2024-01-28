@@ -213,31 +213,9 @@ entity = {
 
 ### 5 Band Dutch ###
 
-pdxmesh = {
-	name = "com_male_sash_european_01_5_band_NET_mesh"
-	file = "male_sash_european_01.mesh"
-
-	blend_shape = { id = "male_sash_european_01_bs_fat"                type = "male_sash_european_01_bs_fat.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_gaunt"              type = "male_sash_european_01_bs_gaunt.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_infant"             type = "male_sash_european_01_bs_infant.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_old"                type = "male_sash_european_01_bs_old.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thick"              type = "male_sash_european_01_bs_thick.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thin"               type = "male_sash_european_01_bs_thin.mesh" }
-
-	meshsettings = {
-		name = "male_sash_european_0Shape1"
-		index = 0
-		texture_diffuse = "com_male_sash_european_01_5_band_NET.dds"
-		texture_normal = "male_sash_european_01_normal.dds"
-		texture_specular = "male_sash_european_01_properties.dds"
-		shader = "portrait_attachment_pattern"
-		shader_file = "gfx/FX/jomini/portrait.shader"
-	}
-}
-
 entity = {
 	name = "com_male_sash_NET_entity"
-	pdxmesh = "com_male_sash_european_01_5_band_NET_mesh"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
@@ -249,40 +227,18 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_european_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_sashes_no_color"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_stripes_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_NET"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
-### 3 Band Two Sicilies ###
-
-pdxmesh = {
-	name = "com_male_sash_european_01_3_band_SIC_mesh"
-	file = "male_sash_european_01.mesh"
-
-	blend_shape = { id = "male_sash_european_01_bs_fat"                type = "male_sash_european_01_bs_fat.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_gaunt"              type = "male_sash_european_01_bs_gaunt.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_infant"             type = "male_sash_european_01_bs_infant.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_old"                type = "male_sash_european_01_bs_old.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thick"              type = "male_sash_european_01_bs_thick.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thin"               type = "male_sash_european_01_bs_thin.mesh" }
-
-	meshsettings = {
-		name = "male_sash_european_0Shape1"
-		index = 0
-		texture_diffuse = "com_male_sash_european_01_3_band_SIC.dds"
-		texture_normal = "male_sash_european_01_normal.dds"
-		texture_specular = "male_sash_european_01_properties.dds"
-		shader = "portrait_attachment_pattern"
-		shader_file = "gfx/FX/jomini/portrait.shader"
-	}
-}
+### 3 Band Sicilian ###
 
 entity = {
 	name = "com_male_sash_SIC_entity"
-	pdxmesh = "com_male_sash_european_01_3_band_SIC_mesh"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
@@ -294,8 +250,8 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_european_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_sashes_no_color"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_thin_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_SIC"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -303,31 +259,9 @@ entity = {
 
 ### 3 Band Spain 1 ###
 
-pdxmesh = {
-	name = "com_male_sash_european_01_3_band_SPA_1_mesh"
-	file = "male_sash_european_01.mesh"
-
-	blend_shape = { id = "male_sash_european_01_bs_fat"                type = "male_sash_european_01_bs_fat.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_gaunt"              type = "male_sash_european_01_bs_gaunt.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_infant"             type = "male_sash_european_01_bs_infant.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_old"                type = "male_sash_european_01_bs_old.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thick"              type = "male_sash_european_01_bs_thick.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thin"               type = "male_sash_european_01_bs_thin.mesh" }
-
-	meshsettings = {
-		name = "male_sash_european_0Shape1"
-		index = 0
-		texture_diffuse = "com_male_sash_european_01_3_band_SPA.dds"
-		texture_normal = "male_sash_european_01_normal.dds"
-		texture_specular = "male_sash_european_01_properties.dds"
-		shader = "portrait_attachment_pattern"
-		shader_file = "gfx/FX/jomini/portrait.shader"
-	}
-}
-
 entity = {
 	name = "com_male_sash_SPA_1_entity"
-	pdxmesh = "com_male_sash_european_01_3_band_SPA_1_mesh"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
@@ -339,8 +273,8 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_european_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_sashes_no_color"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_thin_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_SPA_1"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -348,31 +282,9 @@ entity = {
 
 ### 3 Band Spain 2 ###
 
-pdxmesh = {
-	name = "com_male_sash_european_01_3_band_SPA_2_mesh"
-	file = "male_sash_european_01.mesh"
-
-	blend_shape = { id = "male_sash_european_01_bs_fat"                type = "male_sash_european_01_bs_fat.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_gaunt"              type = "male_sash_european_01_bs_gaunt.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_infant"             type = "male_sash_european_01_bs_infant.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_old"                type = "male_sash_european_01_bs_old.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thick"              type = "male_sash_european_01_bs_thick.mesh" }
-    blend_shape = { id = "male_sash_european_01_bs_thin"               type = "male_sash_european_01_bs_thin.mesh" }
-
-	meshsettings = {
-		name = "male_sash_european_0Shape1"
-		index = 0
-		texture_diffuse = "com_male_sash_european_01_3_band_SPA_2.dds"
-		texture_normal = "male_sash_european_01_normal.dds"
-		texture_specular = "male_sash_european_01_properties.dds"
-		shader = "portrait_attachment_pattern"
-		shader_file = "gfx/FX/jomini/portrait.shader"
-	}
-}
-
 entity = {
 	name = "com_male_sash_SPA_2_entity"
-	pdxmesh = "com_male_sash_european_01_3_band_SPA_2_mesh"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
@@ -384,8 +296,8 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_european_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_sashes_no_color"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_SPA_2"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
