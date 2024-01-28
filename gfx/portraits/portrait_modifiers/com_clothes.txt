@@ -959,7 +959,7 @@
                 mode = add
                 gene = com_military_coats
                 template = com_FRA_noble_coats
-                range = { 0 0.4 } # For the randomness to work correctly
+                range = { 0 0.65 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -1075,8 +1075,8 @@
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_FRA_noble_coats
-                range = { 0 0.4 } # For the randomness to work correctly
+                template = com_FRA_legitimist_noble_coats
+                range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -1161,7 +1161,6 @@
                 AND = {
                     exists = scope:character
                     scope:character = {
-                        NOT = { has_template = fra_napoleon_iii_character_template }
                         has_variable = legitimist_leader
 
                         owner ?= {
