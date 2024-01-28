@@ -863,7 +863,7 @@
                 mode = add
                 gene = com_sashes
                 template = com_FRA_sashes
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.49 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -971,7 +971,7 @@
                 mode = add
                 gene = com_sashes
                 template = com_FRA_sashes
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.49 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -995,7 +995,7 @@
                 mode = add
                 gene = com_top_layer
                 template = com_FRA_top_layer
-                range = { 0 0.35 } # For the randomness to work correctly
+                range = { 0 0.75 } # For the randomness to work correctly
             }
 
             #Remove
@@ -1046,6 +1046,123 @@
                     scope:character = {
                         NOT = { has_template = fra_napoleon_iii_character_template }
                         has_variable = bonapartist_leader
+
+                        owner ?= {
+                            OR = {
+                                c:FRA ?= this
+                                was_formed_from = FRA
+                            }
+                        }
+                        exists = home_country
+                        OR = {
+                            is_ruler = yes
+                            is_heir = yes
+                        }
+                        home_country = {
+                            has_law = law_type:law_monarchy
+                        }
+                        is_female = no
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Clothes for the French Royals (Legitimists)
+    com_FRA_legitimists_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_FRA_noble_coats
+                range = { 0 0.4 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_NET_legwear
+                range = { 0 0.49 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_FRA_sashes
+                range = { 0.51 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = LUC_epaulettes
+                range = { 0.51 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_aiguillettes
+                template = silver_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 600
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        NOT = { has_template = fra_napoleon_iii_character_template }
+                        has_variable = legitimist_leader
 
                         owner ?= {
                             OR = {

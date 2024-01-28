@@ -24,9 +24,7 @@
 				index = 1
 				male = {
 					1 = empty
-					1 = napoleon_iii_toplayer
-					1 = empty
-					1 = male_top_layer_european_royal_01
+					1 = male_top_layer_historical_napoleon_03
 				}
 
 				female = {

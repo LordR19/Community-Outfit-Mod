@@ -317,6 +317,7 @@
 				index = 20
 				male = {
 					1 = com_male_sash_european_red
+					1 = com_male_sash_european_azure_blue
 				}
 
 				female = {
