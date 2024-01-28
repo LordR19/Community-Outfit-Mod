@@ -32,6 +32,8 @@
 					1 = com_male_sash_european_gold
 					1 = com_male_sash_AUS
 					1 = com_male_sash_BAD
+					1 = com_male_sash_BRZ_1
+					1 = com_male_sash_BRZ_2
 					1 = com_male_sash_LUC
 					1 = com_male_sash_GRE
 					1 = com_male_sash_MOD
@@ -288,6 +290,20 @@
 					1 = com_male_sash_BYZ_1
 					1 = com_male_sash_BYZ_2
 					1 = com_male_sash_european_gold
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BRZ_sashes = {
+				index = 19
+				male = {
+					1 = com_male_sash_BRZ_1
+					1 = com_male_sash_BRZ_2
 				}
 
 				female = {
