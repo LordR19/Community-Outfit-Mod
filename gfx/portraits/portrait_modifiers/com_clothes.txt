@@ -1912,9 +1912,11 @@
                                 c:ROM ?= this
                                 c:WAL ?= this
                                 c:MOL ?= this
+                                c:TRS ?= this
                                 was_formed_from = ROM
                                 was_formed_from = WAL
                                 was_formed_from = MOL
+                                was_formed_from = TRS
                             }
                         }
                         exists = home_country
