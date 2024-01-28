@@ -98,6 +98,14 @@ com_male_sash_POR_3 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_POR_3_entity" }	
 }
 
+com_male_sash_ROM_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_ROM_1_entity" }	
+}
+
+com_male_sash_ROM_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_ROM_2_entity" }	
+}
+
 com_male_sash_SAX_1 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SAX_1_entity" }	
 }

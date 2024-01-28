@@ -435,6 +435,25 @@ variation = {
  
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_POR_uniform_royal.dds" }	
 }
+
+#Royal Romanian Uniform 09
+variation = {
+	name = "com_male_uniform_ROM_royal_09"
+
+
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_03" }
+		b = { textures = "generic_trims_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_ROM_uniform_09_royal.dds" }	
+}
+
 #Royal Sardinian-Piedmont Uniform 01
 variation = {
 	name = "com_male_uniform_SAR_royal_01"

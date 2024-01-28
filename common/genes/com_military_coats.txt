@@ -346,6 +346,19 @@
 				boy = male
 				girl = female
 			}
+
+			com_ROM_noble_coats = {
+				index = 22
+				male = {
+					1 = com_male_military_coat_ROM_royal_09
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

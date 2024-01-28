@@ -326,6 +326,20 @@
 				boy = male
 				girl = female
 			}
+
+			com_ROM_sashes = {
+				index = 21
+				male = {
+					1 = com_male_sash_ROM_1
+					1 = com_male_sash_ROM_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
