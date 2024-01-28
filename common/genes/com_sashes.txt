@@ -304,6 +304,7 @@
 				male = {
 					1 = com_male_sash_BRZ_1
 					1 = com_male_sash_BRZ_2
+					1 = com_male_sash_POR_3
 				}
 
 				female = {
