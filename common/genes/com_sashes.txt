@@ -76,7 +76,6 @@
 			com_BEL_sashes = {
 				index = 3
 				male = {
-					1 = 0
 					3 = com_male_sash_european_red
 				}
 
@@ -305,6 +304,19 @@
 					1 = com_male_sash_BRZ_1
 					1 = com_male_sash_BRZ_2
 					1 = com_male_sash_POR_3
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FRA_sashes = {
+				index = 20
+				male = {
+					1 = com_male_sash_european_red
 				}
 
 				female = {
