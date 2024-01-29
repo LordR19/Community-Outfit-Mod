@@ -136,6 +136,19 @@
 				boy = male
 				girl = female
 			}
+
+			JAP_epaulettes = {
+				index = 8
+				male = {
+					1 = male_epaulettes_02
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

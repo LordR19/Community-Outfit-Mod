@@ -34,6 +34,10 @@
 					1 = com_male_sash_BAD
 					1 = com_male_sash_BRZ_1
 					1 = com_male_sash_BRZ_2
+					1 = com_male_sash_JAP_1
+					1 = com_male_sash_JAP_2
+					1 = com_male_sash_JAP_3
+					1 = com_male_sash_JAP_4
 					1 = com_male_sash_LUC
 					1 = com_male_sash_GRE
 					1 = com_male_sash_MOD
@@ -50,7 +54,6 @@
 					1 = com_male_sash_SWE
 					1 = com_male_sash_TUS
 					1 = com_male_sash_WUR
-					1 = com_male_sash_JAP_1
 				}
 
 				female = {
