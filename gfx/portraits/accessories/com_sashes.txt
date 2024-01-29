@@ -70,6 +70,22 @@ com_male_sash_GRE = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_GRE_entity" }	
 }
 
+com_male_sash_JAP_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_JAP_1_entity" }	
+}
+
+com_male_sash_JAP_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_JAP_2_entity" }	
+}
+
+com_male_sash_JAP_3 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_JAP_3_entity" }	
+}
+
+com_male_sash_JAP_4 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_JAP_4_entity" }	
+}
+
 com_male_sash_LUC = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_LUC_entity" }	
 }

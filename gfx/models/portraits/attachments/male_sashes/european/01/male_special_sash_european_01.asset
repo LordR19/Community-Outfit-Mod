@@ -370,6 +370,98 @@ entity = {
 	}
 }
 
+### 3 Band Japan 1 ###
+
+entity = {
+	name = "com_male_sash_JAP_1_entity"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_european_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_european_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_european_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_european_01_bs_thin" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_very_wide_middle_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_JAP_1"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+### 3 Band Japan 2 ###
+
+entity = {
+	name = "com_male_sash_JAP_2_entity"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_european_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_european_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_european_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_european_01_bs_thin" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_very_wide_middle_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_JAP_2"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+### 3 Band Japan 3 ###
+
+entity = {
+	name = "com_male_sash_JAP_3_entity"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_european_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_european_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_european_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_european_01_bs_thin" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_very_wide_middle_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_JAP_3"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+### 3 Band Japan 3 ###
+
+entity = {
+	name = "com_male_sash_JAP_4_entity"
+	pdxmesh = "com_male_special_sash_european_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_european_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_european_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_european_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_european_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_european_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_european_01_bs_thin" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/european/01/male_sash_tricolor_thin_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_sashes_JAP_4"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
 ### 5 Band Lucca ###
 
 entity = {
