@@ -2808,6 +2808,51 @@
         }
     }
 
+    ########################################
+    # Sashes for South American Presidents #
+    ########################################
+
+    #Sashes for Argentine Presidents
+    com_ARG_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ARG_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:ARG ?= this
+                                was_formed_from = ARG
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
     ###########################################
     # Specific Outfits for certain characters #
     ###########################################

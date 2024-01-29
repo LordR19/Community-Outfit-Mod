@@ -153,3 +153,9 @@ com_male_sash_TUS = {
 com_male_sash_WUR = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_WUR_entity" }	
 }
+
+### Civil Sashes ###
+
+com_male_sash_civil_ARG = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_ARG_entity" }	
+}
