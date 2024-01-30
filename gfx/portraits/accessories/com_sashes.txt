@@ -195,3 +195,7 @@ com_male_sash_civil_ECU_2 = {
 com_male_sash_civil_ECU_3 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_ECU_3_entity" }	
 }
+
+com_male_sash_civil_FND = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_FND_entity" }	
+}

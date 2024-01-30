@@ -3107,7 +3107,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 400
+                add = 425
                 
                 AND = {
                     year >=1900
@@ -3116,7 +3116,146 @@
                         owner ?= {
                             OR = {
                                 c:CLM ?= this
+                                c:CGO ?= this
                                 was_formed_from = CLM
+                                was_formed_from = CGO
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Ecuadorian Presidents (before 1900s)
+    com_ECU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ECU_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    year < 1900
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:ECU ?= this
+                                was_formed_from = ECU
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Colombian Presidents (from 1900s)
+    com_ECU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ECU_civil_sashes
+                accessory = com_male_sash_civil_ECU_3
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    year >=1900
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:ECU ?= this
+                                was_formed_from = ECU
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Andean Presidents
+    com_FND_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_FND_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:FND ?= this
+                                was_formed_from = FND
                             }
                             OR = {
                                 has_law = law_type:law_presidential_republic
