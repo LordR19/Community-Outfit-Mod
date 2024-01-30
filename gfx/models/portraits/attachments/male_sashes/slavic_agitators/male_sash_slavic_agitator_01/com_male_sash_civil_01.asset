@@ -40,3 +40,87 @@ entity = {
 		}
 	}
 }
+
+entity = {
+	name = "com_male_sash_civil_BOL_1_entity"
+	pdxmesh = "com_male_sash_civil_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_slavic_agitator_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_slavic_agitator_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_slavic_agitator_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_slavic_agitator_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_slavic_agitator_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_slavic_agitator_01_bs_thin" }
+
+		game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/slavic_agitators/male_sash_slavic_agitator_01/com_male_sash_civil_01_masks.dds"	
+				variation = "com_male_sash_civil_BOL_1"	
+			}
+		}
+	}
+}
+
+entity = {
+	name = "com_male_sash_civil_BOL_2_entity"
+	pdxmesh = "com_male_sash_civil_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_slavic_agitator_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_slavic_agitator_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_slavic_agitator_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_slavic_agitator_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_slavic_agitator_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_slavic_agitator_01_bs_thin" }
+
+		game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/slavic_agitators/male_sash_slavic_agitator_01/com_male_sash_civil_01_masks.dds"	
+				variation = "com_male_sash_civil_BOL_2"	
+			}
+		}
+	}
+}
+
+entity = {
+	name = "com_male_sash_civil_BRZ_entity"
+	pdxmesh = "com_male_sash_civil_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_slavic_agitator_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_slavic_agitator_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_slavic_agitator_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_slavic_agitator_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_slavic_agitator_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_slavic_agitator_01_bs_thin" }
+
+		game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/slavic_agitators/male_sash_slavic_agitator_01/com_male_sash_civil_01_masks.dds"	
+				variation = "com_male_sash_civil_BRZ"	
+			}
+		}
+	}
+}
+
+entity = {
+	name = "com_male_sash_civil_CHL_entity"
+	pdxmesh = "com_male_sash_civil_01_mesh"
+
+	attribute = { name = "body_bs_fat"                                 blend_shape = "male_sash_slavic_agitator_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_sash_slavic_agitator_01_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_sash_slavic_agitator_01_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_sash_slavic_agitator_01_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_sash_slavic_agitator_01_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_sash_slavic_agitator_01_bs_thin" }
+
+		game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_sashes/slavic_agitators/male_sash_slavic_agitator_01/com_male_sash_civil_01_masks.dds"	
+				variation = "com_male_sash_civil_CHL"	
+			}
+		}
+	}
+}

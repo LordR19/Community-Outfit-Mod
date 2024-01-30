@@ -124,7 +124,7 @@
 			}
 
 			ROM_epaulettes = {
-				index = 7
+				index = 8
 				male = {
 					1 = male_epaulettes_02
 					1 = male_epaulettes_03
@@ -138,7 +138,7 @@
 			}
 
 			JAP_epaulettes = {
-				index = 8
+				index = 9
 				male = {
 					1 = male_epaulettes_02
 				}

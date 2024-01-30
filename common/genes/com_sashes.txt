@@ -365,8 +365,47 @@
 			com_ARG_civil_sashes = {
 				index = 23
 				male = {
-#					1 = empty
-					2 = com_male_sash_civil_ARG
+					1 = com_male_sash_civil_ARG
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BOL_civil_sashes = {
+				index = 24
+				male = {
+					1 = com_male_sash_civil_BOL_1
+					1 = com_male_sash_civil_BOL_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BRZ_civil_sashes = {
+				index = 25
+				male = {
+					1 = com_male_sash_civil_BRZ
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_CHL_civil_sashes = {
+				index = 26
+				male = {
+					1 = com_male_sash_civil_CHL
 				}
 
 				female = {

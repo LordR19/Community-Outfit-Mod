@@ -2833,7 +2833,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 500
+                add = 400
                 
                 AND = {
                     exists = scope:character
@@ -2842,6 +2842,193 @@
                             OR = {
                                 c:ARG ?= this
                                 was_formed_from = ARG
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Bolivian Presidents (before 1872)
+    com_BOL_sashes_old_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BOL_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    year < 1872
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:BOL ?= this
+                                was_formed_from = BOL
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Bolivian Presidents (from 1872)
+    com_BOL_sashes_new_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BOL_civil_sashes
+                accessory = com_male_sash_civil_BOL_1
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    year >= 1872
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:BOL ?= this
+                                was_formed_from = BOL
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Brazilian Presidents
+    com_BRZ_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BRZ_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    year >= 1910
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:BRZ ?= this
+                                was_formed_from = BRZ
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Chilean Presidents
+    com_CHL_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_CHL_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:CHL ?= this
+                                was_formed_from = CHL
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
                             }
                         }
                         exists = home_country
