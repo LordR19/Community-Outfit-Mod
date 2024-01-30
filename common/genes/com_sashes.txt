@@ -68,6 +68,17 @@
 					1 = com_male_sash_civil_GUA
 					1 = com_male_sash_civil_MEX_1
 					1 = com_male_sash_civil_MEX_2
+					1 = com_male_sash_civil_NPU
+					1 = com_male_sash_civil_PBC
+					1 = com_male_sash_civil_PEU
+					1 = com_male_sash_civil_PLT
+					1 = com_male_sash_civil_PNI
+					1 = com_male_sash_civil_PRA
+					1 = com_male_sash_civil_PRG
+					1 = com_male_sash_civil_RIO
+					1 = com_male_sash_civil_SPU
+					1 = com_male_sash_civil_UCA
+					1 = com_male_sash_civil_VNZ
 				}
 
 				female = {
