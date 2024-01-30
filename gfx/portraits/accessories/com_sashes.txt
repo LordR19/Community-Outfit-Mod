@@ -183,3 +183,15 @@ com_male_sash_civil_CLM_1 = {
 com_male_sash_civil_CLM_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_CLM_2_entity" }	
 }
+
+com_male_sash_civil_ECU_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_ECU_1_entity" }	
+}
+
+com_male_sash_civil_ECU_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_ECU_2_entity" }	
+}
+
+com_male_sash_civil_ECU_3 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_ECU_3_entity" }	
+}

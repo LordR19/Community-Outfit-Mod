@@ -55,6 +55,15 @@
 					1 = com_male_sash_TUS
 					1 = com_male_sash_WUR
 					1 = com_male_sash_civil_ARG
+					1 = com_male_sash_civil_BOL_1
+					1 = com_male_sash_civil_BOL_2
+					1 = com_male_sash_civil_BRZ
+					1 = com_male_sash_civil_CHL
+					1 = com_male_sash_civil_CLM_1
+					1 = com_male_sash_civil_CLM_2
+					1 = com_male_sash_civil_ECU_1
+					1 = com_male_sash_civil_ECU_2
+					1 = com_male_sash_civil_ECU_3
 				}
 
 				female = {
@@ -420,6 +429,21 @@
 				male = {
 					1 = com_male_sash_civil_CLM_1
 					1 = com_male_sash_civil_CLM_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_ECU_civil_sashes = {
+				index = 28
+				male = {
+					1 = com_male_sash_civil_ECU_1
+					1 = com_male_sash_civil_ECU_2
+					1 = com_male_sash_civil_ECU_3
 				}
 
 				female = {
