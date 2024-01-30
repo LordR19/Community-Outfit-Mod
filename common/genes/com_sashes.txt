@@ -414,6 +414,20 @@
 				boy = male
 				girl = female
 			}
+			
+			com_CLM_civil_sashes = {
+				index = 27
+				male = {
+					1 = com_male_sash_civil_CLM_1
+					1 = com_male_sash_civil_CLM_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

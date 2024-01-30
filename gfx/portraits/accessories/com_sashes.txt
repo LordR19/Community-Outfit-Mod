@@ -175,3 +175,11 @@ com_male_sash_civil_BRZ = {
 com_male_sash_civil_CHL = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_CHL_entity" }	
 }
+
+com_male_sash_civil_CLM_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_CLM_1_entity" }	
+}
+
+com_male_sash_civil_CLM_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_CLM_2_entity" }	
+}
