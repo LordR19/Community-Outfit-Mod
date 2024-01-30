@@ -562,8 +562,21 @@
 				girl = female
 			}
 
-			com_PRG_civil_sashes = {
+			com_PRA_civil_sashes = {
 				index = 37
+				male = {
+					1 = com_male_sash_civil_PRA
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PRG_civil_sashes = {
+				index = 38
 				male = {
 					1 = com_male_sash_civil_PRG
 				}
@@ -574,6 +587,59 @@
 				boy = male
 				girl = female
 			}
+
+			com_RIO_civil_sashes = {
+				index = 39
+				male = {
+					1 = com_male_sash_civil_RIO
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SPU_civil_sashes = {
+				index = 40
+				male = {
+					1 = com_male_sash_civil_SPU
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_UCA_civil_sashes = {
+				index = 41
+				male = {
+					1 = com_male_sash_civil_UCA
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_VNZ_civil_sashes = {
+				index = 42
+				male = {
+					1 = com_male_sash_civil_VNZ
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

@@ -1293,6 +1293,29 @@ variation = {
 	#Sun from https://commons.wikimedia.org/wiki/File:Flag_of_the_Peru-Bolivian_Confederation.svg - BY SA 2.5 - Huhsunqu
 }
 
+#Grão-Parese Tricolor
+variation = {
+	name = "com_male_sash_civil_PRA"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_cotton_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PRA.dds" }	
+}
+
 #Paraguayan Tricolor
 variation = {
 	name = "com_male_sash_civil_PRG"
@@ -1314,4 +1337,96 @@ variation = {
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PRG.dds" }	
+}
+
+#Riograndese Tricolor
+variation = {
+	name = "com_male_sash_civil_RIO"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_cotton_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_RIO.dds" }	
+}
+
+#South Peruvian Tricolor
+variation = {
+	name = "com_male_sash_civil_SPU"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_cotton_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_SPU.dds" }	
+}
+
+#Central American Tricolor
+variation = {
+	name = "com_male_sash_civil_UCA"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_cotton_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_UCA.dds" }	
+}
+
+#Central American Tricolor
+variation = {
+	name = "com_male_sash_civil_VNZ"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_cotton_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_VNZ.dds" }	
 }
