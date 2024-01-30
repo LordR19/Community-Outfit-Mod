@@ -510,10 +510,10 @@
 				girl = female
 			}
 
-			com_PRG_civil_sashes = {
+			com_PBC_civil_sashes = {
 				index = 33
 				male = {
-					1 = com_male_sash_civil_PRG
+					1 = com_male_sash_civil_PBC
 				}
 
 				female = {
@@ -536,10 +536,36 @@
 				girl = female
 			}
 
-			com_PBC_civil_sashes = {
-				index = 34
+			com_PLT_civil_sashes = {
+				index = 35
 				male = {
-					1 = com_male_sash_civil_PBC
+					1 = com_male_sash_civil_PLT
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PNI_civil_sashes = {
+				index = 36
+				male = {
+					1 = com_male_sash_civil_PNI
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PRG_civil_sashes = {
+				index = 37
+				male = {
+					1 = com_male_sash_civil_PRG
 				}
 
 				female = {

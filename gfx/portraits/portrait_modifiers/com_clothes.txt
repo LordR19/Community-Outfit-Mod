@@ -3253,6 +3253,7 @@
                     exists = scope:character
                     scope:character = {
                         owner ?= {
+                            NOT = { was_formed_from = PLT }
                             OR = {
                                 c:FND ?= this
                                 was_formed_from = FND
@@ -3406,13 +3407,13 @@
         }
     }
 
-    #Sashes for Paraguayan Presidents
-    com_PRG_sashes_clothes = {
+    #Sashes for Peru-Bolivian Presidents
+    com_PBC_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = com_sashes
-                template = com_PRG_civil_sashes
+                template = com_PBC_civil_sashes
                 range = { 0 1 } # For the randomness to work correctly
             }
 
@@ -3427,15 +3428,15 @@
         weight = {
             base = 0
             modifier = {
-                add = 400
+                add = 425
                 
                 AND = {
                     exists = scope:character
                     scope:character = {
                         owner ?= {
                             OR = {
-                                c:PRG ?= this
-                                was_formed_from = PRG
+                                c:PBC ?= this
+                                was_formed_from = PBC
                             }
                             OR = {
                                 has_law = law_type:law_presidential_republic
@@ -3496,13 +3497,13 @@
         }
     }
 
-    #Sashes for Peru-Bolivian Presidents
-    com_PBC_sashes_clothes = {
+    #Sashes for Platinean Presidents
+    com_PLT_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = com_sashes
-                template = com_PBC_civil_sashes
+                template = com_PLT_civil_sashes
                 range = { 0 1 } # For the randomness to work correctly
             }
 
@@ -3524,8 +3525,98 @@
                     scope:character = {
                         owner ?= {
                             OR = {
-                                c:PBC ?= this
-                                was_formed_from = PBC
+                                c:PLT ?= this
+                                was_formed_from = PLT
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Riograndense Presidents
+    com_PNI_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PNI_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:PNI ?= this
+                                was_formed_from = PNI
+                            }
+                            OR = {
+                                has_law = law_type:law_presidential_republic
+                                has_law = law_type:law_parliamentary_republic
+                            }
+                        }
+                        exists = home_country
+                        is_ruler = yes
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Paraguayan Presidents
+    com_PRG_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PRG_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:PRG ?= this
+                                was_formed_from = PRG
                             }
                             OR = {
                                 has_law = law_type:law_presidential_republic
