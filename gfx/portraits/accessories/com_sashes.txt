@@ -199,3 +199,27 @@ com_male_sash_civil_ECU_3 = {
 com_male_sash_civil_FND = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_FND_entity" }	
 }
+
+com_male_sash_civil_GUA = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_GUA_entity" }	
+}
+
+com_male_sash_civil_MEX_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_MEX_1_entity" }	
+}
+
+com_male_sash_civil_MEX_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_MEX_2_entity" }	
+}
+
+com_male_sash_civil_NPU = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_NPU_entity" }	
+}
+
+com_male_sash_civil_PRG = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_PRG_entity" }	
+}
+
+com_male_sash_civil_PBC = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_PBC_entity" }	
+}

@@ -65,6 +65,9 @@
 					1 = com_male_sash_civil_ECU_2
 					1 = com_male_sash_civil_ECU_3
 					1 = com_male_sash_civil_FND
+					1 = com_male_sash_civil_GUA
+					1 = com_male_sash_civil_MEX_1
+					1 = com_male_sash_civil_MEX_2
 				}
 
 				female = {
@@ -458,6 +461,85 @@
 				index = 29
 				male = {
 					1 = com_male_sash_civil_FND
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_GUA_civil_sashes = {
+				index = 30
+				male = {
+					1 = com_male_sash_civil_GUA
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_MEX_civil_sashes = {
+				index = 31
+				male = {
+					1 = com_male_sash_civil_MEX_1
+					1 = com_male_sash_civil_MEX_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_NPU_civil_sashes = {
+				index = 32
+				male = {
+					1 = com_male_sash_civil_NPU
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PRG_civil_sashes = {
+				index = 33
+				male = {
+					1 = com_male_sash_civil_PRG
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PEU_civil_sashes = {
+				index = 34
+				male = {
+					1 = com_male_sash_civil_PEU
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PBC_civil_sashes = {
+				index = 34
+				male = {
+					1 = com_male_sash_civil_PBC
 				}
 
 				female = {
