@@ -154,6 +154,20 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			ITA_epaulettes = {
+				index = 10
+				male = {
+					1 = com_male_epaulettes_04_red
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

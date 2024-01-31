@@ -1,0 +1,17 @@
+﻿
+    #############
+    # By Lord R #
+    #############
+
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+#############################
+#							#
+# 		 Headgear			#
+#							#
+#############################
+
+com_male_headgear_european_military_02_ITA = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ITA_entity" }	
+}
