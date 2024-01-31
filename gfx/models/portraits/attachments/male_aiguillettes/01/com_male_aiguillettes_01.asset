@@ -1,4 +1,9 @@
-﻿pdxmesh = {
+﻿
+    #############
+    # By Lord R #
+    #############
+
+pdxmesh = {
 	name = "com_male_aiguillettes_01_mesh"
 	file = "male_aiguillettes_01.mesh"
 

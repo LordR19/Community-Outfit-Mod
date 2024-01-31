@@ -1,4 +1,11 @@
-﻿COM_override = {
+﻿
+    ################
+    # By 1230james #
+    ################
+
+# Not in use here
+
+COM_override = {
     usage = game
     selection_behavior = weighted_random
 

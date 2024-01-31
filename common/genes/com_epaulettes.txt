@@ -1,4 +1,9 @@
-﻿special_genes = {
+﻿
+	#############
+    # By Lord R #
+    #############
+
+special_genes = {
 	accessory_genes = {
 
 	#############################################

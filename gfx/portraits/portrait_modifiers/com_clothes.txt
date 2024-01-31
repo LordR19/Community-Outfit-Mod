@@ -1,4 +1,9 @@
-﻿com_clothes = {
+﻿
+    #############
+    # By Lord R #
+    #############
+
+com_clothes = {
 	usage = game
 	selection_behavior = weighted_random
 
@@ -3869,3 +3874,7 @@
         }
     }
 }
+
+    #########################################
+    # Outfits for Generals and Soldier Pops #
+    #########################################

@@ -1,5 +1,12 @@
-﻿# This is executed last among all history
+﻿
+    #############
+    # By Lord R #
+    #############
+	
+# This is executed last among all history
 GLOBAL = {
-	set_variable = RRK_preserve_monarchy
-	remove_variable = RRK_preserve_monarchy #Used to prevent errors from variable spam
+	random_country = {
+		set_variable = RRK_preserve_monarchy
+		remove_variable = RRK_preserve_monarchy #Used to prevent errors from variable spam
+	}
 }
