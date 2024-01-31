@@ -20,6 +20,23 @@ variation = {
 }
 
 variation = {
+	name = "com_male_headgear_european_military_02_SWI"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_headgera_american_02" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/color_palette_european_headgear_military_02_SWI.dds" }	
+}
+
+variation = {
 	name = "com_male_headgear_european_military_05_GRE"
 	
  
@@ -51,4 +68,38 @@ variation = {
 
  
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/color_palette_european_headgear_military_05_ITA.dds" }	
+}
+
+variation = {
+	name = "com_male_headgear_european_military_05_SWI"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_silk_hat_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_gold_trim_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"	layout = "plain_fabric_layout" }
+	}
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/color_palette_european_headgear_military_05_SWI.dds" }	
+}
+
+variation = {
+	name = "com_male_headgear_european_military_08_SWI"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_headgear_military_08_SWI.dds" }	
 }

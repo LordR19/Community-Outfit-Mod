@@ -804,7 +804,7 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_ITA_08.dds" }	
 }
 
-#Early Swiss Uniform 01
+#Early Swiss Uniform 01 a
 variation = {
 	name = "com_male_uniform_switzerland_early_01"
 
@@ -813,10 +813,43 @@ variation = {
 		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
 		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
-		a = { textures = "generic_wool_standard_plain_01"			layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
 	}	
 
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_switzerland_early.dds" }	
+}
+
+#Early Swiss Uniform 01 b
+variation = {
+	name = "com_male_military_coat_switzerland_early_01_b"
+
+	pattern = { 
+		weight = 1
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_male_military_coat_switzerland_early_01_b.dds" }	
+}
+
+#Early Swiss Uniform 03
+variation = {
+	name = "com_male_military_coat_switzerland_early_03"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SWI_03.dds" }	
 }
 
 #Early Swiss Uniform 06
@@ -828,9 +861,9 @@ variation = {
 		weight = 1
  
 		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
-		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
 		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_06" }
-		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01"		layout = "plain_fabric_layout" }
 	}	
 
  

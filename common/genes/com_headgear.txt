@@ -67,6 +67,21 @@ special_genes = {
 				girl = female
 			}
 
+			com_SWI_headgear = {
+				index = 4
+				male = {
+					1 = com_male_headgear_european_military_02_SWI
+					1 = com_male_headgear_european_military_05_SWI
+					1 = com_male_headgear_european_military_08_SWI
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
