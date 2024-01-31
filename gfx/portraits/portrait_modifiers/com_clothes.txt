@@ -1132,7 +1132,7 @@ com_clothes = {
                 mode = add
                 gene = com_sashes
                 template = com_GRE_sashes
-                range = { 0 0.7 } # For the randomness to work correctly
+                accessory = com_male_sash_GRE
             }
             accessory = {
                 mode = add
@@ -3879,6 +3879,474 @@ com_clothes = {
     # Outfits for Generals and Soldier Pops #
     #########################################
 
+    #Outfit Early Admiral General Characters
+    com_early_GRE_admiral_rank_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_GRE_military_coats_early
+                range = { 0.67 1 }
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SWE_legwear
+                accessory = com_male_legwear_european_dark_blue
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_GRE_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                accessory = male_belt_generic_02
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = all_epaulettes
+                accessory = male_epaulettes_04
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 0.75 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_admiral_headgear
+                range = { 0 1 }
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                exists = scope:character
+                scope:character = {
+                    AND = {
+                        exists = c:GRE
+                        exists = home_country
+                        OR = {
+                            home_country = c:GRE
+                            home_country = {
+                                was_formed_from = GRE
+                            }
+                        }
+                        has_role = admiral
+                    }
+                }
+            }
+            modifier = {
+                add = 300
+                
+                exists = scope:character
+                scope:character = {
+                    AND = {
+                        exists = home_country
+                        home_country = {
+                            country_has_primary_culture = cu:greek
+                        }
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Greek General Characters
+    com_early_GRE_general_rank_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_GRE_military_coats_early
+                range = { 0.67 1 }
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SWE_legwear
+                accessory = com_male_legwear_european_dark_blue
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_GRE_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                accessory = male_belt_generic_02
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = all_epaulettes
+                accessory = male_epaulettes_04
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 0.75 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_GRE_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                exists = scope:character
+                scope:character = {
+                    AND = {
+                        exists = c:GRE
+                        exists = home_country
+                        OR = {
+                            home_country = c:GRE
+                            home_country = {
+                                was_formed_from = GRE
+                            }
+                        }
+                        OR = {
+                            AND = {
+                                has_role = politician
+                                is_ruler = no
+                                is_interest_group_type = ig_armed_forces
+                            }
+                            has_role = general
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 300
+                
+                exists = scope:character
+                scope:character = {
+                    AND = {
+                        exists = home_country
+                        home_country = {
+                            country_has_primary_culture = cu:greek
+                        }
+                        OR = {
+                            AND = {
+                                has_role = politician
+                                is_ruler = no
+                                is_interest_group_type = ig_armed_forces
+                            }
+                            has_role = general
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Greek Italian Officer Pops
+    com_early_GRE_officer_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_GRE_military_coats_early
+                range = { 0.34 0.65 }
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SWE_legwear
+                accessory = com_male_legwear_european_dark_blue
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                accessory = male_belt_generic_02
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = GRE_epaulettes_military
+                accessory = male_epaulettes_01
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = officers
+                    AND = {
+                        exists = c:GRE
+                        exists = home_country
+                        OR = {
+                            home_country = c:GRE
+                            home_country = {
+                                was_formed_from = GRE
+                            }
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 300
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = officers
+                    AND = {
+                        exists = home_country
+                        home_country = {
+                            country_has_primary_culture = cu:greek
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Greek Soldier Pops
+    com_early_GRE_soldier_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_GRE_military_coats_early
+                range = { 0 0.32 }
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SAR_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = GRE_epaulettes_military
+                range = { 0 1 }
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = soldiers
+                    AND = {
+                        exists = c:GRE
+                        exists = home_country
+                        OR = {
+                            home_country = c:GRE
+                            home_country = {
+                                was_formed_from = GRE
+                            }
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 300
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = soldiers
+                    AND = {
+                        exists = home_country
+                        home_country = {
+                            country_has_primary_culture = cu:greek
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     #Outfit Early Italian Admiral Characters
     com_early_ITA_early_admiral_outfit = {
         dna_modifiers = {
@@ -3920,7 +4388,7 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = all_aiguillettes
+                gene = aiguillettes
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
@@ -4044,9 +4512,9 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = headgear
-                template = european_admiral_headgear
-                range = { 0 1 }
+                gene = com_headgear
+                template = com_ITA_headgear
+                accessory = com_male_headgear_european_military_05_ITA
             }
 
             #Remove
@@ -4085,6 +4553,12 @@ com_clothes = {
                 gene = aiguillettes
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
             }
         }
         weight = {
@@ -4188,9 +4662,9 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = headgear
-                template = european_admiral_headgear
-                range = { 0 1 }
+                gene = com_headgear
+                template = com_ITA_headgear
+                accessory = com_male_headgear_european_military_05_ITA
             }
 
             #Remove
@@ -4229,6 +4703,12 @@ com_clothes = {
                 gene = aiguillettes
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
             }
         }
         weight = {
@@ -4334,7 +4814,7 @@ com_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_ITA_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_headgear_european_military_02_ITA
             }
 
             #Remove
@@ -4484,7 +4964,7 @@ com_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_ITA_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_headgear_european_military_02_ITA
             }
 
             #Remove

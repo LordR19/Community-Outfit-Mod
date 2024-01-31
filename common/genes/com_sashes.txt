@@ -307,7 +307,8 @@ special_genes = {
 			com_GRE_sashes = {
 				index = 17
 				male = {
-					1 = com_male_sash_GRE
+					3 = com_male_sash_GRE
+					1 = empty
 				}
 
 				female = {

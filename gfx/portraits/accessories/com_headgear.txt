@@ -15,3 +15,13 @@ com_male_headgear_european_military_02_ITA = {
     set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ITA_entity" }	
 }
+
+com_male_headgear_european_military_05_GRE = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_GRE_entity" }	
+}
+
+com_male_headgear_european_military_05_ITA = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_ITA_entity" }	
+}
