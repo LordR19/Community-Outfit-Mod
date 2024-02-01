@@ -64,6 +64,7 @@ special_genes = {
 					1 = com_male_military_coat_switzerland_early_01_a
 					1 = com_male_military_coat_switzerland_early_01_b
 					1 = com_male_military_coat_switzerland_early_03
+					1 = com_male_military_coat_switzerland_mid_03
 					1 = com_male_military_coat_switzerland_early_06
 				}
 
@@ -179,6 +180,7 @@ special_genes = {
 					1 = com_male_military_coat_switzerland_early_01_a
 					1 = com_male_military_coat_switzerland_early_01_b
 					1 = com_male_military_coat_switzerland_early_03
+					1 = com_male_military_coat_switzerland_mid_03
 					1 = com_male_military_coat_switzerland_early_06
 				}
 

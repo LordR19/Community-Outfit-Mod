@@ -852,6 +852,24 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SWI_03.dds" }	
 }
 
+#Mid Swiss Uniform 03
+variation = {
+	name = "com_male_military_coat_switzerland_mid_03"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_mid_SWI_03.dds" }	
+}
+
 #Early Swiss Uniform 06
 variation = {
 	name = "com_male_uniform_switzerland_early_06"

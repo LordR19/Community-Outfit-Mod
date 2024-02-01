@@ -30,6 +30,9 @@ special_genes = {
 				male = {
 					1 = com_male_headgear_european_military_02_ITA
 					1 = com_male_headgear_european_military_05_ITA
+					1 = com_male_headgear_european_military_05_GRE
+					1 = com_male_headgear_european_military_02_SWI
+					1 = com_male_headgear_european_military_05_SWI
 				}
 				female = {
 					1 = empty
@@ -70,9 +73,9 @@ special_genes = {
 			com_SWI_headgear = {
 				index = 4
 				male = {
+					1 = com_male_headgear_european_military_01_SWI
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
-					1 = com_male_headgear_european_military_08_SWI
 				}
 				female = {
 					1 = empty
