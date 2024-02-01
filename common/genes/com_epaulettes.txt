@@ -182,6 +182,20 @@ special_genes = {
 				girl = female
 			}
 
+			DEN_epaulettes_military = {
+				index = 12
+				male = {
+					1 = empty
+					1 = male_epaulettes_01_silver
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

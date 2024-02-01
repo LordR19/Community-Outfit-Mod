@@ -191,6 +191,21 @@ com_male_military_coat_WUR_royal_09 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_royal_09_entity" }	
 }
 
+com_male_military_coat_DEN_early_01_a = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_DEN_early_01_a_entity" }	
+}
+
+com_male_military_coat_DEN_early_01_b = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_DEN_early_01_b_entity" }	
+}
+
+com_male_military_coat_DEN_early_01_c = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_DEN_early_01_c_entity" }	
+}
+
 com_male_military_coat_GRE_early_03_a = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_GRE_early_03_a_entity" }	
