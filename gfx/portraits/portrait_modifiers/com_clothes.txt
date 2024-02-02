@@ -698,7 +698,7 @@ com_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_swiss_military_coats
+                template = com_DEN_noble_coats
                 range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
@@ -3885,8 +3885,8 @@ com_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_GRE_military_coats_early
-                range = { 0.67 1 }
+                template = com_DEN_noble_coats
+                accessory = com_male_military_coat_DEN_royal_03
             }
             accessory = {
                 mode = add
@@ -3897,8 +3897,8 @@ com_clothes = {
             accessory = {
                 mode = add
                 gene = com_sashes
-                template = com_GRE_sashes
-                range = { 0 1 } # For the randomness to work correctly
+                template = com_SWE_sashes_military
+                range = { 0 0.35 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -3993,7 +3993,7 @@ com_clothes = {
                 mode = add
                 gene = com_military_coats
                 template = com_DEN_military_coats_early
-                accessory = com_male_military_coat_DEN_early_01_b
+                accessory = com_male_military_coat_DEN_early_01_c
             }
             accessory = {
                 mode = add
