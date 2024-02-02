@@ -99,6 +99,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_NET_headgear = {
+				index = 6
+				male = {
+					2 = com_male_headgear_european_military_05_NET
+					1 = empty
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

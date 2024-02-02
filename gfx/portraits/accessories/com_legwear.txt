@@ -23,6 +23,10 @@ com_male_legwear_european_light_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_entity" }	
 }
 
+com_male_legwear_european_azure_blue = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_azure_blue_entity" }	
+}
+
 com_male_legwear_european_sky_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_sky_blue_entity" }	
 }

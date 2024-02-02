@@ -235,6 +235,19 @@ special_genes = {
 				girl = female
 			}
 
+			com_NET_military_legwear = {
+				index = 17
+				male = {
+					1 = com_male_legwear_european_azure_blue
+					1 = com_male_legwear_european_dark_blue
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
