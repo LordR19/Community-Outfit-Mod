@@ -4180,14 +4180,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:DEN
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = DEN
+                        }
+                        AND = {
+                            exists = c:DEN
                             home_country = c:DEN
-                            home_country = {
-                                was_formed_from = DEN
-                            }
                         }
                     }
                 }
@@ -4257,14 +4257,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:DEN
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = DEN
+                        }
+                        AND = {
+                            exists = c:DEN
                             home_country = c:DEN
-                            home_country = {
-                                was_formed_from = DEN
-                            }
                         }
                     }
                 }
@@ -4614,14 +4614,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:GRE
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = GRE
+                        }
+                        AND = {
+                            exists = c:GRE
                             home_country = c:GRE
-                            home_country = {
-                                was_formed_from = GRE
-                            }
                         }
                     }
                 }
@@ -4711,14 +4711,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:GRE
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = GRE
+                        }
+                        AND = {
+                            exists = c:GRE
                             home_country = c:GRE
-                            home_country = {
-                                was_formed_from = GRE
-                            }
                         }
                     }
                 }
@@ -5406,14 +5406,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:ITA
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = ITA
+                        }
+                        AND = {
+                            exists = c:ITA
                             home_country = c:ITA
-                            home_country = {
-                                was_formed_from = ITA
-                            }
                         }
                     }
                 }
@@ -5506,14 +5506,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:ITA
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = ITA
+                        }
+                        AND = {
+                            exists = c:ITA
                             home_country = c:ITA
-                            home_country = {
-                                was_formed_from = ITA
-                            }
                         }
                     }
                 }
@@ -5888,14 +5888,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:SWE
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
                             home_country = c:SWE
-                            home_country = {
-                                was_formed_from = SWE
-                            }
                         }
                     }
                 }
@@ -6273,14 +6273,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SWI
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWI
+                        }
+                        AND = {
+                            exists = c:SWI
                             home_country = c:SWI
-                            home_country = {
-                                was_formed_from = SWI
-                            }
                         }
                     }
                 }
@@ -6369,14 +6369,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SWI
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWI
+                        }
+                        AND = {
+                            exists = c:SWI
                             home_country = c:SWI
-                            home_country = {
-                                was_formed_from = SWI
-                            }
                         }
                     }
                 }
@@ -6447,14 +6447,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:SWI
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWI
+                        }
+                        AND = {
+                            exists = c:SWI
                             home_country = c:SWI
-                            home_country = {
-                                was_formed_from = SWI
-                            }
                         }
                     }
                 }
@@ -6532,14 +6532,14 @@ com_clothes = {
                 scope:pop = {
                     wealth > 14 #This is an attempt to let this second outfit spawn (as it was historically the cavalry outfit)
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:SWI
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWI
+                        }
+                        AND = {
+                            exists = c:SWI
                             home_country = c:SWI
-                            home_country = {
-                                was_formed_from = SWI
-                            }
                         }
                     }
                 }
@@ -6616,14 +6616,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = soldiers
-                    AND = {
-                        exists = c:SWI
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWI
+                        }
+                        AND = {
+                            exists = c:SWI
                             home_country = c:SWI
-                            home_country = {
-                                was_formed_from = SWI
-                            }
                         }
                     }
                 }
