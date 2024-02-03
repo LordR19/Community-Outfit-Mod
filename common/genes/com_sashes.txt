@@ -84,6 +84,7 @@ special_genes = {
 					1 = com_male_sash_civil_SPU
 					1 = com_male_sash_civil_UCA
 					1 = com_male_sash_civil_VNZ
+					1 = com_male_sash_NOR
 				}
 
 				female = {
@@ -664,6 +665,33 @@ special_genes = {
 					1 = empty
 					1 = com_male_sash_SWE_2
 					1 = empty
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_NOR_sashes = {
+				index = 44
+				male = {
+					1 = com_male_sash_NOR
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_NOR_sashes_military = {
+				index = 45
+				male = {
+					1 = empty
+					2 = com_male_sash_NOR_2
 				}
 
 				female = {

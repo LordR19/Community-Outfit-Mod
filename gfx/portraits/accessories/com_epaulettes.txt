@@ -19,6 +19,10 @@ com_male_epaulettes_NET_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_NET_01_entity" }	
 }
 
+com_male_epaulettes_NOR_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_NOR_01_entity" }	
+}
+
 com_male_epaulettes_04_silver = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_04_silver_entity" }	
 }
