@@ -224,6 +224,20 @@ special_genes = {
 				girl = female
 			}
 
+			FIN_epaulettes_military = {
+				index = 15
+				male = {
+					1 = male_epaulettes_01_silver
+					1 = male_epaulettes_02_silver
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

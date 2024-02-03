@@ -40,6 +40,8 @@ special_genes = {
 					1 = com_male_military_coat_BYZ_royal_01
 					1 = com_male_military_coat_BYZ_royal_03
 					1 = com_male_military_coat_DEN_royal_03
+					1 = com_male_military_coat_FIN_royal_03_a
+					1 = com_male_military_coat_FIN_royal_03_b
 					1 = com_male_military_coat_LUC_royal_01
 					1 = com_male_military_coat_LUC_royal_09
 					1 = com_male_military_coat_NET_royal_01
@@ -510,6 +512,34 @@ special_genes = {
 					1 = com_male_military_coat_NOR_early_01_a
 					1 = com_male_military_coat_NOR_early_01_b
 					1 = com_male_military_coat_NOR_early_01_c
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FIN_noble_coats = {
+				index = 32
+				male = {
+					1 = com_male_military_coat_FIN_royal_03_a
+					1 = com_male_military_coat_FIN_royal_03_b
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FIN_military_coats_early = {
+				index = 33
+				male = {
+					1 = com_male_military_coat_FIN_early_01_a
+					1 = com_male_military_coat_FIN_early_01_b
 				}
 
 				female = {

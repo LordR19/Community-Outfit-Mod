@@ -11,6 +11,22 @@
 #									#
 #####################################
 
+com_male_sash_european_red = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_red_entity" }	
+}
+
+com_male_sash_european_darker_red = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_darker_red_entity" }	
+}
+
+com_male_sash_european_green = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_green_entity" }	
+}
+
+com_male_sash_european_dark_green = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_dark_green_entity" }	
+}
+
 com_male_sash_european_light_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_light_blue_entity" }	
 }
@@ -25,18 +41,6 @@ com_male_sash_european_medium_light_blue = {
 
 com_male_sash_european_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_blue_entity" }	
-}
-
-com_male_sash_european_green = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_green_entity" }	
-}
-
-com_male_sash_european_dark_green = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_dark_green_entity" }	
-}
-
-com_male_sash_european_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_red_entity" }	
 }
 
 com_male_sash_european_white = {
@@ -69,6 +73,10 @@ com_male_sash_BYZ_1 = {
 
 com_male_sash_BYZ_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BYZ_2_entity" }	
+}
+
+com_male_sash_FIN = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_FIN_entity" }	
 }
 
 com_male_sash_GRE = {
@@ -271,4 +279,8 @@ com_male_sash_civil_UCA = {
 
 com_male_sash_civil_VNZ = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_civil_VNZ_entity" }	
+}
+
+com_male_sash_slavic_grey = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_slavic_grey_entity" }	
 }
