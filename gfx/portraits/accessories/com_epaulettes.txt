@@ -15,6 +15,14 @@ male_epaulettes_01_silver = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_epaulettes_01_silver_entity" }	
 }
 
+com_male_epaulettes_01_full_silver = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_01_full_silver_entity" }	
+}
+
+com_male_epaulettes_01_full_gold = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_01_full_gold_entity" }	
+}
+
 com_male_epaulettes_NET_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_NET_01_entity" }	
 }

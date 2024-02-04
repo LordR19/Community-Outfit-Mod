@@ -248,6 +248,32 @@ special_genes = {
 				girl = female
 			}
 
+			com_BUL_military_legwear = {
+				index = 18
+				male = {
+					1 = male_legwear_european_01_black
+					1 = com_male_legwear_european_dark_blue
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SPA_military_legwear = {
+				index = 19
+				male = {
+					1 = com_male_legwear_european_red
+					1 = male_legwear_european_01_black
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

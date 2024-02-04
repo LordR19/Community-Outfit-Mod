@@ -67,6 +67,18 @@ com_male_sash_BRZ_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BRZ_2_entity" }	
 }
 
+com_male_sash_BUL_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BUL_1_entity" }	
+}
+
+com_male_sash_BUL_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BUL_2_entity" }	
+}
+
+com_male_sash_BUL_3 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BUL_3_entity" }	
+}
+
 com_male_sash_BYZ_1 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BYZ_1_entity" }	
 }
@@ -161,6 +173,18 @@ com_male_sash_SPA_1 = {
 
 com_male_sash_SPA_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_2_entity" }	
+}
+
+com_male_sash_SPA_military_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_military_1_entity" }	
+}
+
+com_male_sash_SPA_military_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_military_2_entity" }	
+}
+
+com_male_sash_SPA_navy = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_navy_entity" }	
 }
 
 com_male_sash_SWE = {

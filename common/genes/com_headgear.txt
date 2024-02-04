@@ -113,6 +113,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_SPA_headgear = {
+				index = 7
+				male = {
+					2 = com_male_headgear_european_military_02_SPA
+					1 = empty
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

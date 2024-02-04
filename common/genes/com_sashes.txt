@@ -42,6 +42,9 @@ special_genes = {
 					1 = com_male_sash_BAD
 					1 = com_male_sash_BRZ_1
 					1 = com_male_sash_BRZ_2
+					1 = com_male_sash_BUL_1
+					1 = com_male_sash_BUL_2
+					1 = com_male_sash_BUL_3
 					1 = com_male_sash_FIN
 					1 = com_male_sash_JAP_1
 					1 = com_male_sash_JAP_2
@@ -62,6 +65,9 @@ special_genes = {
 					1 = com_male_sash_SIC
 					1 = com_male_sash_SPA_1
 					1 = com_male_sash_SPA_2
+					1 = com_male_sash_SPA_military_1
+					1 = com_male_sash_SPA_military_2
+					1 = com_male_sash_SPA_navy
 					1 = com_male_sash_SWE
 					1 = com_male_sash_TUS
 					1 = com_male_sash_WUR
@@ -727,6 +733,41 @@ special_genes = {
 					4 = com_male_sash_european_darker_red
 					2 = com_male_sash_FIN
 					1 = com_male_sash_european_azure_blue
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BUL_sashes = {
+				index = 48
+				male = {
+					2 = empty
+					1 = com_male_sash_european_darker_red
+					1 = com_male_sash_BUL_3
+					3 = com_male_sash_BUL_1
+					1 = com_male_sash_european_gold
+					2 = com_male_sash_BUL_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SPA_military_sashes = {
+				index = 48
+				male = {
+					1 = empty
+					1 = com_male_sash_SPA_military_1
+					1 = com_male_sash_SPA_military_2
+					1 = com_male_sash_SPA_navy
+					1 = empty
 				}
 
 				female = {

@@ -55,6 +55,8 @@ special_genes = {
 					1 = com_male_military_coat_SIC_b_royal_01
 					1 = com_male_military_coat_SIC_royal_06
 					1 = com_male_military_coat_WUR_royal_09
+					1 = com_male_military_coat_BUL_early_03_a
+					1 = com_male_military_coat_BUL_early_03_b
 					1 = com_male_military_coat_DEN_early_01_a
 					1 = com_male_military_coat_DEN_early_01_b
 					1 = com_male_military_coat_DEN_early_01_c
@@ -70,8 +72,11 @@ special_genes = {
 					1 = com_male_military_coat_NOR_early_01_a
 					1 = com_male_military_coat_NOR_early_01_b
 					1 = com_male_military_coat_NOR_early_01_c
-					1 = com_male_military_coat_SAR_early_03
-					1 = com_male_military_coat_SAR_early_09
+					#1 = com_male_military_coat_SAR_early_03
+					#1 = com_male_military_coat_SAR_early_09
+					1 = com_male_military_coat_SPA_early_01
+					1 = com_male_military_coat_SPA_early_03
+					1 = com_male_military_coat_SPA_early_09
 					1 = com_male_military_coat_SWE_early_01
 					1 = com_male_military_coat_SWE_early_06
 					1 = com_male_military_coat_switzerland_early_01_a
@@ -540,6 +545,49 @@ special_genes = {
 				male = {
 					1 = com_male_military_coat_FIN_early_01_a
 					1 = com_male_military_coat_FIN_early_01_b
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BUL_noble_coats = {
+				index = 34
+				male = {
+					1 = com_male_military_coat_BUL_royal_03
+					2 = com_male_military_coat_BUL_royal_06
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BUL_military_coats_early = {
+				index = 35
+				male = {
+					1 = com_male_military_coat_BUL_early_03_a
+					1 = com_male_military_coat_BUL_early_03_b
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SPA_military_coats_early = {
+				index = 36
+				male = {
+					1 = com_male_military_coat_SPA_early_03
+					1 = com_male_military_coat_SPA_early_09
+					1 = com_male_military_coat_SPA_early_01
 				}
 
 				female = {

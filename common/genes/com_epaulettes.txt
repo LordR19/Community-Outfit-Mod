@@ -238,6 +238,36 @@ special_genes = {
 				girl = female
 			}
 
+			BUL_epaulettes = {
+				index = 16
+				male = {
+					1 = male_epaulettes_02
+					4 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
+			BUL_epaulettes_military = {
+				index = 17
+				male = {
+					1 = empty
+					1 = com_male_epaulettes_01_full_gold
+					1 = empty
+					1 = com_male_epaulettes_01_full_silver
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
