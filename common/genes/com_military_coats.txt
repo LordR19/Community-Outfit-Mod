@@ -588,6 +588,23 @@ special_genes = {
 					1 = com_male_military_coat_SPA_early_03
 					1 = com_male_military_coat_SPA_early_09
 					1 = com_male_military_coat_SPA_early_01
+					1 = com_male_military_coat_SPA_early_10
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_TUR_OTO_military_coats_early = {
+				index = 37
+				male = {
+					1 = com_male_military_coat_TUR_OTO_early_01_a
+					1 = com_male_military_coat_TUR_OTO_early_01_b
+					1 = com_male_military_coat_TUR_OTO_early_03_a
+					1 = com_male_military_coat_TUR_OTO_early_03_b
 				}
 
 				female = {

@@ -4,7 +4,7 @@
 
 #Red Sash
 variation = {
-	name = "com_male_sashes_red"
+	name = "com_male_sash_european_red"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -199,7 +199,7 @@ variation = {
 		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
 		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
-		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"		layout = "plain_fabric_layout" }
 	}	
 
 	# Color palette textures are 4-wide and N-high.
@@ -207,6 +207,29 @@ variation = {
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_white.dds" }	
+}
+
+#White Sash Wool
+variation = {
+	name = "com_male_sash_european_white_wool"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_white_wool.dds" }	
 }
 
 #Gold Sash
@@ -1035,6 +1058,98 @@ variation = {
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SWE_2.dds" }	
+}
+
+#Turkish-Ottoman 3 bands outer thin red/green/red
+variation = {
+	name = "com_male_sash_TUR_OTO_1"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_1.dds" }	
+}
+
+#Turkish-Ottoman 3 bands outer thin red/light blue/red
+variation = {
+	name = "com_male_sash_TUR_OTO_2"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_2.dds" }	
+}
+
+#Turkish-Ottoman 3 bands outer thin green/red/green
+variation = {
+	name = "com_male_sash_TUR_OTO_3"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_3.dds" }	
+}
+
+#Turkish-Ottoman 3 bands center large light blue/red/light blue
+variation = {
+	name = "com_male_sash_TUR_OTO_4"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_4.dds" }	
 }
 
 #Tuscany 5 Bands red white red white red

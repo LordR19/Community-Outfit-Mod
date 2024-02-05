@@ -131,7 +131,7 @@ entity = {
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_SPA_early_09"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
-            }
+        }
 	}
 }
 

@@ -47,6 +47,10 @@ com_male_sash_european_white = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_white_entity" }	
 }
 
+com_male_sash_european_white_wool = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_white_wool_entity" }	
+}
+
 com_male_sash_european_gold = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_european_gold_entity" }	
 }
@@ -193,6 +197,22 @@ com_male_sash_SWE = {
 
 com_male_sash_SWE_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SWE_2_entity" }	
+}
+
+com_male_sash_TUR_OTO_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_TUR_OTO_1_entity" }	
+}
+
+com_male_sash_TUR_OTO_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_TUR_OTO_2_entity" }	
+}
+
+com_male_sash_TUR_OTO_3 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_TUR_OTO_3_entity" }	
+}
+
+com_male_sash_TUR_OTO_4 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_TUR_OTO_4_entity" }	
 }
 
 com_male_sash_TUS = {
