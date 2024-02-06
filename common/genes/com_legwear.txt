@@ -28,11 +28,12 @@ special_genes = {
 			com_all_legwear = {
 				index = 1
 				male = {
+					1 = com_male_legwear_european_red
 					1 = com_male_legwear_european_blue
 					1 = com_male_legwear_european_dark_blue
 					1 = com_male_legwear_european_light_blue
 					1 = male_legwear_european_01_black
-					1 = com_male_legwear_european_red
+					1 = com_male_legwear_european_grey
 					1 = com_male_legwear_european_white
 				}
 				female = {

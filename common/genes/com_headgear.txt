@@ -36,7 +36,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -50,7 +49,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -64,7 +62,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -79,7 +76,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -93,7 +89,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -107,7 +102,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -121,7 +115,6 @@ special_genes = {
 				}
 				female = {
 					1 = empty
-
 				}
 				boy = male
 				girl = female
@@ -136,7 +129,21 @@ special_genes = {
 				}
 				female = {
 					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 
+			com_BEL_headgear = {
+				index = 9
+				male = {
+					1 = empty
+					1 = com_male_headgear_european_military_02_BEL_a #officer
+					1 = empty
+					1 = com_male_headgear_european_military_02_BEL_b #general
+				}
+				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female

@@ -36,6 +36,7 @@ special_genes = {
 					1 = com_male_sash_european_medium_light_blue
 					1 = com_male_sash_european_blue
 					1 = com_male_sash_european_azure_blue
+					1 = com_male_sash_european_purple
 					1 = com_male_sash_european_white
 					1 = com_male_sash_european_white_wool
 					1 = com_male_sash_european_gold
@@ -791,6 +792,21 @@ special_genes = {
 					1 = com_male_sash_TUR_OTO_3
 					1 = com_male_sash_TUR_OTO_4
 					1 = com_male_sash_european_white_wool
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BEL_military_sashes = {
+				index = 51
+				male = {
+					1 = empty
+					1 = com_male_sash_european_red
+					1 = com_male_sash_european_purple
 				}
 
 				female = {

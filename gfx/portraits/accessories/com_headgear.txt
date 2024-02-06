@@ -31,6 +31,16 @@ com_male_headgear_european_military_01_SWI = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_01_SWI_entity" }	
 }
 
+com_male_headgear_european_military_02_BEL_a = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_BEL_a_entity" }	
+}
+
+com_male_headgear_european_military_02_BEL_b = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_BEL_b_entity" }	
+}
+
 com_male_headgear_european_military_02_ITA = {
     set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ITA_entity" }	

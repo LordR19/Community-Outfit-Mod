@@ -614,6 +614,21 @@ special_genes = {
 				girl = female
 			}
 
+			com_BEL_military_coats_early = {
+				index = 38
+				male = {
+					1 = com_male_military_coat_BEL_early_01 #Soldier
+					1 = com_male_military_coat_BEL_early_03_a #Officer
+					1 = com_male_military_coat_BEL_early_03_b #General
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
