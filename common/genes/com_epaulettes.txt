@@ -281,6 +281,22 @@ special_genes = {
 				girl = female
 			}
 
+			POR_epaulettes_military = {
+				index = 19
+				male = {
+					1 = empty
+					1 = com_male_epaulettes_POR_01_a
+					1 = empty
+					1 = com_male_epaulettes_POR_01_b
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

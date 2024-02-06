@@ -31,12 +31,14 @@ special_genes = {
 					1 = com_male_sash_european_red
 					1 = com_male_sash_european_darker_red
 					1 = com_male_sash_european_green
+					1 = com_male_sash_european_green_pale
 					1 = com_male_sash_european_dark_green
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_european_medium_light_blue
 					1 = com_male_sash_european_blue
 					1 = com_male_sash_european_azure_blue
 					1 = com_male_sash_european_purple
+					1 = com_male_sash_european_pink
 					1 = com_male_sash_european_white
 					1 = com_male_sash_european_white_wool
 					1 = com_male_sash_european_gold
@@ -62,6 +64,7 @@ special_genes = {
 					1 = com_male_sash_POR_1
 					1 = com_male_sash_POR_2
 					1 = com_male_sash_POR_3
+					1 = com_male_sash_POR_4
 					1 = com_male_sash_SAX_1
 					1 = com_male_sash_SAX_2
 					1 = com_male_sash_SIC
@@ -807,6 +810,23 @@ special_genes = {
 					1 = empty
 					1 = com_male_sash_european_red
 					1 = com_male_sash_european_purple
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_POR_military_sashes = {
+				index = 52
+				male = {
+					2 = empty
+					1 = com_male_sash_european_red
+					1 = com_male_sash_european_green_pale
+					1 = com_male_sash_european_pink
+					1 = com_male_sash_POR_4
 				}
 
 				female = {

@@ -55,6 +55,9 @@ special_genes = {
 					1 = com_male_military_coat_SIC_b_royal_01
 					1 = com_male_military_coat_SIC_royal_06
 					1 = com_male_military_coat_WUR_royal_09
+					1 = com_male_military_coat_BEL_early_01 #Soldier
+					1 = com_male_military_coat_BEL_early_03_a #Officer
+					1 = com_male_military_coat_BEL_early_03_b #General
 					1 = com_male_military_coat_BUL_early_03_a
 					1 = com_male_military_coat_BUL_early_03_b
 					1 = com_male_military_coat_DEN_early_01_a
@@ -72,6 +75,10 @@ special_genes = {
 					1 = com_male_military_coat_NOR_early_01_a
 					1 = com_male_military_coat_NOR_early_01_b
 					1 = com_male_military_coat_NOR_early_01_c
+					1 = com_male_military_coat_POR_early_01 #Soldier
+					1 = com_male_military_coat_POR_early_03_a #Officer
+					1 = com_male_military_coat_POR_early_03_b #General
+					1 = com_male_military_coat_POR_early_06 #Admiral
 					#1 = com_male_military_coat_SAR_early_03
 					#1 = com_male_military_coat_SAR_early_09
 					1 = com_male_military_coat_SPA_early_01
@@ -84,6 +91,10 @@ special_genes = {
 					1 = com_male_military_coat_switzerland_early_03
 					1 = com_male_military_coat_switzerland_mid_03
 					1 = com_male_military_coat_switzerland_early_06
+					1 = com_male_military_coat_TUR_OTO_early_01_a
+					1 = com_male_military_coat_TUR_OTO_early_01_b
+					1 = com_male_military_coat_TUR_OTO_early_03_a
+					1 = com_male_military_coat_TUR_OTO_early_03_b
 				}
 
 				female = {
@@ -620,6 +631,22 @@ special_genes = {
 					1 = com_male_military_coat_BEL_early_01 #Soldier
 					1 = com_male_military_coat_BEL_early_03_a #Officer
 					1 = com_male_military_coat_BEL_early_03_b #General
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_POR_military_coats_early = {
+				index = 39
+				male = {
+					1 = com_male_military_coat_POR_early_01 #Soldier
+					1 = com_male_military_coat_POR_early_03_a #Officer
+					1 = com_male_military_coat_POR_early_03_b #General
+					1 = com_male_military_coat_POR_early_06 #Admiral
 				}
 
 				female = {
