@@ -16,6 +16,11 @@ com_male_military_coat_AUS_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_royal_01_entity" }	
 }
 
+com_male_military_coat_BAD_royal_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BAD_royal_03_entity" }	
+}
+
 com_male_military_coat_BAV_royal_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BAV_royal_01_entity" }	
@@ -259,6 +264,16 @@ com_male_military_coat_AUS_early_06_a = {
 com_male_military_coat_AUS_early_06_b = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_early_06_b_entity" }	
+}
+
+com_male_military_coat_BAD_early_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BAD_early_01_entity" }	
+}
+
+com_male_military_coat_BAD_early_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BAD_early_03_entity" }	
 }
 
 com_male_military_coat_BEL_early_01 = {

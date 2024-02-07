@@ -304,9 +304,7 @@ special_genes = {
 			com_BAD_noble_coats = {
 				index = 15
 				male = {
-					1 = com_male_military_coat_PAR_royal_01
-					1 = com_male_military_coat_switzerland_early_06
-					1 = com_male_military_coat_SIC_b_royal_01
+					1 = com_male_military_coat_BAD_royal_03
 				}
 
 				female = {
@@ -706,6 +704,20 @@ special_genes = {
 					2 = com_male_military_coat_SER_royal_03
 					2 = com_male_military_coat_SER_royal_06
 					1 = com_male_military_coat_SER_royal_09
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BAD_military_coats_early = {
+				index = 43
+				male = {
+					1 = com_male_military_coat_BAD_early_01 #Soldier
+					1 = com_male_military_coat_BAD_early_03 #Officer / General
 				}
 
 				female = {
