@@ -79,6 +79,10 @@ com_male_sash_BAD = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BAD_entity" }	
 }
 
+com_male_sash_BAV = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BAV_entity" }	
+}
+
 com_male_sash_BRZ_1 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_BRZ_1_entity" }	
 }

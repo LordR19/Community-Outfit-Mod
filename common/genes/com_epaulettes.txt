@@ -312,6 +312,21 @@ special_genes = {
 				girl = female
 			}
 
+			BAV_epaulettes = {
+				index = 21
+				male = {
+					2 = empty
+					3 = com_male_epaulettes_01_full_silver
+					5 = com_male_epaulettes_04_silver
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

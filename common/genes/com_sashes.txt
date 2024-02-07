@@ -893,6 +893,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_BAV_military_sashes = {
+				index = 56
+				male = {
+					1 = empty
+					1 = com_male_sash_BAV
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
