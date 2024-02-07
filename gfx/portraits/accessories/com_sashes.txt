@@ -183,6 +183,22 @@ com_male_sash_SAX_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SAX_2_entity" }	
 }
 
+com_male_sash_SER_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SER_1_entity" }	
+}
+
+com_male_sash_SER_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SER_2_entity" }	
+}
+
+com_male_sash_SER_3 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SER_3_entity" }	
+}
+
+com_male_sash_SER_4 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SER_4_entity" }	
+}
+
 com_male_sash_SIC = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SIC_entity" }	
 }

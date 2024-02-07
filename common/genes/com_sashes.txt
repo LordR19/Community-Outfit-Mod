@@ -836,6 +836,23 @@ special_genes = {
 				girl = female
 			}
 
+			com_SER_military_sashes = {
+				index = 53
+				male = {
+					5 = empty
+					3 = com_male_sash_SER_1
+					2 = com_male_sash_SER_2
+					1 = com_male_sash_SER_3
+					2 = com_male_sash_SER_4
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

@@ -28,9 +28,15 @@ special_genes = {
 			com_all_headgear = {
 				index = 1
 				male = {
+					1 = com_male_headgear_european_military_02_BEL_a #officer
+					1 = com_male_headgear_european_military_02_BEL_b #general
 					1 = com_male_headgear_european_military_02_ITA
 					1 = com_male_headgear_european_military_05_ITA
 					1 = com_male_headgear_european_military_05_GRE
+					1 = com_male_headgear_european_military_05_NET
+					1 = com_male_headgear_european_military_02_SER_a #officer
+					1 = com_male_headgear_european_military_02_SER_b #general
+					1 = com_male_headgear_european_military_02_SWE
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
 				}
@@ -141,6 +147,21 @@ special_genes = {
 					1 = com_male_headgear_european_military_02_BEL_a #officer
 					1 = empty
 					1 = com_male_headgear_european_military_02_BEL_b #general
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SER_headgear = {
+				index = 10
+				male = {
+					1 = empty
+					1 = com_male_headgear_european_military_02_SER_a #officer
+					1 = empty
+					1 = com_male_headgear_european_military_02_SER_b #general
 				}
 				female = {
 					1 = empty
