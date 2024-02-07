@@ -36,6 +36,7 @@ special_genes = {
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_european_medium_light_blue
 					1 = com_male_sash_european_blue
+					1 = com_male_sash_european_blue_dark
 					1 = com_male_sash_european_azure_blue
 					1 = com_male_sash_european_purple
 					1 = com_male_sash_european_pink
@@ -67,6 +68,13 @@ special_genes = {
 					1 = com_male_sash_POR_4
 					1 = com_male_sash_SAX_1
 					1 = com_male_sash_SAX_2
+					1 = com_male_sash_SER_1
+					1 = com_male_sash_SER_2
+					1 = com_male_sash_SER_3
+					1 = com_male_sash_SER_4
+					1 = com_male_sash_SER_5
+					1 = com_male_sash_SER_6
+					1 = com_male_sash_SER_7
 					1 = com_male_sash_SIC
 					1 = com_male_sash_SPA_1
 					1 = com_male_sash_SPA_2
@@ -844,6 +852,24 @@ special_genes = {
 					2 = com_male_sash_SER_2
 					1 = com_male_sash_SER_3
 					2 = com_male_sash_SER_4
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SER_sashes = {
+				index = 54
+				male = {
+					1 = com_male_sash_european_darker_red
+					1 = com_male_sash_european_blue_dark
+					1 = com_male_sash_SER_2
+					1 = com_male_sash_SER_5
+					1 = com_male_sash_SER_6
+					1 = com_male_sash_SER_7
 				}
 
 				female = {

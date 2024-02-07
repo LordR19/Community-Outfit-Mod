@@ -297,6 +297,21 @@ special_genes = {
 				girl = female
 			}
 
+			SER_epaulettes = {
+				index = 20
+				male = {
+					1 = male_epaulettes_02
+					1 = male_epaulettes_03
+					5 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

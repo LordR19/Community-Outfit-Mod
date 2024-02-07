@@ -276,6 +276,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_SER_legwear = {
+				index = 20
+				male = {
+					3 = com_male_legwear_european_dark_blue
+					1 = com_male_legwear_european_white
+					2 = com_male_legwear_european_red
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
