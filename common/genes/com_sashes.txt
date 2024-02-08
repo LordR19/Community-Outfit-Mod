@@ -907,6 +907,24 @@ special_genes = {
 				girl = female
 			}
 
+			com_BYZ_military_sashes = {
+				index = 57
+				male = {
+					1 = com_male_sash_european_gold
+					3 = com_male_sash_BYZ_3
+					2 = com_male_sash_BYZ_4
+					3 = com_male_sash_BYZ_5
+					2 = com_male_sash_BYZ_6
+					1 = com_male_sash_BYZ_7
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

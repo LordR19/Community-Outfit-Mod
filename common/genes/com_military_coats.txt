@@ -747,6 +747,22 @@ special_genes = {
 				girl = female
 			}
 
+			com_BYZ_military_coats_early = {
+				index = 45
+				male = {
+					1 = com_male_military_coat_BYZ_early_09_a #Soldier
+					1 = com_male_military_coat_BYZ_early_09_b #Officer
+					1 = com_male_military_coat_BYZ_early_10_a #Officer / General
+					1 = com_male_military_coat_BYZ_early_10_b #Admiral
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
