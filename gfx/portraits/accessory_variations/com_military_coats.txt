@@ -972,9 +972,9 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_BAV_01.dds" }	
 }
 
-#Early Bavaria Uniform 03 (Officer/General)
+#Early Bavaria Uniform 03a (Officer/General)
 variation = {
-	name = "com_male_military_coat_BAV_early_03"
+	name = "com_male_military_coat_BAV_early_03_a"
 
 	pattern = { 
 		weight = 1
@@ -1003,7 +1003,41 @@ variation = {
 		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
 	}	
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_BAV_03.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_BAV_03_a.dds" }	
+}
+
+#Early Bavaria Uniform 03b (Officer/General)
+variation = {
+	name = "com_male_military_coat_BAV_early_03_b"
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_01" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_BAV_03_b.dds" }	
 }
 
 #Early Belgian Uniform 01 (Soldier)
