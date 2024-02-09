@@ -799,6 +799,21 @@ special_genes = {
 				girl = female
 			}
 
+			com_WUR_military_coats_early = {
+				index = 48
+				male = {
+					1 = com_male_military_coat_WUR_early_03_a #Soldier
+					1 = com_male_military_coat_WUR_early_03_b #Officer
+					1 = com_male_military_coat_WUR_early_03_c #General
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

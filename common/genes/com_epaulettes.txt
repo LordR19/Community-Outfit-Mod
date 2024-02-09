@@ -357,6 +357,19 @@ special_genes = {
 				girl = female
 			}
 
+			WUR_epaulettes_military = {
+				index = 24
+				male = {
+					1 = com_male_epaulettes_WUR_01
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

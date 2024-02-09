@@ -218,6 +218,21 @@ special_genes = {
 				girl = female
 			}
 
+			com_WUR_headgear_military = {
+				index = 14
+				male = {
+					3 = empty
+					2 = com_male_headgear_european_military_05_WUR #general early
+					3 = empty
+					2 = com_male_headgear_european_military_02_WUR #officer/general mid
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

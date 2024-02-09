@@ -570,3 +570,18 @@ com_male_military_coat_TUR_OTO_early_03_b = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_TUR_OTO_early_03_b_entity" }	
 }
+
+com_male_military_coat_WUR_early_03_a = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_early_03_a_entity" }	
+}
+
+com_male_military_coat_WUR_early_03_b = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_early_03_b_entity" }	
+}
+
+com_male_military_coat_WUR_early_03_c = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WUR_early_03_c_entity" }	
+}

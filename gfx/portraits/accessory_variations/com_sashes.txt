@@ -1658,7 +1658,7 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SIC.dds" }	
 }
 
-#Württemberg 5 Bands black red black red black
+### Württemberg 1: 5 Band black/red/black/red/black ###
 variation = {
 	name = "com_male_sashes_WUR"
 	
@@ -1679,6 +1679,52 @@ variation = {
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_WUR.dds" }	
+}
+
+### Württemberg 3: 5 Band red/black/red/black/red ###
+variation = {
+	name = "com_male_sashes_WUR_2"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_WUR_2.dds" }	
+}
+
+### Württemberg 3: 5 Band purple red/black/purple red/black/purple red ###
+variation = {
+	name = "com_male_sashes_WUR_3"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_WUR_3.dds" }	
 }
 
 ### Civil Sashes ###

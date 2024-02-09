@@ -945,10 +945,26 @@ special_genes = {
 				index = 59
 				male = {
 					2 = empty
-					3 = com_male_sash_european_red
+					1 = com_male_sash_european_red
 					2 = com_male_sash_european_orange #Schwarzer Adlerorden (Orange)
 					1 = com_male_sash_european_azure_blue #Königlicher Kronen-Orden
 					3 = com_male_sash_PRU_1 # Roter Adlerorden (white/orange/white/orange/white)
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_WUR_military_sashes = {
+				index = 60
+				male = {
+					5 = empty
+					3 = com_male_sash_european_medium_light_blue
+					2 = com_male_sash_WUR_2 # Orden der Württembergischen Krone (higher classes)
+					2 = com_male_sash_WUR_3 # Orden der Württembergischen Krone (lower classes)
 				}
 
 				female = {
