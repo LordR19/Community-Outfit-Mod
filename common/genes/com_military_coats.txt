@@ -783,6 +783,22 @@ special_genes = {
 				girl = female
 			}
 
+			com_PRU_military_coats_early = {
+				index = 47
+				male = {
+					1 = com_male_military_coat_PRU_early_01 #Soldier
+					1 = com_male_military_coat_PRU_early_03_a #Officer
+					1 = com_male_military_coat_PRU_early_03_b #General
+					1 = com_male_military_coat_PRU_early_03_c #Admiral
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

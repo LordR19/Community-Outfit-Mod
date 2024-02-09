@@ -30,6 +30,7 @@ special_genes = {
 				male = {
 					1 = com_male_sash_european_red
 					1 = com_male_sash_european_darker_red
+					1 = com_male_sash_european_orange
 					1 = com_male_sash_european_green
 					1 = com_male_sash_european_green_pale
 					1 = com_male_sash_european_dark_green
@@ -66,6 +67,7 @@ special_genes = {
 					1 = com_male_sash_POR_2
 					1 = com_male_sash_POR_3
 					1 = com_male_sash_POR_4
+					1 = com_male_sash_PRU_1 # Roter Adlerorden (white/orange/white/orange/white)
 					1 = com_male_sash_SAX_1
 					1 = com_male_sash_SAX_2
 					1 = com_male_sash_SER_1
@@ -929,7 +931,24 @@ special_genes = {
 				index = 58
 				male = {
 					2 = com_male_sash_european_red
-					1 = com_male_sash_european_gold
+					1 = com_male_sash_european_orange
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PRU_military_sashes = {
+				index = 59
+				male = {
+					2 = empty
+					3 = com_male_sash_european_red
+					2 = com_male_sash_european_orange #Schwarzer Adlerorden (Orange)
+					1 = com_male_sash_european_azure_blue #Königlicher Kronen-Orden
+					3 = com_male_sash_PRU_1 # Roter Adlerorden (white/orange/white/orange/white)
 				}
 
 				female = {

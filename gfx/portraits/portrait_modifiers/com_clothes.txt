@@ -10090,6 +10090,544 @@ com_clothes = {
         }
     }
 
+    #Outfit Early Prussian Admiral Characters
+    com_early_PRU_admiral_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_early
+                accessory = com_male_military_coat_PRU_early_03_c
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = male_legwear_european_01_black
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = PRU_epaulettes_military_generals
+                accessory = male_epaulettes_02_silver
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PRU_military_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = prussian_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_admiral_headgear
+                accessory = male_headgear_european_military_05
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                year < 1860
+                OR = {
+                    scope:character ?= {
+                        AND = {
+                            exists = home_country
+                            OR = {
+                                AND = {
+                                    exists = c:PRU
+                                    home_country = c:PRU
+                                }
+                                home_country = {
+                                    was_formed_from = PRU
+                                }
+                            }
+                            has_role = admiral
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Mid Prussian Admiral Characters
+    com_mid_PRU_admiral_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_early
+                accessory = com_male_military_coat_PRU_early_03_c
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = male_legwear_european_01_black
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = PRU_epaulettes_military_generals
+                accessory = male_epaulettes_02_silver
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PRU_military_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = prussian_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_all_headgear
+                accessory = com_male_headgear_european_military_03_PRU_b
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                year >= 1860
+                OR = {
+                    scope:character ?= {
+                        AND = {
+                            exists = home_country
+                            OR = {
+                                AND = {
+                                    exists = c:PRU
+                                    home_country = c:PRU
+                                }
+                                home_country = {
+                                    was_formed_from = PRU
+                                }
+                            }
+                            has_role = admiral
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Prussian General Characters
+    com_early_PRU_general_rank_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_early
+                accessory = com_male_military_coat_PRU_early_03_b
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_grey
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = PRU_epaulettes_military_generals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PRU_military_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = prussian_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_PRU_headgear_military
+                range = { 0 1 }
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                exists = scope:character
+                scope:character = {
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:PRU
+                            home_country = c:PRU
+                        }
+                        home_country = {
+                            was_formed_from = PRU
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Prussian Officer Pops
+    com_early_PRU_officer_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_early
+                accessory = com_male_military_coat_PRU_early_03_a
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_grey
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = PRU_epaulettes_military_generals
+                accessory = male_epaulettes_02_silver
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = prussian_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_PRU_headgear_military
+                range = { 0.25 1 }
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = officers
+                    AND = {
+                        exists = c:PRU
+                        exists = home_country
+                        OR = {
+                            home_country = c:PRU
+                            home_country = {
+                                was_formed_from = PRU
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Prussian Soldier Pops
+    com_early_PRU_soldier_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_early
+                accessory = com_male_military_coat_PRU_early_01
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_grey
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_PRU_headgear_military
+                range = { 0.3 0.49 }
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = soldiers
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = PRU
+                        }
+                        AND = {
+                            exists = c:PRU
+                            home_country = c:PRU
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     #Outfit Early Serbian Admiral Characters
     com_early_SER_admiral_outfit = {
         dna_modifiers = {

@@ -37,6 +37,8 @@ special_genes = {
 					1 = com_male_headgear_european_military_05_ITA
 					1 = com_male_headgear_european_military_05_GRE
 					1 = com_male_headgear_european_military_05_NET
+					1 = com_male_headgear_european_military_03_PRU_a #officer/general
+					1 = com_male_headgear_european_military_03_PRU_b #admiral
 					1 = com_male_headgear_european_military_02_SER_a #officer
 					1 = com_male_headgear_european_military_02_SER_b #general
 					1 = com_male_headgear_european_military_02_SWE
@@ -193,6 +195,21 @@ special_genes = {
 				male = {
 					1 = empty
 					1 = com_male_headgear_european_military_03_BAV #officer
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PRU_headgear_military = {
+				index = 13
+				male = {
+					3 = empty
+					2 = male_headgear_european_military_10 #soldier
+					3 = empty
+					2 = com_male_headgear_european_military_03_PRU_a #officer/general
 				}
 				female = {
 					1 = empty

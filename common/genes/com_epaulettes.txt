@@ -342,6 +342,21 @@ special_genes = {
 				girl = female
 			}
 
+			PRU_epaulettes_military_generals = {
+				index = 23
+				male = {
+					4 = male_epaulettes_02_silver
+					4 = male_epaulettes_04
+					2 = com_male_epaulettes_04_silver
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
