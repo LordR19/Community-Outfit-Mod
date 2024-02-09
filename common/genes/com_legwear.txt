@@ -291,6 +291,19 @@ special_genes = {
 				girl = female
 			}
 
+			com_PRU_legwear = {
+				index = 21
+				male = {
+					4 = male_legwear_european_01_black
+					1 = com_male_legwear_european_white
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

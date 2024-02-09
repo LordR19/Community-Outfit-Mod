@@ -327,6 +327,21 @@ special_genes = {
 				girl = female
 			}
 
+			PRU_epaulettes = {
+				index = 22
+				male = {
+					3 = empty
+					2 = male_epaulettes_2
+					5 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

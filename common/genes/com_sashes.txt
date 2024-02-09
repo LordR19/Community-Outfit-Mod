@@ -925,6 +925,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_PRU_sashes = {
+				index = 58
+				male = {
+					2 = com_male_sash_european_red
+					1 = com_male_sash_european_gold
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

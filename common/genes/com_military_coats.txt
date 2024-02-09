@@ -48,6 +48,8 @@ special_genes = {
 					1 = com_male_military_coat_NET_royal_03
 					1 = com_male_military_coat_POR_royal_01
 					1 = com_male_military_coat_POR_royal_06
+					1 = com_male_military_coat_PRU_royal_03
+					1 = com_male_military_coat_PRU_royal_09
 					1 = com_male_military_coat_SAR_royal_01
 					1 = com_male_military_coat_SAR_royal_06
 					1 = com_male_military_coat_SER_royal_03
@@ -68,6 +70,10 @@ special_genes = {
 					1 = com_male_military_coat_BEL_early_03_b #General
 					1 = com_male_military_coat_BUL_early_03_a
 					1 = com_male_military_coat_BUL_early_03_b
+					1 = com_male_military_coat_BYZ_early_09_a #Soldier
+					1 = com_male_military_coat_BYZ_early_09_b #Officer
+					1 = com_male_military_coat_BYZ_early_10_a #Officer / General
+					1 = com_male_military_coat_BYZ_early_10_b #Admiral
 					1 = com_male_military_coat_DEN_early_01_a
 					1 = com_male_military_coat_DEN_early_01_b
 					1 = com_male_military_coat_DEN_early_01_c
@@ -754,6 +760,20 @@ special_genes = {
 					1 = com_male_military_coat_BYZ_early_09_b #Officer
 					1 = com_male_military_coat_BYZ_early_10_a #Officer / General
 					1 = com_male_military_coat_BYZ_early_10_b #Admiral
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_PRU_noble_coats = {
+				index = 46
+				male = {
+					6 = com_male_military_coat_PRU_royal_03
+					1 = com_male_military_coat_PRU_royal_09
 				}
 
 				female = {
