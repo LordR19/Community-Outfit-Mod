@@ -18,3 +18,11 @@ com_male_belt_generic_01_red = {
 com_male_belt_generic_02_red = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_red_entity" }	
 }
+
+com_male_belt_generic_01_yellow = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_yellow_entity" }	
+}
+
+com_male_belt_generic_02_yellow = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_yellow_entity" }	
+}

@@ -641,9 +641,9 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.25 0.66 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -676,6 +676,12 @@ com_clothes = {
                 gene = legwear
                 template = no_legwear
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -6637,9 +6643,9 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.25 0.66 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -6678,6 +6684,12 @@ com_clothes = {
                 gene = sashes
                 template = no_sash
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -6740,9 +6752,9 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.25 0.66 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -6781,6 +6793,12 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -6836,8 +6854,8 @@ com_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = all_belts
+                gene = com_belts
+                template = com_BYZ_belts
                 range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
@@ -6883,6 +6901,12 @@ com_clothes = {
                 gene = sashes
                 template = no_sash
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add

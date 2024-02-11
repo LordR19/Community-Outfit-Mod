@@ -30,6 +30,8 @@ special_genes = {
 				male = {
 					1 = com_male_belt_generic_01_red
 					1 = com_male_belt_generic_02_red
+					1 = com_male_belt_generic_01_yellow
+					1 = com_male_belt_generic_02_yellow
 				}
 
 				female = {
@@ -51,6 +53,21 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			com_BYZ_belts = {
+				index = 3
+				male = {
+					1 = com_male_belt_generic_01_yellow
+					1 = com_male_belt_generic_02_yellow
+					1 = empty
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
