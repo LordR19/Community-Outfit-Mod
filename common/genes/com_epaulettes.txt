@@ -374,7 +374,7 @@ special_genes = {
 				index = 25
 				male = {
 					3 = empty
-					2 = male_epaulettes_02_silver
+					2 = male_epaulettes_02
 					7 = male_epaulettes_04
 				}
 				female = {
