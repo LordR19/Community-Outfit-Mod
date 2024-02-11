@@ -36,8 +36,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -58,8 +58,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -80,8 +80,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -102,8 +102,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -124,8 +124,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -146,8 +146,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -168,8 +168,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -190,8 +190,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -212,8 +212,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -234,8 +234,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -256,8 +256,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -278,8 +278,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -300,8 +300,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -322,8 +322,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -344,8 +344,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -366,8 +366,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -388,8 +388,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -410,8 +410,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -432,8 +432,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -454,8 +454,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -476,8 +476,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -498,8 +498,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -520,8 +520,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -542,8 +542,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -564,8 +564,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -586,8 +586,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -608,8 +608,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -630,8 +630,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -652,8 +652,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -674,8 +674,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -696,8 +696,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -718,8 +718,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -740,8 +740,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -762,8 +762,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -784,8 +784,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -806,8 +806,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -828,8 +828,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -850,8 +850,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -872,8 +872,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -894,8 +894,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
@@ -916,8 +916,8 @@ entity = {
 		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
 
-		game_data = {
-            portrait_entity_user_data = {
+	game_data = {
+		portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object

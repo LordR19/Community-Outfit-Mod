@@ -233,6 +233,19 @@ special_genes = {
 				girl = female
 			}
 
+			com_KOR_headgear = {
+				index = 15
+				male = {
+					4 = empty
+					1 = male_headgear_european_military_10 #general early
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

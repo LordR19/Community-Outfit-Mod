@@ -974,6 +974,19 @@ special_genes = {
 				girl = female
 			}
 
+			com_KOR_sashes = {
+				index = 61
+				male = {
+					1 = com_male_sash_KOR_1
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
