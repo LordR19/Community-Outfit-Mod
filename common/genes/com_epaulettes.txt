@@ -385,6 +385,20 @@ special_genes = {
 				girl = female
 			}
 
+			MEC_epaulettes = {
+				index = 26
+				male = {
+					2 = male_epaulettes_02
+					7 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

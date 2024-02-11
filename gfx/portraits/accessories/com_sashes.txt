@@ -175,6 +175,14 @@ com_male_sash_LUC = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_LUC_entity" }	
 }
 
+com_male_sash_MEC_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_MEC_1_entity" }	
+}
+
+com_male_sash_MEC_2 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_MEC_2_entity" }	
+}
+
 com_male_sash_MOD = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_MOD_entity" }	
 }
