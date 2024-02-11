@@ -1649,7 +1649,7 @@ com_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = com_male_legwear_european_black_red_stripe
             }
             accessory = {
                 mode = add
