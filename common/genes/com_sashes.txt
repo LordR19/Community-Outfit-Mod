@@ -34,6 +34,7 @@ special_genes = {
 					1 = com_male_sash_european_green
 					1 = com_male_sash_european_green_pale
 					1 = com_male_sash_european_dark_green
+					1 = com_male_sash_european_turquoise_pale
 					1 = com_male_sash_european_light_blue
 					1 = com_male_sash_european_medium_light_blue
 					1 = com_male_sash_european_blue
@@ -978,6 +979,23 @@ special_genes = {
 				index = 61
 				male = {
 					1 = com_male_sash_KOR_1
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_HAN_sashes = {
+				index = 62
+				male = {
+					4 = com_male_sash_european_red
+					1 = com_male_sash_european_turquoise_pale
+					2 = com_male_sash_european_azure_blue
+					2 = com_male_sash_european_blue_dark
+					2 = com_male_sash_HAN_1
 				}
 
 				female = {

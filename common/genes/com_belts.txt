@@ -32,6 +32,8 @@ special_genes = {
 					1 = com_male_belt_generic_02_red
 					1 = com_male_belt_generic_01_yellow
 					1 = com_male_belt_generic_02_yellow
+					1 = com_male_belt_generic_01_gold_pale
+					1 = com_male_belt_generic_02_gold_pale
 				}
 
 				female = {
@@ -59,6 +61,20 @@ special_genes = {
 				male = {
 					1 = com_male_belt_generic_01_yellow
 					1 = com_male_belt_generic_02_yellow
+					1 = empty
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+
+			com_HAN_belts = {
+				index = 4
+				male = {
+					1 = com_male_belt_generic_01_gold_pale
+					1 = com_male_belt_generic_02_gold_pale
 					1 = empty
 				}
 

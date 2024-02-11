@@ -370,6 +370,21 @@ special_genes = {
 				girl = female
 			}
 
+			HAN_epaulettes = {
+				index = 25
+				male = {
+					3 = empty
+					2 = male_epaulettes_02_silver
+					7 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

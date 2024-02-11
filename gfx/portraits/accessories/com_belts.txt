@@ -26,3 +26,11 @@ com_male_belt_generic_01_yellow = {
 com_male_belt_generic_02_yellow = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_yellow_entity" }	
 }
+
+com_male_belt_generic_01_gold_pale = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_gold_pale_entity" }	
+}
+
+com_male_belt_generic_02_gold_pale = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_gold_pale_entity" }	
+}
