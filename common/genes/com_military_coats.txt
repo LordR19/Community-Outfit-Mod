@@ -872,6 +872,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_HES_noble_coats = {
+				index = 53
+				male = {
+					1 = com_male_military_coat_HES_royal_01_a
+					1 = com_male_military_coat_HES_royal_01_b
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

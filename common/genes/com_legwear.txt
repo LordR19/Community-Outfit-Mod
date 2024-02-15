@@ -37,6 +37,7 @@ special_genes = {
 					1 = male_legwear_european_01_black
 					1 = com_male_legwear_european_grey
 					1 = com_male_legwear_european_white
+					1 = com_male_legwear_european_very_black
 					1 = com_male_legwear_european_black_red_stripe
 					1 = com_male_legwear_european_light_blue_yellow_stripe
 				}
