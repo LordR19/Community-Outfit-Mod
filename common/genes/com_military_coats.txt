@@ -856,6 +856,22 @@ special_genes = {
 				girl = female
 			}
 
+			com_SCA_military_coats_early = {
+				index = 52
+				male = {
+					1 = com_male_military_coat_SCA_early_03_a #Soldier
+					1 = com_male_military_coat_SCA_early_09 #Officer
+					1 = com_male_military_coat_SCA_early_03_b #General
+					1 = com_male_military_coat_SCA_early_10 #Admiral
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

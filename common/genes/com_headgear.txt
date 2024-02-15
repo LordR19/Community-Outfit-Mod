@@ -246,6 +246,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_SCA_headgear = {
+				index = 16
+				male = {
+					1 = com_male_headgear_european_military_01_SCA #Soldier
+					1 = com_male_headgear_european_military_02_SCA_a #Officer
+					1 = com_male_headgear_european_military_02_SCA_b #General
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

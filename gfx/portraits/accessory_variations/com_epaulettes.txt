@@ -158,6 +158,23 @@ variation = {
 }
 
 variation = {
+	name = "com_male_epaulettes_04_SCA"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_SCA.dds" }	
+}
+
+variation = {
 	name = "com_male_epaulettes_WUR_01"
 	
  

@@ -1,0 +1,261 @@
+﻿
+    #############
+    # By Lord R #
+    #############
+
+com_sashes = {
+    usage = game
+    selection_behavior = weighted_random
+
+    #SCA Cultural Sashes: Sweden
+    com_SCA_sash_swedish = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_SWE_sashes_military
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                exists = scope:character
+                scope:character = {
+                    has_culture = cu:swedish
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:SCA
+                            home_country = c:SCA
+                        }
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+    #SCA Cultural Sashes: Denmark
+    com_SCA_sash_danish = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_SCA_DEN_military_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                exists = scope:character
+                scope:character = {
+                    has_culture = cu:danish
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:SCA
+                            home_country = c:SCA
+                        }
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+    #SCA Cultural Sashes: Norway
+    com_SCA_sash_norwegian = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_NOR_sashes_military
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                exists = scope:character
+                scope:character = {
+                    has_culture = cu:norwegian
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:SCA
+                            home_country = c:SCA
+                        }
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+    #SCA Cultural Sashes: Finland
+    com_SCA_sash_norwegian = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_FIN_sashes
+                range = { 0.2 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                exists = scope:character
+                scope:character = {
+                    has_culture = cu:finnish
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:SCA
+                            home_country = c:SCA
+                        }
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+    #SCA Cultural Sashes: Iceland
+    com_SCA_sash_icelandic = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ICL_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+
+                exists = scope:character
+                scope:character = {
+                    has_culture = cu:icelandic
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:SCA
+                            home_country = c:SCA
+                        }
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+    #SCA Cultural Sashes: other
+    com_SCA_sash_other = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_SCA_military_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+
+                exists = scope:character
+                scope:character = {
+                    exists = home_country
+                    OR = {
+                        AND = {
+                            exists = c:SCA
+                            home_country = c:SCA
+                        }
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                    }
+                    OR = {
+                        AND = {
+                            has_role = politician
+                            is_ruler = no
+                            is_interest_group_type = ig_armed_forces
+                        }
+                        has_role = general
+                        has_role = admiral
+                    }
+                }
+            }
+        }
+    }
+
+}

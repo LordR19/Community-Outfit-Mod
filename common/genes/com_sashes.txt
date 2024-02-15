@@ -1021,6 +1021,50 @@ special_genes = {
 				girl = female
 			}
 
+			com_SCA_DEN_military_sashes = {
+				index = 64
+				male = {
+					1 = empty
+					2 = com_male_sash_SCA_1
+					6 = com_male_sash_SCA_2
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_ICL_sashes = {
+				index = 65
+				male = {
+					1 = empty
+					6 = com_male_sash_ICL_1
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_SCA_military_sashes = {
+				index = 66
+				male = {
+					1 = empty
+					6 = com_male_sash_SCA_3
+					2 = com_male_sash_SCA_4
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

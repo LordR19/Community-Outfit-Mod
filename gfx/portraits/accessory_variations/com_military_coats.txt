@@ -1784,6 +1784,81 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_PRU_03_c.dds" }	
 }
 
+#Early Scandinavian Uniform 03a (soldier)
+variation = {
+	name = "com_male_military_coat_SCA_early_03_a"
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_01" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SCA_03_a.dds" }	
+}
+
+#Early Scandinavian Uniform 03b (general)
+variation = {
+	name = "com_male_military_coat_SCA_early_03_b"
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_01" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SCA_03_b.dds" }	
+}
+
+#Royal Scandinavian Uniform 09 (Officer)
+variation = {
+	name = "com_male_military_coat_SCA_early_09"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_01" }
+		b = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SCA_09.dds" }	
+}
+
+#Early Scandinavian Uniform 10 (Admiral)
+variation = {
+	name = "com_male_military_coat_SCA_early_10"
+
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_coats_prussian_01" }
+		b = { textures = "generic_gold_trim_01" 				layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_SCA_uniform_10_early.dds" }	
+}
+
 #Early Serbian Uniform 01 (soldier)
 variation = {
 	name = "com_male_military_coat_SER_early_01"

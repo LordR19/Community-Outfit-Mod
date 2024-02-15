@@ -807,6 +807,29 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_HAN_1.dds" }	
 }
 
+### Iceland 1: Stripes white/red/white/azure/white/red/white ###
+variation = {
+	name = "com_male_sash_ICL_1"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_ICL_1.dds" }	
+}
+
 #Japan Tricolor thin white red white
 variation = {
 	name = "com_male_sashes_JAP_1"
@@ -1265,6 +1288,98 @@ variation = {
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_ROM_2.dds" }	
+}
+
+#Scandinavia 1: Tricolor red/white/red
+variation = {
+	name = "com_male_sash_SCA_1"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_1.dds" }	
+}
+
+#Scandinavia 2: Tricolor thin middle red/white/red
+variation = {
+	name = "com_male_sash_SCA_2"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_1.dds" }	
+}
+
+#Scandinavia 3: Stripes middle red/white/blue/yellow/blue/white/red
+variation = {
+	name = "com_male_sash_SCA_3"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_3.dds" }	
+}
+
+#Scandinavia 4: Stripes middle blue/white/blue/yellow/blue/white/blue
+variation = {
+	name = "com_male_sash_SCA_4"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_silk_sash_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_sash_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	# Color palette textures are 4-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_4.dds" }	
 }
 
 #Saxony Tricolor thin red, green, red
