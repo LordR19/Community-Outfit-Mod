@@ -1081,7 +1081,8 @@ special_genes = {
 			com_NAS_sashes = {
 				index = 68
 				male = {
-					1 = com_male_sash_NAS_1
+					1 = empty
+					3 = com_male_sash_NAS_1
 				}
 
 				female = {
