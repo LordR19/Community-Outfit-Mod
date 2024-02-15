@@ -61,6 +61,7 @@ special_genes = {
 					1 = male_epaulettes_04
 					1 = com_male_epaulettes_04_silver
 					1 = com_male_epaulettes_04_red
+					1 = com_male_epaulettes_04_NAS
 					1 = com_male_epaulettes_04_SCA
 					1 = male_epaulettes_08
 				}

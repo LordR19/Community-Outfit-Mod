@@ -195,6 +195,10 @@ com_male_sash_MOD = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_MOD_entity" }	
 }
 
+com_male_sash_NAS_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_NAS_1_entity" }	
+}
+
 com_male_sash_NET = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_NET_entity" }	
 }
