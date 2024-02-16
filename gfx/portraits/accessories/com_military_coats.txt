@@ -171,6 +171,11 @@ com_male_military_coat_SIC_b_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SIC_b_royal_01_entity" }	
 }
 
+com_male_military_coat_WLD_royal_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_WLD_royal_01_entity" }	
+}
+
 com_male_military_coat_BRZ_royal_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BRZ_royal_03_entity" }	

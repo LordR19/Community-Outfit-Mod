@@ -63,6 +63,7 @@ special_genes = {
 					1 = com_male_epaulettes_04_red
 					1 = com_male_epaulettes_04_NAS
 					1 = com_male_epaulettes_04_SCA
+					1 = com_male_epaulettes_04_WLD
 					1 = male_epaulettes_08
 				}
 
@@ -420,6 +421,20 @@ special_genes = {
 				male = {
 					2 = male_epaulettes_02
 					7 = male_epaulettes_04
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
+			WLD_epaulettes = {
+				index = 28
+				male = {
+					3 = com_male_epaulettes_NOR_01
+					7 = com_male_epaulettes_04_WLD
 				}
 				female = {
 					1 = empty
