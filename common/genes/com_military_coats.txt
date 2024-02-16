@@ -913,6 +913,19 @@ special_genes = {
 				girl = female
 			}
 
+			com_HEK_noble_coats = {
+				index = 56
+				male = {
+					1 = com_male_military_coat_HEK_royal_01
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

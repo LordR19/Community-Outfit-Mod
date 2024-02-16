@@ -1551,6 +1551,107 @@ com_clothes = {
         }
     }
 
+    #Clothes for the Hesse-Kassel Royals
+    com_HEK_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_HEK_noble_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_black_red_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_HEK_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.25 0.66 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = com_all_epaulettes
+                accessory = com_male_epaulettes_04_HEK
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        owner ?= {
+                            OR = {
+                                c:HEK ?= this
+                                was_formed_from = HEK
+                            }
+                        }
+                        monarchy_clothes_trigger = yes
+                        is_female = no
+                        age >= 13
+                    }
+                }
+            }
+        }
+    }
+
     #Clothes for the Hessian Royals
     com_HES_royal_clothes = {
         dna_modifiers = {
@@ -3756,7 +3857,7 @@ com_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_BYZ_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
+                range = { 0.25 0.66 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add

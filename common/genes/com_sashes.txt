@@ -28,6 +28,7 @@ special_genes = {
 			com_all_sashes = {
 				index = 1
 				male = {
+					1 = com_male_sash_european_red_purpleish
 					1 = com_male_sash_european_red
 					1 = com_male_sash_european_darker_red
 					1 = com_male_sash_european_orange
@@ -1083,6 +1084,20 @@ special_genes = {
 				male = {
 					1 = empty
 					3 = com_male_sash_NAS_1
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_HEK_sashes = {
+				index = 69
+				male = {
+					1 = empty
+					3 = com_male_sash_european_red_purpleish
 				}
 
 				female = {
