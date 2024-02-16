@@ -445,6 +445,20 @@ special_genes = {
 				girl = female
 			}
 
+			OLD_epaulettes = {
+				index = 29
+				male = {
+					3 = male_epaulettes_02_silver
+					7 = com_male_epaulettes_04_HEK
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

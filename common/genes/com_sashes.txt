@@ -1107,6 +1107,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_OLD_sashes = {
+				index = 70
+				male = {
+					1 = empty
+					3 = com_male_sash_OLD_1
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

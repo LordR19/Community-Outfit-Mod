@@ -215,6 +215,10 @@ com_male_sash_NOR_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_NOR_2_entity" }	
 }
 
+com_male_sash_OLD_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_OLD_1_entity" }	
+}
+
 com_male_sash_PAR = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_PAR_entity" }	
 }
