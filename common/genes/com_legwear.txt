@@ -40,6 +40,7 @@ special_genes = {
 					1 = com_male_legwear_european_very_black
 					1 = com_male_legwear_european_black_red_stripe
 					1 = com_male_legwear_european_black_red_stripe_thin
+					1 = com_male_legwear_european_black_light_yellow_stripe_thin
 					1 = com_male_legwear_european_light_blue_yellow_stripe
 				}
 				female = {
@@ -315,6 +316,19 @@ special_genes = {
 					3 = com_male_legwear_european_dark_blue
 					5 = com_male_legwear_european_white
 					2 = com_male_legwear_european_red
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_BRA_legwear = {
+				index = 23
+				male = {
+					8 = com_male_legwear_european_black_light_yellow_stripe_thin
+					2 = com_male_legwear_european_white
 				}
 				female = {
 					1 = empty

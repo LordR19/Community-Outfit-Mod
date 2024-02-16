@@ -459,6 +459,20 @@ special_genes = {
 				girl = female
 			}
 
+			BRA_epaulettes = {
+				index = 30
+				male = {
+					7 = com_male_epaulettes_04_BRA
+					3 = empty
+				}
+				female = {
+					1 = empty
+
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
