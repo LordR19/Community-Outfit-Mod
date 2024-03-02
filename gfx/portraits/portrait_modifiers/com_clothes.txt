@@ -1215,6 +1215,7 @@ com_clothes = {
                 AND = {
                     exists = scope:character
                     scope:character = {
+                        NOT = { has_template = fra_napoleon_iii_character_template }
                         owner ?= {
                             OR = {
                                 c:FRA ?= this
@@ -1306,12 +1307,6 @@ com_clothes = {
                 gene = sashes
                 template = no_sash
                 range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
