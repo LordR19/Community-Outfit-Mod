@@ -150,6 +150,56 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_BEL_uniform_06_royal.dds" }	
 }
 
+#Royal Brunswick Uniform 03
+variation = {
+	name = "com_male_military_coat_BRA_royal_03"
+
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
+		a = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_BRA_uniform_03_royal.dds" }	
+}
+
+#Royal Brunswick Uniform 09
+variation = {
+	name = "com_male_uniform_BRA_royal_09"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
+		b = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_BRA_uniform_09_royal.dds" }	
+}
+
+#Royal Brunswick 10
+variation = {
+	name = "com_male_military_coat_BRA_royal_10"
+
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_coats_prussian_01" }
+		b = { textures = "generic_gold_trim_01" 				layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_BRA_uniform_10_royal.dds" }	
+}
+
 #Royal Brazilian Uniform 03
 variation = {
 	name = "com_male_uniform_BRZ_royal_03"
@@ -468,6 +518,21 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_HAN_uniform_10_royal.dds" }	
 }
 
+#Royal Hesse-Kassel Uniform 01
+variation = {
+	name = "com_male_military_coat_HEK_royal_01"
+
+	pattern = { 
+		weight = 1
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_01" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_HEK_uniform_01_royal.dds" }	
+}
+
 #Royal Hessian Uniform 01 a
 variation = {
 	name = "com_male_uniform_HES_royal_01_a"
@@ -703,6 +768,29 @@ variation = {
 	}	
 
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_NOR_uniform_03_royal.dds" }	
+}
+
+#Royal Oldenburgian Uniform 01
+variation = {
+	name = "com_male_military_coat_OLD_royal_01"
+
+	pattern = { 
+		weight = 2
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_01" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	pattern = { 
+		weight = 1
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_gold_trim_01" 				layout = "male_coat_european_trim_layout_02" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_OLD_uniform_01_royal.dds" }	
 }
 
 #Royal Parmese Uniform 01

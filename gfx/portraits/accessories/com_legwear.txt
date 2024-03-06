@@ -55,6 +55,14 @@ com_male_legwear_european_black_red_stripe = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_entity" }	
 }
 
+com_male_legwear_european_black_red_stripe_thin = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_thin_entity" }	
+}
+
+com_male_legwear_european_black_light_yellow_stripe_thin = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_light_yellow_stripe_thin_entity" }	
+}
+
 com_male_legwear_european_light_blue_yellow_stripe = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_yellow_stripe_entity" }	
 }

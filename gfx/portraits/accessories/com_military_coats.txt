@@ -31,6 +31,21 @@ com_male_military_coat_BEL_royal_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BEL_royal_01_entity" }	
 }
 
+com_male_military_coat_BRA_royal_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BRA_royal_03_entity" }	
+}
+
+com_male_military_coat_BRA_royal_09 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BRA_royal_09_entity" }	
+}
+
+com_male_military_coat_BRA_royal_10 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BRA_royal_10_entity" }	
+}
+
 com_male_military_coat_BUL_royal_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_BUL_royal_03_entity" }	
@@ -91,6 +106,11 @@ com_male_military_coat_HAN_royal_10 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_HAN_royal_10_entity" }	
 }
 
+com_male_military_coat_HEK_royal_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_HEK_royal_01_entity" }	
+}
+
 com_male_military_coat_HES_royal_01_a = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_HES_royal_01_a_entity" }	
@@ -139,6 +159,11 @@ com_male_military_coat_NAS_royal_03 = {
 com_male_military_coat_NOR_royal_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_NOR_royal_03_entity" }	
+}
+
+com_male_military_coat_OLD_royal_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_OLD_royal_01_entity" }	
 }
 
 com_male_military_coat_PAR_royal_01 = {
