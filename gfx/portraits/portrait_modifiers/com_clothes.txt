@@ -5258,6 +5258,12 @@ com_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -5639,6 +5645,12 @@ com_clothes = {
                 mode = add
                 gene = aiguillettes
                 template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
                 range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -6054,6 +6066,12 @@ com_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -6458,6 +6476,12 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -6883,6 +6907,18 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -7346,6 +7382,12 @@ com_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -7751,6 +7793,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -8144,6 +8192,12 @@ com_clothes = {
                 mode = add
                 gene = aiguillettes
                 template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
                 range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -8564,6 +8618,24 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -9036,6 +9108,18 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -9186,6 +9270,24 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -9334,6 +9436,12 @@ com_clothes = {
                 mode = add
                 gene = aiguillettes
                 template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
                 range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -9807,6 +9915,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -10190,6 +10304,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -10566,6 +10686,12 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -11086,6 +11212,12 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -11611,6 +11743,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -12018,6 +12156,12 @@ com_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -12413,6 +12557,12 @@ com_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -12796,6 +12946,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -13153,6 +13309,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -13255,6 +13417,12 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -13913,6 +14081,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -14463,6 +14637,12 @@ com_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -14577,6 +14757,12 @@ com_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
