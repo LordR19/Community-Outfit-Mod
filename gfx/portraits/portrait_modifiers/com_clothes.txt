@@ -5679,14 +5679,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:AUS
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = AUS
+                        }
+                        AND = {
+                            exists = c:AUS
                             home_country = c:AUS
-                            home_country = {
-                                was_formed_from = AUS
-                            }
                         }
                     }
                 }
@@ -6080,14 +6080,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:BAD
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = BAD
+                        }
+                        AND = {
+                            exists = c:BAD
                             home_country = c:BAD
-                            home_country = {
-                                was_formed_from = BAD
-                            }
                         }
                     }
                 }
@@ -6499,14 +6499,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:BAV
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = BAV
+                        }
+                        AND = {
+                            exists = c:BAV
                             home_country = c:BAV
-                            home_country = {
-                                was_formed_from = BAV
-                            }
                         }
                     }
                 }
@@ -7815,14 +7815,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:BYZ
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = BYZ
+                        }
+                        AND = {
+                            exists = c:BYZ
                             home_country = c:BYZ
-                            home_country = {
-                                was_formed_from = BYZ
-                            }
                         }
                     }
                 }
@@ -8615,14 +8615,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:FIN
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = FIN
+                        }
+                        AND = {
+                            exists = c:FIN
                             home_country = c:FIN
-                            home_country = {
-                                was_formed_from = FIN
-                            }
                         }
                     }
                 }
@@ -10330,14 +10330,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:NET
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = NET
+                        }
+                        AND = {
+                            exists = c:NET
                             home_country = c:NET
-                            home_country = {
-                                was_formed_from = NET
-                            }
                         }
                     }
                 }
@@ -10725,14 +10725,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:NOR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = NOR
+                        }
+                        AND = {
+                            exists = c:NOR
                             home_country = c:NOR
-                            home_country = {
-                                was_formed_from = NOR
-                            }
                         }
                     }
                 }
@@ -11108,14 +11108,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:POR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = POR
+                        }
+                        AND = {
+                            exists = c:POR
                             home_country = c:POR
-                            home_country = {
-                                was_formed_from = POR
-                            }
                         }
                     }
                 }
@@ -11646,14 +11646,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:PRU
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = PRU
+                        }
+                        AND = {
+                            exists = c:PRU
                             home_country = c:PRU
-                            home_country = {
-                                was_formed_from = PRU
-                            }
                         }
                     }
                 }
@@ -12176,14 +12176,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SCA
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                        AND = {
+                            exists = c:SCA
                             home_country = c:SCA
-                            home_country = {
-                                was_formed_from = SCA
-                            }
                         }
                     }
                 }
@@ -12589,14 +12589,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SER
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SER
+                        }
+                        AND = {
+                            exists = c:SER
                             home_country = c:SER
-                            home_country = {
-                                was_formed_from = SER
-                            }
                         }
                     }
                 }
@@ -12978,14 +12978,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SPA
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SPA
+                        }
+                        AND = {
+                            exists = c:SPA
                             home_country = c:SPA
-                            home_country = {
-                                was_formed_from = SPA
-                            }
                         }
                     }
                 }
@@ -13367,14 +13367,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SWE
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
                             home_country = c:SWE
-                            home_country = {
-                                was_formed_from = SWE
-                            }
                         }
                     }
                 }
@@ -14530,9 +14530,12 @@ com_clothes = {
                         exists = c:TUR
                         exists = home_country
                         OR = {
-                            home_country = c:TUR
                             home_country = {
                                 was_formed_from = TUR
+                            }
+                            AND = {
+                                exists = c:TUR
+                                home_country = c:TUR
                             }
                         }
                     }
@@ -15186,15 +15189,14 @@ com_clothes = {
                 year < 1866
                 exists = scope:pop
                 scope:pop = {
-                    is_pop_type = officers
-                    AND = {
-                        exists = c:WUR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = WUR
+                        }
+                        AND = {
+                            exists = c:WUR
                             home_country = c:WUR
-                            home_country = {
-                                was_formed_from = WUR
-                            }
                         }
                     }
                 }
@@ -15289,14 +15291,14 @@ com_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:WUR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = WUR
+                        }
+                        AND = {
+                            exists = c:WUR
                             home_country = c:WUR
-                            home_country = {
-                                was_formed_from = WUR
-                            }
                         }
                     }
                 }
