@@ -1215,6 +1215,7 @@ COM_clothes = {
                 AND = {
                     exists = scope:character
                     scope:character = {
+                        NOT = { has_template = fra_napoleon_iii_character_template }
                         owner ?= {
                             OR = {
                                 c:FRA ?= this
@@ -1306,12 +1307,6 @@ COM_clothes = {
                 gene = sashes
                 template = no_sash
                 range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -5573,6 +5568,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -5678,14 +5679,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:AUS
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = AUS
+                        }
+                        AND = {
+                            exists = c:AUS
                             home_country = c:AUS
-                            home_country = {
-                                was_formed_from = AUS
-                            }
                         }
                     }
                 }
@@ -5956,6 +5957,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -6073,14 +6080,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:BAD
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = BAD
+                        }
+                        AND = {
+                            exists = c:BAD
                             home_country = c:BAD
-                            home_country = {
-                                was_formed_from = BAD
-                            }
                         }
                     }
                 }
@@ -6369,6 +6376,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -6486,14 +6499,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:BAV
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = BAV
+                        }
+                        AND = {
+                            exists = c:BAV
                             home_country = c:BAV
-                            home_country = {
-                                was_formed_from = BAV
-                            }
                         }
                     }
                 }
@@ -6773,6 +6786,12 @@ COM_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -7198,6 +7217,18 @@ COM_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -7661,6 +7692,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -7778,14 +7815,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:BYZ
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = BYZ
+                        }
+                        AND = {
+                            exists = c:BYZ
                             home_country = c:BYZ
-                            home_country = {
-                                was_formed_from = BYZ
-                            }
                         }
                     }
                 }
@@ -8065,6 +8102,12 @@ COM_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -8461,6 +8504,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -8566,14 +8615,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:FIN
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = FIN
+                        }
+                        AND = {
+                            exists = c:FIN
                             home_country = c:FIN
-                            home_country = {
-                                was_formed_from = FIN
-                            }
                         }
                     }
                 }
@@ -8879,6 +8928,24 @@ COM_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -9351,6 +9418,18 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -9501,6 +9580,24 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -9649,6 +9746,12 @@ COM_clothes = {
                 mode = add
                 gene = aiguillettes
                 template = no_aiguillettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
                 range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -10122,6 +10225,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -10221,14 +10330,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:NET
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = NET
+                        }
+                        AND = {
+                            exists = c:NET
                             home_country = c:NET
-                            home_country = {
-                                was_formed_from = NET
-                            }
                         }
                     }
                 }
@@ -10505,6 +10614,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -10610,14 +10725,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:NOR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = NOR
+                        }
+                        AND = {
+                            exists = c:NOR
                             home_country = c:NOR
-                            home_country = {
-                                was_formed_from = NOR
-                            }
                         }
                     }
                 }
@@ -10882,6 +10997,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -10987,14 +11108,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:POR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = POR
+                        }
+                        AND = {
+                            exists = c:POR
                             home_country = c:POR
-                            home_country = {
-                                was_formed_from = POR
-                            }
                         }
                     }
                 }
@@ -11402,6 +11523,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -11519,14 +11646,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:PRU
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = PRU
+                        }
+                        AND = {
+                            exists = c:PRU
                             home_country = c:PRU
-                            home_country = {
-                                was_formed_from = PRU
-                            }
                         }
                     }
                 }
@@ -11926,6 +12053,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -12043,14 +12176,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SCA
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SCA
+                        }
+                        AND = {
+                            exists = c:SCA
                             home_country = c:SCA
-                            home_country = {
-                                was_formed_from = SCA
-                            }
                         }
                     }
                 }
@@ -12333,6 +12466,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -12450,14 +12589,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SER
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SER
+                        }
+                        AND = {
+                            exists = c:SER
                             home_country = c:SER
-                            home_country = {
-                                was_formed_from = SER
-                            }
                         }
                     }
                 }
@@ -12728,6 +12867,12 @@ COM_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -12833,14 +12978,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SPA
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SPA
+                        }
+                        AND = {
+                            exists = c:SPA
                             home_country = c:SPA
-                            home_country = {
-                                was_formed_from = SPA
-                            }
                         }
                     }
                 }
@@ -13111,6 +13256,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -13216,14 +13367,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:SWE
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
                             home_country = c:SWE
-                            home_country = {
-                                was_formed_from = SWE
-                            }
                         }
                     }
                 }
@@ -13468,6 +13619,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -13570,6 +13727,12 @@ COM_clothes = {
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -14228,6 +14391,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -14361,9 +14530,12 @@ COM_clothes = {
                         exists = c:TUR
                         exists = home_country
                         OR = {
-                            home_country = c:TUR
                             home_country = {
                                 was_formed_from = TUR
+                            }
+                            AND = {
+                                exists = c:TUR
+                                home_country = c:TUR
                             }
                         }
                     }
@@ -14778,6 +14950,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -14893,6 +15071,12 @@ COM_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 0
@@ -15005,15 +15189,14 @@ COM_clothes = {
                 year < 1866
                 exists = scope:pop
                 scope:pop = {
-                    is_pop_type = officers
-                    AND = {
-                        exists = c:WUR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = WUR
+                        }
+                        AND = {
+                            exists = c:WUR
                             home_country = c:WUR
-                            home_country = {
-                                was_formed_from = WUR
-                            }
                         }
                     }
                 }
@@ -15108,14 +15291,14 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
-                    AND = {
-                        exists = c:WUR
-                        exists = home_country
-                        OR = {
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = WUR
+                        }
+                        AND = {
+                            exists = c:WUR
                             home_country = c:WUR
-                            home_country = {
-                                was_formed_from = WUR
-                            }
                         }
                     }
                 }
