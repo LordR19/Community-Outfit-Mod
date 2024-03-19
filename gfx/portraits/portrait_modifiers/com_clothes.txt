@@ -3,12 +3,12 @@
     # By Lord R #
     #############
 
-com_clothes = {
+COM_clothes = {
 	usage = game
 	selection_behavior = weighted_random
 
     #Clothes for the Austrian Royals
-    com_AUS_royal_clothes = {
+    COM_AUS_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -109,7 +109,7 @@ com_clothes = {
     }
 
     #Clothes for the Baden Royals (early)
-    com_BAD_royal_clothes = {
+    COM_BAD_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -205,7 +205,7 @@ com_clothes = {
     }
 
     #Clothes for the Baden Royals (late)
-    com_BAD_royal_clothes = {
+    COM_BAD_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -307,7 +307,7 @@ com_clothes = {
     }
 
     #Clothes for the Bavarian Royals
-    com_BAV_royal_clothes = {
+    COM_BAV_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -408,7 +408,7 @@ com_clothes = {
     }
 
     #Clothes for the Brunswick Royals
-    com_BRA_royal_clothes = {
+    COM_BRA_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -515,7 +515,7 @@ com_clothes = {
     }
 
     #Clothes for the Brazilian Royals
-    com_BRZ_royal_clothes = {
+    COM_BRZ_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -610,7 +610,7 @@ com_clothes = {
     }
 
     #Clothes for the Bulgarian Royals
-    com_BUL_royal_clothes = {
+    COM_BUL_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -726,7 +726,7 @@ com_clothes = {
     }
 
     #Clothes for the Byzantium Royals
-    com_BAV_royal_clothes = {
+    COM_BAV_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -827,7 +827,7 @@ com_clothes = {
     }
 
     #Clothes for the Belgian Royals
-    com_BEL_royal_clothes = {
+    COM_BEL_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -928,7 +928,7 @@ com_clothes = {
     }
 
     #Clothes for the Danish Royals
-    com_DEN_royal_clothes = {
+    COM_DEN_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1029,7 +1029,7 @@ com_clothes = {
     }
 
     #Clothes for the Finnish Royals
-    com_FIN_royal_clothes = {
+    COM_FIN_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1130,7 +1130,7 @@ com_clothes = {
     }
 
     #Clothes for the French Royals (regular)
-    com_FRA_royal_clothes = {
+    COM_FRA_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1232,7 +1232,7 @@ com_clothes = {
     }
 
     #Clothes for the French Royals (Bonaparte)
-    com_FRA_bonaparte_royal_clothes = {
+    COM_FRA_bonaparte_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1336,7 +1336,7 @@ com_clothes = {
     }
 
     #Clothes for the French Royals (Legitimists)
-    com_FRA_legitimists_royal_clothes = {
+    COM_FRA_legitimists_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1445,7 +1445,7 @@ com_clothes = {
     }
 
     #Clothes for the Greek Royals
-    com_GRE_royal_clothes = {
+    COM_GRE_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1546,7 +1546,7 @@ com_clothes = {
     }
 
     #Clothes for the Hanoverian Royals
-    com_HAN_royal_clothes = {
+    COM_HAN_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1654,7 +1654,7 @@ com_clothes = {
     }
 
     #Clothes for the Hesse-Kassel Royals
-    com_HEK_royal_clothes = {
+    COM_HEK_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1755,7 +1755,7 @@ com_clothes = {
     }
 
     #Clothes for the Hessian Royals
-    com_HES_royal_clothes = {
+    COM_HES_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1857,7 +1857,7 @@ com_clothes = {
     }
 
     #Clothes for the Hohenzollern-Sigmaringen Royals
-    com_HOH_royal_clothes = {
+    COM_HOH_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -1958,7 +1958,7 @@ com_clothes = {
     }
 
     #Clothes for the Japanese Royals
-    com_JAP_royal_clothes = {
+    COM_JAP_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2062,7 +2062,7 @@ com_clothes = {
     }
 
     #Clothes for the Korean Royals (Empire of Korea)
-    com_KOR_royal_clothes = {
+    COM_KOR_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2178,7 +2178,7 @@ com_clothes = {
     }
 
     #Clothes for the Lucca Royals
-    com_LUC_royal_clothes = {
+    COM_LUC_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2279,7 +2279,7 @@ com_clothes = {
     }
 
     #Clothes for the Mecklenburgian Royals
-    com_MEC_royal_clothes = {
+    COM_MEC_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2387,7 +2387,7 @@ com_clothes = {
     }
 
     #Clothes for the Modena Royals
-    com_MOD_royal_clothes = {
+    COM_MOD_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2483,7 +2483,7 @@ com_clothes = {
 
 
     #Clothes for the Nassau Royals
-    com_NAS_royal_clothes = {
+    COM_NAS_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2591,7 +2591,7 @@ com_clothes = {
     }
 
     #Clothes for the Dutch Royals
-    com_NET_royal_clothes = {
+    COM_NET_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2692,7 +2692,7 @@ com_clothes = {
     }
 
     #Clothes for the Norwegian Royals
-    com_NOR_royal_clothes = {
+    COM_NOR_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2793,7 +2793,7 @@ com_clothes = {
     }
 
     #Clothes for the Oldenburg Royals
-    com_OLD_royal_clothes = {
+    COM_OLD_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2900,7 +2900,7 @@ com_clothes = {
     }
 
     #Clothes for the Parma Royals
-    com_PAR_royal_clothes = {
+    COM_PAR_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -2995,7 +2995,7 @@ com_clothes = {
     }
 
     #Clothes for the Portuguese Royals
-    com_POR_royal_clothes = {
+    COM_POR_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3096,7 +3096,7 @@ com_clothes = {
     }
 
     #Clothes for the Prussian Royals
-    com_PRU_royal_clothes = {
+    COM_PRU_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3209,7 +3209,7 @@ com_clothes = {
     }
 
     #Clothes for the Romanian Royals
-    com_ROM_royal_clothes = {
+    COM_ROM_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3316,7 +3316,7 @@ com_clothes = {
     }
 
     #Clothes for the Sardinian Royals
-    com_SAR_royal_clothes = {
+    COM_SAR_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3417,7 +3417,7 @@ com_clothes = {
     }
 
     #Clothes for the Saxony Royals
-    com_SAX_royal_clothes = {
+    COM_SAX_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3518,7 +3518,7 @@ com_clothes = {
     }
 
     #Clothes for the Serbian Royals
-    com_SER_royal_clothes = {
+    COM_SER_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3625,7 +3625,7 @@ com_clothes = {
     }
 
     #Clothes for the Swedish Royals
-    com_SWE_royal_clothes = {
+    COM_SWE_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3739,7 +3739,7 @@ com_clothes = {
     }
 
     #Clothes for the Spanish Royals
-    com_SPA_royal_clothes = {
+    COM_SPA_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3840,7 +3840,7 @@ com_clothes = {
     }
 
     #Clothes for the Tuscan Royals
-    com_TUS_royal_clothes = {
+    COM_TUS_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -3935,7 +3935,7 @@ com_clothes = {
     }
 
     #Clothes for the Two Sicily Royals
-    com_SIC_royal_clothes = {
+    COM_SIC_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4036,7 +4036,7 @@ com_clothes = {
     }
 
     #Clothes for the Waldeck Royals
-    com_WLD_royal_clothes = {
+    COM_WLD_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4143,7 +4143,7 @@ com_clothes = {
     }
 
     #Clothes for the Württemberg Royals
-    com_WUR_royal_clothes = {
+    COM_WUR_royal_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4248,7 +4248,7 @@ com_clothes = {
     ########################################
 
     #Sashes for Argentine Presidents
-    com_ARG_sashes_clothes = {
+    COM_ARG_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4293,7 +4293,7 @@ com_clothes = {
     }
 
     #Sashes for Bolivian Presidents (before 1872)
-    com_BOL_sashes_old_clothes = {
+    COM_BOL_sashes_old_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4339,7 +4339,7 @@ com_clothes = {
     }
 
     #Sashes for Bolivian Presidents (from 1872)
-    com_BOL_sashes_new_clothes = {
+    COM_BOL_sashes_new_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4385,7 +4385,7 @@ com_clothes = {
     }
 
     #Sashes for Brazilian Presidents
-    com_BRZ_sashes_clothes = {
+    COM_BRZ_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4431,7 +4431,7 @@ com_clothes = {
     }
 
     #Sashes for Chilean Presidents
-    com_CHL_sashes_clothes = {
+    COM_CHL_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4476,7 +4476,7 @@ com_clothes = {
     }
 
     #Sashes for Colombian Presidents (before 1900s)
-    com_CLM_sashes_clothes = {
+    COM_CLM_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4522,7 +4522,7 @@ com_clothes = {
     }
 
     #Sashes for Colombian Presidents (from 1900s)
-    com_CLM_sashes_clothes = {
+    COM_CLM_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4570,7 +4570,7 @@ com_clothes = {
     }
 
     #Sashes for Ecuadorian Presidents (before 1900s)
-    com_ECU_sashes_clothes = {
+    COM_ECU_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4616,7 +4616,7 @@ com_clothes = {
     }
 
     #Sashes for Colombian Presidents (from 1900s)
-    com_ECU_sashes_clothes = {
+    COM_ECU_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4662,7 +4662,7 @@ com_clothes = {
     }
 
     #Sashes for Andean Presidents
-    com_FND_sashes_clothes = {
+    COM_FND_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4708,7 +4708,7 @@ com_clothes = {
     }
 
     #Sashes for Guatemalta Presidents
-    com_GUA_sashes_clothes = {
+    COM_GUA_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4753,7 +4753,7 @@ com_clothes = {
     }
 
     #Sashes for Mexican Presidents
-    com_MEX_sashes_clothes = {
+    COM_MEX_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4798,7 +4798,7 @@ com_clothes = {
     }
 
     #Sashes for North Peruvian Presidents
-    com_NPU_sashes_clothes = {
+    COM_NPU_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4843,7 +4843,7 @@ com_clothes = {
     }
 
     #Sashes for Peru-Bolivian Presidents
-    com_PBC_sashes_clothes = {
+    COM_PBC_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4888,7 +4888,7 @@ com_clothes = {
     }
 
     #Sashes for Peruvian Presidents
-    com_PEU_sashes_clothes = {
+    COM_PEU_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4933,7 +4933,7 @@ com_clothes = {
     }
 
     #Sashes for Platinean Presidents
-    com_PLT_sashes_clothes = {
+    COM_PLT_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -4978,7 +4978,7 @@ com_clothes = {
     }
 
     #Sashes for Riograndense Presidents
-    com_PNI_sashes_clothes = {
+    COM_PNI_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5023,7 +5023,7 @@ com_clothes = {
     }
 
     #Sashes for Grão-Parese Presidents
-    com_PRA_sashes_clothes = {
+    COM_PRA_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5068,7 +5068,7 @@ com_clothes = {
     }
 
     #Sashes for Paraguayan Presidents
-    com_PRG_sashes_clothes = {
+    COM_PRG_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5113,7 +5113,7 @@ com_clothes = {
     }
 
     #Sashes for Riograndese Presidents
-    com_RIO_sashes_clothes = {
+    COM_RIO_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5158,7 +5158,7 @@ com_clothes = {
     }
 
     #Sashes for South Peruvian Presidents
-    com_SPU_sashes_clothes = {
+    COM_SPU_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5203,7 +5203,7 @@ com_clothes = {
     }
 
     #Sashes for Central American Presidents
-    com_UCA_sashes_clothes = {
+    COM_UCA_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5248,7 +5248,7 @@ com_clothes = {
     }
 
     #Sashes for Venezuelan Presidents
-    com_VNZ_sashes_clothes = {
+    COM_VNZ_sashes_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5297,7 +5297,7 @@ com_clothes = {
     ###########################################
 
     #Outfit for Otto I of Greece
-    com_gre_otto_i_outfit = {
+    COM_gre_otto_i_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5389,7 +5389,7 @@ com_clothes = {
     #########################################
 
     #Outfit Early Austrian Admiral Characters
-    com_early_AUS_admiral_outfit = {
+    COM_early_AUS_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5492,7 +5492,7 @@ com_clothes = {
     }
 
     #Outfit Early Austrian General Characters
-    com_early_AUS_general_rank_outfit = {
+    COM_early_AUS_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5606,7 +5606,7 @@ com_clothes = {
     }
 
     #Outfit Early Austrian Officer Pops
-    com_early_AUS_officer_outfit = {
+    COM_early_AUS_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5695,7 +5695,7 @@ com_clothes = {
     }
 
     #Outfit Early Austrian Soldier Pops
-    com_early_AUS_soldier_outfit = {
+    COM_early_AUS_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5772,7 +5772,7 @@ com_clothes = {
     }
 
     #Outfit Early Baden Admiral Characters
-    com_early_BAD_admiral_outfit = {
+    COM_early_BAD_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5875,7 +5875,7 @@ com_clothes = {
     }
 
     #Outfit Early Baden General Characters
-    com_early_BAD_general_rank_outfit = {
+    COM_early_BAD_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -5995,7 +5995,7 @@ com_clothes = {
     }
 
     #Outfit Early Baden Officer Pops
-    com_early_BAD_officer_outfit = {
+    COM_early_BAD_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6096,7 +6096,7 @@ com_clothes = {
     }
 
     #Outfit Early Baden Soldier Pops
-    com_early_BAD_soldier_outfit = {
+    COM_early_BAD_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6179,7 +6179,7 @@ com_clothes = {
     }
 
     #Outfit Early Bavarian Admiral Characters
-    com_early_BAV_admiral_outfit = {
+    COM_early_BAV_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6288,7 +6288,7 @@ com_clothes = {
     }
 
     #Outfit Early Bavarian General Characters
-    com_early_BAV_general_rank_outfit = {
+    COM_early_BAV_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6414,7 +6414,7 @@ com_clothes = {
     }
 
     #Outfit Early Bavarian Officer Pops
-    com_early_BAV_officer_outfit = {
+    COM_early_BAV_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6515,7 +6515,7 @@ com_clothes = {
     }
 
     #Outfit Early Bavarian Soldier Pops
-    com_early_BAV_soldier_outfit = {
+    COM_early_BAV_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6598,7 +6598,7 @@ com_clothes = {
     }
 
     #Outfit Early Belgian Admiral Characters
-    com_early_BEL_admiral_rank_outfit = {
+    COM_early_BEL_admiral_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6705,7 +6705,7 @@ com_clothes = {
     }
 
     #Outfit Early Belgian General Characters
-    com_early_BEL_general_rank_outfit = {
+    COM_early_BEL_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6825,7 +6825,7 @@ com_clothes = {
     }
 
     #Outfit Early Belgian Officer Pops
-    com_early_BEL_officer_outfit = {
+    COM_early_BEL_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -6932,7 +6932,7 @@ com_clothes = {
     }
 
     #Outfit Early Belgian Soldier Pops
-    com_early_BEL_soldier_outfit = {
+    COM_early_BEL_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7021,7 +7021,7 @@ com_clothes = {
     }
 
     #Outfit Early Bulgarian Admiral Characters
-    com_early_BUL_admiral_rank_outfit = {
+    COM_early_BUL_admiral_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7142,7 +7142,7 @@ com_clothes = {
     }
 
     #Outfit Early Bulgarian General Characters
-    com_early_BUL_general_rank_outfit = {
+    COM_early_BUL_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7283,7 +7283,7 @@ com_clothes = {
     }
 
     #Outfit Bulgarian Italian Officer Pops
-    com_early_BUL_officer_outfit = {
+    COM_early_BUL_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7404,7 +7404,7 @@ com_clothes = {
     }
 
     #Outfit Early Bulgarian Soldier Pops
-    com_early_BUL_soldier_outfit = {
+    COM_early_BUL_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7501,7 +7501,7 @@ com_clothes = {
     }
 
     #Outfit Early Byzantine Admiral Characters
-    com_early_BYZ_admiral_outfit = {
+    COM_early_BYZ_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7610,7 +7610,7 @@ com_clothes = {
     }
 
     #Outfit Early Byzantine General Characters
-    com_early_BYZ_general_rank_outfit = {
+    COM_early_BYZ_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7730,7 +7730,7 @@ com_clothes = {
     }
 
     #Outfit Early Byzantine Officer Pops
-    com_early_BYZ_officer_outfit = {
+    COM_early_BYZ_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7831,7 +7831,7 @@ com_clothes = {
     }
 
     #Outfit Early Byzantine Soldier Pops
-    com_early_BYZ_soldier_outfit = {
+    COM_early_BYZ_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -7914,7 +7914,7 @@ com_clothes = {
     }
 
     #Outfit Early Danish Admiral Characters
-    com_early_DEN_admiral_rank_outfit = {
+    COM_early_DEN_admiral_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8021,7 +8021,7 @@ com_clothes = {
     }
 
     #Outfit Early Danish General Characters
-    com_early_DEN_general_rank_outfit = {
+    COM_early_DEN_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8141,7 +8141,7 @@ com_clothes = {
     }
 
     #Outfit Early Danish Officer Pops
-    com_early_DEN_officer_outfit = {
+    COM_early_DEN_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8236,7 +8236,7 @@ com_clothes = {
     }
 
     #Outfit Early Danish Soldier Pops
-    com_early_DEN_soldier_outfit = {
+    COM_early_DEN_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8313,7 +8313,7 @@ com_clothes = {
     }
 
     #Outfit Early Finnish Admiral Characters
-    com_early_FIN_admiral_outfit = {
+    COM_early_FIN_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8416,7 +8416,7 @@ com_clothes = {
     }
 
     #Outfit Early Finnish General Characters
-    com_early_FIN_general_rank_outfit = {
+    COM_early_FIN_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8542,7 +8542,7 @@ com_clothes = {
     }
 
     #Outfit Early Finnish Officer Pops
-    com_early_FIN_officer_outfit = {
+    COM_early_FIN_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8631,7 +8631,7 @@ com_clothes = {
     }
 
     #Outfit Early Finnish Soldier Pops
-    com_early_FIN_soldier_outfit = {
+    COM_early_FIN_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8720,7 +8720,7 @@ com_clothes = {
     }
 
     #Outfit Early Greek Admiral Characters
-    com_early_GRE_admiral_rank_outfit = {
+    COM_early_GRE_admiral_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -8841,7 +8841,7 @@ com_clothes = {
     }
 
     #Outfit Early Greek General Characters
-    com_early_GRE_general_rank_outfit = {
+    COM_early_GRE_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9000,7 +9000,7 @@ com_clothes = {
     }
 
     #Outfit Greek Italian Officer Pops
-    com_early_GRE_officer_outfit = {
+    COM_early_GRE_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9109,7 +9109,7 @@ com_clothes = {
     }
 
     #Outfit Early Greek Soldier Pops
-    com_early_GRE_soldier_outfit = {
+    COM_early_GRE_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9206,7 +9206,7 @@ com_clothes = {
     }
 
     #Outfit Early Italian Admiral Characters
-    com_early_ITA_early_admiral_outfit = {
+    COM_early_ITA_early_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9324,7 +9324,7 @@ com_clothes = {
     }
 
     #Outfit Early Italian General Rank 3 Characters
-    com_early_ITA_general_rank_3_outfit = {
+    COM_early_ITA_general_rank_3_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9492,7 +9492,7 @@ com_clothes = {
     }
 
     #Outfit Early Italian General Rank 2 Characters
-    com_early_ITA_general_rank_2_outfit = {
+    COM_early_ITA_general_rank_2_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9660,7 +9660,7 @@ com_clothes = {
     }
 
     #Outfit Early Italian General Rank 1 Characters
-    com_early_ITA_general_rank_1_outfit = {
+    COM_early_ITA_general_rank_1_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9816,7 +9816,7 @@ com_clothes = {
     }
 
     #Outfit Early Italian Officer Pops
-    com_early_ITA_officer_outfit = {
+    COM_early_ITA_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -9940,7 +9940,7 @@ com_clothes = {
     }
 
     #Outfit Early Italian Soldier Pops
-    com_early_ITA_soldier_outfit = {
+    COM_early_ITA_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10040,7 +10040,7 @@ com_clothes = {
     }
 
     #Outfit Early Dutch Admiral Characters
-    com_early_NET_admiral_outfit = {
+    COM_early_NET_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10143,7 +10143,7 @@ com_clothes = {
     }
 
     #Outfit Early Dutch General Characters
-    com_early_NET_general_rank_outfit = {
+    COM_early_NET_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10263,7 +10263,7 @@ com_clothes = {
     }
 
     #Outfit Early Dutch Officer Pops
-    com_early_NET_officer_outfit = {
+    COM_early_NET_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10346,7 +10346,7 @@ com_clothes = {
     }
 
     #Outfit Early Dutch Soldier Pops
-    com_early_NET_soldier_outfit = {
+    COM_early_NET_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10429,7 +10429,7 @@ com_clothes = {
     }
 
     #Outfit Early Norwegian Admiral Characters
-    com_early_NOR_admiral_outfit = {
+    COM_early_NOR_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10532,7 +10532,7 @@ com_clothes = {
     }
 
     #Outfit Early Norwegian General Characters
-    com_early_NOR_general_rank_outfit = {
+    COM_early_NOR_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10652,7 +10652,7 @@ com_clothes = {
     }
 
     #Outfit Early Norwegian Officer Pops
-    com_early_NOR_officer_outfit = {
+    COM_early_NOR_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10741,7 +10741,7 @@ com_clothes = {
     }
 
     #Outfit Early Norwegian Soldier Pops
-    com_early_NOR_soldier_outfit = {
+    COM_early_NOR_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10818,7 +10818,7 @@ com_clothes = {
     }
 
     #Outfit Early Portuguese Admiral Characters
-    com_early_POR_admiral_outfit = {
+    COM_early_POR_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -10921,7 +10921,7 @@ com_clothes = {
     }
 
     #Outfit Early Portuguese General Characters
-    com_early_POR_general_rank_outfit = {
+    COM_early_POR_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11035,7 +11035,7 @@ com_clothes = {
     }
 
     #Outfit Early Portuguese Officer Pops
-    com_early_POR_officer_outfit = {
+    COM_early_POR_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11124,7 +11124,7 @@ com_clothes = {
     }
 
     #Outfit Early Portuguese Soldier Pops
-    com_early_POR_soldier_outfit = {
+    COM_early_POR_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11207,7 +11207,7 @@ com_clothes = {
     }
 
     #Outfit Early Prussian Admiral Characters
-    com_early_PRU_admiral_outfit = {
+    COM_early_PRU_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11318,7 +11318,7 @@ com_clothes = {
     }
 
     #Outfit Mid Prussian Admiral Characters
-    com_mid_PRU_admiral_outfit = {
+    COM_mid_PRU_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11435,7 +11435,7 @@ com_clothes = {
     }
 
     #Outfit Early Prussian General Characters
-    com_early_PRU_general_rank_outfit = {
+    COM_early_PRU_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11561,7 +11561,7 @@ com_clothes = {
     }
 
     #Outfit Early Prussian Officer Pops
-    com_early_PRU_officer_outfit = {
+    COM_early_PRU_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11662,7 +11662,7 @@ com_clothes = {
     }
 
     #Outfit Early Prussian Soldier Pops
-    com_early_PRU_soldier_outfit = {
+    COM_early_PRU_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11751,7 +11751,7 @@ com_clothes = {
     }
 
     #Outfit Mid Scandinavian Admiral Characters
-    com_SCA_military_coats_mid = {
+    COM_SCA_military_coats_mid = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11867,7 +11867,7 @@ com_clothes = {
     }
 
     #Outfit Early Scandinavian Admiral Characters
-    com_SCA_military_coats_early = {
+    COM_SCA_military_coats_early = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -11977,7 +11977,7 @@ com_clothes = {
     }
 
     #Outfit Early Scandinavian General Characters
-    com_early_SCA_general_rank_outfit = {
+    COM_early_SCA_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12091,7 +12091,7 @@ com_clothes = {
     }
 
     #Outfit Early Scandinavian Officer Pops
-    com_early_SCA_officer_outfit = {
+    COM_early_SCA_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12192,7 +12192,7 @@ com_clothes = {
     }
 
     #Outfit Early Scandinavian Soldier Pops
-    com_early_SCA_soldier_outfit = {
+    COM_early_SCA_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12281,7 +12281,7 @@ com_clothes = {
     }
 
     #Outfit Early Serbian Admiral Characters
-    com_early_SER_admiral_outfit = {
+    COM_early_SER_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12384,7 +12384,7 @@ com_clothes = {
     }
 
     #Outfit Early Serbian General Characters
-    com_early_SER_general_rank_outfit = {
+    COM_early_SER_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12504,7 +12504,7 @@ com_clothes = {
     }
 
     #Outfit Early Serbian Officer Pops
-    com_early_SER_officer_outfit = {
+    COM_early_SER_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12605,7 +12605,7 @@ com_clothes = {
     }
 
     #Outfit Early Serbian Soldier Pops
-    com_early_SER_soldier_outfit = {
+    COM_early_SER_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12682,7 +12682,7 @@ com_clothes = {
     }
 
     #Outfit Early Spanish Admiral Characters
-    com_early_SPA_admiral_outfit = {
+    COM_early_SPA_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12785,7 +12785,7 @@ com_clothes = {
     }
 
     #Outfit Early Spanish General Characters
-    com_early_SPA_general_rank_outfit = {
+    COM_early_SPA_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12905,7 +12905,7 @@ com_clothes = {
     }
 
     #Outfit Early Spanish Officer Pops
-    com_early_SPA_officer_outfit = {
+    COM_early_SPA_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -12994,7 +12994,7 @@ com_clothes = {
     }
 
     #Outfit Early Spanish Soldier Pops
-    com_early_SPA_soldier_outfit = {
+    COM_early_SPA_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13071,7 +13071,7 @@ com_clothes = {
     }
 
     #Outfit Early Swedish Admiral Characters
-    com_early_SWE_admiral_outfit = {
+    COM_early_SWE_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13174,7 +13174,7 @@ com_clothes = {
     }
 
     #Outfit Early Swedish General Characters
-    com_early_SWE_general_rank_outfit = {
+    COM_early_SWE_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13294,7 +13294,7 @@ com_clothes = {
     }
 
     #Outfit Early Swedish Officer Pops
-    com_early_SWE_officer_outfit = {
+    COM_early_SWE_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13383,7 +13383,7 @@ com_clothes = {
     }
 
     #Outfit Early Swedish Soldier Pops
-    com_early_SWE_soldier_outfit = {
+    COM_early_SWE_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13460,7 +13460,7 @@ com_clothes = {
     }
 
     #Outfit Swiss Admiral Characters
-    com_early_SWI_admiral_rank_outfit = {
+    COM_early_SWI_admiral_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13549,7 +13549,7 @@ com_clothes = {
     }
 
     #Outfit Mid Swiss General Characters
-    com_mid_SWI_general_rank_outfit = {
+    COM_mid_SWI_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13658,7 +13658,7 @@ com_clothes = {
     }
 
     #Outfit Early Swiss General Characters
-    com_early_SWI_general_rank_outfit = {
+    COM_early_SWI_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13767,7 +13767,7 @@ com_clothes = {
     }
 
     #Outfit Mid Swiss Officer Pops
-    com_mid_SWI_officer_outfit = {
+    COM_mid_SWI_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13863,7 +13863,7 @@ com_clothes = {
     }
 
     #Outfit Early Swiss Officer Pops
-    com_early_SWI_officer_outfit = {
+    COM_early_SWI_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -13959,7 +13959,7 @@ com_clothes = {
     }
 
     #Outfit Early Swiss Soldier Pops
-    com_early_SWI_soldier_outfit = {
+    COM_early_SWI_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14037,7 +14037,7 @@ com_clothes = {
     }
 
     #Outfit Early Swiss Cavalry Pops
-    com_early_SWI_soldier_outfit = {
+    COM_early_SWI_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14122,7 +14122,7 @@ com_clothes = {
     }
 
     #Outfit Mid Swiss Soldier Pops
-    com_mid_SWI_soldier_outfit = {
+    COM_mid_SWI_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14206,7 +14206,7 @@ com_clothes = {
     }
 
     #Outfit Early Swedish Admiral Characters
-    com_early_SWE_admiral_outfit = {
+    COM_early_SWE_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14309,7 +14309,7 @@ com_clothes = {
     }
 
     #Outfit Early Swedish General Characters
-    com_early_SWE_general_rank_outfit = {
+    COM_early_SWE_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14429,7 +14429,7 @@ com_clothes = {
     }
 
     #Outfit Early Ottoman Officer Pops
-    com_early_TUR_officer_outfit = {
+    COM_early_TUR_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14545,7 +14545,7 @@ com_clothes = {
     }
 
     #Outfit Early Ottoman Soldier Pops
-    com_early_TUR_OTO_soldier_outfit = {
+    COM_early_TUR_OTO_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14634,7 +14634,7 @@ com_clothes = {
     }
 
     #Outfit Early Württemberg Admiral Characters
-    com_early_WUR_admiral_outfit = {
+    COM_early_WUR_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14751,7 +14751,7 @@ com_clothes = {
     }
 
     #Outfit Mid Württemberg Admiral Characters
-    com_mid_WUR_admiral_outfit = {
+    COM_mid_WUR_admiral_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14868,7 +14868,7 @@ com_clothes = {
     }
 
     #Outfit Early Württemberg General Characters
-    com_early_WUR_general_rank_outfit = {
+    COM_early_WUR_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -14989,7 +14989,7 @@ com_clothes = {
     }
 
     #Outfit Mid Württemberg General Characters
-    com_middle_WUR_general_rank_outfit = {
+    COM_middle_WUR_general_rank_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -15110,7 +15110,7 @@ com_clothes = {
     }
 
     #Outfit Early Württemberg Officer Pops
-    com_early_WUR_officer_outfit = {
+    COM_early_WUR_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -15205,7 +15205,7 @@ com_clothes = {
     }
 
     #Outfit Mid Württemberg Officer Pops
-    com_middle_WUR_officer_outfit = {
+    COM_middle_WUR_officer_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -15307,7 +15307,7 @@ com_clothes = {
     }
 
     #Outfit Early Württemberg Soldier Pops
-    com_early_WUR_soldier_outfit = {
+    COM_early_WUR_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -15391,7 +15391,7 @@ com_clothes = {
     }
 
     #Outfit Mid Württemberg Soldier Pops
-    com_middle_WUR_soldier_outfit = {
+    COM_middle_WUR_soldier_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
