@@ -3,7 +3,7 @@
 ###################
 
 variation = {
-	name = "com_male_headgear_arabic_common_01_black"
+	name = "COM_male_headgear_arabic_common_01_black"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -25,7 +25,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_arabic_common_01_red"
+	name = "COM_male_headgear_arabic_common_01_red"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -47,7 +47,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_arabic_common_01_white"
+	name = "COM_male_headgear_arabic_common_01_white"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -69,7 +69,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_01_SWI"
+	name = "COM_male_headgear_european_military_01_SWI"
 	
  
 	pattern = { 
@@ -82,11 +82,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/com_male_headgear_european_military_01_SWI.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/COM_male_headgear_european_military_01_SWI.dds" }	
 }
 
 variation = {
-	name = "com_male_headgear_european_military_01_SCA"
+	name = "COM_male_headgear_european_military_01_SCA"
 	
  
 	pattern = { 
@@ -99,11 +99,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/com_male_headgear_european_military_01_SCA.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/COM_male_headgear_european_military_01_SCA.dds" }	
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_BEL_a"
+	name = "COM_male_headgear_european_military_02_BEL_a"
 	
  
 	pattern = { 
@@ -120,7 +120,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_BEL_b"
+	name = "COM_male_headgear_european_military_02_BEL_b"
 	
  
 	pattern = { 
@@ -137,7 +137,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_ITA"
+	name = "COM_male_headgear_european_military_02_ITA"
 	
  
 	pattern = { 
@@ -154,7 +154,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SCA_a"
+	name = "COM_male_headgear_european_military_02_SCA_a"
 	
  
 	pattern = { 
@@ -171,7 +171,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SCA_b"
+	name = "COM_male_headgear_european_military_02_SCA_b"
 	
  
 	pattern = { 
@@ -188,7 +188,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SER_a"
+	name = "COM_male_headgear_european_military_02_SER_a"
 	
  
 	pattern = { 
@@ -205,7 +205,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SER_b"
+	name = "COM_male_headgear_european_military_02_SER_b"
 	
  
 	pattern = { 
@@ -222,7 +222,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SPA"
+	name = "COM_male_headgear_european_military_02_SPA"
 	
  
 	pattern = { 
@@ -239,7 +239,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SWE"
+	name = "COM_male_headgear_european_military_02_SWE"
 	
  
 	pattern = { 
@@ -256,7 +256,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_SWI"
+	name = "COM_male_headgear_european_military_02_SWI"
 	
  
 	pattern = { 
@@ -273,7 +273,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_02_WUR"
+	name = "COM_male_headgear_european_military_02_WUR"
 	
  
 	pattern = { 
@@ -290,7 +290,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_03_BAD"
+	name = "COM_male_headgear_european_military_03_BAD"
 
 	pattern = { 
 		weight = 1
@@ -305,7 +305,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_03_BAV"
+	name = "COM_male_headgear_european_military_03_BAV"
 
 	pattern = { 
 		weight = 1
@@ -320,7 +320,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_03_PRU_a"
+	name = "COM_male_headgear_european_military_03_PRU_a"
 
 	pattern = { 
 		weight = 1
@@ -335,7 +335,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_03_PRU_b"
+	name = "COM_male_headgear_european_military_03_PRU_b"
 
 	pattern = { 
 		weight = 1
@@ -350,7 +350,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_05_BAV"
+	name = "COM_male_headgear_european_military_05_BAV"
 	
  
 	pattern = { 
@@ -367,7 +367,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_05_GRE"
+	name = "COM_male_headgear_european_military_05_GRE"
 	
  
 	pattern = { 
@@ -384,7 +384,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_05_ITA"
+	name = "COM_male_headgear_european_military_05_ITA"
 	
  
 	pattern = { 
@@ -401,7 +401,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_05_NET"
+	name = "COM_male_headgear_european_military_05_NET"
 	
  
 	pattern = { 
@@ -418,7 +418,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_05_SWI"
+	name = "COM_male_headgear_european_military_05_SWI"
 	
  
 	pattern = { 
@@ -435,7 +435,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_headgear_european_military_05_WUR"
+	name = "COM_male_headgear_european_military_05_WUR"
 	
  
 	pattern = { 

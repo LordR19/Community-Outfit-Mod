@@ -4,7 +4,7 @@
     #############
 
 pdxmesh = {
-	name = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_mesh"
 	file = "male_epaulettes_04.mesh"
 
     blend_shape = { id = "male_epaulettes_04_bs_fat"              type = "male_epaulettes_04_bs_fat.mesh" }
@@ -13,7 +13,7 @@ pdxmesh = {
 	meshsettings = {
 		name = "male_epaulettes_04Shape"
 		index = 0
-		texture_diffuse = "com_male_epaulettes_04_greyscale_diffuse.dds"
+		texture_diffuse = "COM_male_epaulettes_04_greyscale_diffuse.dds"
 		texture_normal = "male_epaulettes_04_normal.dds"
 		texture_specular = "male_epaulettes_04_properties.dds"
 		shader = "portrait_attachment_pattern_alpha_to_coverage"
@@ -22,8 +22,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_epaulettes_04_silver_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_silver_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -31,16 +31,16 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_silver"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_silver"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_epaulettes_04_red_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_red_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -48,16 +48,16 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_red"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_red"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_epaulettes_04_BRA_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_BRA_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -65,16 +65,16 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_BRA"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_BRA"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_epaulettes_04_HEK_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_HEK_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -82,16 +82,16 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_HEK"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_HEK"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_epaulettes_04_NAS_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_NAS_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -99,16 +99,16 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_NAS"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_NAS"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_epaulettes_04_SCA_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_SCA_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -116,16 +116,16 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_SCA"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_SCA"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_epaulettes_04_WLD_entity"
-	pdxmesh = "com_male_epaulettes_04_mesh"
+	name = "COM_male_epaulettes_04_WLD_entity"
+	pdxmesh = "COM_male_epaulettes_04_mesh"
 	
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_epaulettes_04_bs_fat" }
    attribute = { name = "body_bs_gaunt"                              blend_shape = "male_epaulettes_04_bs_gaunt" }
@@ -133,8 +133,8 @@ entity = {
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/com_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-			variation = "com_male_epaulettes_04_WLD"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_epaulettes/04/COM_male_epaulettes_04_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "COM_male_epaulettes_04_WLD"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

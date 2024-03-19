@@ -15,14 +15,14 @@
 # The File name should start with "00_", so that it gets loaded before this file.
 # Add this to your file (without the "#" obviously):
 
-#com_is_active = {
+#COM_is_active = {
 #	always = yes
 #}
 
-# Now you can use the trigger like this: "com_is_active = yes".
+# Now you can use the trigger like this: "COM_is_active = yes".
 # If Morgenröte is active the Trigger here will take priority and it will result in a "yes".
 # If Morgenröte is not active your Trigger will be used and the Trigger will return "no".
 
-com_is_active = {
+COM_is_active = {
 	always = yes
 }

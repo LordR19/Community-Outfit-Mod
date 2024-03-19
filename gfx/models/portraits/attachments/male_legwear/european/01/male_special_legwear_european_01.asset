@@ -4,7 +4,7 @@
     #############
 
 pdxmesh = {
-	name = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_special_legwear_european_01_mesh"
 	file = "male_legwear_european_01.mesh"
 
 	blend_shape = { id = "male_legwear_european_01_bs_fat"			type = "male_legwear_european_01_bs_fat.mesh" }
@@ -26,8 +26,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_legwear_european_blue_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_blue_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -41,15 +41,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_blue"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_blue"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_dark_blue_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_dark_blue_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -63,15 +63,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_dark_blue"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_dark_blue"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_azure_blue_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_azure_blue_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -85,15 +85,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_azure_blue"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_azure_blue"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_sky_blue_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_sky_blue_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -107,15 +107,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_sky_blue"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_sky_blue"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_light_blue_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_light_blue_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -129,15 +129,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_light_blue"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_light_blue"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_blue_light_muted_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_blue_light_muted_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -151,15 +151,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_european_blue_light_muted"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_european_blue_light_muted"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_red_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_red_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -173,15 +173,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_red"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_red"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_white_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_white_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -195,15 +195,15 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_white"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_grey_entity"
-	pdxmesh = "com_male_special_legwear_european_01_mesh"
+	name = "COM_male_legwear_european_grey_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -217,7 +217,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/male_legwear_european_01_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_grey"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_grey"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -225,7 +225,7 @@ entity = {
 
 #Removed the color from the diffuse and made it generally lighter
 pdxmesh = {
-	name = "com_male_special_legwear_european_01_greyscale_base_mesh"
+	name = "COM_male_special_legwear_european_01_greyscale_base_mesh"
 	file = "male_legwear_european_01.mesh"
 
 	blend_shape = { id = "male_legwear_european_01_bs_fat"			type = "male_legwear_european_01_bs_fat.mesh" }
@@ -238,7 +238,7 @@ pdxmesh = {
 	meshsettings = {
 		name = "male_legwear_european_01Shape"
 		index = 0
-		texture_diffuse = "com_male_legwear_european_01_diffuse_greyscale.dds"
+		texture_diffuse = "COM_male_legwear_european_01_diffuse_greyscale.dds"
 		texture_normal = "male_legwear_european_01_normal.dds"
 		texture_specular = "male_legwear_european_01_properties.dds"
 		shader = "portrait_attachment_pattern"
@@ -247,8 +247,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_legwear_european_very_black_entity"
-	pdxmesh = "com_male_special_legwear_european_01_greyscale_base_mesh"
+	name = "COM_male_legwear_european_very_black_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_greyscale_base_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -260,17 +260,17 @@ entity = {
 	game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/com_male_legwear_european_01_shoes_stripe_seperate_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/COM_male_legwear_european_01_shoes_stripe_seperate_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_european_very_black"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_european_very_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_black_red_stripe_entity"
-	pdxmesh = "com_male_special_legwear_european_01_greyscale_base_mesh"
+	name = "COM_male_legwear_european_black_red_stripe_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_greyscale_base_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -282,17 +282,17 @@ entity = {
 	game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/com_male_legwear_european_01_shoes_stripe_seperate_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/COM_male_legwear_european_01_shoes_stripe_seperate_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_european_black_red_stripe"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_european_black_red_stripe"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_black_red_stripe_thin_entity"
-	pdxmesh = "com_male_special_legwear_european_01_greyscale_base_mesh"
+	name = "COM_male_legwear_european_black_red_stripe_thin_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_greyscale_base_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -304,17 +304,17 @@ entity = {
 	game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/com_male_legwear_european_01_shoes_thin_stripe_seperate_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/COM_male_legwear_european_01_shoes_thin_stripe_seperate_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_european_black_red_stripe_thin"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_european_black_red_stripe_thin"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_black_light_yellow_stripe_thin_entity"
-	pdxmesh = "com_male_special_legwear_european_01_greyscale_base_mesh"
+	name = "COM_male_legwear_european_black_light_yellow_stripe_thin_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_greyscale_base_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -326,17 +326,17 @@ entity = {
 	game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/com_male_legwear_european_01_shoes_thin_stripe_seperate_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/COM_male_legwear_european_01_shoes_thin_stripe_seperate_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_european_black_light_yellow_stripe_thin"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_european_black_light_yellow_stripe_thin"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_legwear_european_light_blue_yellow_stripe_entity"
-	pdxmesh = "com_male_special_legwear_european_01_greyscale_base_mesh"
+	name = "COM_male_legwear_european_light_blue_yellow_stripe_entity"
+	pdxmesh = "COM_male_special_legwear_european_01_greyscale_base_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_european_01_bs_gaunt" }
@@ -348,9 +348,9 @@ entity = {
 	game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/com_male_legwear_european_01_shoes_stripe_seperate_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/01/COM_male_legwear_european_01_shoes_stripe_seperate_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_legwear_european_light_blue_yellow_stripe"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_legwear_european_light_blue_yellow_stripe"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

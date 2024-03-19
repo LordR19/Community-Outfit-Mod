@@ -11,6 +11,6 @@
 #								#
 #################################
 
-com_male_waistcoat_european_01_brown_red_tie = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_waistcoat_european_01_brown_red_tie_entity" }	
+COM_male_waistcoat_european_01_brown_red_tie = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_waistcoat_european_01_brown_red_tie_entity" }	
 }

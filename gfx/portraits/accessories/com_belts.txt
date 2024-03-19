@@ -11,34 +11,34 @@
 #					#
 #####################
 
-com_male_belt_generic_01_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_red_entity" }	
+COM_male_belt_generic_01_red = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_01_red_entity" }	
 }
 
-com_male_belt_generic_02_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_red_entity" }	
+COM_male_belt_generic_02_red = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_02_red_entity" }	
 }
 
-com_male_belt_generic_01_orange = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_orange_entity" }	
+COM_male_belt_generic_01_orange = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_01_orange_entity" }	
 }
 
-com_male_belt_generic_02_orange = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_orange_entity" }	
+COM_male_belt_generic_02_orange = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_02_orange_entity" }	
 }
 
-com_male_belt_generic_01_yellow = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_yellow_entity" }	
+COM_male_belt_generic_01_yellow = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_01_yellow_entity" }	
 }
 
-com_male_belt_generic_02_yellow = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_yellow_entity" }	
+COM_male_belt_generic_02_yellow = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_02_yellow_entity" }	
 }
 
-com_male_belt_generic_01_gold_pale = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_gold_pale_entity" }	
+COM_male_belt_generic_01_gold_pale = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_01_gold_pale_entity" }	
 }
 
-com_male_belt_generic_02_gold_pale = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_gold_pale_entity" }	
+COM_male_belt_generic_02_gold_pale = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_belt_generic_02_gold_pale_entity" }	
 }

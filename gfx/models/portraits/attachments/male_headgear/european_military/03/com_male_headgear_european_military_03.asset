@@ -1,5 +1,5 @@
 pdxmesh = {
-	name = "com_male_headgear_european_military_03_mesh"
+	name = "COM_male_headgear_european_military_03_mesh"
 	file = "male_headgear_european_military_03.mesh"
 
 	meshsettings = {
@@ -14,8 +14,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_headgear_european_military_03_BAD_entity"
-	pdxmesh = "com_male_headgear_european_military_03_mesh"
+	name = "COM_male_headgear_european_military_03_BAD_entity"
+	pdxmesh = "COM_male_headgear_european_military_03_mesh"
 
 		game_data = {
             portrait_entity_user_data = {
@@ -23,15 +23,15 @@ entity = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/03/male_headgear_european_military_03_masks.dds"	
 	
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_03_BAD"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_headgear_european_military_03_BAD"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_headgear_european_military_03_BAV_entity"
-	pdxmesh = "com_male_headgear_european_military_03_mesh"
+	name = "COM_male_headgear_european_military_03_BAV_entity"
+	pdxmesh = "COM_male_headgear_european_military_03_mesh"
 
 		game_data = {
             portrait_entity_user_data = {
@@ -39,15 +39,15 @@ entity = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/03/male_headgear_european_military_03_masks.dds"	
 	
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_03_BAV"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_headgear_european_military_03_BAV"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_headgear_european_military_03_PRU_a_entity"
-	pdxmesh = "com_male_headgear_european_military_03_mesh"
+	name = "COM_male_headgear_european_military_03_PRU_a_entity"
+	pdxmesh = "COM_male_headgear_european_military_03_mesh"
 
 		game_data = {
             portrait_entity_user_data = {
@@ -55,23 +55,23 @@ entity = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/03/male_headgear_european_military_03_masks.dds"	
 	
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_03_PRU_a"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_headgear_european_military_03_PRU_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_headgear_european_military_03_PRU_b_entity"
-	pdxmesh = "com_male_headgear_european_military_03_mesh"
+	name = "COM_male_headgear_european_military_03_PRU_b_entity"
+	pdxmesh = "COM_male_headgear_european_military_03_mesh"
 
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/03/com_male_headgear_european_military_03_admiral_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/03/COM_male_headgear_european_military_03_admiral_masks.dds"	
 	
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_03_PRU_b"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_headgear_european_military_03_PRU_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

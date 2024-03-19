@@ -12,10 +12,10 @@ special_genes = {
 	#										#
 	#########################################
 
-		com_belts = {
+		COM_belts = {
 			inheritable = no
 
-			com_no_belts = {
+			COM_no_belts = {
 				index = 0
 				male = {
 					1 = empty
@@ -25,15 +25,15 @@ special_genes = {
 				girl = male
 			}	
 			
-			com_all_belts = {
+			COM_all_belts = {
 				index = 1
 				male = {
-					1 = com_male_belt_generic_01_red
-					1 = com_male_belt_generic_02_red
-					1 = com_male_belt_generic_01_yellow
-					1 = com_male_belt_generic_02_yellow
-					1 = com_male_belt_generic_01_gold_pale
-					1 = com_male_belt_generic_02_gold_pale
+					1 = COM_male_belt_generic_01_red
+					1 = COM_male_belt_generic_02_red
+					1 = COM_male_belt_generic_01_yellow
+					1 = COM_male_belt_generic_02_yellow
+					1 = COM_male_belt_generic_01_gold_pale
+					1 = COM_male_belt_generic_02_gold_pale
 				}
 
 				female = {
@@ -42,11 +42,11 @@ special_genes = {
 				girl = female
 			}
 
-			com_KOR_belts = {
+			COM_KOR_belts = {
 				index = 2
 				male = {
-					1 = com_male_belt_generic_01_red
-					1 = com_male_belt_generic_02_red
+					1 = COM_male_belt_generic_01_red
+					1 = COM_male_belt_generic_02_red
 					1 = empty
 				}
 
@@ -56,11 +56,11 @@ special_genes = {
 				girl = female
 			}
 
-			com_BYZ_belts = {
+			COM_BYZ_belts = {
 				index = 3
 				male = {
-					1 = com_male_belt_generic_01_yellow
-					1 = com_male_belt_generic_02_yellow
+					1 = COM_male_belt_generic_01_yellow
+					1 = COM_male_belt_generic_02_yellow
 					1 = empty
 				}
 
@@ -70,11 +70,11 @@ special_genes = {
 				girl = female
 			}
 
-			com_HAN_belts = {
+			COM_HAN_belts = {
 				index = 4
 				male = {
-					1 = com_male_belt_generic_01_gold_pale
-					1 = com_male_belt_generic_02_gold_pale
+					1 = COM_male_belt_generic_01_gold_pale
+					1 = COM_male_belt_generic_02_gold_pale
 					1 = empty
 				}
 
@@ -84,11 +84,11 @@ special_genes = {
 				girl = female
 			}
 
-			com_NAS_belts = {
+			COM_NAS_belts = {
 				index = 5
 				male = {
-					1 = com_male_belt_generic_01_orange
-					1 = com_male_belt_generic_02_orange
+					1 = COM_male_belt_generic_01_orange
+					1 = COM_male_belt_generic_02_orange
 					1 = empty
 				}
 

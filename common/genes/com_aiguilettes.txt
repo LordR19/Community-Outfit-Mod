@@ -12,10 +12,10 @@ special_genes = {
 	#											#
 	#############################################
 
-		com_aiguillettes = {
+		COM_aiguillettes = {
 			inheritable = no
 
-			com_no_aiguillettes = {
+			COM_no_aiguillettes = {
 				index = 0
 				male = {
 					1 = empty
@@ -28,7 +28,7 @@ special_genes = {
 			all_aiguillettes = {
 				index = 1
 				male = {
-					1 = com_male_aiguillettes_01_silver
+					1 = COM_male_aiguillettes_01_silver
 					1 = male_aiguillettes_01
 				}
 				female = {
@@ -43,7 +43,7 @@ special_genes = {
 				index = 2
 				male = {
 					1 = empty
-					3 = com_male_aiguillettes_01_silver
+					3 = COM_male_aiguillettes_01_silver
 				}
 				female = {
 					1 = empty

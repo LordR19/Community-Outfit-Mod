@@ -12,10 +12,10 @@ special_genes = {
 	#												#
 	#################################################
 
-		com_civilian_coats = {
+		COM_civilian_coats = {
 			inheritable = no
 
-			com_no_civilian_coat = {
+			COM_no_civilian_coat = {
 				index = 0
 				male = {
 					1 = empty
@@ -25,10 +25,10 @@ special_genes = {
 				girl = male
 			}
 			
-			com_all_civilian_coats = {
+			COM_all_civilian_coats = {
 				index = 1
 				male = {
-				1 = com_male_civilian_coat_european_brown
+				1 = COM_male_civilian_coat_european_brown
 				}
 				female = {
 					1 = female_outfit_european_common_01

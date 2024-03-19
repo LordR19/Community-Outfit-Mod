@@ -4,7 +4,7 @@
     #############
 
 pdxmesh = {
-	name = "com_male_belt_generic_02_mesh"
+	name = "COM_male_belt_generic_02_mesh"
 	file = "male_belt_generic_02.mesh"
 
 	blend_shape = { id = "male_belt_generic_02_bs_fat"              type = "male_belt_generic_02_bs_fat.mesh" }
@@ -25,8 +25,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_belt_generic_02_red_entity"
-	pdxmesh = "com_male_belt_generic_02_mesh"
+	name = "COM_male_belt_generic_02_red_entity"
+	pdxmesh = "COM_male_belt_generic_02_mesh"
 
 	attribute = { name = "body_bs_fat"                              blend_shape = "male_belt_generic_02_bs_fat" }
 	attribute = { name = "body_bs_gaunt"                            blend_shape = "male_belt_generic_02_bs_gaunt" }
@@ -37,17 +37,17 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/com_male_belt_generic_02_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/COM_male_belt_generic_02_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_generic_02_red"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_belt_generic_02_red"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_belt_generic_02_orange_entity"
-	pdxmesh = "com_male_belt_generic_02_mesh"
+	name = "COM_male_belt_generic_02_orange_entity"
+	pdxmesh = "COM_male_belt_generic_02_mesh"
 
 	attribute = { name = "body_bs_fat"                              blend_shape = "male_belt_generic_02_bs_fat" }
 	attribute = { name = "body_bs_gaunt"                            blend_shape = "male_belt_generic_02_bs_gaunt" }
@@ -58,17 +58,17 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/com_male_belt_generic_02_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/COM_male_belt_generic_02_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_generic_02_orange"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_belt_generic_02_orange"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_belt_generic_02_yellow_entity"
-	pdxmesh = "com_male_belt_generic_02_mesh"
+	name = "COM_male_belt_generic_02_yellow_entity"
+	pdxmesh = "COM_male_belt_generic_02_mesh"
 
 	attribute = { name = "body_bs_fat"                              blend_shape = "male_belt_generic_02_bs_fat" }
 	attribute = { name = "body_bs_gaunt"                            blend_shape = "male_belt_generic_02_bs_gaunt" }
@@ -79,17 +79,17 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/com_male_belt_generic_02_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/COM_male_belt_generic_02_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_generic_02_yellow"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_belt_generic_02_yellow"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_belt_generic_02_gold_pale_entity"
-	pdxmesh = "com_male_belt_generic_02_mesh"
+	name = "COM_male_belt_generic_02_gold_pale_entity"
+	pdxmesh = "COM_male_belt_generic_02_mesh"
 
 	attribute = { name = "body_bs_fat"                              blend_shape = "male_belt_generic_02_bs_fat" }
 	attribute = { name = "body_bs_gaunt"                            blend_shape = "male_belt_generic_02_bs_gaunt" }
@@ -100,9 +100,9 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/com_male_belt_generic_02_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/generic/02/COM_male_belt_generic_02_masks.dds"	
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_generic_02_gold_pale"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "COM_male_belt_generic_02_gold_pale"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

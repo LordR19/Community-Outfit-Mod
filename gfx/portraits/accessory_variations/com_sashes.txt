@@ -4,7 +4,7 @@
 
 #Purpleish Red Sash
 variation = {
-	name = "com_male_sash_european_red_purpleish"
+	name = "COM_male_sash_european_red_purpleish"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -22,12 +22,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_red_purpleish.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_red_purpleish.dds" }	
 }
 
 #Red Sash
 variation = {
-	name = "com_male_sash_european_red"
+	name = "COM_male_sash_european_red"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -45,12 +45,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_red.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_red.dds" }	
 }
 
 #Red Sash
 variation = {
-	name = "com_male_sash_european_darker_red"
+	name = "COM_male_sash_european_darker_red"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -68,12 +68,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_red_darker.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_red_darker.dds" }	
 }
 
 #Orange Sash
 variation = {
-	name = "com_male_sash_european_orange"
+	name = "COM_male_sash_european_orange"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -91,12 +91,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_orange.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_orange.dds" }	
 }
 
 #Green Sash
 variation = {
-	name = "com_male_sashes_green"
+	name = "COM_male_sashes_green"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -114,12 +114,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_green.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_green.dds" }	
 }
 
 #Pale Green Sash
 variation = {
-	name = "com_male_sashes_green_pale"
+	name = "COM_male_sashes_green_pale"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -137,12 +137,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_green_pale.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_green_pale.dds" }	
 }
 
 #Dark Green Sash
 variation = {
-	name = "com_male_sashes_dark_green"
+	name = "COM_male_sashes_dark_green"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -160,12 +160,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_green_dark.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_green_dark.dds" }	
 }
 
 #Pale Turquoise Sash
 variation = {
-	name = "com_male_sash_european_turquoise_pale"
+	name = "COM_male_sash_european_turquoise_pale"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -183,12 +183,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_turquoise_pale.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_turquoise_pale.dds" }	
 }
 
 #Light Blue Sash
 variation = {
-	name = "com_male_sashes_light_blue"
+	name = "COM_male_sashes_light_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -206,12 +206,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_blue_light.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_blue_light.dds" }	
 }
 
 #Azure Blue Sash
 variation = {
-	name = "com_male_sashes_azure_blue"
+	name = "COM_male_sashes_azure_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -229,12 +229,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_blue_azure.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_blue_azure.dds" }	
 }
 
 #Medium Light Blue Sash
 variation = {
-	name = "com_male_sashes_medium_light_blue"
+	name = "COM_male_sashes_medium_light_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -252,12 +252,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_blue_light_medium.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_blue_light_medium.dds" }	
 }
 
 #Blue Sash
 variation = {
-	name = "com_male_sashes_blue"
+	name = "COM_male_sashes_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -275,12 +275,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_blue.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_blue.dds" }	
 }
 
 #Dark Blue Sash
 variation = {
-	name = "com_male_sashes_blue_dark"
+	name = "COM_male_sashes_blue_dark"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -298,12 +298,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_blue_dark.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_blue_dark.dds" }	
 }
 
 #Purple Sash
 variation = {
-	name = "com_male_sashes_purple"
+	name = "COM_male_sashes_purple"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -321,12 +321,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_purple.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_purple.dds" }	
 }
 
 #Pink Sash
 variation = {
-	name = "com_male_sashes_pink"
+	name = "COM_male_sashes_pink"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -344,12 +344,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_pink.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_pink.dds" }	
 }
 
 #White Sash
 variation = {
-	name = "com_male_sashes_white"
+	name = "COM_male_sashes_white"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -367,12 +367,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_white.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_white.dds" }	
 }
 
 #White Sash Wool
 variation = {
-	name = "com_male_sash_european_white_wool"
+	name = "COM_male_sash_european_white_wool"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -390,12 +390,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_white_wool.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_white_wool.dds" }	
 }
 
 #Gold Sash
 variation = {
-	name = "com_male_sashes_gold"
+	name = "COM_male_sashes_gold"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -413,12 +413,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_gold.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_gold.dds" }	
 }
 
 #Austrian Red White Red
 variation = {
-	name = "com_male_sashes_AUS"
+	name = "COM_male_sashes_AUS"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -436,12 +436,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_AUS.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_AUS.dds" }	
 }
 
 #Baden Tricolor white yellow white
 variation = {
-	name = "com_male_sashes_BAD"
+	name = "COM_male_sashes_BAD"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -459,12 +459,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BAD.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BAD.dds" }	
 }
 
 ### Bavaria 1: 5 Band light blue/white/black/white/light blue ###
 variation = {
-	name = "com_male_sash_BAV"
+	name = "COM_male_sash_BAV"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -482,12 +482,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BAV.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BAV.dds" }	
 }
 
 ### Brunswick 1: Tricolor Thin yellow/red/yellow ###
 variation = {
-	name = "com_male_sash_BRA_1"
+	name = "COM_male_sash_BRA_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -505,12 +505,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BRA_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BRA_1.dds" }	
 }
 
 #Brazilian 7 Bands
 variation = {
-	name = "com_male_sashes_BRZ_1"
+	name = "COM_male_sashes_BRZ_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -528,12 +528,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BRZ_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BRZ_1.dds" }	
 }
 
 #Brazilian 6 Bands
 variation = {
-	name = "com_male_sashes_BRZ_2"
+	name = "COM_male_sashes_BRZ_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -551,12 +551,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BRZ_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BRZ_2.dds" }	
 }
 
 #Bulgarian 5 Bands lightblue white lightblue white lightblue
 variation = {
-	name = "com_male_sash_BUL_1"
+	name = "COM_male_sash_BUL_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -574,12 +574,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BUL_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BUL_1.dds" }	
 }
 
 #Bulgarian Tricolor black red black
 variation = {
-	name = "com_male_sash_BUL_2"
+	name = "COM_male_sash_BUL_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -597,12 +597,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BUL_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BUL_2.dds" }	
 }
 
 #Bulgarian Tricolor black red black
 variation = {
-	name = "com_male_sash_BUL_3"
+	name = "COM_male_sash_BUL_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -620,12 +620,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BUL_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BUL_3.dds" }	
 }
 
 #Byzantine Tricolor gold purple gold
 variation = {
-	name = "com_male_sashes_BYZ_1"
+	name = "COM_male_sashes_BYZ_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -643,12 +643,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_1.dds" }	
 }
 
 #Byzantine 5 Bands gold purple gold purple gold
 variation = {
-	name = "com_male_sashes_BYZ_2"
+	name = "COM_male_sashes_BYZ_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -666,12 +666,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_2.dds" }	
 }
 
 ### Byzantium 3: Tricolor Thin sides black/orange/black ###
 variation = {
-	name = "com_male_sash_BYZ_3"
+	name = "COM_male_sash_BYZ_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -689,12 +689,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_3.dds" }	
 }
 
 ### Byzantium 4: Tricolor Thin center orange/black/orange ###
 variation = {
-	name = "com_male_sash_BYZ_4"
+	name = "COM_male_sash_BYZ_4"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -712,12 +712,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_4.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_4.dds" }	
 }
 
 ### Byzantium 5: Tricolor Thin sides yellow/azure/yellow ###
 variation = {
-	name = "com_male_sash_BYZ_5"
+	name = "COM_male_sash_BYZ_5"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -735,12 +735,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_5.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_5.dds" }	
 }
 
 ### Byzantium 6: Tricolor Thin sides azure/yellow/azure ###
 variation = {
-	name = "com_male_sash_BYZ_6"
+	name = "COM_male_sash_BYZ_6"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -758,12 +758,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_6.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_6.dds" }	
 }
 
 ### Byzantium 7: Tricolor Thin center gold/purple/gold ###
 variation = {
-	name = "com_male_sash_BYZ_7"
+	name = "COM_male_sash_BYZ_7"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -781,12 +781,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_BYZ_7.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_BYZ_7.dds" }	
 }
 
 #Finnish 5 Bands yellow red yellow red yellow
 variation = {
-	name = "com_male_sashes_FIN"
+	name = "COM_male_sashes_FIN"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -804,12 +804,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_FIN.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_FIN.dds" }	
 }
 
 #Greece Tricolor thin white lightblue white
 variation = {
-	name = "com_male_sashes_GRE"
+	name = "COM_male_sashes_GRE"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -827,12 +827,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_GRE.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_GRE.dds" }	
 }
 
 ### Hanover 1: Tricolor thin red/gold pale/red ###
 variation = {
-	name = "com_male_sashes_HAN_1"
+	name = "COM_male_sashes_HAN_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -850,12 +850,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_HAN_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_HAN_1.dds" }	
 }
 
 ### Hesse 1: 3 Band middle wide red/black/red ###
 variation = {
-	name = "com_male_sash_HES_1"
+	name = "COM_male_sash_HES_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -873,12 +873,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_HES_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_HES_1.dds" }	
 }
 
 ### Iceland 1: Stripes white/red/white/azure/white/red/white ###
 variation = {
-	name = "com_male_sash_ICL_1"
+	name = "COM_male_sash_ICL_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -896,12 +896,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_ICL_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_ICL_1.dds" }	
 }
 
 #Japan Tricolor thin white red white
 variation = {
-	name = "com_male_sashes_JAP_1"
+	name = "COM_male_sashes_JAP_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -919,12 +919,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_JAP_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_JAP_1.dds" }	
 }
 
 #Japan Tricolor thin red white red
 variation = {
-	name = "com_male_sashes_JAP_2"
+	name = "COM_male_sashes_JAP_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -942,12 +942,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_JAP_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_JAP_2.dds" }	
 }
 
 #Japan Tricolor thin lightblue red lightblue
 variation = {
-	name = "com_male_sashes_JAP_3"
+	name = "COM_male_sashes_JAP_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -965,12 +965,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_JAP_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_JAP_3.dds" }	
 }
 
 #Japan Tricolor thin lightblue red lightblue
 variation = {
-	name = "com_male_sashes_JAP_4"
+	name = "COM_male_sashes_JAP_4"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -988,12 +988,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_JAP_4.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_JAP_4.dds" }	
 }
 
 ### Korea 1: 3 Band red/gold/red ###
 variation = {
-	name = "com_male_sashes_KOR_1"
+	name = "COM_male_sashes_KOR_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1011,12 +1011,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_KOR_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_KOR_1.dds" }	
 }
 
 #Lucca 5 Bands red lightblue white lightblue red
 variation = {
-	name = "com_male_sashes_LUC"
+	name = "COM_male_sashes_LUC"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1034,12 +1034,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_LUC.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_LUC.dds" }	
 }
 
 ### Mecklenburg 1: Tricolor thin red/gold/red ###
 variation = {
-	name = "com_male_sashes_MEC_1"
+	name = "COM_male_sashes_MEC_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1057,12 +1057,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_MEC_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_MEC_1.dds" }	
 }
 
 ### Mecklenburg 2: 5 Bands red/gold/light blue/gold/red ###
 variation = {
-	name = "com_male_sashes_MEC_2"
+	name = "COM_male_sashes_MEC_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1080,12 +1080,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_MEC_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_MEC_2.dds" }	
 }
 
 #Modena 5 Bands red blue red blue red
 variation = {
-	name = "com_male_sashes_MOD"
+	name = "COM_male_sashes_MOD"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1103,12 +1103,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_MOD.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_MOD.dds" }	
 }
 
 ### Nassau 1: Tricolor thin darkblue/orange/darkblue ###
 variation = {
-	name = "com_male_sash_NAS_1"
+	name = "COM_male_sash_NAS_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1126,12 +1126,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_NAS_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_NAS_1.dds" }	
 }
 
 #Dutch Orange Blue
 variation = {
-	name = "com_male_sashes_NET"
+	name = "COM_male_sashes_NET"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1149,12 +1149,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_NET.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_NET.dds" }	
 }
 
 #Norwegian Red with white blue white border
 variation = {
-	name = "com_male_sashes_NOR"
+	name = "COM_male_sashes_NOR"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1172,12 +1172,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_NOR.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_NOR.dds" }	
 }
 
 #Norwegian Red with white blue white border
 variation = {
-	name = "com_male_sashes_NOR_2"
+	name = "COM_male_sashes_NOR_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1195,12 +1195,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_NOR_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_NOR_2.dds" }	
 }
 
 ### Oldenburg 1: Tricolor red/blue/red ###
 variation = {
-	name = "com_male_sashes_OLD_1"
+	name = "COM_male_sashes_OLD_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1218,12 +1218,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_OLD_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_OLD_1.dds" }	
 }
 
 #Parma Tricolor yellow blue yellow
 variation = {
-	name = "com_male_sashes_PAR"
+	name = "COM_male_sashes_PAR"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1241,12 +1241,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_PAR.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_PAR.dds" }	
 }
 
 #Portugal Tricolor white green white
 variation = {
-	name = "com_male_sashes_POR_1"
+	name = "COM_male_sashes_POR_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1264,12 +1264,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_POR_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_POR_1.dds" }	
 }
 
 #Portugal Tricolor blue orange blue
 variation = {
-	name = "com_male_sashes_POR_2"
+	name = "COM_male_sashes_POR_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1287,12 +1287,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_POR_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_POR_2.dds" }	
 }
 
 #Portugal 5 bands green white green white green
 variation = {
-	name = "com_male_sashes_POR_3"
+	name = "COM_male_sashes_POR_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1310,12 +1310,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_POR_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_POR_3.dds" }	
 }
 
 #Portugal Tricolor light blue/white/light blue
 variation = {
-	name = "com_male_sashes_POR_4"
+	name = "COM_male_sashes_POR_4"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1333,12 +1333,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_POR_4.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_POR_4.dds" }	
 }
 
 ### Prussia 1: white/orange/white/orange/white ###
 variation = {
-	name = "com_male_sashes_PRU_1"
+	name = "COM_male_sashes_PRU_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1356,12 +1356,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_PRU_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_PRU_1.dds" }	
 }
 
 #Romania 3 bands red black red black red
 variation = {
-	name = "com_male_sashes_ROM_1"
+	name = "COM_male_sashes_ROM_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1379,12 +1379,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_ROM_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_ROM_1.dds" }	
 }
 
 #Romania Tricolor thin orange, green, orange
 variation = {
-	name = "com_male_sashes_ROM_2"
+	name = "COM_male_sashes_ROM_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1402,12 +1402,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_ROM_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_ROM_2.dds" }	
 }
 
 #Scandinavia 1: Tricolor red/white/red
 variation = {
-	name = "com_male_sash_SCA_1"
+	name = "COM_male_sash_SCA_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1425,12 +1425,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SCA_1.dds" }	
 }
 
 #Scandinavia 2: Tricolor thin middle red/white/red
 variation = {
-	name = "com_male_sash_SCA_2"
+	name = "COM_male_sash_SCA_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1448,12 +1448,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SCA_1.dds" }	
 }
 
 #Scandinavia 3: Stripes middle red/white/blue/yellow/blue/white/red
 variation = {
-	name = "com_male_sash_SCA_3"
+	name = "COM_male_sash_SCA_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1471,12 +1471,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SCA_3.dds" }	
 }
 
 #Scandinavia 4: Stripes middle blue/white/blue/yellow/blue/white/blue
 variation = {
-	name = "com_male_sash_SCA_4"
+	name = "COM_male_sash_SCA_4"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1494,12 +1494,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SCA_4.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SCA_4.dds" }	
 }
 
 #Saxony Tricolor thin red, green, red
 variation = {
-	name = "com_male_sashes_SAX_1"
+	name = "COM_male_sashes_SAX_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1517,12 +1517,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SAX_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SAX_1.dds" }	
 }
 
 #Saxony Tricolor green white green
 variation = {
-	name = "com_male_sashes_SAX_2"
+	name = "COM_male_sashes_SAX_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1540,12 +1540,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SAX_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SAX_2.dds" }	
 }
 
 ### Serbia 1: 3 Band Thin light blue/red/light blue ###
 variation = {
-	name = "com_male_sashes_SER_1"
+	name = "COM_male_sashes_SER_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1563,12 +1563,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_1.dds" }	
 }
 
 ### Serbia 2: 5 Band blue/white/red/white/blue ###
 variation = {
-	name = "com_male_sashes_SER_2"
+	name = "COM_male_sashes_SER_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1586,12 +1586,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_2.dds" }	
 }
 
 ### Serbia 3: 5 Band red/light blue/red/light blue/red ###
 variation = {
-	name = "com_male_sashes_SER_3"
+	name = "COM_male_sashes_SER_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1609,12 +1609,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_3.dds" }	
 }
 
 ### Serbia 4: 3 Band Thin white/red/white ###
 variation = {
-	name = "com_male_sashes_SER_4"
+	name = "COM_male_sashes_SER_4"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1632,12 +1632,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_4.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_4.dds" }	
 }
 
 ### Serbia 5: 3 Band middle wide light red/dark green/light red ###
 variation = {
-	name = "com_male_sashes_SER_5"
+	name = "COM_male_sashes_SER_5"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1655,12 +1655,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_5.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_5.dds" }	
 }
 
 ### Serbia 6: 3 Band Thin white/red/white ###
 variation = {
-	name = "com_male_sashes_SER_6"
+	name = "COM_male_sashes_SER_6"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1678,12 +1678,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_6.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_6.dds" }	
 }
 
 ### Serbia 7: 3 Band Thin white/red/white ###
 variation = {
-	name = "com_male_sashes_SER_7"
+	name = "COM_male_sashes_SER_7"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1701,12 +1701,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SER_7.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SER_7.dds" }	
 }
 
 #Spain small Tricolor yellow red yellow
 variation = {
-	name = "com_male_sashes_SPA_1"
+	name = "COM_male_sashes_SPA_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1724,12 +1724,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SPA_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SPA_1.dds" }	
 }
 
 #Spain small light blue with white in center
 variation = {
-	name = "com_male_sashes_SPA_2"
+	name = "COM_male_sashes_SPA_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1747,12 +1747,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SPA_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SPA_2.dds" }	
 }
 
 #Spain red/thin white/red - Cruces del Mérito Militar
 variation = {
-	name = "com_male_sash_SPA_military_1"
+	name = "COM_male_sash_SPA_military_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1770,12 +1770,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SPA_military_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SPA_military_1.dds" }	
 }
 
 #Spain red/yellow/red/yellow/red - Real y Militar Orden de San Fernando
 variation = {
-	name = "com_male_sash_SPA_military_2"
+	name = "COM_male_sash_SPA_military_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1793,12 +1793,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SPA_military_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SPA_military_2.dds" }	
 }
 
 #Spain dark red/thin yellow/dark red - Cruces del Mérito Naval
 variation = {
-	name = "com_male_sash_SPA_navy"
+	name = "COM_male_sash_SPA_navy"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1816,12 +1816,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SPA_navy.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SPA_navy.dds" }	
 }
 
 #Sweden Tricolor thin yellow blue yellow
 variation = {
-	name = "com_male_sashes_SWE"
+	name = "COM_male_sashes_SWE"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1839,12 +1839,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SWE.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SWE.dds" }	
 }
 
 #Sweden Tricolor thin blue yellow blue
 variation = {
-	name = "com_male_sashes_SWE_2"
+	name = "COM_male_sashes_SWE_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1862,12 +1862,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SWE_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SWE_2.dds" }	
 }
 
 #Turkish-Ottoman 3 bands outer thin red/green/red
 variation = {
-	name = "com_male_sash_TUR_OTO_1"
+	name = "COM_male_sash_TUR_OTO_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1885,12 +1885,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_TUR_OTO_1.dds" }	
 }
 
 #Turkish-Ottoman 3 bands outer thin red/light blue/red
 variation = {
-	name = "com_male_sash_TUR_OTO_2"
+	name = "COM_male_sash_TUR_OTO_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1908,12 +1908,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_TUR_OTO_2.dds" }	
 }
 
 #Turkish-Ottoman 3 bands outer thin green/red/green
 variation = {
-	name = "com_male_sash_TUR_OTO_3"
+	name = "COM_male_sash_TUR_OTO_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1931,12 +1931,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_TUR_OTO_3.dds" }	
 }
 
 #Turkish-Ottoman 3 bands center large light blue/red/light blue
 variation = {
-	name = "com_male_sash_TUR_OTO_4"
+	name = "COM_male_sash_TUR_OTO_4"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1954,12 +1954,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUR_OTO_4.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_TUR_OTO_4.dds" }	
 }
 
 #Tuscany 5 Bands red white red white red
 variation = {
-	name = "com_male_sashes_TUS"
+	name = "COM_male_sashes_TUS"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -1977,12 +1977,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_TUS.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_TUS.dds" }	
 }
 
 #Two Siciliy small red with blue in center
 variation = {
-	name = "com_male_sashes_SIC"
+	name = "COM_male_sashes_SIC"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2000,12 +2000,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_SIC.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_SIC.dds" }	
 }
 
 ### Württemberg 1: 5 Band black/red/black/red/black ###
 variation = {
-	name = "com_male_sashes_WUR"
+	name = "COM_male_sashes_WUR"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2023,12 +2023,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_WUR.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_WUR.dds" }	
 }
 
 ### Württemberg 3: 5 Band red/black/red/black/red ###
 variation = {
-	name = "com_male_sashes_WUR_2"
+	name = "COM_male_sashes_WUR_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2046,12 +2046,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_WUR_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_WUR_2.dds" }	
 }
 
 ### Württemberg 3: 5 Band purple red/black/purple red/black/purple red ###
 variation = {
-	name = "com_male_sashes_WUR_3"
+	name = "COM_male_sashes_WUR_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2069,14 +2069,14 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_sashes_WUR_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_sashes_WUR_3.dds" }	
 }
 
 ### Civil Sashes ###
 
 #Argentine Tricolor
 variation = {
-	name = "com_male_sash_civil_ARG"
+	name = "COM_male_sash_civil_ARG"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2094,12 +2094,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_ARG.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_ARG.dds" }	
 }
 
 #Bolivian Tricolor 1
 variation = {
-	name = "com_male_sash_civil_BOL_1"
+	name = "COM_male_sash_civil_BOL_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2117,12 +2117,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_BOL_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_BOL_1.dds" }	
 }
 
 #Bolivian Tricolor 2
 variation = {
-	name = "com_male_sash_civil_BOL_2"
+	name = "COM_male_sash_civil_BOL_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2140,12 +2140,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_BOL_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_BOL_2.dds" }	
 }
 
 #Brazilian Tricolor
 variation = {
-	name = "com_male_sash_civil_BRZ"
+	name = "COM_male_sash_civil_BRZ"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2163,12 +2163,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_BRZ.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_BRZ.dds" }	
 }
 
 #Chilean Tricolor
 variation = {
-	name = "com_male_sash_civil_CHL"
+	name = "COM_male_sash_civil_CHL"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2186,12 +2186,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_CHL.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_CHL.dds" }	
 }
 
 #Colombian Tricolor 1
 variation = {
-	name = "com_male_sash_civil_CLM_1"
+	name = "COM_male_sash_civil_CLM_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2209,12 +2209,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_CLM_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_CLM_1.dds" }	
 }
 
 #Colombian Tricolor 2
 variation = {
-	name = "com_male_sash_civil_CLM_2"
+	name = "COM_male_sash_civil_CLM_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2232,12 +2232,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_CLM_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_CLM_2.dds" }	
 }
 
 #Ecuadorian Tricolor 1
 variation = {
-	name = "com_male_sash_civil_ECU_1"
+	name = "COM_male_sash_civil_ECU_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2255,12 +2255,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_ECU_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_ECU_1.dds" }	
 }
 
 #Ecuadorian Tricolor 2
 variation = {
-	name = "com_male_sash_civil_ECU_2"
+	name = "COM_male_sash_civil_ECU_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2278,12 +2278,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_ECU_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_ECU_2.dds" }	
 }
 
 #Ecuadorian Tricolor 3
 variation = {
-	name = "com_male_sash_civil_ECU_3"
+	name = "COM_male_sash_civil_ECU_3"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2301,12 +2301,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_ECU_3.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_ECU_3.dds" }	
 }
 
 #Andean Tricolor
 variation = {
-	name = "com_male_sash_civil_FND"
+	name = "COM_male_sash_civil_FND"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2324,12 +2324,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_FND.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_FND.dds" }	
 }
 
 #Guatemala Tricolor
 variation = {
-	name = "com_male_sash_civil_GUA"
+	name = "COM_male_sash_civil_GUA"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2347,12 +2347,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_GUA.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_GUA.dds" }	
 }
 
 #Mexican Tricolor 1
 variation = {
-	name = "com_male_sash_civil_MEX_1"
+	name = "COM_male_sash_civil_MEX_1"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2370,12 +2370,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_MEX_1.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_MEX_1.dds" }	
 }
 
 #Mexican Tricolor 2
 variation = {
-	name = "com_male_sash_civil_MEX_2"
+	name = "COM_male_sash_civil_MEX_2"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2393,12 +2393,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_MEX_2.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_MEX_2.dds" }	
 }
 
 #North Peruvian Tricolor
 variation = {
-	name = "com_male_sash_civil_NPU"
+	name = "COM_male_sash_civil_NPU"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2416,12 +2416,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_NPU.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_NPU.dds" }	
 }
 
 #Peru-Bolivian Sash
 variation = {
-	name = "com_male_sash_civil_PBC"
+	name = "COM_male_sash_civil_PBC"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2439,12 +2439,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PBC.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_PBC.dds" }	
 }
 
 #Peruvian Bicolor
 variation = {
-	name = "com_male_sash_civil_PEU"
+	name = "COM_male_sash_civil_PEU"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2462,12 +2462,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PEU.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_PEU.dds" }	
 }
 
 #Platinean Tricolor
 variation = {
-	name = "com_male_sash_civil_PLT"
+	name = "COM_male_sash_civil_PLT"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2485,12 +2485,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PLT.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_PLT.dds" }
 }
 
 #Riograndense Tricolor
 variation = {
-	name = "com_male_sash_civil_PNI"
+	name = "COM_male_sash_civil_PNI"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2508,13 +2508,13 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PNI.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_PNI.dds" }
 	#Sun from https://commons.wikimedia.org/wiki/File:Flag_of_the_Peru-Bolivian_Confederation.svg - BY SA 2.5 - Huhsunqu
 }
 
 #Grão-Parese Tricolor
 variation = {
-	name = "com_male_sash_civil_PRA"
+	name = "COM_male_sash_civil_PRA"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2532,12 +2532,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PRA.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_PRA.dds" }	
 }
 
 #Paraguayan Tricolor
 variation = {
-	name = "com_male_sash_civil_PRG"
+	name = "COM_male_sash_civil_PRG"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2555,12 +2555,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_PRG.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_PRG.dds" }	
 }
 
 #Riograndese Tricolor
 variation = {
-	name = "com_male_sash_civil_RIO"
+	name = "COM_male_sash_civil_RIO"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2578,12 +2578,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_RIO.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_RIO.dds" }	
 }
 
 #South Peruvian Tricolor
 variation = {
-	name = "com_male_sash_civil_SPU"
+	name = "COM_male_sash_civil_SPU"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2601,12 +2601,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_SPU.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_SPU.dds" }	
 }
 
 #Central American Tricolor
 variation = {
-	name = "com_male_sash_civil_UCA"
+	name = "COM_male_sash_civil_UCA"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2624,12 +2624,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_UCA.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_UCA.dds" }	
 }
 
 #Central American Tricolor
 variation = {
-	name = "com_male_sash_civil_VNZ"
+	name = "COM_male_sash_civil_VNZ"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2647,12 +2647,12 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_civil_sashes_VNZ.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_civil_sashes_VNZ.dds" }	
 }
 
 #Central American Tricolor
 variation = {
-	name = "com_male_sash_slavic_grey"
+	name = "COM_male_sash_slavic_grey"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -2670,5 +2670,5 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/com_color_palette_slavic_sash_01_grey.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/sashes/COM_color_palette_slavic_sash_01_grey.dds" }	
 }

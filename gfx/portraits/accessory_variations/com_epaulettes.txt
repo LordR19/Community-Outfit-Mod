@@ -22,7 +22,7 @@ variation = {
 }
 
 variation = {
-	name = "com_male_epaulettes_01_full_silver"
+	name = "COM_male_epaulettes_01_full_silver"
 	
  
 	pattern = { 
@@ -35,11 +35,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_01_full_silver.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_01_full_silver.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_01_full_gold"
+	name = "COM_male_epaulettes_01_full_gold"
 	
  
 	pattern = { 
@@ -52,11 +52,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_01_full_gold.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_01_full_gold.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_NET_01"
+	name = "COM_male_epaulettes_NET_01"
 	
  
 	pattern = { 
@@ -69,11 +69,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_NET_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_NET_01.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_NOR_01"
+	name = "COM_male_epaulettes_NOR_01"
 	
  
 	pattern = { 
@@ -86,11 +86,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_NOR_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_NOR_01.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_POR_01_a"
+	name = "COM_male_epaulettes_POR_01_a"
 	
  
 	pattern = { 
@@ -103,11 +103,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_POR_01_a.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_POR_01_a.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_POR_01_b"
+	name = "COM_male_epaulettes_POR_01_b"
 	
  
 	pattern = { 
@@ -120,11 +120,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_POR_01_b.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_POR_01_b.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_WUR_01"
+	name = "COM_male_epaulettes_WUR_01"
 	
  
 	pattern = { 
@@ -137,11 +137,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_WUR_01.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_WUR_01.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_silver"
+	name = "COM_male_epaulettes_04_silver"
 	
  
 	pattern = { 
@@ -154,11 +154,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_silver.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_silver.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_red"
+	name = "COM_male_epaulettes_04_red"
 	
  
 	pattern = { 
@@ -171,11 +171,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_red.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_red.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_BRA"
+	name = "COM_male_epaulettes_04_BRA"
 	
  
 	pattern = { 
@@ -188,11 +188,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_BRA.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_BRA.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_HEK"
+	name = "COM_male_epaulettes_04_HEK"
 	
  
 	pattern = { 
@@ -205,11 +205,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_HEK.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_HEK.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_NAS"
+	name = "COM_male_epaulettes_04_NAS"
 	
  
 	pattern = { 
@@ -222,11 +222,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_NAS.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_NAS.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_SCA"
+	name = "COM_male_epaulettes_04_SCA"
 	
  
 	pattern = { 
@@ -239,11 +239,11 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_SCA.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_SCA.dds" }	
 }
 
 variation = {
-	name = "com_male_epaulettes_04_WLD"
+	name = "COM_male_epaulettes_04_WLD"
 	
  
 	pattern = { 
@@ -256,5 +256,5 @@ variation = {
 	}	
 
  
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/com_color_palette_male_epaulettes_04_WLD.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/epaulettes/COM_color_palette_male_epaulettes_04_WLD.dds" }	
 }

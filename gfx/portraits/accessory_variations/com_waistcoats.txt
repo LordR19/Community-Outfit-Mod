@@ -3,7 +3,7 @@
 ##################
 
 variation = {
-	name = "com_male_waistcoat_european_01_brown_red_tie_variation"
+	name = "COM_male_waistcoat_european_01_brown_red_tie_variation"
 	
  
 	pattern = { 

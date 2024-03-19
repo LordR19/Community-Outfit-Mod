@@ -1,11 +1,11 @@
 pdxmesh = {
-	name = "com_male_headgear_european_military_01_mesh"
+	name = "COM_male_headgear_european_military_01_mesh"
 	file = "male_headgear_european_military_01.mesh"
 
 	meshsettings = {
 		name = "male_headgear_european_military_01Shape"
 		index = 0
-		texture_diffuse = "com_male_headgear_european_military_01_diffuse_bright.dds"
+		texture_diffuse = "COM_male_headgear_european_military_01_diffuse_bright.dds"
 		texture_normal = "male_headgear_european_military_01_normal.dds"
 		texture_specular = "male_headgear_european_military_01_properties.dds"
 		shader = "portrait_attachment_pattern"
@@ -14,28 +14,28 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_headgear_european_military_01_SWI_entity"
-	pdxmesh = "com_male_headgear_european_military_01_mesh"
+	name = "COM_male_headgear_european_military_01_SWI_entity"
+	pdxmesh = "COM_male_headgear_european_military_01_mesh"
 
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/01/com_male_headgear_european_military_01_masks.dds"
-				variation = "com_male_headgear_european_military_01_SWI"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/01/COM_male_headgear_european_military_01_masks.dds"
+				variation = "COM_male_headgear_european_military_01_SWI"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "com_male_headgear_european_military_01_SCA_entity"
-	pdxmesh = "com_male_headgear_european_military_01_mesh"
+	name = "COM_male_headgear_european_military_01_SCA_entity"
+	pdxmesh = "COM_male_headgear_european_military_01_mesh"
 
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/01/com_male_headgear_european_military_01_masks.dds"
-				variation = "com_male_headgear_european_military_01_SCA"	#A "variation" object in gfx/portraits/accessory_variations/
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/01/COM_male_headgear_european_military_01_masks.dds"
+				variation = "COM_male_headgear_european_military_01_SCA"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
