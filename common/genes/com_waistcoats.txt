@@ -12,10 +12,10 @@ special_genes = {
 	#											#
 	#############################################
 
-		COM_waistcoats = {
+		com_waistcoats = {
 			inheritable = no
 
-			COM_no_waistcoat = {
+			com_no_waistcoat = {
 				index = 0
 				male = {
 					1 = empty
@@ -28,7 +28,7 @@ special_genes = {
 			all_waistcoats = {
 				index = 1
 				male = {
-					1 = COM_male_waistcoat_european_01_brown_red_tie
+					1 = com_male_waistcoat_european_01_brown_red_tie
 				}
 
 				female = {

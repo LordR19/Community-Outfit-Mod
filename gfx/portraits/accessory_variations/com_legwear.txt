@@ -3,7 +3,7 @@
 ##################
 
 variation = {
-	name = "COM_male_legwear_blue"
+	name = "com_male_legwear_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -21,11 +21,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_blue.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_blue.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_dark_blue"
+	name = "com_male_legwear_dark_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -43,11 +43,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_blue_dark.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_blue_dark.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_azure_blue"
+	name = "com_male_legwear_azure_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -65,11 +65,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_blue_azure.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_blue_azure.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_sky_blue"
+	name = "com_male_legwear_sky_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -87,11 +87,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_blue_sky.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_blue_sky.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_light_blue"
+	name = "com_male_legwear_light_blue"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -109,11 +109,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_blue_light.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_blue_light.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_european_blue_light_muted"
+	name = "com_male_legwear_european_blue_light_muted"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -131,11 +131,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_blue_light_muted.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_blue_light_muted.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_red"
+	name = "com_male_legwear_red"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -153,11 +153,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_red.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_red.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_white"
+	name = "com_male_legwear_white"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -175,11 +175,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_white.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_white.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_grey"
+	name = "com_male_legwear_grey"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -197,11 +197,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_grey.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_grey.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_european_very_black"
+	name = "com_male_legwear_european_very_black"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -219,11 +219,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_very_black.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_very_black.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_european_black_red_stripe"
+	name = "com_male_legwear_european_black_red_stripe"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -241,11 +241,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_black_red_stripe.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_black_red_stripe.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_european_black_red_stripe_thin"
+	name = "com_male_legwear_european_black_red_stripe_thin"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -263,11 +263,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_black_red_stripe_thin.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_black_red_stripe_thin.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_european_black_light_yellow_stripe_thin"
+	name = "com_male_legwear_european_black_light_yellow_stripe_thin"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -285,11 +285,11 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_black_light_yellow_stripe_thin.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_black_light_yellow_stripe_thin.dds" }	
 }
 
 variation = {
-	name = "COM_male_legwear_european_light_blue_yellow_stripe"
+	name = "com_male_legwear_european_light_blue_yellow_stripe"
 	
 	# patterns are sampled using UV-set 2
 	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
@@ -307,5 +307,5 @@ variation = {
 	# Shaders will chose a row in the texture at random, and each column will be sampled once.
 	# First column will be masked by the red channel in the masks, second by the green, etc.
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/COM_color_palette_male_legwear_european_light_blue_yellow_stripe.dds" }	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/legwear/com_color_palette_male_legwear_european_light_blue_yellow_stripe.dds" }	
 }

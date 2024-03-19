@@ -12,10 +12,10 @@ special_genes = {
 	#										#
 	#########################################
 
-		COM_headgear = {
+		com_headgear = {
 			inheritable = no
 
-			COM_no_headgear = {
+			com_no_headgear = {
 				index = 0
 				male = {
 					1 = empty
@@ -25,25 +25,25 @@ special_genes = {
 				girl = male
 			}	
 			
-			COM_all_headgear = {
+			com_all_headgear = {
 				index = 1
 				male = {
-					1 = COM_male_headgear_european_military_03_BAD #officer
-					1 = COM_male_headgear_european_military_03_BAV #officer
-					1 = COM_male_headgear_european_military_05_BAV #Admiral
-					1 = COM_male_headgear_european_military_02_BEL_a #officer
-					1 = COM_male_headgear_european_military_02_BEL_b #general
-					1 = COM_male_headgear_european_military_02_ITA
-					1 = COM_male_headgear_european_military_05_ITA
-					1 = COM_male_headgear_european_military_05_GRE
-					1 = COM_male_headgear_european_military_05_NET
-					1 = COM_male_headgear_european_military_03_PRU_a #officer/general
-					1 = COM_male_headgear_european_military_03_PRU_b #admiral
-					1 = COM_male_headgear_european_military_02_SER_a #officer
-					1 = COM_male_headgear_european_military_02_SER_b #general
-					1 = COM_male_headgear_european_military_02_SWE
-					1 = COM_male_headgear_european_military_02_SWI
-					1 = COM_male_headgear_european_military_05_SWI
+					1 = com_male_headgear_european_military_03_BAD #officer
+					1 = com_male_headgear_european_military_03_BAV #officer
+					1 = com_male_headgear_european_military_05_BAV #Admiral
+					1 = com_male_headgear_european_military_02_BEL_a #officer
+					1 = com_male_headgear_european_military_02_BEL_b #general
+					1 = com_male_headgear_european_military_02_ITA
+					1 = com_male_headgear_european_military_05_ITA
+					1 = com_male_headgear_european_military_05_GRE
+					1 = com_male_headgear_european_military_05_NET
+					1 = com_male_headgear_european_military_03_PRU_a #officer/general
+					1 = com_male_headgear_european_military_03_PRU_b #admiral
+					1 = com_male_headgear_european_military_02_SER_a #officer
+					1 = com_male_headgear_european_military_02_SER_b #general
+					1 = com_male_headgear_european_military_02_SWE
+					1 = com_male_headgear_european_military_02_SWI
+					1 = com_male_headgear_european_military_05_SWI
 				}
 				female = {
 					1 = empty
@@ -52,11 +52,11 @@ special_genes = {
 				girl = female
 			}
 
-			COM_ITA_headgear = {
+			com_ITA_headgear = {
 				index = 2
 				male = {
-					1 = COM_male_headgear_european_military_02_ITA
-					1 = COM_male_headgear_european_military_05_ITA
+					1 = com_male_headgear_european_military_02_ITA
+					1 = com_male_headgear_european_military_05_ITA
 				}
 				female = {
 					1 = empty
@@ -65,10 +65,10 @@ special_genes = {
 				girl = female
 			}
 
-			COM_GRE_headgear = {
+			com_GRE_headgear = {
 				index = 3
 				male = {
-					1 = COM_male_headgear_european_military_05_GRE
+					1 = com_male_headgear_european_military_05_GRE
 					2 = empty
 				}
 				female = {
@@ -78,12 +78,12 @@ special_genes = {
 				girl = female
 			}
 
-			COM_SWI_headgear = {
+			com_SWI_headgear = {
 				index = 4
 				male = {
-					1 = COM_male_headgear_european_military_01_SWI
-					1 = COM_male_headgear_european_military_02_SWI
-					1 = COM_male_headgear_european_military_05_SWI
+					1 = com_male_headgear_european_military_01_SWI
+					1 = com_male_headgear_european_military_02_SWI
+					1 = com_male_headgear_european_military_05_SWI
 				}
 				female = {
 					1 = empty
@@ -92,10 +92,10 @@ special_genes = {
 				girl = female
 			}
 
-			COM_SWE_headgear = {
+			com_SWE_headgear = {
 				index = 5
 				male = {
-					2 = COM_male_headgear_european_military_02_SWE
+					2 = com_male_headgear_european_military_02_SWE
 					1 = empty
 				}
 				female = {
@@ -105,10 +105,10 @@ special_genes = {
 				girl = female
 			}
 
-			COM_NET_headgear = {
+			com_NET_headgear = {
 				index = 6
 				male = {
-					2 = COM_male_headgear_european_military_05_NET
+					2 = com_male_headgear_european_military_05_NET
 					1 = empty
 				}
 				female = {
@@ -118,10 +118,10 @@ special_genes = {
 				girl = female
 			}
 
-			COM_SPA_headgear = {
+			com_SPA_headgear = {
 				index = 7
 				male = {
-					2 = COM_male_headgear_european_military_02_SPA
+					2 = com_male_headgear_european_military_02_SPA
 					1 = empty
 				}
 				female = {
@@ -131,12 +131,12 @@ special_genes = {
 				girl = female
 			}
 
-			COM_TUR_OTTO_headgear = {
+			com_TUR_OTTO_headgear = {
 				index = 8
 				male = {
-					1 = COM_male_headgear_arabic_common_01_black
-					1 = COM_male_headgear_arabic_common_01_red
-					1 = COM_male_headgear_arabic_common_01_white
+					1 = com_male_headgear_arabic_common_01_black
+					1 = com_male_headgear_arabic_common_01_red
+					1 = com_male_headgear_arabic_common_01_white
 				}
 				female = {
 					1 = empty
@@ -145,13 +145,13 @@ special_genes = {
 				girl = female
 			}
 
-			COM_BEL_headgear = {
+			com_BEL_headgear = {
 				index = 9
 				male = {
 					1 = empty
-					1 = COM_male_headgear_european_military_02_BEL_a #officer
+					1 = com_male_headgear_european_military_02_BEL_a #officer
 					1 = empty
-					1 = COM_male_headgear_european_military_02_BEL_b #general
+					1 = com_male_headgear_european_military_02_BEL_b #general
 				}
 				female = {
 					1 = empty
@@ -160,13 +160,13 @@ special_genes = {
 				girl = female
 			}
 
-			COM_SER_headgear = {
+			com_SER_headgear = {
 				index = 10
 				male = {
 					1 = empty
-					1 = COM_male_headgear_european_military_02_SER_a #officer
+					1 = com_male_headgear_european_military_02_SER_a #officer
 					1 = empty
-					1 = COM_male_headgear_european_military_02_SER_b #general
+					1 = com_male_headgear_european_military_02_SER_b #general
 				}
 				female = {
 					1 = empty
@@ -175,13 +175,13 @@ special_genes = {
 				girl = female
 			}
 
-			COM_BAD_headgear = {
+			com_BAD_headgear = {
 				index = 11
 				male = {
 					1 = empty
 					1 = male_headgear_european_military_10 #Soldier
 					1 = empty
-					1 = COM_male_headgear_european_military_03_BAD #officer
+					1 = com_male_headgear_european_military_03_BAD #officer
 				}
 				female = {
 					1 = empty
@@ -190,11 +190,11 @@ special_genes = {
 				girl = female
 			}
 
-			COM_BAV_headgear = {
+			com_BAV_headgear = {
 				index = 12
 				male = {
 					1 = empty
-					1 = COM_male_headgear_european_military_03_BAV #officer
+					1 = com_male_headgear_european_military_03_BAV #officer
 				}
 				female = {
 					1 = empty
@@ -203,13 +203,13 @@ special_genes = {
 				girl = female
 			}
 
-			COM_PRU_headgear_military = {
+			com_PRU_headgear_military = {
 				index = 13
 				male = {
 					3 = empty
 					2 = male_headgear_european_military_10 #soldier
 					3 = empty
-					2 = COM_male_headgear_european_military_03_PRU_a #officer/general
+					2 = com_male_headgear_european_military_03_PRU_a #officer/general
 				}
 				female = {
 					1 = empty
@@ -218,13 +218,13 @@ special_genes = {
 				girl = female
 			}
 
-			COM_WUR_headgear_military = {
+			com_WUR_headgear_military = {
 				index = 14
 				male = {
 					3 = empty
-					2 = COM_male_headgear_european_military_05_WUR #general early
+					2 = com_male_headgear_european_military_05_WUR #general early
 					3 = empty
-					2 = COM_male_headgear_european_military_02_WUR #officer/general mid
+					2 = com_male_headgear_european_military_02_WUR #officer/general mid
 				}
 				female = {
 					1 = empty
@@ -233,7 +233,7 @@ special_genes = {
 				girl = female
 			}
 
-			COM_KOR_headgear = {
+			com_KOR_headgear = {
 				index = 15
 				male = {
 					4 = empty
@@ -246,12 +246,12 @@ special_genes = {
 				girl = female
 			}
 
-			COM_SCA_headgear = {
+			com_SCA_headgear = {
 				index = 16
 				male = {
-					1 = COM_male_headgear_european_military_01_SCA #Soldier
-					1 = COM_male_headgear_european_military_02_SCA_a #Officer
-					1 = COM_male_headgear_european_military_02_SCA_b #General
+					1 = com_male_headgear_european_military_01_SCA #Soldier
+					1 = com_male_headgear_european_military_02_SCA_a #Officer
+					1 = com_male_headgear_european_military_02_SCA_b #General
 				}
 				female = {
 					1 = empty

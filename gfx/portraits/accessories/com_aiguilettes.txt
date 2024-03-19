@@ -11,6 +11,6 @@
 #								#
 #################################
 
-COM_male_aiguillettes_01_silver = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "COM_male_aiguillettes_01_silver_entity" }	
+com_male_aiguillettes_01_silver = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_aiguillettes_01_silver_entity" }	
 }

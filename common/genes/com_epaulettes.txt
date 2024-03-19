@@ -12,10 +12,10 @@ special_genes = {
 	#											#
 	#############################################
 
-		COM_epaulettes = {
+		com_epaulettes = {
 			inheritable = no
 
-			COM_no_epaulettes = {
+			com_no_epaulettes = {
 				index = 0
 				male = {
 					1 = empty
@@ -42,29 +42,29 @@ special_genes = {
 				girl = female
 			}
 
-			COM_all_epaulettes = {
+			com_all_epaulettes = {
 				index = 2
 				male = {
 					1 = male_epaulettes_01
 					1 = male_epaulettes_01_silver
-					1 = COM_male_epaulettes_01_full_silver
-					1 = COM_male_epaulettes_01_full_gold
-					1 = COM_male_epaulettes_NET_01
-					1 = COM_male_epaulettes_NOR_01
-					1 = COM_male_epaulettes_POR_01_a
-					1 = COM_male_epaulettes_POR_01_b
-					1 = COM_male_epaulettes_WUR_01
+					1 = com_male_epaulettes_01_full_silver
+					1 = com_male_epaulettes_01_full_gold
+					1 = com_male_epaulettes_NET_01
+					1 = com_male_epaulettes_NOR_01
+					1 = com_male_epaulettes_POR_01_a
+					1 = com_male_epaulettes_POR_01_b
+					1 = com_male_epaulettes_WUR_01
 					1 = male_epaulettes_02
 					1 = male_epaulettes_02_silver
-					1 = COM_male_epaulettes_02_red
+					1 = com_male_epaulettes_02_red
 					1 = male_epaulettes_03
 					1 = male_epaulettes_04
-					1 = COM_male_epaulettes_04_silver
-					1 = COM_male_epaulettes_04_red
-					1 = COM_male_epaulettes_04_HEK
-					1 = COM_male_epaulettes_04_NAS
-					1 = COM_male_epaulettes_04_SCA
-					1 = COM_male_epaulettes_04_WLD
+					1 = com_male_epaulettes_04_silver
+					1 = com_male_epaulettes_04_red
+					1 = com_male_epaulettes_04_HEK
+					1 = com_male_epaulettes_04_NAS
+					1 = com_male_epaulettes_04_SCA
+					1 = com_male_epaulettes_04_WLD
 					1 = male_epaulettes_08
 				}
 
@@ -121,7 +121,7 @@ special_genes = {
 				index = 6
 				male = {
 					2 = 0
-					5 = COM_male_epaulettes_04_silver
+					5 = com_male_epaulettes_04_silver
 				}
 				female = {
 					1 = empty
@@ -190,7 +190,7 @@ special_genes = {
 			ITA_epaulettes = {
 				index = 11
 				male = {
-					1 = COM_male_epaulettes_04_red
+					1 = com_male_epaulettes_04_red
 				}
 				female = {
 					1 = empty
@@ -232,7 +232,7 @@ special_genes = {
 				index = 14
 				male = {
 					1 = empty
-					3 = COM_male_epaulettes_NET_01
+					3 = com_male_epaulettes_NET_01
 				}
 				female = {
 					1 = empty
@@ -246,7 +246,7 @@ special_genes = {
 				index = 15
 				male = {
 					1 = empty
-					3 = COM_male_epaulettes_NOR_01
+					3 = com_male_epaulettes_NOR_01
 				}
 				female = {
 					1 = empty
@@ -288,9 +288,9 @@ special_genes = {
 				index = 18
 				male = {
 					1 = empty
-					1 = COM_male_epaulettes_01_full_gold
+					1 = com_male_epaulettes_01_full_gold
 					1 = empty
-					1 = COM_male_epaulettes_01_full_silver
+					1 = com_male_epaulettes_01_full_silver
 				}
 				female = {
 					1 = empty
@@ -303,7 +303,7 @@ special_genes = {
 			TUR_OTO_epaulettes_military = {
 				index = 19
 				male = {
-					1 = COM_male_epaulettes_02_red
+					1 = com_male_epaulettes_02_red
 				}
 				female = {
 					1 = empty
@@ -317,9 +317,9 @@ special_genes = {
 				index = 20
 				male = {
 					1 = empty
-					1 = COM_male_epaulettes_POR_01_a
+					1 = com_male_epaulettes_POR_01_a
 					1 = empty
-					1 = COM_male_epaulettes_POR_01_b
+					1 = com_male_epaulettes_POR_01_b
 				}
 				female = {
 					1 = empty
@@ -348,8 +348,8 @@ special_genes = {
 				index = 22
 				male = {
 					2 = empty
-					3 = COM_male_epaulettes_01_full_silver
-					5 = COM_male_epaulettes_04_silver
+					3 = com_male_epaulettes_01_full_silver
+					5 = com_male_epaulettes_04_silver
 				}
 				female = {
 					1 = empty
@@ -379,7 +379,7 @@ special_genes = {
 				male = {
 					4 = male_epaulettes_02_silver
 					4 = male_epaulettes_04
-					2 = COM_male_epaulettes_04_silver
+					2 = com_male_epaulettes_04_silver
 				}
 				female = {
 					1 = empty
@@ -392,7 +392,7 @@ special_genes = {
 			WUR_epaulettes_military = {
 				index = 25
 				male = {
-					1 = COM_male_epaulettes_WUR_01
+					1 = com_male_epaulettes_WUR_01
 				}
 				female = {
 					1 = empty
@@ -434,8 +434,8 @@ special_genes = {
 			WLD_epaulettes = {
 				index = 28
 				male = {
-					3 = COM_male_epaulettes_NOR_01
-					7 = COM_male_epaulettes_04_WLD
+					3 = com_male_epaulettes_NOR_01
+					7 = com_male_epaulettes_04_WLD
 				}
 				female = {
 					1 = empty
@@ -449,7 +449,7 @@ special_genes = {
 				index = 29
 				male = {
 					3 = male_epaulettes_02_silver
-					7 = COM_male_epaulettes_04_HEK
+					7 = com_male_epaulettes_04_HEK
 				}
 				female = {
 					1 = empty
@@ -462,7 +462,7 @@ special_genes = {
 			BRA_epaulettes = {
 				index = 30
 				male = {
-					7 = COM_male_epaulettes_04_BRA
+					7 = com_male_epaulettes_04_BRA
 					3 = empty
 				}
 				female = {

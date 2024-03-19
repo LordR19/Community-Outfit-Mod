@@ -3,7 +3,7 @@
 ##################
 
 variation = {
-	name = "COM_male_belt_generic_01_red"
+	name = "com_male_belt_generic_01_red"
 	
  
 	pattern = { 
@@ -20,7 +20,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_02_red"
+	name = "com_male_belt_generic_02_red"
 	
  
 	pattern = { 
@@ -37,7 +37,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_01_orange"
+	name = "com_male_belt_generic_01_orange"
 	
  
 	pattern = { 
@@ -54,7 +54,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_02_orange"
+	name = "com_male_belt_generic_02_orange"
 	
  
 	pattern = { 
@@ -71,7 +71,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_01_yellow"
+	name = "com_male_belt_generic_01_yellow"
 	
  
 	pattern = { 
@@ -88,7 +88,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_02_yellow"
+	name = "com_male_belt_generic_02_yellow"
 	
  
 	pattern = { 
@@ -105,7 +105,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_01_gold_pale"
+	name = "com_male_belt_generic_01_gold_pale"
 	
  
 	pattern = { 
@@ -122,7 +122,7 @@ variation = {
 }
 
 variation = {
-	name = "COM_male_belt_generic_02_gold_pale"
+	name = "com_male_belt_generic_02_gold_pale"
 	
  
 	pattern = { 

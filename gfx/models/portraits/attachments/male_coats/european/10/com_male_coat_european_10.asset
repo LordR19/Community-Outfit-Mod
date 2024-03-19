@@ -1,5 +1,5 @@
 pdxmesh = {
-	name = "COM_male_coat_european_10_mesh"
+	name = "com_male_coat_european_10_mesh"
 	file = "male_coat_european_10.mesh"
 
  	blend_shape = { id = "male_coat_european_10_bs_fat"                type = "male_coat_european_10_bs_fat.mesh" }
@@ -21,8 +21,8 @@ pdxmesh = {
 }
 
 entity = {
-	name = "COM_male_military_coat_BRA_royal_10_entity"
-	pdxmesh = "COM_male_coat_european_10_mesh"
+	name = "com_male_military_coat_BRA_royal_10_entity"
+	pdxmesh = "com_male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
@@ -35,15 +35,15 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "COM_male_military_coat_BRA_royal_10"	
+				variation = "com_male_military_coat_BRA_royal_10"	
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_military_coat_HAN_royal_10_entity"
-	pdxmesh = "COM_male_coat_european_10_mesh"
+	name = "com_male_military_coat_HAN_royal_10_entity"
+	pdxmesh = "com_male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
@@ -56,15 +56,15 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "COM_male_military_coat_HAN_royal_10"	
+				variation = "com_male_military_coat_HAN_royal_10"	
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_military_coat_BYZ_early_10_a_entity"
-	pdxmesh = "COM_male_coat_european_10_mesh"
+	name = "com_male_military_coat_BYZ_early_10_a_entity"
+	pdxmesh = "com_male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
@@ -77,15 +77,15 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "COM_male_military_coat_BYZ_early_10_a"	
+				variation = "com_male_military_coat_BYZ_early_10_a"	
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_military_coat_BYZ_early_10_b_entity"
-	pdxmesh = "COM_male_coat_european_10_mesh"
+	name = "com_male_military_coat_BYZ_early_10_b_entity"
+	pdxmesh = "com_male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
@@ -98,15 +98,15 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "COM_male_military_coat_BYZ_early_10_b"	
+				variation = "com_male_military_coat_BYZ_early_10_b"	
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_military_coat_SCA_early_10_entity"
-	pdxmesh = "COM_male_coat_european_10_mesh"
+	name = "com_male_military_coat_SCA_early_10_entity"
+	pdxmesh = "com_male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
@@ -119,15 +119,15 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "COM_male_military_coat_SCA_early_10"	
+				variation = "com_male_military_coat_SCA_early_10"	
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_military_coat_SPA_early_10_entity"
-	pdxmesh = "COM_male_coat_european_10_mesh"
+	name = "com_male_military_coat_SPA_early_10_entity"
+	pdxmesh = "com_male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
     attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
@@ -140,7 +140,7 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "COM_male_military_coat_SPA_early_10"	
+				variation = "com_male_military_coat_SPA_early_10"	
 			}
         }
 	}

@@ -1,5 +1,5 @@
 pdxmesh = {
-	name = "COM_male_headgear_arabic_common_01_mesh"
+	name = "com_male_headgear_arabic_common_01_mesh"
 	file = "male_headgear_arabic_common_01.mesh"
 
 	meshsettings = {
@@ -14,45 +14,45 @@ pdxmesh = {
 }
 
 entity = {
-	name = "COM_male_headgear_arabic_common_01_black_entity"
-	pdxmesh = "COM_male_headgear_arabic_common_01_mesh"
+	name = "com_male_headgear_arabic_common_01_black_entity"
+	pdxmesh = "com_male_headgear_arabic_common_01_mesh"
 
 	
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/arabic/common_01/male_headgear_arabic_common_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "COM_male_headgear_arabic_common_01_black"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_headgear_arabic_common_01_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_headgear_arabic_common_01_red_entity"
-	pdxmesh = "COM_male_headgear_arabic_common_01_mesh"
+	name = "com_male_headgear_arabic_common_01_red_entity"
+	pdxmesh = "com_male_headgear_arabic_common_01_mesh"
 
 	
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/arabic/common_01/male_headgear_arabic_common_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "COM_male_headgear_arabic_common_01_red"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_headgear_arabic_common_01_red"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
 }
 
 entity = {
-	name = "COM_male_headgear_arabic_common_01_white_entity"
-	pdxmesh = "COM_male_headgear_arabic_common_01_mesh"
+	name = "com_male_headgear_arabic_common_01_white_entity"
+	pdxmesh = "com_male_headgear_arabic_common_01_mesh"
 
 	
 	game_data = {
         portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/arabic/common_01/male_headgear_arabic_common_01_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "COM_male_headgear_arabic_common_01_white"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_headgear_arabic_common_01_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

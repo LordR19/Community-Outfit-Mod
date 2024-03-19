@@ -11,132 +11,132 @@
 #							#
 #############################
 
-COM_male_headgear_arabic_common_01_black = {
+com_male_headgear_arabic_common_01_black = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_arabic_common_01_black_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_arabic_common_01_black_entity" }	
 }
 
-COM_male_headgear_arabic_common_01_red = {
+com_male_headgear_arabic_common_01_red = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_arabic_common_01_red_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_arabic_common_01_red_entity" }	
 }
 
-COM_male_headgear_arabic_common_01_white = {
+com_male_headgear_arabic_common_01_white = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_arabic_common_01_white_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_arabic_common_01_white_entity" }	
 }
 
-COM_male_headgear_european_military_01_SWI = {
+com_male_headgear_european_military_01_SWI = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_01_SWI_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_01_SWI_entity" }	
 }
 
-COM_male_headgear_european_military_01_SCA = {
+com_male_headgear_european_military_01_SCA = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_01_SCA_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_01_SCA_entity" }	
 }
 
-COM_male_headgear_european_military_02_BEL_a = {
+com_male_headgear_european_military_02_BEL_a = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_BEL_a_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_BEL_a_entity" }	
 }
 
-COM_male_headgear_european_military_02_BEL_b = {
+com_male_headgear_european_military_02_BEL_b = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_BEL_b_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_BEL_b_entity" }	
 }
 
-COM_male_headgear_european_military_02_ITA = {
+com_male_headgear_european_military_02_ITA = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_ITA_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ITA_entity" }	
 }
 
-COM_male_headgear_european_military_02_SCA_a = {
+com_male_headgear_european_military_02_SCA_a = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SCA_a_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SCA_a_entity" }	
 }
 
-COM_male_headgear_european_military_02_SCA_b = {
+com_male_headgear_european_military_02_SCA_b = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SCA_b_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SCA_b_entity" }	
 }
 
-COM_male_headgear_european_military_02_SER_a = {
+com_male_headgear_european_military_02_SER_a = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SER_a_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SER_a_entity" }	
 }
 
-COM_male_headgear_european_military_02_SER_b = {
+com_male_headgear_european_military_02_SER_b = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SER_b_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SER_b_entity" }	
 }
 
-COM_male_headgear_european_military_02_SPA = {
+com_male_headgear_european_military_02_SPA = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SPA_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SPA_entity" }	
 }
 
-COM_male_headgear_european_military_02_SWE = {
+com_male_headgear_european_military_02_SWE = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SWE_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SWE_entity" }	
 }
 
-COM_male_headgear_european_military_02_SWI = {
+com_male_headgear_european_military_02_SWI = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_SWI_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SWI_entity" }	
 }
 
-COM_male_headgear_european_military_02_WUR = {
+com_male_headgear_european_military_02_WUR = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_02_WUR_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_WUR_entity" }	
 }
 
-COM_male_headgear_european_military_03_BAD = {
+com_male_headgear_european_military_03_BAD = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_03_BAD_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_03_BAD_entity" }	
 }
 
-COM_male_headgear_european_military_03_BAV = {
+com_male_headgear_european_military_03_BAV = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_03_BAV_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_03_BAV_entity" }	
 }
 
-COM_male_headgear_european_military_03_PRU_a = {
+com_male_headgear_european_military_03_PRU_a = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_03_PRU_a_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_03_PRU_a_entity" }	
 }
 
-COM_male_headgear_european_military_03_PRU_b = {
+com_male_headgear_european_military_03_PRU_b = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_03_PRU_b_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_03_PRU_b_entity" }	
 }
 
-COM_male_headgear_european_military_05_BAV = {
+com_male_headgear_european_military_05_BAV = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_05_BAV_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_BAV_entity" }	
 }
 
-COM_male_headgear_european_military_05_GRE = {
+com_male_headgear_european_military_05_GRE = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_05_GRE_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_GRE_entity" }	
 }
 
-COM_male_headgear_european_military_05_ITA = {
+com_male_headgear_european_military_05_ITA = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_05_ITA_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_ITA_entity" }	
 }
 
-COM_male_headgear_european_military_05_NET = {
+com_male_headgear_european_military_05_NET = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_05_NET_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_NET_entity" }	
 }
 
-COM_male_headgear_european_military_05_SWI = {
+com_male_headgear_european_military_05_SWI = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_05_SWI_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_SWI_entity" }	
 }
 
-COM_male_headgear_european_military_05_WUR = {
+com_male_headgear_european_military_05_WUR = {
     set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "COM_male_headgear_european_military_05_WUR_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_WUR_entity" }	
 }
