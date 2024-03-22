@@ -2058,6 +2058,16 @@ COM_clothes = {
                     }
                 }
             }
+            
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
+            }
         }
     }
 
@@ -2173,6 +2183,16 @@ COM_clothes = {
                         age >= 10
                     }
                 }
+            }
+            
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
             }
         }
     }
