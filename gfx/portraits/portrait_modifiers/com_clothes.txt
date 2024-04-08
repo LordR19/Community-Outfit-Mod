@@ -2063,10 +2063,26 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 COM_WCR_enable_outfit = yes
+                scope:character = {
+                    owner ?= {
+                        OR = {
+                            c:JAP ?= this
+                            was_formed_from = JAP
+                        }
+                    }
+                }
             }
             modifier = {
                 add = -1000
                 COM_WCR_disable_outfit = yes
+                scope:character = {
+                    owner ?= {
+                        OR = {
+                            c:JAP ?= this
+                            was_formed_from = JAP
+                        }
+                    }
+                }
             }
         }
     }
@@ -2189,10 +2205,26 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 COM_WCR_enable_outfit = yes
+                scope:character = {
+                    owner ?= {
+                        OR = {
+                            c:KOR ?= this
+                            was_formed_from = KOR
+                        }
+                    }
+                }
             }
             modifier = {
                 add = -1000
                 COM_WCR_disable_outfit = yes
+                scope:character = {
+                    owner ?= {
+                        OR = {
+                            c:KOR ?= this
+                            was_formed_from = KOR
+                        }
+                    }
+                }
             }
         }
     }
