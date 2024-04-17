@@ -337,6 +337,19 @@ special_genes = {
 				girl = female
 			}
 
+			com_SAX_legwear = {
+				index = 24
+				male = {
+					1 = com_male_legwear_european_azure_red_stripe_thin
+					1 = com_male_legwear_european_dark_blue_red_stripe_thin
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }
