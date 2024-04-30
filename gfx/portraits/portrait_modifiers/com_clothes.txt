@@ -15241,6 +15241,7 @@ COM_clothes = {
                 year < 1866
                 exists = scope:pop
                 scope:pop = {
+                    is_pop_type = officers
                     exists = home_country
                     OR = {
                         home_country = {
