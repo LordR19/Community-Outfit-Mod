@@ -263,6 +263,10 @@ com_male_sash_SAX_2 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SAX_2_entity" }	
 }
 
+com_male_sash_SAX_military_1 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SAX_military_1_entity" }	
+}
+
 com_male_sash_SCA_1 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SCA_1_entity" }	
 }

@@ -3,12 +3,12 @@
     # By Lord R #
     #############
 
-com_sashes = {
+COM_sashes = {
     usage = game
     selection_behavior = weighted_random
 
     #SCA Cultural Sashes: Sweden
-    com_SCA_sash_swedish = {
+    COM_SCA_sash_swedish = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -50,7 +50,7 @@ com_sashes = {
     }
 
     #SCA Cultural Sashes: Denmark
-    com_SCA_sash_danish = {
+    COM_SCA_sash_danish = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -92,7 +92,7 @@ com_sashes = {
     }
 
     #SCA Cultural Sashes: Norway
-    com_SCA_sash_norwegian = {
+    COM_SCA_sash_norwegian = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -134,7 +134,7 @@ com_sashes = {
     }
 
     #SCA Cultural Sashes: Finland
-    com_SCA_sash_norwegian = {
+    COM_SCA_sash_norwegian = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -176,7 +176,7 @@ com_sashes = {
     }
 
     #SCA Cultural Sashes: Iceland
-    com_SCA_sash_icelandic = {
+    COM_SCA_sash_icelandic = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -218,7 +218,7 @@ com_sashes = {
     }
 
     #SCA Cultural Sashes: other
-    com_SCA_sash_other = {
+    COM_SCA_sash_other = {
         dna_modifiers = {
             accessory = {
                 mode = add
