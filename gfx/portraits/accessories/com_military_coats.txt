@@ -631,6 +631,11 @@ com_male_military_coat_SWE_early_artillery_03 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SWE_early_artillery_03_entity" }	
 }
 
+com_male_military_coat_SWE_early_cavalry_09 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_SWE_early_cavalry_09_entity" }	
+}
+
 com_male_military_coat_switzerland_early_01_a = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_early_01_a_entity" }	

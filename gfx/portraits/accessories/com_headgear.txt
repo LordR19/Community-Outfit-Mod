@@ -81,6 +81,11 @@ com_male_headgear_european_military_02_SWE = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SWE_entity" }	
 }
 
+com_male_headgear_european_military_02_SWE_cavalry = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SWE_cavalry_entity" }	
+}
+
 com_male_headgear_european_military_02_SWI = {
     set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_SWI_entity" }	

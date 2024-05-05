@@ -13345,6 +13345,217 @@ COM_clothes = {
         }
     }
 
+    #Outfit Early Swedish Artillery Officer Pops
+    COM_early_SWE_officer_artillery_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_SWE_military_coats
+                accessory = com_male_military_coat_SWE_early_artillery_03
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_black_yellow_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_all_sashes
+                accessory = com_male_sash_european_plain_yellow
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_military_headgear
+                accessory = male_headgear_european_military_08
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 502
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = officers
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
+                            home_country = c:SWE
+                        }
+                    }
+                    workplace ?= {
+                        any_combat_unit = {
+                            OR = {
+                                has_unit_type = unit_type:combat_unit_type_cannon_artillery
+                                has_unit_type = unit_type:combat_unit_type_mobile_artillery
+                                has_unit_type = unit_type:combat_unit_type_shrapnel_artillery
+                                has_unit_type = unit_type:combat_unit_type_siege_artillery
+                                has_unit_type = unit_type:combat_unit_type_heavy_tank
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Swedish Cavalry Officer Pops
+    COM_early_SWE_officer_cavalry_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_SWE_military_coats
+                accessory = com_male_military_coat_SWE_early_cavalry_09
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_black_yellow_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_all_sashes
+                accessory = com_male_sash_european_plain_yellow
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_all_headgear
+                accessory = com_male_headgear_european_military_02_SWE_cavalry
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 501
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = officers
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
+                            home_country = c:SWE
+                        }
+                    }
+                    workplace ?= {
+                        any_combat_unit = {
+                            OR = {
+                                has_unit_type = unit_type:combat_unit_type_hussars
+                                has_unit_type = unit_type:combat_unit_type_dragoons
+                                has_unit_type = unit_type:combat_unit_type_cuirassiers
+                                has_unit_type = unit_type:combat_unit_type_lancers
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     #Outfit Early Swedish Officer Pops
     COM_early_SWE_officer_outfit = {
         dna_modifiers = {
@@ -13427,6 +13638,199 @@ COM_clothes = {
                         AND = {
                             exists = c:SWE
                             home_country = c:SWE
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Swedish Artillery Soldier Pops
+    COM_early_SWE_soldier_artillery_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_SWE_military_coats
+                accessory = com_male_military_coat_SWE_early_artillery_03
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_black_dark_boots
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_all_sashes
+                accessory = com_male_sash_european_plain_yellow
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 502
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = soldiers
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
+                            home_country = c:SWE
+                        }
+                    }
+                    workplace ?= {
+                        any_combat_unit = {
+                            OR = {
+                                has_unit_type = unit_type:combat_unit_type_cannon_artillery
+                                has_unit_type = unit_type:combat_unit_type_mobile_artillery
+                                has_unit_type = unit_type:combat_unit_type_shrapnel_artillery
+                                has_unit_type = unit_type:combat_unit_type_siege_artillery
+                                has_unit_type = unit_type:combat_unit_type_heavy_tank
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Outfit Early Swedish Cavalry Soldier Pops
+    COM_early_SWE_soldier_cavalry_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_SWE_military_coats
+                accessory = com_male_military_coat_SWE_early_cavalry_09
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_black_yellow_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_BYZ_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_all_sashes
+                accessory = com_male_sash_european_plain_yellow
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_all_headgear
+                accessory = com_male_headgear_european_military_02_SWE_cavalry
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 501
+                
+                exists = scope:pop
+                scope:pop = {
+                    is_pop_type = soldiers
+                    exists = home_country
+                    OR = {
+                        home_country = {
+                            was_formed_from = SWE
+                        }
+                        AND = {
+                            exists = c:SWE
+                            home_country = c:SWE
+                        }
+                    }
+                    workplace ?= {
+                        any_combat_unit = {
+                            OR = {
+                                has_unit_type = unit_type:combat_unit_type_hussars
+                                has_unit_type = unit_type:combat_unit_type_dragoons
+                                has_unit_type = unit_type:combat_unit_type_cuirassiers
+                                has_unit_type = unit_type:combat_unit_type_lancers
+                            }
                         }
                     }
                 }

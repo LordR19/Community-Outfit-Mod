@@ -46,6 +46,7 @@ special_genes = {
 					1 = com_male_sash_european_white
 					1 = com_male_sash_european_white_wool
 					1 = com_male_sash_european_gold
+					1 = com_male_sash_european_plain_yellow
 					1 = com_male_sash_AUS
 					1 = com_male_sash_BAD
 					1 = com_male_sash_BRZ_1

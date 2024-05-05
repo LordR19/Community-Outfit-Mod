@@ -42,6 +42,7 @@ special_genes = {
 					1 = com_male_headgear_european_military_02_SER_a #officer
 					1 = com_male_headgear_european_military_02_SER_b #general
 					1 = com_male_headgear_european_military_02_SWE
+					1 = com_male_headgear_european_military_02_SWE_cavalry
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
 				}

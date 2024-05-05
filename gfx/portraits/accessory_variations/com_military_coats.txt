@@ -2187,6 +2187,22 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_SPA_uniform_09_early.dds" }	
 }
 
+#Early Spanish Uniform 09 (Officer)
+variation = {
+	name = "com_male_military_coat_SWE_early_cavalry_09"
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_SWE_uniform_09_cavalry_early.dds" }	
+}
+
 #Early Spanish Uniform 10 (Admiral)
 variation = {
 	name = "com_male_military_coat_SPA_early_10"

@@ -47,6 +47,10 @@ com_male_legwear_european_grey = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_grey_entity" }	
 }
 
+com_male_legwear_european_black_dark_boots = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_dark_boots_entity" }	
+}
+
 com_male_legwear_european_very_black = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_very_black_entity" }	
 }
@@ -57,6 +61,10 @@ com_male_legwear_european_black_red_stripe = {
 
 com_male_legwear_european_black_red_stripe_thin = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_thin_entity" }	
+}
+
+com_male_legwear_european_black_yellow_stripe_thin = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_yellow_stripe_thin_entity" }	
 }
 
 com_male_legwear_european_black_light_yellow_stripe_thin = {
