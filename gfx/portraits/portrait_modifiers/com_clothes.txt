@@ -14104,7 +14104,6 @@ com_clothes = {
                 year < 1861
                 exists = scope:pop
                 scope:pop = {
-                    wealth > 14 #This is an attempt to let this second outfit spawn (as it was historically the cavalry outfit)
                     is_pop_type = soldiers
                     exists = home_country
                     OR = {
@@ -14114,6 +14113,16 @@ com_clothes = {
                         AND = {
                             exists = c:SWI
                             home_country = c:SWI
+                        }
+                    }
+                    workplace ?= {
+                        any_combat_unit = {
+                            OR = {
+                                has_unit_type = unit_type:combat_unit_type_hussars
+                                has_unit_type = unit_type:combat_unit_type_dragoons
+                                has_unit_type = unit_type:combat_unit_type_cuirassiers
+                                has_unit_type = unit_type:combat_unit_type_lancers
+                            }
                         }
                     }
                 }
