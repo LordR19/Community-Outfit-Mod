@@ -5526,6 +5526,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:AUS
@@ -5635,6 +5640,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:AUS
@@ -5732,6 +5742,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = AUS
@@ -5809,6 +5824,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = AUS
@@ -5909,6 +5929,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:BAD
@@ -6024,6 +6049,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:BAD
@@ -6133,6 +6163,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BAD
@@ -6216,6 +6251,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BAD
@@ -6322,6 +6362,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:BAV
@@ -6443,6 +6488,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:BAV
@@ -6552,6 +6602,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BAV
@@ -6635,6 +6690,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BAV
@@ -6743,6 +6803,11 @@ COM_clothes = {
                     AND = {
                         exists = c:BEL
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:BEL
                             home_country = {
@@ -6854,6 +6919,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:BEL
@@ -6969,6 +7039,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BEL
@@ -7058,6 +7133,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BEL
@@ -7166,6 +7246,11 @@ COM_clothes = {
                     AND = {
                         exists = c:BUL
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:BUL
                             home_country = {
@@ -7183,6 +7268,11 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:bulgarian
                         }
@@ -7291,6 +7381,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:BUL
@@ -7317,6 +7412,11 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:bulgarian
                         }
@@ -7427,6 +7527,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BUL
@@ -7446,6 +7551,11 @@ COM_clothes = {
                     is_pop_type = officers
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:bulgarian
                         }
@@ -7524,6 +7634,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BUL
@@ -7543,6 +7658,11 @@ COM_clothes = {
                     is_pop_type = soldiers
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:bulgarian
                         }
@@ -7644,6 +7764,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:BYZ
@@ -7759,6 +7884,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:BYZ
@@ -7868,6 +7998,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BYZ
@@ -7951,6 +8086,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = BYZ
@@ -8059,6 +8199,11 @@ COM_clothes = {
                     AND = {
                         exists = c:DEN
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:DEN
                             home_country = {
@@ -8170,6 +8315,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:DEN
@@ -8273,6 +8423,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = DEN
@@ -8350,6 +8505,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = DEN
@@ -8450,6 +8610,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:FIN
@@ -8571,6 +8736,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:FIN
@@ -8668,6 +8838,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = FIN
@@ -8757,6 +8932,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = FIN
@@ -8865,6 +9045,11 @@ COM_clothes = {
                     AND = {
                         exists = c:GRE
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:GRE
                             home_country = {
@@ -8882,6 +9067,11 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:greek
                         }
@@ -9008,6 +9198,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:GRE
@@ -9034,6 +9229,11 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:greek
                         }
@@ -9132,6 +9332,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = GRE
@@ -9151,6 +9356,11 @@ COM_clothes = {
                     is_pop_type = officers
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:greek
                         }
@@ -9229,6 +9439,16 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = GRE
@@ -9248,6 +9468,16 @@ COM_clothes = {
                     is_pop_type = soldiers
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             country_has_primary_culture = cu:greek
                         }
@@ -9345,6 +9575,16 @@ COM_clothes = {
                     AND = {
                         exists = c:ITA
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:ITA
                             home_country = {
@@ -9362,6 +9602,16 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             OR = {
                                 country_has_primary_culture = cu:south_italian
@@ -9491,6 +9741,16 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:ITA
@@ -9520,6 +9780,16 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             OR = {
                                 country_has_primary_culture = cu:south_italian
@@ -9659,6 +9929,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:ITA
@@ -9688,6 +9963,16 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             OR = {
                                 country_has_primary_culture = cu:south_italian
@@ -9815,6 +10100,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:ITA
@@ -9844,6 +10134,16 @@ COM_clothes = {
                 scope:character = {
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             OR = {
                                 country_has_primary_culture = cu:south_italian
@@ -9960,6 +10260,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = ITA
@@ -9979,6 +10284,11 @@ COM_clothes = {
                     is_pop_type = officers
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             OR = {
                                 country_has_primary_culture = cu:south_italian
@@ -10060,6 +10370,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = ITA
@@ -10079,6 +10394,11 @@ COM_clothes = {
                     is_pop_type = soldiers
                     AND = {
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         home_country = {
                             OR = {
                                 country_has_primary_culture = cu:south_italian
@@ -10177,6 +10497,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:NET
@@ -10292,6 +10617,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:NET
@@ -10383,6 +10713,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = NET
@@ -10466,6 +10801,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = NET
@@ -10566,6 +10906,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:NOR
@@ -10681,6 +11026,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:NOR
@@ -10778,6 +11128,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = NOR
@@ -10855,6 +11210,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = NOR
@@ -10955,6 +11315,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:POR
@@ -11064,6 +11429,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:POR
@@ -11161,6 +11531,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = POR
@@ -11244,6 +11619,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = POR
@@ -11352,6 +11732,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:PRU
@@ -11469,6 +11854,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:PRU
@@ -11590,6 +11980,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:PRU
@@ -11699,6 +12094,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = PRU
@@ -11788,6 +12188,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = PRU
@@ -11901,6 +12306,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:SCA
@@ -12011,6 +12421,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:SCA
@@ -12120,6 +12535,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
@@ -12229,6 +12649,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SCA
@@ -12318,6 +12743,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SCA
@@ -12418,6 +12848,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:SER
@@ -12533,6 +12968,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SER
@@ -12642,6 +13082,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SER
@@ -12719,6 +13164,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SER
@@ -12819,6 +13269,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:SPA
@@ -12934,6 +13389,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SPA
@@ -13031,6 +13491,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SPA
@@ -13108,6 +13573,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SPA
@@ -13208,6 +13678,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:SWE
@@ -13323,6 +13798,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SWE
@@ -13426,6 +13906,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWE
@@ -13532,6 +14017,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWE
@@ -13631,6 +14121,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWE
@@ -13714,6 +14209,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWE
@@ -13814,6 +14314,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWE
@@ -13901,6 +14406,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWE
@@ -13991,6 +14501,11 @@ COM_clothes = {
                     AND = {
                         exists = c:SWI
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:SWI
                             home_country = {
@@ -14091,6 +14606,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SWI
@@ -14200,6 +14720,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SWI
@@ -14304,6 +14829,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWI
@@ -14400,6 +14930,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWI
@@ -14478,6 +15013,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWI
@@ -14562,6 +15102,16 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWI
@@ -14656,6 +15206,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SWI
@@ -14756,6 +15311,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:TUR
@@ -14871,6 +15431,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:TUR
@@ -14991,6 +15556,11 @@ COM_clothes = {
                 exists = scope:pop
                 scope:pop = {
                     is_pop_type = officers
+                    NOT = {
+                        home_country ?= {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     AND = {
                         exists = c:TUR
                         exists = home_country
@@ -15084,6 +15654,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = TUR
@@ -15198,6 +15773,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:WUR
@@ -15315,6 +15895,11 @@ COM_clothes = {
                     scope:character ?= {
                         AND = {
                             exists = home_country
+                            NOT = {
+                                home_country = {
+                                    has_technology_researched = bolt_action_rifles
+                                }
+                            }
                             OR = {
                                 AND = {
                                     exists = c:WUR
@@ -15431,6 +16016,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:WUR
@@ -15552,6 +16142,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:WUR
@@ -15656,6 +16251,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = WUR
@@ -15758,6 +16358,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = WUR
@@ -15842,6 +16447,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = WUR
@@ -15932,6 +16542,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = WUR
@@ -16040,6 +16655,11 @@ COM_clothes = {
                     AND = {
                         exists = c:SAX
                         exists = home_country
+                        NOT = {
+                            home_country = {
+                                has_technology_researched = bolt_action_rifles
+                            }
+                        }
                         OR = {
                             home_country = c:SAX
                             home_country = {
@@ -16151,6 +16771,11 @@ COM_clothes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SAX
@@ -16260,6 +16885,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = officers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SAX
@@ -16337,6 +16967,11 @@ COM_clothes = {
                 scope:pop = {
                     is_pop_type = soldiers
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         home_country = {
                             was_formed_from = SAX

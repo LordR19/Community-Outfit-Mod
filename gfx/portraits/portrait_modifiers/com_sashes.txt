@@ -26,6 +26,11 @@ COM_sashes = {
                 scope:character = {
                     has_culture = cu:swedish
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
@@ -68,6 +73,11 @@ COM_sashes = {
                 scope:character = {
                     has_culture = cu:danish
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
@@ -110,6 +120,11 @@ COM_sashes = {
                 scope:character = {
                     has_culture = cu:norwegian
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
@@ -152,6 +167,11 @@ COM_sashes = {
                 scope:character = {
                     has_culture = cu:finnish
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
@@ -194,6 +214,11 @@ COM_sashes = {
                 scope:character = {
                     has_culture = cu:icelandic
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
@@ -235,6 +260,11 @@ COM_sashes = {
                 exists = scope:character
                 scope:character = {
                     exists = home_country
+                    NOT = {
+                        home_country = {
+                            has_technology_researched = bolt_action_rifles
+                        }
+                    }
                     OR = {
                         AND = {
                             exists = c:SCA
