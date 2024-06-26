@@ -15033,7 +15033,7 @@ COM_clothes = {
     }
 
     #Outfit Early Swiss Cavalry Pops
-    COM_early_SWI_soldier_outfit = {
+    COM_early_SWI_cavalry_outfit = {
         dna_modifiers = {
             accessory = {
                 mode = add
