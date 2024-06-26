@@ -101,7 +101,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -197,7 +197,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -299,7 +299,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -400,7 +400,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -507,7 +507,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -602,7 +602,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -703,7 +703,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -718,7 +718,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -819,7 +819,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -920,7 +920,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1021,7 +1021,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1122,7 +1122,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1224,7 +1224,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1328,7 +1328,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1437,7 +1437,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1538,7 +1538,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1646,7 +1646,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1747,7 +1747,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1849,7 +1849,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -1950,7 +1950,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2054,7 +2054,7 @@ COM_clothes = {
                             has_variable = meiji_restoration_complete
                         }
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2323,7 +2323,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2431,7 +2431,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2526,7 +2526,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2635,7 +2635,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2736,7 +2736,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2837,7 +2837,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -2944,7 +2944,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3039,7 +3039,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3140,7 +3140,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3360,7 +3360,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3461,7 +3461,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3562,7 +3562,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3669,7 +3669,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3783,7 +3783,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3884,7 +3884,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -3979,7 +3979,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4080,7 +4080,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4187,7 +4187,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4288,7 +4288,7 @@ COM_clothes = {
                         }
                         monarchy_clothes_trigger = yes
                         is_female = no
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4337,7 +4337,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4383,7 +4383,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4429,7 +4429,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4475,7 +4475,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4520,7 +4520,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4566,7 +4566,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4614,7 +4614,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4660,7 +4660,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4706,7 +4706,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4752,7 +4752,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4797,7 +4797,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4842,7 +4842,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4887,7 +4887,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4932,7 +4932,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -4977,7 +4977,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5022,7 +5022,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5067,7 +5067,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5112,7 +5112,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5157,7 +5157,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5202,7 +5202,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5247,7 +5247,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5292,7 +5292,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
@@ -5337,7 +5337,7 @@ COM_clothes = {
                         }
                         exists = home_country
                         is_ruler = yes
-                        age >= 13
+                        age >= 16
                     }
                 }
             }
