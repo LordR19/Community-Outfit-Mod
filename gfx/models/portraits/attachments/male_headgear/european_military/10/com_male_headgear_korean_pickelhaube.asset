@@ -1,0 +1,27 @@
+pdxmesh = {
+	name = "com_male_headgear_korean_pickelhaube_mesh"
+	file = "com_male_headgear_korean_pickelhaube.mesh"
+
+	meshsettings = {
+		name = "md_kr_pickelhaube"
+		index = 0
+		texture_diffuse = "com_male_headgear_korean_pickelhaube_d.dds"
+		texture_normal = "com_male_headgear_korean_pickelhaube_n.dds"
+		texture_specular = "com_male_headgear_korean_pickelhaube_p.dds"
+        shader = "portrait_attachment_pattern"
+        shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+    name      = "com_male_headgear_korean_pickelhaube_entity"
+    pdxmesh   = "com_male_headgear_korean_pickelhaube_mesh"
+    game_data = {
+        portrait_entity_user_data = {
+            portrait_accessory = {
+                pattern_mask   = "gfx/models/portraits/attachments/male_headgear/european_military/10/com_male_headgear_korean_pickelhaube_masks.dds"
+                variation      = "com_male_headgear_korean_pickelhaube"
+            }
+        }
+    }
+}

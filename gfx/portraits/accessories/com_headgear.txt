@@ -145,3 +145,8 @@ com_male_headgear_european_military_05_WUR = {
     set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_WUR_entity" }	
 }
+
+com_male_headgear_korean_pickelhaube = {
+	set_tags ="cap1" 
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_korean_pickelhaube_entity" }
+}

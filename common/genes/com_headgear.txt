@@ -45,6 +45,7 @@ special_genes = {
 					1 = com_male_headgear_european_military_02_SWE_cavalry
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
+					1 = com_male_headgear_korean_pickelhaube
 				}
 				female = {
 					1 = empty
@@ -238,7 +239,7 @@ special_genes = {
 				index = 15
 				male = {
 					4 = empty
-					1 = male_headgear_european_military_10 #general early
+					1 = com_male_headgear_korean_pickelhaube #Model created by Miss Duce
 				}
 				female = {
 					1 = empty
