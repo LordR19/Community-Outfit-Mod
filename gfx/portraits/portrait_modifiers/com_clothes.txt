@@ -3761,19 +3761,19 @@ COM_clothes = {
                 
                 AND = {
                     exists = scope:character
-                    trigger_if = {
-                        limit = { bf_is_active = yes }
-                        scope:character = {
-                            NOR = {
-                                has_template = swe_karl_johan_bernadotte_template
-                                has_template = swe_oscar_bernadotte_template
-                                has_template = swe_oscar_fredrik_bernadotte
-                                has_template = swe_oscar_gustaf_adolf_bernadotte
-                                has_template = swe_carl_ludvig_eugen_bernadotte
-                                has_template = swe_oscar_fredrik_wilhelm_olaf_gustaf_adolf_bernadotte
-                            }
-                        }
-                    }
+                    #trigger_if = {
+                    #    limit = { always = no }
+                    #    scope:character = {
+                    #        NOR = {
+                    #            has_template = swe_karl_johan_bernadotte_template
+                    #            has_template = swe_oscar_bernadotte_template
+                    #            has_template = swe_oscar_fredrik_bernadotte
+                    #            has_template = swe_oscar_gustaf_adolf_bernadotte
+                    #            has_template = swe_carl_ludvig_eugen_bernadotte
+                    #            has_template = swe_oscar_fredrik_wilhelm_olaf_gustaf_adolf_bernadotte
+                    #        }
+                    #    }
+                    #}
                     scope:character = {
                         owner ?= {
                             OR = {
@@ -5659,6 +5659,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -6068,6 +6069,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -6507,6 +6509,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -6938,6 +6941,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -7400,6 +7404,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -7425,6 +7430,7 @@ COM_clothes = {
                                 has_role = politician
                                 is_ruler = no
                                 is_interest_group_type = ig_armed_forces
+                                mr_com_special_character_blocker = yes
                             }
                             has_role = general
                         }
@@ -7903,6 +7909,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -8334,6 +8341,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -8755,6 +8763,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -9217,6 +9226,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -9242,6 +9252,7 @@ COM_clothes = {
                                 has_role = politician
                                 is_ruler = no
                                 is_interest_group_type = ig_armed_forces
+                                mr_com_special_character_blocker = yes
                             }
                             has_role = general
                         }
@@ -9765,6 +9776,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         AND = {
                             has_role = general
@@ -9801,6 +9813,7 @@ COM_clothes = {
                                 has_role = politician
                                 is_ruler = no
                                 is_interest_group_type = ig_armed_forces
+                                mr_com_special_character_blocker = yes
                             }
                             AND = {
                                 has_role = general
@@ -9948,6 +9961,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         AND = {
                             has_role = general
@@ -9984,6 +9998,7 @@ COM_clothes = {
                                 has_role = politician
                                 is_ruler = no
                                 is_interest_group_type = ig_armed_forces
+                                mr_com_special_character_blocker = yes
                             }
                             AND = {
                                 has_role = general
@@ -10119,6 +10134,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         AND = {
                             has_role = general
@@ -10155,6 +10171,7 @@ COM_clothes = {
                                 has_role = politician
                                 is_ruler = no
                                 is_interest_group_type = ig_armed_forces
+                                mr_com_special_character_blocker = yes
                             }
                             AND = {
                                 has_role = general
@@ -10636,6 +10653,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -11045,6 +11063,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -11448,6 +11467,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -11999,6 +12019,8 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
+
                         }
                         has_role = general
                     }
@@ -12554,6 +12576,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -12987,6 +13010,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -13408,6 +13432,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -13817,6 +13842,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -14625,6 +14651,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -14739,6 +14766,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -15450,6 +15478,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -16035,6 +16064,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -16161,6 +16191,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
@@ -16790,6 +16821,7 @@ COM_clothes = {
                             has_role = politician
                             is_ruler = no
                             is_interest_group_type = ig_armed_forces
+                            mr_com_special_character_blocker = yes
                         }
                         has_role = general
                     }
