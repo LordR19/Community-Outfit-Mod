@@ -5784,6 +5784,213 @@ COM_clothes = {
         }
     }
 
+    #Outfit for Gustaf V of Sweden (Young)
+    COM_swe_gustaf_v_young_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = props
+                template = female_glasses
+                accessory = male_glasses
+            }
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_all_military_coats
+                accessory = com_male_military_coat_SWE_royal_01
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_all_sashes
+                accessory = com_male_sash_european_light_blue
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_03
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_all_belts
+                accessory = com_male_belt_generic_02_gold
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = all_epaulettes
+                accessory = male_epaulettes_04
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                
+                scope:character = {
+                    has_template = swe_gustaf_v_bernadotte_template
+                    age < 55
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
+                }
+            }
+        }
+    }
+
+    #Outfit for Gustaf V of Sweden (Old)
+    COM_swe_gustaf_v_old_outfit = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = props
+                template = female_glasses
+                accessory = male_glasses
+            }
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_all_military_coats
+                accessory = com_male_military_coat_SWE_royal_01
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_all_sashes
+                accessory = com_male_sash_european_light_blue
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                accessory = male_medals_generic_01_03
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_all_belts
+                accessory = com_male_belt_generic_02_gold
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = all_epaulettes
+                accessory = male_epaulettes_03
+            }
+
+            #Hair & Beard
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = european_hairstyles
+                accessory = male_hair_european_05
+            }
+            accessory = {
+                mode = replace
+                gene = beards
+                template = no_beard
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = replace
+                gene = mustaches
+                template = european_mustaches
+                accessory = male_mustache_european_03
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                
+                scope:character = {
+                    has_template = swe_gustaf_v_bernadotte_template
+                    age > 55
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                }
+            }
+        }
+    }
+
     #########################################
     # Outfits for Generals and Soldier Pops #
     #########################################
