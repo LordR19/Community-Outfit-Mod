@@ -90,19 +90,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:AUS ?= this
-                                was_formed_from = AUS
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:AUS ?= this
+                            was_formed_from = AUS
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -187,8 +184,7 @@ COM_clothes = {
                 
                 AND = {
                     year < 1871
-                    exists = scope:character
-                    scope:character = {
+                    scope:character ?= {
                         owner ?= {
                             OR = {
                                 c:BAD ?= this
@@ -289,8 +285,7 @@ COM_clothes = {
                 
                 AND = {
                     year >= 1871
-                    exists = scope:character
-                    scope:character = {
+                    scope:character ?= {
                         owner ?= {
                             OR = {
                                 c:BAD ?= this
@@ -389,19 +384,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BAV ?= this
-                                was_formed_from = BAV
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BAV ?= this
+                            was_formed_from = BAV
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -496,19 +488,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BRA ?= this
-                                was_formed_from = BRA
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BRA ?= this
+                            was_formed_from = BRA
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -591,19 +580,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BRZ ?= this
-                                was_formed_from = BRZ
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BRZ ?= this
+                            was_formed_from = BRZ
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -692,34 +678,28 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BUL ?= this
-                                was_formed_from = BUL
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BUL ?= this
+                            was_formed_from = BUL
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
             modifier = {
                 add = 300
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            country_has_primary_culture = cu:bulgarian
-                        }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
+                scope:character ?= {
+                    owner ?= {
+                        country_has_primary_culture = cu:bulgarian
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -808,19 +788,16 @@ COM_clothes = {
             modifier = {
                 add = 1500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BYZ ?= this
-                                was_formed_from = BYZ
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BYZ ?= this
+                            was_formed_from = BYZ
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -909,19 +886,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BEL ?= this
-                                was_formed_from = BEL
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BEL ?= this
+                            was_formed_from = BEL
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1010,19 +984,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:DEN ?= this
-                                was_formed_from = DEN
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:DEN ?= this
+                            was_formed_from = DEN
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1111,19 +1082,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:FIN ?= this
-                                was_formed_from = FIN
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:FIN ?= this
+                            was_formed_from = FIN
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1212,20 +1180,17 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        NOT = { has_template = fra_napoleon_iii_character_template }
-                        owner ?= {
-                            OR = {
-                                c:FRA ?= this
-                                was_formed_from = FRA
-                            }
+                scope:character ?= {
+                    NOT = { has_template = fra_napoleon_iii_character_template }
+                    owner ?= {
+                        OR = {
+                            c:FRA ?= this
+                            was_formed_from = FRA
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1314,22 +1279,19 @@ COM_clothes = {
             modifier = {
                 add = 600
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        NOT = { has_template = fra_napoleon_iii_character_template }
-                        has_variable = bonapartist_leader
+                scope:character ?= {
+                    NOT = { has_template = fra_napoleon_iii_character_template }
+                    has_variable = bonapartist_leader
 
-                        owner ?= {
-                            OR = {
-                                c:FRA ?= this
-                                was_formed_from = FRA
-                            }
+                    owner ?= {
+                        OR = {
+                            c:FRA ?= this
+                            was_formed_from = FRA
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1424,21 +1386,18 @@ COM_clothes = {
             modifier = {
                 add = 600
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        has_variable = legitimist_leader
+                scope:character ?= {
+                    has_variable = legitimist_leader
 
-                        owner ?= {
-                            OR = {
-                                c:FRA ?= this
-                                was_formed_from = FRA
-                            }
+                    owner ?= {
+                        OR = {
+                            c:FRA ?= this
+                            was_formed_from = FRA
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1527,19 +1486,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:GRE ?= this
-                                was_formed_from = GRE
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:GRE ?= this
+                            was_formed_from = GRE
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1635,19 +1591,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:HAN ?= this
-                                was_formed_from = HAN
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:HAN ?= this
+                            was_formed_from = HAN
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1736,19 +1689,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:HEK ?= this
-                                was_formed_from = HEK
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:HEK ?= this
+                            was_formed_from = HEK
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1838,19 +1788,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:HES ?= this
-                                was_formed_from = HES
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:HES ?= this
+                            was_formed_from = HES
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -1939,19 +1886,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:HOH ?= this
-                                was_formed_from = HOH
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:HOH ?= this
+                            was_formed_from = HOH
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2040,22 +1984,19 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:JAP ?= this
-                                was_formed_from = JAP
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:JAP ?= this
+                            was_formed_from = JAP
                         }
-                        monarchy_clothes_trigger = yes
-                        home_country = {
-                            has_variable = meiji_restoration_complete
-                        }
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    home_country = {
+                        has_variable = meiji_restoration_complete
+                    }
+                    is_female = no
+                    age >= 16
                 }
             }
             
@@ -2063,7 +2004,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 COM_WCR_enable_outfit = yes
-                scope:character = {
+                scope:character ?= {
                     owner ?= {
                         OR = {
                             c:JAP ?= this
@@ -2075,7 +2016,7 @@ COM_clothes = {
             modifier = {
                 add = -1000
                 COM_WCR_disable_outfit = yes
-                scope:character = {
+                scope:character ?= {
                     owner ?= {
                         OR = {
                             c:JAP ?= this
@@ -2182,22 +2123,19 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:KOR ?= this
-                                was_formed_from = KOR
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:KOR ?= this
+                            was_formed_from = KOR
                         }
-                        monarchy_clothes_trigger = yes
-                        home_country = {
-                            has_variable = KOR_korean_empire_declared
-                        }
-                        is_female = no
-                        age >= 10
                     }
+                    monarchy_clothes_trigger = yes
+                    home_country = {
+                        has_variable = KOR_korean_empire_declared
+                    }
+                    is_female = no
+                    age >= 10
                 }
             }
             
@@ -2205,7 +2143,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 COM_WCR_enable_outfit = yes
-                scope:character = {
+                scope:character ?= {
                     owner ?= {
                         OR = {
                             c:KOR ?= this
@@ -2217,7 +2155,7 @@ COM_clothes = {
             modifier = {
                 add = -1000
                 COM_WCR_disable_outfit = yes
-                scope:character = {
+                scope:character ?= {
                     owner ?= {
                         OR = {
                             c:KOR ?= this
@@ -2312,19 +2250,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:LUC ?= this
-                                was_formed_from = LUC
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:LUC ?= this
+                            was_formed_from = LUC
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2420,19 +2355,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:MEC ?= this
-                                was_formed_from = MEC
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:MEC ?= this
+                            was_formed_from = MEC
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2515,19 +2447,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:MOD ?= this
-                                was_formed_from = MOD
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:MOD ?= this
+                            was_formed_from = MOD
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2624,19 +2553,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:NAS ?= this
-                                was_formed_from = NAS
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:NAS ?= this
+                            was_formed_from = NAS
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2725,19 +2651,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:NET ?= this
-                                was_formed_from = NET
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:NET ?= this
+                            was_formed_from = NET
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2826,19 +2749,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:NOR ?= this
-                                was_formed_from = NOR
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:NOR ?= this
+                            was_formed_from = NOR
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -2933,19 +2853,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:OLD ?= this
-                                was_formed_from = OLD
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:OLD ?= this
+                            was_formed_from = OLD
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3028,19 +2945,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PAR ?= this
-                                was_formed_from = PAR
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PAR ?= this
+                            was_formed_from = PAR
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3129,19 +3043,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:POR ?= this
-                                was_formed_from = POR
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:POR ?= this
+                            was_formed_from = POR
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3242,19 +3153,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PRU ?= this
-                                was_formed_from = PRU
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PRU ?= this
+                            was_formed_from = PRU
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 10
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 10
                 }
             }
         }
@@ -3343,25 +3251,22 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:ROM ?= this
-                                c:WAL ?= this
-                                c:MOL ?= this
-                                c:TRS ?= this
-                                was_formed_from = ROM
-                                was_formed_from = WAL
-                                was_formed_from = MOL
-                                was_formed_from = TRS
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ROM ?= this
+                            c:WAL ?= this
+                            c:MOL ?= this
+                            c:TRS ?= this
+                            was_formed_from = ROM
+                            was_formed_from = WAL
+                            was_formed_from = MOL
+                            was_formed_from = TRS
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3450,19 +3355,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SAR ?= this
-                                was_formed_from = SAR
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SAR ?= this
+                            was_formed_from = SAR
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3551,19 +3453,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SAX ?= this
-                                was_formed_from = SAX
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SAX ?= this
+                            was_formed_from = SAX
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3658,19 +3557,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SER ?= this
-                                was_formed_from = SER
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SER ?= this
+                            was_formed_from = SER
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3759,32 +3655,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    #trigger_if = {
-                    #    limit = { always = no }
-                    #    scope:character = {
-                    #        NOR = {
-                    #            has_template = swe_karl_johan_bernadotte_template
-                    #            has_template = swe_oscar_bernadotte_template
-                    #            has_template = swe_oscar_fredrik_bernadotte
-                    #            has_template = swe_oscar_gustaf_adolf_bernadotte
-                    #            has_template = swe_carl_ludvig_eugen_bernadotte
-                    #            has_template = swe_oscar_fredrik_wilhelm_olaf_gustaf_adolf_bernadotte
-                    #        }
-                    #    }
-                    #}
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SWE ?= this
-                                was_formed_from = SWE
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SWE ?= this
+                            was_formed_from = SWE
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3873,19 +3753,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SPA ?= this
-                                was_formed_from = SPA
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SPA ?= this
+                            was_formed_from = SPA
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -3968,19 +3845,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:TUS ?= this
-                                was_formed_from = TUS
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:TUS ?= this
+                            was_formed_from = TUS
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -4069,19 +3943,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SIC ?= this
-                                was_formed_from = SIC
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SIC ?= this
+                            was_formed_from = SIC
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -4176,19 +4047,16 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:WLD ?= this
-                                was_formed_from = WLD
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:WLD ?= this
+                            was_formed_from = WLD
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -4276,20 +4144,17 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:WUR ?= this
-                                was_formed_from = WUR
-                            }
+
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:WUR ?= this
+                            was_formed_from = WUR
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -4322,23 +4187,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:ARG ?= this
-                                was_formed_from = ARG
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ARG ?= this
+                            was_formed_from = ARG
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4367,24 +4229,21 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    year < 1872
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BOL ?= this
-                                was_formed_from = BOL
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                year < 1872
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BOL ?= this
+                            was_formed_from = BOL
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4413,24 +4272,21 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    year >= 1872
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BOL ?= this
-                                was_formed_from = BOL
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                year >= 1872
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BOL ?= this
+                            was_formed_from = BOL
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4458,25 +4314,22 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 400
-                
-                AND = {
-                    year >= 1910
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:BRZ ?= this
-                                was_formed_from = BRZ
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+
+                year >= 1910
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BRZ ?= this
+                            was_formed_from = BRZ
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4505,23 +4358,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:CHL ?= this
-                                was_formed_from = CHL
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:CHL ?= this
+                            was_formed_from = CHL
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4550,24 +4400,21 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    year < 1900
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:CLM ?= this
-                                was_formed_from = CLM
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                year < 1900
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:CLM ?= this
+                            was_formed_from = CLM
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4596,26 +4443,23 @@ COM_clothes = {
             modifier = {
                 add = 425
                 
-                AND = {
-                    year >=1900
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:CLM ?= this
-                                c:GCO ?= this
-                                was_formed_from = CLM
-                                was_formed_from = GCO
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                year >=1900
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:CLM ?= this
+                            c:GCO ?= this
+                            was_formed_from = CLM
+                            was_formed_from = GCO
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4644,24 +4488,21 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    year < 1900
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:ECU ?= this
-                                was_formed_from = ECU
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                year < 1900
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ECU ?= this
+                            was_formed_from = ECU
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4690,24 +4531,21 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    year >=1900
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:ECU ?= this
-                                was_formed_from = ECU
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                year >=1900
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ECU ?= this
+                            was_formed_from = ECU
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4736,24 +4574,21 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            NOT = { was_formed_from = PLT }
-                            OR = {
-                                c:FND ?= this
-                                was_formed_from = FND
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        NOT = { was_formed_from = PLT }
+                        OR = {
+                            c:FND ?= this
+                            was_formed_from = FND
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4782,23 +4617,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:GUA ?= this
-                                was_formed_from = GUA
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:GUA ?= this
+                            was_formed_from = GUA
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4827,23 +4659,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:MEX ?= this
-                                was_formed_from = MEX
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:MEX ?= this
+                            was_formed_from = MEX
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4872,23 +4701,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:NPU ?= this
-                                was_formed_from = NPU
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:NPU ?= this
+                            was_formed_from = NPU
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4917,23 +4743,20 @@ COM_clothes = {
             modifier = {
                 add = 425
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PBC ?= this
-                                was_formed_from = PBC
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PBC ?= this
+                            was_formed_from = PBC
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -4962,23 +4785,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PEU ?= this
-                                was_formed_from = PEU
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PEU ?= this
+                            was_formed_from = PEU
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5007,23 +4827,20 @@ COM_clothes = {
             modifier = {
                 add = 425
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PLT ?= this
-                                was_formed_from = PLT
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PLT ?= this
+                            was_formed_from = PLT
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5052,23 +4869,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PNI ?= this
-                                was_formed_from = PNI
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PNI ?= this
+                            was_formed_from = PNI
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5097,23 +4911,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PRA ?= this
-                                was_formed_from = PRA
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PRA ?= this
+                            was_formed_from = PRA
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5142,23 +4953,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:PRG ?= this
-                                was_formed_from = PRG
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PRG ?= this
+                            was_formed_from = PRG
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5187,23 +4995,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:RIO ?= this
-                                was_formed_from = RIO
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:RIO ?= this
+                            was_formed_from = RIO
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5232,23 +5037,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:SPU ?= this
-                                was_formed_from = SPU
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SPU ?= this
+                            was_formed_from = SPU
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5277,23 +5079,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:UCA ?= this
-                                was_formed_from = UCA
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:UCA ?= this
+                            was_formed_from = UCA
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5322,23 +5121,20 @@ COM_clothes = {
             modifier = {
                 add = 400
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        owner ?= {
-                            OR = {
-                                c:VNZ ?= this
-                                was_formed_from = VNZ
-                            }
-                            OR = {
-                                has_law = law_type:law_presidential_republic
-                                has_law = law_type:law_parliamentary_republic
-                            }
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:VNZ ?= this
+                            was_formed_from = VNZ
                         }
-                        exists = home_country
-                        is_ruler = yes
-                        age >= 16
+                        OR = {
+                            has_law = law_type:law_presidential_republic
+                            has_law = law_type:law_parliamentary_republic
+                        }
                     }
+                    exists = home_country
+                    is_ruler = yes
+                    age >= 16
                 }
             }
         }
@@ -5425,11 +5221,8 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                AND = {
-                    exists = scope:character
-                    scope:character = {
-                        has_variable = com_is_otto_i_var
-                    }
+                scope:character ?= {
+                    has_variable = com_is_otto_i_var
                 }
             }
         }
@@ -6192,8 +5985,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -6603,8 +6395,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -7044,8 +6835,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -7358,9 +7148,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:BEL
                         exists = home_country
@@ -7476,9 +7265,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -7803,9 +7591,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:BUL
                         exists = home_country
@@ -7826,9 +7613,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -7940,9 +7726,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -7972,9 +7757,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -8448,8 +8232,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -8762,9 +8545,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:DEN
                         exists = home_country
@@ -8880,9 +8662,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -9304,8 +9085,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -9612,9 +9392,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:GRE
                         exists = home_country
@@ -9635,9 +9414,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -9767,9 +9545,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -9799,9 +9576,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -10146,9 +9922,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:ITA
                         exists = home_country
@@ -10174,9 +9949,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -10314,9 +10088,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -10354,9 +10127,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -10506,9 +10278,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -10541,9 +10312,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -10681,9 +10451,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -10716,9 +10485,8 @@ COM_clothes = {
             }
             modifier = {
                 add = 300
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = home_country
                         NOT = {
@@ -11203,8 +10971,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -11614,8 +11381,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -12019,8 +11785,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -12572,8 +12337,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -13130,8 +12894,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -13565,8 +13328,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -13988,8 +13750,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -14399,8 +14160,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -15101,9 +14861,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:SWI
                         exists = home_country
@@ -15209,8 +14968,7 @@ COM_clothes = {
                 add = 500
                 
                 year >= 1861
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -15325,8 +15083,7 @@ COM_clothes = {
                 add = 500
                 
                 year < 1861
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -16038,8 +15795,7 @@ COM_clothes = {
             modifier = {
                 add = 500
 
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -16625,8 +16381,7 @@ COM_clothes = {
                 add = 500
 
                 year < 1866
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -16753,8 +16508,7 @@ COM_clothes = {
                 add = 500
 
                 year >= 1866
-                exists = scope:character
-                scope:character = {
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
@@ -17265,9 +17019,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     AND = {
                         exists = c:SAX
                         exists = home_country
@@ -17383,9 +17136,8 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
-                exists = scope:character
-                scope:character = {
+
+                scope:character ?= {
                     exists = home_country
                     NOT = {
                         home_country = {
