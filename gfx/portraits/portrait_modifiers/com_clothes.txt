@@ -283,19 +283,17 @@ COM_clothes = {
             modifier = {
                 add = 500
                 
-                AND = {
-                    year >= 1871
-                    scope:character ?= {
-                        owner ?= {
-                            OR = {
-                                c:BAD ?= this
-                                was_formed_from = BAD
-                            }
+                year >= 1871
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BAD ?= this
+                            was_formed_from = BAD
                         }
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 16
                     }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
                 }
             }
         }
@@ -12663,6 +12661,7 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 1000
+
                 year >= 1880
                 OR = {
                     scope:character ?= {
@@ -12778,6 +12777,7 @@ COM_clothes = {
             base = 0
             modifier = {
                 add = 1000
+
                 year < 1880
                 OR = {
                     scope:character ?= {
