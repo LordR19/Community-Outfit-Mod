@@ -60,6 +60,7 @@ special_genes = {
 					1 = com_male_military_coat_SIC_royal_06
 					1 = com_male_military_coat_SWE_royal_01
 					1 = com_male_military_coat_SWE_royal_06
+					1 = com_male_military_coat_SWE_royal_09
 					1 = com_male_military_coat_european_civil_dress_uniform_SWE_royal_01
 					1 = com_male_military_coat_WUR_royal_09
 					1 = com_male_military_coat_BAD_early_01 #Soldier
