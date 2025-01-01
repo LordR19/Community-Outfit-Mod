@@ -5512,7 +5512,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                scope:character = {
+                scope:character ?= {
                     monarchy_clothes_trigger = yes
                     has_template = swe_karl_johan_bernadotte_template
                     is_female = no
@@ -5599,7 +5599,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                scope:character = {
+                scope:character ?= {
                     monarchy_clothes_trigger = yes
                     has_template = swe_oscar_bernadotte_template
                     is_female = no
@@ -5686,7 +5686,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                scope:character = {
+                scope:character ?= {
                     has_template = swe_charles_bernadotte_template
                     monarchy_clothes_trigger = yes
                     is_female = no
@@ -5774,7 +5774,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                scope:character = {
+                scope:character ?= {
                     has_template = swe_oscar_ii_bernadotte_template
                     monarchy_clothes_trigger = yes
                     is_female = no
@@ -5867,7 +5867,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                scope:character = {
+                scope:character ?= {
                     has_template = swe_gustaf_v_bernadotte_template
                     age < 55
                     monarchy_clothes_trigger = yes
@@ -5981,7 +5981,7 @@ COM_clothes = {
             modifier = {
                 add = 1000
                 
-                scope:character = {
+                scope:character ?= {
                     has_template = swe_gustaf_v_bernadotte_template
                     age > 55
                     monarchy_clothes_trigger = yes
