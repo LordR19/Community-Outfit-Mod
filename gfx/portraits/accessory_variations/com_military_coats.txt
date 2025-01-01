@@ -1025,6 +1025,22 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_SWE_uniform_09_royal.dds" }	
 }
 
+#Royal Swedish Uniform Dress 01
+variation = {
+	name = "com_male_military_coat_european_civil_dress_uniform_SWE_royal_01"
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_trims_standard_plain_01" 		layout = "male_headgera_american_02" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_male_military_coat_european_civil_dress_uniform_SWE_royal_01.dds" }	
+}
+
 #Royal Serbian Uniform 03
 variation = {
 	name = "com_male_uniform_SER_royal_03"
