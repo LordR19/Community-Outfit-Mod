@@ -58,3 +58,20 @@ com_male_belt_generic_01_black = {
 com_male_belt_generic_02_black = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_black_entity" }	
 }
+
+com_male_belt_generic_01_black_gold = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_black_gold_entity" }	
+}
+
+com_male_belt_generic_02_black_gold = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_black_gold_entity" }	
+}
+
+com_male_belt_generic_01_brown_gold = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_brown_gold_entity" }	
+}
+
+com_male_belt_generic_02_brown_gold = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_brown_gold_entity" }	
+}
+

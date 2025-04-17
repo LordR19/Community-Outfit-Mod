@@ -29,3 +29,241 @@ mr_com_special_character_blocker = {
 		has_variable = mr_is_independent_painter
 	}
 }
+
+
+###############################
+#       GENERAL TRIGGERS      #
+###############################
+
+COM_is_early_military = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character ?= {
+				owner ?= {
+					NOT = {
+						has_technology_researched = bolt_action_rifles
+					}
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop ?= {
+				owner ?= {
+					NOT = {
+						has_technology_researched = bolt_action_rifles
+					}
+				}
+			}
+		}
+	}
+}
+
+COM_is_monarch_leader = {
+	exists = scope:character
+	scope:character ?= {
+		monarchy_clothes_trigger = yes
+		is_female = no
+		age >= 16
+	}
+}
+
+COM_is_democracy_leader = {
+	exists = scope:character
+	scope:character ?= {
+		owner ?= {
+			OR = {
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_parliamentary_republic
+			}
+		}
+		is_ruler = yes
+		age >= 16
+	}
+}
+
+COM_is_general_leader = {
+	exists = scope:character
+	scope:character ?= {
+		OR = {
+			AND = {
+				has_role = politician
+				is_ruler = no
+				is_heir = no
+				is_interest_group_type = ig_armed_forces
+				mr_com_special_character_blocker = yes
+			}
+			has_role = general
+		}
+	}
+}
+
+COM_is_admiral_leader = {
+	exists = scope:character
+	scope:character ?= {
+		OR = {
+			AND = {
+				has_role = politician
+				is_ruler = no
+				is_heir = no
+				is_interest_group_type = ig_armed_forces
+				mr_com_special_character_blocker = yes
+			}
+			has_role = admiral
+		}
+	}
+}
+
+
+# SASHES SCA TRIGGERS
+
+COM_is_swedish_SCA = {
+	exists = scope:character
+	scope:character ?= {
+        has_culture = cu:swedish
+			OR = {
+				AND = {
+					has_role = politician
+					is_ruler = no
+					is_interest_group_type = ig_armed_forces
+				}
+				has_role = general
+				has_role = admiral
+			}
+		owner ?= {
+			NOT = {
+				has_technology_researched = bolt_action_rifles
+			}
+			OR = {
+				c:SCA ?= this
+        		was_formed_from = SCA
+    		}
+		}
+	}
+}
+
+COM_is_danish_SCA = {
+	exists = scope:character
+	scope:character ?= {
+        has_culture = cu:danish
+			OR = {
+				AND = {
+					has_role = politician
+					is_ruler = no
+					is_interest_group_type = ig_armed_forces
+				}
+				has_role = general
+				has_role = admiral
+			}
+		owner ?= {
+			NOT = {
+				has_technology_researched = bolt_action_rifles
+			}
+			OR = {
+				c:SCA ?= this
+        		was_formed_from = SCA
+    		}
+		}
+	}
+}
+
+COM_is_norwegian_SCA = {
+	exists = scope:character
+	scope:character ?= {
+        has_culture = cu:norwegian
+			OR = {
+				AND = {
+					has_role = politician
+					is_ruler = no
+					is_interest_group_type = ig_armed_forces
+				}
+				has_role = general
+				has_role = admiral
+			}
+		owner ?= {
+			NOT = {
+				has_technology_researched = bolt_action_rifles
+			}
+			OR = {
+				c:SCA ?= this
+        		was_formed_from = SCA
+    		}
+		}
+	}
+}
+
+COM_is_finnish_SCA = {
+	exists = scope:character
+	scope:character ?= {
+        has_culture = cu:finnish
+			OR = {
+				AND = {
+					has_role = politician
+					is_ruler = no
+					is_interest_group_type = ig_armed_forces
+				}
+				has_role = general
+				has_role = admiral
+			}
+		owner ?= {
+			NOT = {
+				has_technology_researched = bolt_action_rifles
+			}
+			OR = {
+				c:SCA ?= this
+        		was_formed_from = SCA
+    		}
+		}
+	}
+}
+
+COM_is_icelandic_SCA = {
+	exists = scope:character
+	scope:character ?= {
+        has_culture = cu:icelandic
+			OR = {
+				AND = {
+					has_role = politician
+					is_ruler = no
+					is_interest_group_type = ig_armed_forces
+				}
+				has_role = general
+				has_role = admiral
+			}
+		owner ?= {
+			NOT = {
+				has_technology_researched = bolt_action_rifles
+			}
+			OR = {
+				c:SCA ?= this
+        		was_formed_from = SCA
+    		}
+		}
+	}
+}
+
+COM_is_other_SCA = {
+	exists = scope:character
+	scope:character ?= {
+		OR = {
+			AND = {
+				has_role = politician
+				is_ruler = no
+				is_interest_group_type = ig_armed_forces
+			}
+			has_role = general
+			has_role = admiral
+		}
+		owner ?= {
+			NOT = {
+				has_technology_researched = bolt_action_rifles
+			}
+			OR = {
+				c:SCA ?= this
+        		was_formed_from = SCA
+    		}
+		}
+	}
+}
+
