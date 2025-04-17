@@ -1,0 +1,968 @@
+﻿
+    #############
+    # By Lord R #
+    #############
+
+COM_south_america_clothes = {
+    usage = game
+    selection_behavior = weighted_random
+
+
+### SOUTH AMERICAN DEMOCRACIES
+
+
+
+    ########################################
+    # Sashes for South American Presidents #
+    ########################################
+
+    #Sashes for Argentine Presidents
+    COM_ARG_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ARG_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ARG ?= this
+                            was_formed_from = ARG
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Bolivian Presidents (before 1872)
+    COM_BOL_sashes_old_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BOL_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                year < 1872
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BOL ?= this
+                            was_formed_from = BOL
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Bolivian Presidents (from 1872)
+    COM_BOL_sashes_new_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BOL_civil_sashes
+                accessory = com_male_sash_civil_BOL_1
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                year >= 1872
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BOL ?= this
+                            was_formed_from = BOL
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Brazilian Presidents
+    COM_BRZ_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BRZ_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+
+                year >= 1910
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BRZ ?= this
+                            was_formed_from = BRZ
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Chilean Presidents
+    COM_CHL_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_CHL_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:CHL ?= this
+                            was_formed_from = CHL
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Colombian Presidents (before 1900s)
+    COM_CLM_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_CLM_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                year < 1900
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:CLM ?= this
+                            was_formed_from = CLM
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #Sashes for Colombian Presidents (from 1900s)
+    COM_CLM_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_CLM_civil_sashes
+                accessory = com_male_sash_civil_CLM_2
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 425
+                
+                year >=1900
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:CLM ?= this
+                            c:GCO ?= this
+                            was_formed_from = CLM
+                            was_formed_from = GCO
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #Sashes for Ecuadorian Presidents (before 1900s)
+    COM_ECU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ECU_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                year < 1900
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ECU ?= this
+                            was_formed_from = ECU
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Colombian Presidents (from 1900s)
+    COM_ECU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_ECU_civil_sashes
+                accessory = com_male_sash_civil_ECU_3
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                
+                year >=1900
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:ECU ?= this
+                            was_formed_from = ECU
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Andean Presidents
+    COM_FND_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_FND_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        NOT = { was_formed_from = PLT }
+                        OR = {
+                            c:FND ?= this
+                            was_formed_from = FND
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #Sashes for Guatemalta Presidents
+    COM_GUA_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_GUA_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:GUA ?= this
+                            was_formed_from = GUA
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Mexican Presidents
+    COM_MEX_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_MEX_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:MEX ?= this
+                            was_formed_from = MEX
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for North Peruvian Presidents
+    COM_NPU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_NPU_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:NPU ?= this
+                            was_formed_from = NPU
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Peru-Bolivian Presidents
+    COM_PBC_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PBC_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 425
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PBC ?= this
+                            was_formed_from = PBC
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Peruvian Presidents
+    COM_PEU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PEU_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PEU ?= this
+                            was_formed_from = PEU
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Platinean Presidents
+    COM_PLT_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PLT_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 425
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PLT ?= this
+                            was_formed_from = PLT
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Riograndense Presidents
+    COM_PNI_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PNI_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PNI ?= this
+                            was_formed_from = PNI
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Grão-Parese Presidents
+    COM_PRA_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PRA_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PRA ?= this
+                            was_formed_from = PRA
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Paraguayan Presidents
+    COM_PRG_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_PRG_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:PRG ?= this
+                            was_formed_from = PRG
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Riograndese Presidents
+    COM_RIO_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_RIO_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:RIO ?= this
+                            was_formed_from = RIO
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for South Peruvian Presidents
+    COM_SPU_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_SPU_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:SPU ?= this
+                            was_formed_from = SPU
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Central American Presidents
+    COM_UCA_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_UCA_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:UCA ?= this
+                            was_formed_from = UCA
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #Sashes for Venezuelan Presidents
+    COM_VNZ_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_VNZ_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_democracy_leader = yes
+                exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:VNZ ?= this
+                            was_formed_from = VNZ
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+### BRAZIL
+
+
+    #Clothes for the Brazilian Royals
+    COM_BRZ_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_BRZ_noble_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_NET_legwear
+                range = { 0 0.4 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_BRZ_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = NET_epaulettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = no_aiguillettes
+                range = { 0 0.79 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:BRZ ?= this
+                            was_formed_from = BRZ
+                        }
+                    }
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 16
+                }
+            }
+        }
+    }
+
+
+    
+
+###
+
+}

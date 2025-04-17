@@ -1151,6 +1151,20 @@ special_genes = {
 				girl = female
 			}
 
+			com_FRA_military_sashes = {
+				index = 73
+				male = {
+					1 = com_male_sash_european_red
+					1 = empty
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 	}
 }

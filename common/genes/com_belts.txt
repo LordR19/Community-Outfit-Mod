@@ -38,12 +38,14 @@ special_genes = {
 					1 = com_male_belt_generic_02_gold
 					1 = com_male_belt_generic_01_black
 					1 = com_male_belt_generic_02_black
-				}
+					1 = com_male_belt_generic_01_black_gold
+					1 = com_male_belt_generic_02_black_gold
 
 				female = {
 				}
 				boy = male
 				girl = female
+				}
 			}
 
 			com_KOR_belts = {
@@ -107,6 +109,34 @@ special_genes = {
 				male = {
 					1 = com_male_belt_generic_01_black
 					1 = com_male_belt_generic_02_black
+					1 = empty
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FRA_belts = {
+				index = 7
+				male = {
+					1 = com_male_belt_generic_01_black_gold
+					1 = com_male_belt_generic_02_black_gold
+					1 = empty
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+
+			com_DEI_belts = {
+				index = 8
+				male = {
+					1 = com_male_belt_generic_01_brown_gold
+					1 = com_male_belt_generic_02_brown_gold
 					1 = empty
 				}
 

@@ -155,3 +155,19 @@ com_male_headgear_korean_pickelhaube = {
 	set_tags ="cap1" 
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_korean_pickelhaube_entity" }
 }
+
+com_male_headgear_european_military_02_FRA = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_FRA_entity" }	
+}
+
+
+com_male_headgear_european_military_09_DEI = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_09_DEI_entity" }	
+}
+
+com_male_headgear_european_military_02_DEI = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_DEI_entity" }	
+}

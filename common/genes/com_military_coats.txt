@@ -119,6 +119,8 @@ special_genes = {
 					1 = com_male_military_coat_TUR_OTO_early_03_b
 					1 = com_male_military_coat_SAX_early_03 #Soldier / Officer
 					1 = com_male_military_coat_SAX_early_01 #General
+					1 = com_male_military_coat_FRA_early_09 #General only
+					1 = com_male_military_coat_FRA_early_10 #General and Admiral only
 				}
 
 				female = {
@@ -965,6 +967,34 @@ special_genes = {
 				male = {
 					1 = com_male_military_coat_SAX_early_03 #Soldier / Officer
 					1 = com_male_military_coat_SAX_early_01 #General
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FRA_military_coats_early = {
+				index = 60
+				male = {
+					1 = male_coat_french_01
+					1 = com_male_military_coat_FRA_early_09 #General only
+				}
+
+				female = {
+					1 = female_outfit_european_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FRA_military_coats_no_aiguillettes = {
+				index = 61
+				male = {
+					1 = male_coat_french_06 
+					1 = com_male_military_coat_FRA_early_10 #General and Admiral only
 				}
 
 				female = {

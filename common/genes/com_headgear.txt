@@ -43,10 +43,11 @@ special_genes = {
 					1 = com_male_headgear_european_military_02_SER_b #general
 					1 = com_male_headgear_european_military_02_SWE
 					1 = com_male_headgear_european_military_02_SWE_cavalry
-					1 = com_male_headgear_european_military_05_SWE #Kin Oscar II
+					1 = com_male_headgear_european_military_05_SWE #King Oscar II
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
 					1 = com_male_headgear_korean_pickelhaube
+					1 = com_male_headgear_european_military_02_FRA
 				}
 				female = {
 					1 = empty
@@ -239,7 +240,6 @@ special_genes = {
 			com_KOR_headgear = {
 				index = 15
 				male = {
-					4 = empty
 					1 = com_male_headgear_korean_pickelhaube #Model created by Miss Duce
 				}
 				female = {
@@ -255,6 +255,74 @@ special_genes = {
 					1 = com_male_headgear_european_military_01_SCA #Soldier
 					1 = com_male_headgear_european_military_02_SCA_a #Officer
 					1 = com_male_headgear_european_military_02_SCA_b #General
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_FRA_headgear = {
+				index = 17
+				male = {
+					1 = com_male_headgear_european_military_02_FRA
+					1 = male_headgear_european_military_05 # for general and admiral only
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_DEI_headgear = {
+				index = 18
+				male = {
+					1 = com_male_headgear_european_military_02_DEI
+					3 = com_male_headgear_european_military_09_DEI
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_DEI_headgear_general = {
+				index = 19
+				male = {
+					2 = com_male_headgear_european_military_02_DEI
+					4 = com_male_headgear_european_military_09_DEI
+					4 = male_headgear_european_military_05
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_NET_headgear_general = {
+				index = 20
+				male = {
+					2 = com_male_headgear_european_military_02_DEI
+					4 = male_headgear_european_military_05
+					1 = empty
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_NET_headgear_soldier = {
+				index = 21
+				male = {
+					2 = com_male_headgear_european_military_02_DEI
+					1 = com_male_headgear_european_military_09_DEI
 				}
 				female = {
 					1 = empty
