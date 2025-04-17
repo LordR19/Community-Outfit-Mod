@@ -2298,7 +2298,7 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_male_military_coat_switzerland_early_01_b.dds" }	
 }
 
-#Early Swiss Uniform 03
+#Early Swiss Uniform 03 Green
 variation = {
 	name = "com_male_military_coat_switzerland_early_03"
 	
@@ -2314,6 +2314,24 @@ variation = {
 
  
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SWI_03.dds" }	
+}
+
+#Early Swiss Uniform 03 Blue
+variation = {
+	name = "com_male_military_coat_switzerland_early_03_blue"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_military_coat_early_SWI_03_blue.dds" }	
 }
 
 #Mid Swiss Uniform 03

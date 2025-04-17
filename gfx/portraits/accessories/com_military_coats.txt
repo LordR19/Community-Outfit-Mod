@@ -656,6 +656,11 @@ com_male_military_coat_switzerland_early_03 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_early_03_entity" }	
 }
 
+com_male_military_coat_switzerland_early_03_blue = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_early_03_blue_entity" }	
+}
+
 com_male_military_coat_switzerland_mid_03 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_switzerland_mid_03_entity" }	

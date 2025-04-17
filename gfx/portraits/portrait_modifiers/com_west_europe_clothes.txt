@@ -731,6 +731,12 @@ COM_west_europe_clothes = {
                 template = com_SWI_headgear
                 accessory = com_male_headgear_european_military_05_SWI
             }
+            accessory = {
+                mode = add
+                gene = com_armbands
+                template = all_armbands
+                accessory = male_armband_european_03_SWI
+            }
 
             #Remove
             accessory = {
@@ -773,7 +779,7 @@ COM_west_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 500
+                add = 501
                 year < 1861
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
@@ -921,6 +927,12 @@ COM_west_europe_clothes = {
                 template = com_SWI_headgear
                 accessory = com_male_headgear_european_military_05_SWI
             }
+            accessory = {
+                mode = add
+                gene = com_armbands
+                template = all_armbands
+                accessory = male_armband_european_03_SWI
+            }
 
             #Remove
             accessory = {
@@ -983,7 +995,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_military_coats
                 template = com_swiss_military_coats
-                accessory = com_male_military_coat_switzerland_early_01_a
+                accessory = com_male_military_coat_switzerland_early_03_blue
             }
             accessory = {
                 mode = add
@@ -1002,6 +1014,12 @@ COM_west_europe_clothes = {
                 gene = epaulettes
                 template = all_epaulettes
                 accessory = male_epaulettes_04
+            }
+            accessory = {
+                mode = add
+                gene = com_armbands
+                template = all_armbands
+                accessory = male_armband_european_03_SWI
             }
 
             #Remove
