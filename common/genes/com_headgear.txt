@@ -91,6 +91,7 @@ special_genes = {
 					1 = com_male_headgear_european_military_01_SWI
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
+					1 = com_male_headgear_shako_01_pompom_SWI
 				}
 				female = {
 					1 = empty

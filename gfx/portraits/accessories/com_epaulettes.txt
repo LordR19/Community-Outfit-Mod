@@ -79,6 +79,10 @@ com_male_epaulettes_04_SCA = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_04_SCA_entity" }	
 }
 
+com_male_epaulettes_04_SWI = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_04_SWI_entity" }	
+}
+
 com_male_epaulettes_04_WLD = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_epaulettes_04_WLD_entity" }	
 }

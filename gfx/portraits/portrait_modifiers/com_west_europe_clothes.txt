@@ -911,9 +911,9 @@ COM_west_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = epaulettes
-                template = all_epaulettes
-                accessory = male_epaulettes_04
+                gene = com_epaulettes
+                template = com_all_epaulettes
+                accessory = com_male_epaulettes_04_SWI
             }
             accessory = {
                 mode = add
@@ -925,7 +925,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_SWI_headgear
-                accessory = com_male_headgear_european_military_05_SWI
+                accessory = com_male_headgear_shako_01_pompom_SWI
             }
             accessory = {
                 mode = add
@@ -951,6 +951,12 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = legwear
                 template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
                 range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
@@ -1011,9 +1017,15 @@ COM_west_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = epaulettes
-                template = all_epaulettes
-                accessory = male_epaulettes_04
+                gene = com_epaulettes
+                template = com_all_epaulettes
+                accessory = com_male_epaulettes_04_SWI
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_SWI_headgear
+                accessory = com_male_headgear_shako_01_pompom_SWI
             }
             accessory = {
                 mode = add
@@ -1039,6 +1051,12 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = legwear
                 template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
                 range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
