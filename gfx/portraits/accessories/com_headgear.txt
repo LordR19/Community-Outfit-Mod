@@ -151,6 +151,21 @@ com_male_headgear_european_military_05_WUR = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_WUR_entity" }	
 }
 
+com_male_headgear_shako_01 = {
+	set_tags ="cap1" 
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_01_entity" }	
+}
+
+com_male_headgear_shako_01_pompom = {
+	set_tags ="cap1" 
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_01_pompom_entity" }	
+}
+
+com_male_headgear_shako_01_pompom_SWI = {
+	set_tags ="cap1" 
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_01_pompom_SWI_entity" }	
+}
+
 com_male_headgear_korean_pickelhaube = {
 	set_tags ="cap1" 
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_korean_pickelhaube_entity" }

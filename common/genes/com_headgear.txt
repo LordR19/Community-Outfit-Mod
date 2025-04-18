@@ -46,6 +46,9 @@ special_genes = {
 					1 = com_male_headgear_european_military_05_SWE #King Oscar II
 					1 = com_male_headgear_european_military_02_SWI
 					1 = com_male_headgear_european_military_05_SWI
+					1 = com_male_headgear_shako_01
+					1 = com_male_headgear_shako_01_pompom
+					1 = com_male_headgear_shako_01_pompom_SWI
 					1 = com_male_headgear_korean_pickelhaube
 					1 = com_male_headgear_european_military_02_FRA
 				}
