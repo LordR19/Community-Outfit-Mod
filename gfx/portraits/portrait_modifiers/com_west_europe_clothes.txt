@@ -1033,6 +1033,12 @@ COM_west_europe_clothes = {
                 template = all_armbands
                 accessory = male_armband_european_03_SWI
             }
+            accessory = {
+                mode = add
+                gene = com_bandoliers
+                template = com_all_bandoliers
+                accessory = com_x_bandolier_white
+            }
 
             #Remove
             accessory = {
@@ -1118,6 +1124,12 @@ COM_west_europe_clothes = {
                 gene = headgear
                 template = european_military_headgear
                 accessory = male_headgear_european_military_08 #Not perfect but the closest easily available one
+            }
+            accessory = {
+                mode = add
+                gene = com_bandoliers
+                template = com_all_bandoliers
+                accessory = com_x_bandolier_white
             }
 
             #Remove
