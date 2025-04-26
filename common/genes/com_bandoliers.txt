@@ -1,0 +1,53 @@
+﻿
+
+special_genes = {
+	accessory_genes = {
+
+	#########################################
+	#										#
+	# 			  COM BANDOLIERS		    #
+	#										#
+	#########################################
+
+		com_bandoliers = {
+			inheritable = no
+
+			com_no_bandoliers = {
+				index = 0
+				male = {
+					1 = empty
+				}		   
+				female = male
+				boy = male
+				girl = male
+			}	
+			
+			com_all_bandoliers = {
+				index = 1
+				male = {
+					1 = com_x_bandolier_white
+					1 = com_x_bandolier_brown
+					1 = com_x_bandolier_black
+					1 = com_side_bandolier_left_white
+					1 = com_side_bandolier_left_brown
+					1 = com_side_bandolier_left_black
+					1 = com_side_bandolier_right_white
+					1 = com_side_bandolier_right_brown
+					1 = com_side_bandolier_right_black
+					1 = com_side_bandolier_left_late_white
+					1 = com_side_bandolier_left_late_brown
+					1 = com_side_bandolier_left_late_black
+					1 = com_side_bandolier_right_late_white
+					1 = com_side_bandolier_right_late_brown
+					1 = com_side_bandolier_right_late_black
+
+				female = {
+				}
+				boy = male
+				girl = female
+				}
+			}
+
+		}
+	}
+}

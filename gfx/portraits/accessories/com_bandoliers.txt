@@ -1,0 +1,77 @@
+﻿
+
+#####################
+#					#
+#     BANDOLIERS  	#
+#					#
+#####################
+
+com_x_bandolier_white = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_x_bandolier_white_entity" }	
+}
+
+com_x_bandolier_brown = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_x_bandolier_brown_entity" }	
+}
+
+com_x_bandolier_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_x_bandolier_black_entity" }	
+}
+
+
+
+com_side_bandolier_left_white = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_left_white_entity" }	
+}
+
+com_side_bandolier_left_brown = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_left_brown_entity" }	
+}
+
+com_side_bandolier_left_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_left_black_entity" }	
+}
+
+
+
+com_side_bandolier_right_white = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_white_entity" }	
+}
+
+com_side_bandolier_right_brown = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_brown_entity" }	
+}
+
+com_side_bandolier_right_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_black_entity" }	
+}
+
+
+
+com_side_bandolier_left_late_white = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_left_late_white_entity" }	
+}
+
+com_side_bandolier_left_late_brown = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_left_late_brown_entity" }	
+}
+
+com_side_bandolier_left_late_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_left_late_black_entity" }	
+}
+
+
+
+com_side_bandolier_right_late_white = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_late_white_entity" }	
+}
+
+com_side_bandolier_right_late_brown = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_late_brown_entity" }	
+}
+
+com_side_bandolier_right_late_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_late_black_entity" }	
+}
+
+

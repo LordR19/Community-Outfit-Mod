@@ -1,0 +1,461 @@
+﻿### BANDOLIERS
+
+
+# X Shaped bandolier
+
+pdxmesh = {
+	name = "md_x_bandolier_mesh"
+	file = "md_x_bandolier.mesh"
+
+	blend_shape = { id = "md_x_bandolier_bs_fat"			type = "md_x_bandolier_bs_fat.mesh" }
+	blend_shape = { id = "md_x_bandolier_bs_gaunt"			type = "md_x_bandolier_bs_gaunt.mesh" }
+	blend_shape = { id = "md_x_bandolier_bs_old"			type = "md_x_bandolier_bs_old.mesh" }
+	blend_shape = { id = "md_x_bandolier_bs_thick"			type = "md_x_bandolier_bs_thick.mesh" }
+	blend_shape = { id = "md_x_bandolier_bs_thin"			type = "md_x_bandolier_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_x_bandolier"
+		index = 0
+		texture_diffuse = "com_bandolier_d.dds"
+		texture_normal = "com_bandolier_n.dds"
+		texture_specular = "com_bandolier_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+# EARLY LEFT BANDOLIER
+
+pdxmesh = {
+	name = "md_side_bandolier_left_mesh"
+	file = "md_side_bandolier_left.mesh"
+
+	blend_shape = { id = "md_side_bandolier_left_bs_fat"			type = "md_side_bandolier_left_bs_fat.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_bs_gaunt"			type = "md_side_bandolier_left_bs_gaunt.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_bs_old"			type = "md_side_bandolier_left_bs_old.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_bs_thick"			type = "md_side_bandolier_left_bs_thick.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_bs_thin"			type = "md_side_bandolier_left_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_side_bandolier_left"
+		index = 0
+		texture_diffuse = "com_bandolier_d.dds"
+		texture_normal = "com_bandolier_n.dds"
+		texture_specular = "com_bandolier_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+# EARLY RIGHT BANDOLIER
+
+pdxmesh = {
+	name = "md_side_bandolier_right_mesh"
+	file = "md_side_bandolier_right.mesh"
+
+	blend_shape = { id = "md_side_bandolier_right_bs_fat"				type = "md_side_bandolier_right_bs_fat.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_bs_gaunt"				type = "md_side_bandolier_right_bs_gaunt.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_bs_old"				type = "md_side_bandolier_right_bs_old.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_bs_thick"				type = "md_side_bandolier_right_bs_thick.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_bs_thin"				type = "md_side_bandolier_right_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_side_bandolier_right"
+		index = 0
+		texture_diffuse = "com_bandolier_d.dds"
+		texture_normal = "com_bandolier_n.dds"
+		texture_specular = "com_bandolier_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+# LATE LEFT BANDOLIER
+
+pdxmesh = {
+	name = "md_side_bandolier_left_late_mesh"
+	file = "md_side_bandolier_left_late.mesh"
+
+	blend_shape = { id = "md_side_bandolier_left_late_bs_fat"				type = "md_side_bandolier_left_late_bs_fat.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_late_bs_gaunt"				type = "md_side_bandolier_left_late_bs_gaunt.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_late_bs_old"				type = "md_side_bandolier_left_late_bs_old.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_late_bs_thick"				type = "md_side_bandolier_left_late_bs_thick.mesh" }
+	blend_shape = { id = "md_side_bandolier_left_late_bs_thin"				type = "md_side_bandolier_left_late_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_side_bandolier_left_late"
+		index = 0
+		texture_diffuse = "com_bandolier_d.dds"
+		texture_normal = "com_bandolier_n.dds"
+		texture_specular = "com_bandolier_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+# LATE RIGHT BANDOLIER
+
+pdxmesh = {
+	name = "md_side_bandolier_right_late_mesh"
+	file = "md_side_bandolier_right_late.mesh"
+
+	blend_shape = { id = "md_side_bandolier_right_late_bs_fat"				type = "md_side_bandolier_right_late_bs_fat.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_late_bs_gaunt"			type = "md_side_bandolier_right_late_bs_gaunt.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_late_bs_old"				type = "md_side_bandolier_right_late_bs_old.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_late_bs_thick"			type = "md_side_bandolier_right_late_bs_thick.mesh" }
+	blend_shape = { id = "md_side_bandolier_right_late_bs_thin"				type = "md_side_bandolier_right_late_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_side_bandolier_right_late"
+		index = 0
+		texture_diffuse = "com_bandolier_d.dds"
+		texture_normal = "com_bandolier_n.dds"
+		texture_specular = "com_bandolier_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+
+
+#### ENTITIES ####
+
+entity = {
+	name = "com_x_bandolier_white_entity"
+	pdxmesh = "md_x_bandolier_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_x_bandolier_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_x_bandolier_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_x_bandolier_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_x_bandolier_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_x_bandolier_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_x_bandolier_brown_entity"
+	pdxmesh = "md_x_bandolier_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_x_bandolier_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_x_bandolier_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_x_bandolier_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_x_bandolier_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_x_bandolier_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_x_bandolier_black_entity"
+	pdxmesh = "md_x_bandolier_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_x_bandolier_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_x_bandolier_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_x_bandolier_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_x_bandolier_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_x_bandolier_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+
+
+
+
+entity = {
+	name = "com_side_bandolier_left_white_entity"
+	pdxmesh = "md_side_bandolier_left_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_left_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_left_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_left_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_left_brown_entity"
+	pdxmesh = "md_side_bandolier_left_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_left_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_left_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_left_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_left_black_entity"
+	pdxmesh = "md_side_bandolier_left_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_left_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_left_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_left_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+
+
+
+
+entity = {
+	name = "com_side_bandolier_right_white_entity"
+	pdxmesh = "md_side_bandolier_right_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_right_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_right_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_right_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_right_brown_entity"
+	pdxmesh = "md_side_bandolier_right_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_right_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_right_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_right_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_right_black_entity"
+	pdxmesh = "md_side_bandolier_right_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_right_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_right_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_right_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+
+
+
+
+entity = {
+	name = "com_side_bandolier_right_late_white_entity"
+	pdxmesh = "md_side_bandolier_right_late_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_late_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_late_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_right_late_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_right_late_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_right_late_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_right_late_brown_entity"
+	pdxmesh = "md_side_bandolier_right_late_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_late_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_late_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_right_late_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_right_late_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_right_late_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_right_late_black_entity"
+	pdxmesh = "md_side_bandolier_right_late_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_late_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_late_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_right_late_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_right_late_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_right_late_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+
+
+
+
+entity = {
+	name = "com_side_bandolier_left_late_white_entity"
+	pdxmesh = "md_side_bandolier_left_late_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_late_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_late_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_left_late_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_left_late_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_left_late_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_left_late_brown_entity"
+	pdxmesh = "md_side_bandolier_left_late_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_late_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_late_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_left_late_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_left_late_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_left_late_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_side_bandolier_left_late_black_entity"
+	pdxmesh = "md_side_bandolier_left_late_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_late_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_late_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_side_bandolier_left_late_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_side_bandolier_left_late_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_side_bandolier_left_late_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
