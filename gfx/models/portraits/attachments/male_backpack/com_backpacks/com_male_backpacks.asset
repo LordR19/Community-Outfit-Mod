@@ -1,0 +1,54 @@
+# Normal style backpack
+
+pdxmesh = {
+	name = "com_backpack_01_mesh"
+	file = "com_backpack_01.mesh"
+
+	meshsettings = {
+		name = "lordR_backpack_01"
+		index = 0
+		texture_diffuse = "com_backpack_d.dds"
+		texture_normal = "com_backpack_n.dds"
+		texture_specular = "com_backpack_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+# German style backpack
+
+pdxmesh = {
+	name = "com_backpack_02_mesh"
+	file = "com_backpack_02.mesh"
+
+	meshsettings = {
+		name = "lordR_backpack_02"
+		index = 0
+		texture_diffuse = "com_backpack_d.dds"
+		texture_normal = "com_backpack_n.dds"
+		texture_specular = "com_backpack_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+
+
+### ACTUAL BACKPACKS
+
+entity = {
+	name = "com_male_backpack_01_swi_entity"
+	pdxmesh = "com_backpack_01_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_backpack/com_backpacks/com_backpack_masks.dds"	
+
+				variation = "com_male_backpack_01_swi"
+			}
+		}
+	}
+}
