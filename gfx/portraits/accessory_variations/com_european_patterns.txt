@@ -1,0 +1,10 @@
+﻿#####################
+#	Texture sets	#
+#####################
+
+pattern_textures = {
+	name = "com_european_wool_standard_striped_02_horizontal"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/european/striped/com_european_wool_standard_striped_02_horizontal_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/european/striped/com_european_wool_standard_striped_02_horizontal_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/european/striped/com_european_wool_standard_striped_02_horizontal_properties.dds"
+}

@@ -25,7 +25,7 @@ special_genes = {
 				girl = male
 			}	
 			
-			all_backpacks = {
+			com_all_backpacks = {
 				index = 1
 				male = {
 					1 = com_male_backpack_01_swi

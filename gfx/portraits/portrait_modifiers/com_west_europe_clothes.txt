@@ -1033,6 +1033,12 @@ COM_west_europe_clothes = {
                 template = com_all_bandoliers
                 accessory = com_x_bandolier_white
             }
+            accessory = {
+                mode = add
+                gene = com_backpacks
+                template = com_all_backpacks
+                accessory = com_male_backpack_01_swi
+            }
 
             #Remove
             accessory = {
