@@ -1,0 +1,26 @@
+﻿#####################
+#	Texture sets	#
+#####################
+
+variation = {
+	name = "com_male_backpack_01_swi"
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_wool_standard_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"			layout = "plain_fabric_layout" }
+	}	
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "european_wool_standard_striped_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/backpacks/color_palette_com_male_backpack_01_swi.dds" }	
+}

@@ -1,0 +1,17 @@
+﻿
+    #############
+    # By Lord R #
+    #############
+
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+#################################
+#								#
+# 			 Backpacks			#
+#								#
+#################################
+
+com_male_backpack_01_swi = {
+	set_tags = ""
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_backpack_01_swi_entity" }	
+}
