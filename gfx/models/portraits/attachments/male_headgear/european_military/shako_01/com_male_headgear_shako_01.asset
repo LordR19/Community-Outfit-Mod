@@ -73,3 +73,32 @@ entity = {
 	}
 }
 
+pdxmesh = {
+	name = "com_male_headgear_shako_01_pompom_decorated_mesh"
+	file = "com_male_headgear_shako_01_pompom_decorated.mesh"
+
+	meshsettings = {
+		name = "male_headgear_european_gb_01Shape"
+		index = 0
+		texture_diffuse = "com_male_headgear_shako_01_pompom_decorated_diffuse.dds"
+		texture_normal = "com_male_headgear_shako_01_pompom_decorated_normal.dds"
+		texture_specular = "com_male_headgear_shako_01_pompom_decorated_properties .dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "com_male_headgear_shako_01_pompom_decorated_SWI_entity"
+	pdxmesh = "com_male_headgear_shako_01_pompom_decorated_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/shako_01/com_male_headgear_shako_01_pompom_decorated_masks.dds"	
+
+				variation = "com_male_headgear_shako_01_pompom_decorated_SWI"
+			}
+		}
+	}
+}

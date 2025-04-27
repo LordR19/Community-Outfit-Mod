@@ -166,6 +166,11 @@ com_male_headgear_shako_01_pompom_SWI = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_01_pompom_SWI_entity" }	
 }
 
+com_male_headgear_shako_01_pompom_decorated_SWI = {
+	set_tags ="cap1" 
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_01_pompom_decorated_SWI_entity" }	
+}
+
 com_male_headgear_korean_pickelhaube = {
 	set_tags ="cap1" 
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_korean_pickelhaube_entity" }

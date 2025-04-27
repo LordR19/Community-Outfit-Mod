@@ -925,7 +925,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_SWI_headgear
-                accessory = com_male_headgear_shako_01_pompom_SWI
+                accessory = com_male_headgear_shako_01_pompom_decorated_SWI
             }
             accessory = {
                 mode = add
@@ -1011,12 +1011,6 @@ COM_west_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
                 gene = com_epaulettes
                 template = com_all_epaulettes
                 accessory = com_male_epaulettes_04_SWI
@@ -1025,7 +1019,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_SWI_headgear
-                accessory = com_male_headgear_shako_01_pompom_SWI
+                accessory = com_male_headgear_shako_01_pompom_decorated_SWI
             }
             accessory = {
                 mode = add
@@ -1058,6 +1052,12 @@ COM_west_europe_clothes = {
                 gene = legwear
                 template = no_legwear
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
