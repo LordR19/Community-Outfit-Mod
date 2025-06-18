@@ -2,9 +2,11 @@
   "name" : "Community Outfit Mod",
   "id" : "3147725402",
   "version" : "",
-  "supported_game_version" : "1.8.*",
+  "supported_game_version" : "1.9.*",
   "short_description" : "",
-  "tags" : [],
+  "tags" : [
+    "1.9"
+  ],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true
