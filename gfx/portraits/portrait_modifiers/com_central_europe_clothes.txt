@@ -418,7 +418,7 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = aus_epaulettes
+                gene = com_epaulettes
                 template = late_military_epaulettes_austrian
                 accessory = male_epaulettes_late_austrian_military_01
             }
@@ -637,7 +637,7 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = aus_epaulettes
+                gene = com_epaulettes
                 template = late_military_epaulettes_austrian
                 accessory = male_epaulettes_late_austrian_military_01
             }
@@ -827,7 +827,7 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = aus_epaulettes
+                gene = com_epaulettes
                 template = late_military_epaulettes_austrian
                 accessory = male_epaulettes_late_austrian_military_01
             }
