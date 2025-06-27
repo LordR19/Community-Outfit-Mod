@@ -605,7 +605,11 @@ variation = {
 }
 
 
-### Late Military Austrian headgear
+### late military headgear
+
+    ###################
+    # By UlfDerDritte #
+    ###################
 
 variation = {
 	name = "male_headgear_austrian_stahlhelm_01"

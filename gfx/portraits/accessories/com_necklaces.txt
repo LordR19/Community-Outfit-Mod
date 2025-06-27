@@ -1,0 +1,16 @@
+
+    ###################
+    # By UlfDerDritte #
+    ###################
+
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
+
+#################################
+#								#
+# 			 Necklaces			#
+#								#
+#################################
+
+male_necklace_golden_fleece = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_necklace_golden_fleece_entity" }
+}

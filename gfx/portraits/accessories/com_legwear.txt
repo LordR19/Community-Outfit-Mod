@@ -3,7 +3,7 @@
     # By Lord R #
     #############
 
-# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
 
 #####################################
 #									#
@@ -12,77 +12,82 @@
 #####################################
 
 com_male_legwear_european_blue = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_blue_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_blue_entity" }
 }
 
 com_male_legwear_european_dark_blue = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_entity" }
 }
 
 com_male_legwear_european_light_blue = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_entity" }
 }
 
 com_male_legwear_european_blue_light_muted = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_blue_light_muted_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_blue_light_muted_entity" }
 }
 
 com_male_legwear_european_azure_blue = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_azure_blue_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_azure_blue_entity" }
 }
 
 com_male_legwear_european_sky_blue = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_sky_blue_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_sky_blue_entity" }
 }
 
 com_male_legwear_european_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_red_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_red_entity" }
 }
 
 com_male_legwear_european_white = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_white_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_white_entity" }
 }
 
 com_male_legwear_european_grey = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_grey_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_grey_entity" }
 }
 
 com_male_legwear_european_black_dark_boots = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_dark_boots_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_dark_boots_entity" }
 }
 
 com_male_legwear_european_very_black = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_very_black_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_very_black_entity" }
 }
 
 com_male_legwear_european_black_red_stripe = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_entity" }
 }
 
 com_male_legwear_european_black_red_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_thin_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_thin_entity" }
 }
 
 com_male_legwear_european_black_yellow_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_yellow_stripe_thin_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_yellow_stripe_thin_entity" }
 }
 
 com_male_legwear_european_black_light_yellow_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_light_yellow_stripe_thin_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_light_yellow_stripe_thin_entity" }
 }
 
 com_male_legwear_european_dark_blue_yellow_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_yellow_stripe_thin_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_yellow_stripe_thin_entity" }
 }
 
 com_male_legwear_european_light_blue_yellow_stripe = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_yellow_stripe_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_yellow_stripe_entity" }
 }
 
 com_male_legwear_european_azure_red_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_azure_red_stripe_thin_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_azure_red_stripe_thin_entity" }
 }
 
 com_male_legwear_european_dark_blue_red_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_red_stripe_thin_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_red_stripe_thin_entity" }
+}
+
+male_legwear_late_austrian_military_01 = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_legwear_late_austrian_military_01_entity" }
 }
