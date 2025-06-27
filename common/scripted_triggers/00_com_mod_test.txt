@@ -267,3 +267,82 @@ COM_is_other_SCA = {
 	}
 }
 
+
+### Austria triggers
+
+ulf_austrian_clothes_trigger = {
+	scope:character ?= {
+		home_country ?= {
+			OR = {
+				AND = {
+					c:AUS ?= this
+					is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+				}
+				top_overlord = {
+					was_formed_from = AUS
+				}
+				is_subject_of = c:AUS
+				was_formed_from = AUS
+			}
+		}
+	}
+}
+ulf_austrian_clothes_trigger_strict = {
+	scope:character ?= {
+		home_country ?= {
+			OR = {
+				AND = {
+					c:AUS ?= this
+					is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+				}
+				was_formed_from = AUS
+			}
+		}
+	}
+}
+
+ulf_austrian_clothes_pop_trigger = {
+	scope:pop ?= {
+		home_country ?= {
+			OR = {
+				AND = {
+					c:AUS ?= this
+					is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+				}
+				top_overlord = {
+					was_formed_from = AUS
+				}
+				is_subject_of = c:AUS
+				was_formed_from = AUS
+			}
+		}
+	}
+}
+
+
+# late military uniform triggers
+
+ulf_late_military_trigger = {
+	OR = {
+		has_technology_researched = bolt_action_rifles
+		has_technology_researched = trench_works
+	}
+}
+
+ulf_late_military_clothes_trigger = {
+	scope:character ?= {
+		owner ?= {
+			ulf_late_military_trigger = yes
+		}
+	}
+}
+
+ulf_late_military_clothes_pop_trigger = {
+	scope:pop ?= {
+		owner ?= {
+			OR = {
+			    ulf_late_military_trigger = yes
+			}
+		}
+	}
+}

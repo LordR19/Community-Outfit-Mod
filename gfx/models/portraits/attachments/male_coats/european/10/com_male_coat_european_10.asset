@@ -5,7 +5,7 @@ pdxmesh = {
  	blend_shape = { id = "male_coat_european_10_bs_fat"                type = "male_coat_european_10_bs_fat.mesh" }
   blend_shape = { id = "male_coat_european_10_bs_gaunt"              type = "male_coat_european_10_bs_gaunt.mesh" }
   blend_shape = { id = "male_coat_european_10_bs_infant"             type = "male_coat_european_10_bs_infant.mesh" }
-  blend_shape = { id = "male_coat_european_10_bs_old"                type = "male_coat_european_10_bs_old.mesh" }   
+  blend_shape = { id = "male_coat_european_10_bs_old"                type = "male_coat_european_10_bs_old.mesh" }
   blend_shape = { id = "male_coat_european_10_bs_thick"              type = "male_coat_european_10_bs_thick.mesh" }
   blend_shape = { id = "male_coat_european_10_bs_thin"               type = "male_coat_european_10_bs_thin.mesh" }
 
@@ -17,6 +17,27 @@ pdxmesh = {
 		texture_specular = "male_coat_european_10_properties.dds"
 		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_coat_austrian_10_entity"
+	pdxmesh = "male_coat_european_10_mesh"
+
+   attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "male_coat_european_10_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "male_coat_european_10_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "male_coat_european_10_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "male_coat_european_10_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "male_coat_european_10_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "male_coat_austrian_10"
+			}
+        }
 	}
 }
 
@@ -34,8 +55,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_BRA_royal_10"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_BRA_royal_10"
 			}
         }
 	}
@@ -55,8 +76,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_HAN_royal_10"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_HAN_royal_10"
 			}
         }
 	}
@@ -76,8 +97,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_BYZ_early_10_a"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_BYZ_early_10_a"
 			}
         }
 	}
@@ -97,8 +118,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_BYZ_early_10_b"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_BYZ_early_10_b"
 			}
         }
 	}
@@ -118,8 +139,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_SCA_early_10"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_SCA_early_10"
 			}
         }
 	}
@@ -139,8 +160,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_SPA_early_10"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_SPA_early_10"
 			}
         }
 	}
@@ -160,8 +181,8 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"	
-				variation = "com_male_military_coat_FRA_early_10"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
+				variation = "com_male_military_coat_FRA_early_10"
 			}
         }
 	}
