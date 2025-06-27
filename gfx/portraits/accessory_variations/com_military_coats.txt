@@ -58,7 +58,7 @@ variation = {
 	}
 
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_late_austrian.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform_late_hechtgrau.dds" }
 }
 
 #Austrian Uniform 03
@@ -76,7 +76,7 @@ variation = {
 	}
 
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_coats_austrian.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform.dds" }
 }
 
 variation = {
@@ -93,7 +93,7 @@ variation = {
 	}
 
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_coats_austrian_navy.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform_navy.dds" }
 }
 
 #Austrian Uniform 06
@@ -111,7 +111,7 @@ variation = {
 	}
 
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_coats_austrian.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform.dds" }
 }
 
 #Austrian late military Uniform 06
@@ -129,7 +129,7 @@ variation = {
 	}
 
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_coats_austrian_late.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform_late_royal.dds" }
 }
 
 #Austrian Uniform 10
@@ -147,7 +147,7 @@ variation = {
 	}
 
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_coats_austrian.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform.dds" }
 }
 
 #Royal Baden Uniform 03
