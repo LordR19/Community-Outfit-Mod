@@ -6,7 +6,7 @@
 pdxmesh = {
 	name = "com_male_special_military_coat_european_01_mesh"
 	file = "male_coat_european_01.mesh"
-	
+
 	blend_shape = { id = "male_coat_european_01_bs_fat"			type = "male_coat_european_01_bs_fat.mesh" }
 	blend_shape = { id = "male_coat_european_01_bs_gaunt"		type = "male_coat_european_01_bs_gaunt.mesh" }
 	blend_shape = { id = "male_coat_european_01_bs_old"			type = "male_coat_european_01_bs_old.mesh" }
@@ -26,28 +26,6 @@ pdxmesh = {
 }
 
 entity = {
-	name = "com_male_military_coat_AUS_royal_01_entity"
-	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
-		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
-		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
-		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
-		attribute = { name = "body_bs_infant"				blend_shape = "male_coat_european_01_bs_infant" }
-		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
-		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
-
-	game_data = {
-		portrait_entity_user_data = {
-			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
-				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_uniform_AUS_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
-			}
-        }
-	}
-}
-
-entity = {
 	name = "com_male_military_coat_BAV_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
 
@@ -61,7 +39,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_BAV_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -83,7 +61,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_BEL_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -105,7 +83,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_BYZ_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -127,7 +105,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_FRA_1_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -149,7 +127,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_GRE_royal_01a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -171,7 +149,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_GRE_royal_01b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -193,7 +171,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_GRE_royal_01c"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -204,7 +182,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_HEK_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -215,7 +193,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_HEK_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -237,7 +215,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_HES_royal_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -259,7 +237,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_HES_royal_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -281,7 +259,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_LUC_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -303,7 +281,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_MEC_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -325,7 +303,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_NAS_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -347,7 +325,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_NET_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -358,7 +336,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_OLD_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -369,7 +347,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_OLD_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -380,7 +358,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_PAR_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -391,7 +369,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_PAR_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -402,7 +380,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_POR_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -413,7 +391,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_POR_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -424,7 +402,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SAR_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -435,7 +413,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_SAR_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -446,7 +424,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SWE_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -457,7 +435,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_sweden_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -468,7 +446,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SIC_a_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -479,7 +457,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_SIC_royal_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -490,7 +468,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SIC_b_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -501,7 +479,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_SIC_royal_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -512,7 +490,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_WLD_royal_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -523,7 +501,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_WLD_royal_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -532,31 +510,9 @@ entity = {
 }
 
 entity = {
-	name = "com_male_military_coat_AUS_early_01_entity"
-	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
-		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
-		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
-		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
-		attribute = { name = "body_bs_infant"				blend_shape = "male_coat_european_01_bs_infant" }
-		attribute = { name = "body_bs_thick"				blend_shape = "male_coat_european_01_bs_thick" }
-		attribute = { name = "body_bs_thin"					blend_shape = "male_coat_european_01_bs_thin" }
-
-	game_data = {
-		portrait_entity_user_data = {
-			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
-				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_military_coat_AUS_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
-			}
-        }
-	}
-}
-
-entity = {
 	name = "com_male_military_coat_BAD_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -567,7 +523,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_BAD_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -578,7 +534,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_BAV_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -589,7 +545,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_BAV_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -600,7 +556,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_BEL_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -611,7 +567,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_BEL_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -622,7 +578,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_DEN_early_01_a_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -633,7 +589,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_DEN_early_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -644,7 +600,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_DEN_early_01_b_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -655,7 +611,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_DEN_early_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -666,7 +622,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_DEN_early_01_c_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -677,7 +633,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_DEN_early_01_c"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -688,7 +644,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_FIN_early_01_a_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -699,7 +655,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_FIN_early_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -710,7 +666,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_FIN_early_01_b_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -721,7 +677,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_FIN_early_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -732,7 +688,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_ITA_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -743,7 +699,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_ITA_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -754,7 +710,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_NET_early_01_a_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -765,7 +721,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_NET_early_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -776,7 +732,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_NET_early_01_b_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -787,7 +743,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_NET_early_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -798,7 +754,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_NET_early_01_c_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -809,7 +765,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_NET_early_01_c"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -820,7 +776,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_NOR_early_01_a_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -831,7 +787,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_NOR_early_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -842,7 +798,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_NOR_early_01_b_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -853,7 +809,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_NOR_early_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -864,7 +820,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_NOR_early_01_c_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -875,7 +831,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_NOR_early_01_c"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -886,7 +842,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_POR_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -897,7 +853,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_POR_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -908,7 +864,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_PRU_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -919,7 +875,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_PRU_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -930,7 +886,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SER_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -941,7 +897,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_SER_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -952,7 +908,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SPA_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -963,7 +919,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_SPA_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -974,7 +930,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SWE_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -985,7 +941,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_sweden_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -996,7 +952,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_switzerland_early_01_a_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -1007,7 +963,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_uniform_switzerland_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -1018,7 +974,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_switzerland_early_01_b_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -1029,7 +985,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_switzerland_early_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -1040,7 +996,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_TUR_OTO_early_01_a_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -1051,7 +1007,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_TUR_OTO_early_01_a"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -1062,7 +1018,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_TUR_OTO_early_01_b_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -1073,7 +1029,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_TUR_OTO_early_01_b"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -1084,7 +1040,7 @@ entity = {
 entity = {
 	name = "com_male_military_coat_SAX_early_01_entity"
 	pdxmesh = "com_male_special_military_coat_european_01_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_01_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "male_coat_european_01_bs_old" }
@@ -1095,7 +1051,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/01/male_coat_european_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_military_coat_SAX_early_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}

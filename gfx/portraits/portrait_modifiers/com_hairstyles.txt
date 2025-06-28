@@ -1,7 +1,6 @@
-com_hairstyles = {
+﻿com_hairstyles = {
     usage = game
     selection_behavior = weighted_random
-    fallback = no_hair
 
     adult_franz_joseph = {
         dna_modifiers = {

@@ -1,5 +1,5 @@
 pdxmesh = {
-	name = "male_coat_european_military_01_mesh"
+	name = "com_male_coat_european_military_01_mesh"
 	file = "male_coat_european_military_01.mesh"
 
 	blend_shape = { id = "male_coat_european_military_01_bs_fat"		type = "male_coat_european_military_01_bs_fat.mesh" }
@@ -22,7 +22,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_male_military_coat_AUS_late_entity"
-	pdxmesh = "male_coat_european_military_01_mesh"
+	pdxmesh = "com_male_coat_european_military_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_military_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "male_coat_european_military_01_bs_gaunt" }

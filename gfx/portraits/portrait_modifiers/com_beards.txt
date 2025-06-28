@@ -1,7 +1,6 @@
-com_beards = {
+﻿com_beards = {
     usage = game
     selection_behavior = weighted_random
-    fallback = no_beard
 
     austrian_facial_hair_military = {
         dna_modifiers = {

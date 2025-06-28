@@ -3,7 +3,7 @@ pdxmesh = {
 	file = "male_beard_european_11_alt.mesh"
 
 			blend_shape = { id = "male_beard_european_11_alt_bs_fat"		type = "male_beard_european_11_alt_bs_fat.mesh" }
-			blend_shape = { id = "male_beard_european_11_bs_alt_gaunt"		type = "male_beard_european_11_alt_bs_gaunt.mesh" }
+			blend_shape = { id = "male_beard_european_11_alt_bs_gaunt"		type = "male_beard_european_11_alt_bs_gaunt.mesh" }
 
 	meshsettings = {
 		name = "male_beard_european_11_altShape"

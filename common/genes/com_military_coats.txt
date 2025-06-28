@@ -684,22 +684,23 @@ special_genes = {
 				girl = female
 			}
 
-			com_AUS_military_coats_early = {
-				index = 40
-				male = {
-					1 = com_male_military_coat_AUS_early_01 #Soldier
-					1 = com_male_military_coat_AUS_early_03_a #Officer
-					1 = com_male_military_coat_AUS_early_03_b #General
-					1 = com_male_military_coat_AUS_early_06_a #General
-					1 = com_male_military_coat_AUS_early_06_b #Admiral
-				}
+            com_AUS_military_coats = {
+                index = 40
+                male = {
+                    1 = com_male_military_coat_AUS_03
+                    3 = com_male_military_coat_AUS_06
+                    1 = com_male_military_coat_AUS_10
+                    1 = com_male_military_coat_AUS_navy_03
+                    2 = com_male_military_coat_AUS_navy_06
+                    2 = com_male_military_coat_AUS_navy_11
+                }
 
-				female = {
-					1 = female_outfit_european_common_01
-				}
-				boy = male
-				girl = female
-			}
+                female = {
+                    1 = female_outfit_european_common_01 # fallback
+                }
+                boy = male
+                girl = female
+            }
 
 			com_SER_military_coats_early = {
 				index = 41
@@ -1005,24 +1006,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
-            com_AUS_military_coats = {
-                index = 62
-                male = {
-                    1 = com_male_military_coat_AUS_03
-                    3 = com_male_military_coat_AUS_06
-                    1 = com_male_military_coat_AUS_10
-                    1 = com_male_military_coat_AUS_navy_03
-                    2 = com_male_military_coat_AUS_navy_06
-                    2 = com_male_military_coat_AUS_navy_11
-                }
-
-                female = {
-                    1 = female_outfit_european_common_01 # fallback
-                }
-                boy = male
-                girl = female
-            }
 
             com_AUS_military_coats_late = {
                 index = 63

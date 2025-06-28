@@ -1,4 +1,4 @@
-accessory_genes = {
+﻿accessory_genes = {
 
 
 #####################################
@@ -9,7 +9,7 @@ accessory_genes = {
 
 
 	com_beards = {
-		inheritable = yes
+		inheritable = no
 
 		austrian_beards_military = {
 			index = 0
