@@ -475,10 +475,10 @@ special_genes = {
 				girl = female
 			}
 
-            late_military_epaulettes_austrian = {
+            AUS_epaulettes_late = {
                 index = 31
                 male = {
-                    1 = male_epaulettes_late_austrian_military_01
+                    1 = com_male_epaulettes_military_01_AUS
                 }
 
                 female = {

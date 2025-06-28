@@ -203,17 +203,17 @@ com_male_headgear_european_military_02_DEI = {
     # By UlfDerDritte #
     ###################
 
-male_headgear_austrian_feldkappe_01 = {
+male_headgear_european_feldkappe_01_AUS = {
 	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_austrian_feldkappe_01_entity" }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_feldkappe_01_AUS_entity" }
 }
 
-male_headgear_austrian_kepi_01 = {
+male_headgear_european_kepi_01_AUS = {
 	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_austrian_kepi_01_entity" }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_kepi_01_AUS_entity" }
 }
 
-male_headgear_austrian_stahlhelm_01 = {
+male_headgear_european_stahlhelm_01_AUS = {
 	set_tags ="no_hair"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_austrian_stahlhelm_01_entity" }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_stahlhelm_01_AUS_entity" }
 }

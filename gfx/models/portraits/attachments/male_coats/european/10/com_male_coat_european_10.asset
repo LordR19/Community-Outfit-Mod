@@ -21,7 +21,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "male_coat_austrian_10_entity"
+	name = "com_male_military_coat_AUS_10_entity"
 	pdxmesh = "male_coat_european_10_mesh"
 
    attribute = { name = "body_bs_fat"                                 blend_shape = "male_coat_european_10_bs_fat" }
@@ -35,7 +35,7 @@ entity = {
             portrait_entity_user_data = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/10/male_coat_european_10_masks.dds"
-				variation = "male_coat_austrian_10"
+				variation = "com_male_military_coat_AUS_10"
 			}
         }
 	}

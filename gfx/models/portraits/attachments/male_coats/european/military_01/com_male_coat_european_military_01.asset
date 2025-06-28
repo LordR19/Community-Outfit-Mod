@@ -21,7 +21,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "male_coat_late_austrian_military_01_entity"
+	name = "com_male_military_coat_AUS_late_entity"
 	pdxmesh = "male_coat_european_military_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "male_coat_european_military_01_bs_fat" }
@@ -36,7 +36,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/military_01/male_coat_european_military_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "male_coat_late_austrian"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_military_coat_AUS_late"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

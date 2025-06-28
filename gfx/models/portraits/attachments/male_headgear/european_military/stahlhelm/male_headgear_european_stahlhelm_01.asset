@@ -14,7 +14,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "male_headgear_austrian_stahlhelm_01_entity"
+	name = "male_headgear_european_stahlhelm_01_AUS_entity"
 	pdxmesh = "male_headgear_european_stahlhelm_01_mesh"
 
 		game_data = {
@@ -23,7 +23,7 @@ entity = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/stahlhelm/male_headgear_european_stahlhelm_01_masks.dds"
 
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "male_headgear_austrian_stahlhelm_01"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "male_headgear_european_stahlhelm_01_AUS"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
     	}
 	}

@@ -87,7 +87,7 @@ com_male_legwear_european_dark_blue_red_stripe_thin = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_red_stripe_thin_entity" }
 }
 
-male_legwear_late_austrian_military_01 = {
+com_male_legwear_AUS_late_military_01 = {
 	set_tags = "shrink_legs"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_legwear_late_austrian_military_01_entity" }
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_AUS_late_military_01_entity" }
 }

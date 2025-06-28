@@ -612,7 +612,7 @@ variation = {
     ###################
 
 variation = {
-	name = "male_headgear_austrian_stahlhelm_01"
+	name = "male_headgear_european_stahlhelm_01_AUS"
 
 
 	pattern = {
@@ -628,7 +628,7 @@ variation = {
 }
 
 variation = {
-	name = "male_headgear_austrian_feldkappe_01"
+	name = "male_headgear_european_feldkappe_01_AUS"
 
 
 	pattern = {

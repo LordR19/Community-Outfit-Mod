@@ -58,8 +58,10 @@ special_genes = {
 			com_AUS_legwear = {
 				index = 2
 				male = {
-					1 = com_male_legwear_european_red
-					1 = com_male_legwear_european_white
+                    1 = male_legwear_european_01_red
+                    1 = male_legwear_european_01_white
+                    1 = male_legwear_european_01_black
+					1 = com_male_legwear_european_black_red_stripe
 				}
 				female = {
 					1 = empty
@@ -355,24 +357,10 @@ special_genes = {
 				girl = female
 			}
 
-            austrian_legwear = {
+            com_AUS_legwear_late = {
                 index = 25
                 male = {
-                    1 = male_legwear_european_01_red
-                    1 = male_legwear_european_01_white
-                    1 = male_legwear_european_01_black
-                }
-                female = {
-                    1 = 0
-                }
-                boy = male
-                girl = female
-            }
-
-            european_late_military_legwear_austrian = {
-                index = 26
-                male = {
-                    1 = male_legwear_late_austrian_military_01
+                    1 = com_male_legwear_AUS_late_military_01
                 }
                 female = {
                     #
