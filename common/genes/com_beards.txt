@@ -1,40 +1,43 @@
-﻿accessory_genes = {
+﻿
+special_genes = {
+    accessory_genes = {
 
 
-#####################################
-#									#
-# 			   BEARDS 			    #
-#									#
-#####################################
+        #####################################
+        #									#
+        # 			   BEARDS 			    #
+        #									#
+        #####################################
 
 
-	com_beards = {
-		inheritable = no
+        com_beards = {
+            inheritable = no
 
-		austrian_beards_military = {
-			index = 0
-			male = {
-				#weight = <object in gfx/portrait/accessories/>
-				15 = empty
-				6 = male_beard_european_02
-				2 = male_beard_european_04
-				4 = male_beard_european_05
-				3 = male_beard_european_06
-				3 = male_beard_european_07
-				2 = male_beard_european_09
-			#	1 = male_beard_european_10
-				2 = male_beard_european_11
-				2 = male_beard_european_11_alt
-				3 = male_beard_european_12
-			#	1 = male_beard_european_13
-				1 = male_beard_european_16
-			#	1 = male_beard_european_19
-			}
+            austrian_beards_military = {
+                index = 0
+                male = {
+                    #weight = <object in gfx/portrait/accessories/>
+                    15 = empty
+                    6 = male_beard_european_02
+                    2 = male_beard_european_04
+                    4 = male_beard_european_05
+                    3 = male_beard_european_06
+                    3 = male_beard_european_07
+                    2 = male_beard_european_09
+                    #	1 = male_beard_european_10
+                    2 = male_beard_european_11
+                    2 = male_beard_european_11_alt
+                    3 = male_beard_european_12
+                    #	1 = male_beard_european_13
+                    1 = male_beard_european_16
+                    #	1 = male_beard_european_19
+                }
 
-			female = {
-			}
-			boy = female
-			girl = female
-		}
-	}
+                female = {
+                }
+                boy = female
+                girl = female
+            }
+        }
+    }
 }
