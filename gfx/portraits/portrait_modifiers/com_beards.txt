@@ -28,30 +28,23 @@ com_beards = {
             base = 0
             modifier = {
                 add = 102
+                COM_is_austrian = yes
                 OR = {
-                    AND = {
-                        ulf_austrian_clothes_trigger = yes
-                        scope:character ?= {
-                            age > 18
-                            is_historical = no
-                            is_ruler = no
-                            OR = {
-                                has_role = general
-                                has_role = admiral
-                                AND = {
-                                    has_role = politician
-                                    is_interest_group_type = ig_armed_forces
-                                }
+                    scope:character ?= {
+                        age > 18
+                        is_historical = no
+                        is_ruler = no
+                        OR = {
+                            has_role = general
+                            has_role = admiral
+                            AND = {
+                                has_role = politician
+                                is_interest_group_type = ig_armed_forces
                             }
                         }
                     }
-                    AND = {
-                        ulf_austrian_clothes_pop_trigger = yes
-                        OR = {
-                            soldier_clothes_pop_trigger = yes
-                            officers_clothes_pop_trigger = yes
-                        }
-                    }
+                    soldier_clothes_pop_trigger = yes
+                    officers_clothes_pop_trigger = yes
                 }
             }
         }

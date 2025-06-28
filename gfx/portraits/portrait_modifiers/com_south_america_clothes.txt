@@ -38,7 +38,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -74,9 +74,9 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                
+
                 year < 1872
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -112,9 +112,9 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                
+
                 year >= 1872
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -152,7 +152,7 @@ COM_south_america_clothes = {
                 add = 400
 
                 year >= 1910
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -188,7 +188,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -224,9 +224,9 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                
+
                 year < 1900
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -263,9 +263,9 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 425
-                
+
                 year >=1900
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -304,9 +304,9 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                
+
                 year < 1900
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -342,9 +342,9 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                
+
                 year >=1900
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -380,7 +380,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -418,7 +418,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -454,7 +454,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -490,7 +490,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -526,7 +526,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 425
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -562,7 +562,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -598,7 +598,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 425
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -634,7 +634,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -670,7 +670,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -706,7 +706,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -742,7 +742,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -778,7 +778,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -814,7 +814,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -850,7 +850,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 400
-                COM_is_democracy_leader = yes
+                COM_is_republic_leader = yes
                 exists = scope:character
                 scope:character ?= {
                     owner ?= {
@@ -944,7 +944,7 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
+
                 scope:character ?= {
                     owner ?= {
                         OR = {
@@ -961,7 +961,7 @@ COM_south_america_clothes = {
     }
 
 
-    
+
 
 ###
 

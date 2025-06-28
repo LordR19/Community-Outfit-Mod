@@ -1006,7 +1006,7 @@ special_genes = {
 				girl = female
 			}
 
-            austrian_coats = {
+            COM_AUS_military_coats = {
                 index = 62
                 male = {
                     1 = male_coat_austrian_03
@@ -1040,9 +1040,7 @@ special_genes = {
             austrian_late_coats = {
                 index = 64
                 male = {
-                    # 1 = male_coat_austrian_03
-                    3 = male_coat_austrian_late_06
-                    # 1 = male_coat_austrian_10
+                    1 = male_coat_austrian_late_06
                 }
 
                 female = {

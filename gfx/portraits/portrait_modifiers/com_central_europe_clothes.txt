@@ -71,7 +71,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = austrian_coats
+                template = COM_AUS_military_coats
                 accessory = male_coat_austrian_06
             }
             accessory = {
@@ -109,19 +109,8 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 20000
-                ulf_austrian_clothes_trigger_strict = yes
-                scope:character ?= {
-                    age > define:NCharacters|ADULT_AGE
-                    AND = {
-                        OR = {
-                            is_ruler = yes
-                            is_heir = yes
-                        }
-                        home_country ?= {
-                            has_law = law_type:law_monarchy
-                        }
-                    }
-                }
+                COM_is_austrian_strict = yes
+                COM_is_monarch_leader = yes
             }
         }
     }
@@ -213,20 +202,9 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 20001
-                ulf_austrian_clothes_trigger_strict = yes
-                ulf_late_military_clothes_trigger = yes
-                scope:character ?= {
-                    age > define:NCharacters|ADULT_AGE
-                    AND = {
-                        OR = {
-                            is_ruler = yes
-                            is_heir = yes
-                        }
-                        home_country ?= {
-                            has_law = law_type:law_monarchy
-                        }
-                    }
-                }
+                COM_is_austrian_strict = yes
+                COM_is_late_military = yes
+                COM_is_monarch_leader = yes
             }
         }
     }
@@ -282,7 +260,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = austrian_coats
+                template = COM_AUS_military_coats
                 range = { 0 0.5 } # For the randomness to work correctly
             }
             accessory = {
@@ -320,32 +298,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10001
-                ulf_austrian_clothes_trigger = yes
-                # ulf_late_military_clothes_trigger = no
-                scope:character ?= {
-                    age > define:NCharacters|ADULT_AGE
-                    OR = {
-                        AND = {
-                            ulf_austrian_clothes_trigger = yes
-                            scope:character ?= {
-                                age >= define:NCharacters|ADULT_AGE
-                                has_role = general
-                            }
-                        }
-                        AND = {
-                            has_role = politician
-                            is_interest_group_type = ig_armed_forces
-                        }
-                        AND = {
-                            OR = {
-                                is_ruler = yes
-                                is_heir = yes
-                            }
-                            home_country ?= {
-                                has_law = law_type:law_monarchy
-                            }
-                        }
-                    }
+                COM_is_austrian = yes
+                OR = {
+                    COM_is_general_leader = yes
+                    COM_is_monarch_leader = yes
                 }
             }
         }
@@ -450,35 +406,12 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 12000
+                add = 12001
                 has_dlc_feature = ep1_cosmetics
-                ulf_austrian_clothes_trigger = yes
-                ulf_late_military_clothes_trigger = yes
-                scope:character ?= {
-                    age > define:NCharacters|ADULT_AGE
-                    OR = {
-                        AND = {
-                            ulf_austrian_clothes_trigger = yes
-                            scope:character ?= {
-                                age >= define:NCharacters|ADULT_AGE
-                                has_role = general
-                            }
-                        }
-                        AND = {
-                            has_role = politician
-                            is_interest_group_type = ig_armed_forces
-                            NAND = {
-                                OR = {
-                                    is_ruler = yes
-                                    is_heir = yes
-                                }
-                                home_country ?= {
-                                    has_law = law_type:law_monarchy
-                                }
-                            }
-                        }
-                    }
-                }
+                COM_is_austrian = yes
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
             }
         }
     }
@@ -538,7 +471,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = austrian_coats
+                template = COM_AUS_military_coats
                 range = { 0 0.5 } # For the randomness to work correctly
             }
             accessory = {
@@ -571,7 +504,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10000
-                ulf_austrian_clothes_pop_trigger = yes
+                COM_is_austrian = yes
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -672,8 +605,8 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
-                ulf_late_military_clothes_pop_trigger = yes
-                ulf_austrian_clothes_pop_trigger = yes
+                COM_is_late_military = yes
+                COM_is_austrian = yes
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -740,7 +673,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = austrian_coats
+                template = COM_AUS_military_coats
                 range = { 0 0.5 } # For the randomness to work correctly
             }
             accessory = {
@@ -755,7 +688,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10000
-                ulf_austrian_clothes_pop_trigger = yes
+                COM_is_austrian = yes
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -856,8 +789,8 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
-                ulf_late_military_clothes_pop_trigger = yes
-                ulf_austrian_clothes_pop_trigger = yes
+                COM_is_late_military = yes
+                COM_is_austrian = yes
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -920,7 +853,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = austrian_coats
+                template = COM_AUS_military_coats
                 range = { 0.5 1 } # For the randomness to work correctly
             }
             accessory = {
@@ -953,11 +886,8 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10000
-                ulf_austrian_clothes_trigger = yes
-                scope:character ?= {
-                    age >= define:NCharacters|ADULT_AGE
-                    has_role = admiral
-                }
+                COM_is_austrian = yes
+                COM_is_admiral_leader = yes
             }
         }
     }

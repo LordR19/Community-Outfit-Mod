@@ -1,7 +1,7 @@
 ﻿
-    #############
-    # By Lord R #
-    #############
+#############
+# By Lord R #
+#############
 
 ###############################
 # COM CHECK SCRPITED TRIGGERS #
@@ -9,25 +9,25 @@
 
 mr_com_special_character_blocker = {
     NOR = {
-		has_variable = mr_is_engineer_var
-		has_variable = mr_is_astronomer_var
-		has_variable = mr_is_chemist_var
-		has_variable = mr_is_physicist_var
-		has_variable = mr_is_geologist_var
-		has_variable = mr_is_naturalist_var
-		has_variable = mr_is_paleontologist_var
-		has_variable = mr_is_biologist_var
-		has_variable = mr_is_archaeologist_var
-		has_variable = mr_is_anthropologist_var
-		has_variable = mr_is_physician_var
-		has_variable = mr_is_racer_var
-		has_variable = mr_is_composer_var
-		has_variable = mr_is_travelling_composer_var
-		has_variable = mr_is_writer_var
-		has_variable = mr_is_local_writer_var
-		has_variable = mr_is_painter_var
-		has_variable = mr_is_independent_painter
-	}
+        has_variable = mr_is_engineer_var
+        has_variable = mr_is_astronomer_var
+        has_variable = mr_is_chemist_var
+        has_variable = mr_is_physicist_var
+        has_variable = mr_is_geologist_var
+        has_variable = mr_is_naturalist_var
+        has_variable = mr_is_paleontologist_var
+        has_variable = mr_is_biologist_var
+        has_variable = mr_is_archaeologist_var
+        has_variable = mr_is_anthropologist_var
+        has_variable = mr_is_physician_var
+        has_variable = mr_is_racer_var
+        has_variable = mr_is_composer_var
+        has_variable = mr_is_travelling_composer_var
+        has_variable = mr_is_writer_var
+        has_variable = mr_is_local_writer_var
+        has_variable = mr_is_painter_var
+        has_variable = mr_is_independent_painter
+    }
 }
 
 
@@ -36,313 +36,315 @@ mr_com_special_character_blocker = {
 ###############################
 
 COM_is_early_military = {
-	OR = {
-		AND = {
-			exists = scope:character
-			scope:character ?= {
-				owner ?= {
-					NOT = {
-						has_technology_researched = bolt_action_rifles
-					}
-				}
-			}
-		}
-		AND = {
-			exists = scope:pop
-			scope:pop ?= {
-				owner ?= {
-					NOT = {
-						has_technology_researched = bolt_action_rifles
-					}
-				}
-			}
-		}
-	}
+    OR = {
+        AND = {
+            exists = scope:character
+            scope:character ?= {
+                owner ?= {
+                    NOT = {
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
+            }
+        }
+        AND = {
+            exists = scope:pop
+            scope:pop ?= {
+                owner ?= {
+                    NOT = {
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
+            }
+        }
+    }
+}
+
+COM_is_late_military = {
+    OR = {
+        scope:character ?= {
+            owner ?= {
+                OR = {
+                    has_technology_researched = bolt_action_rifles
+                    # has_technology_researched = trench_works
+                }
+            }
+        }
+        scope:pop ?= {
+            owner ?= {
+                OR = {
+                    has_technology_researched = bolt_action_rifles
+                    # has_technology_researched = trench_works
+                }
+            }
+        }
+    }
 }
 
 COM_is_monarch_leader = {
-	exists = scope:character
-	scope:character ?= {
-		monarchy_clothes_trigger = yes
-		is_female = no
-		age >= 16
-	}
+    exists = scope:character
+    scope:character ?= {
+        monarchy_clothes_trigger = yes
+        is_female = no
+        age >= define:NCharacters|ADULT_AGE
+    }
 }
 
-COM_is_democracy_leader = {
-	exists = scope:character
-	scope:character ?= {
-		owner ?= {
-			OR = {
-				has_law = law_type:law_presidential_republic
-				has_law = law_type:law_parliamentary_republic
-			}
-		}
-		is_ruler = yes
-		age >= 16
-	}
+COM_is_republic_leader = {
+    exists = scope:character
+    scope:character ?= {
+        owner ?= {
+            coa_republic_trigger = yes
+        }
+        is_ruler = yes
+        age >= define:NCharacters|ADULT_AGE
+    }
 }
 
 COM_is_general_leader = {
-	exists = scope:character
-	scope:character ?= {
-		OR = {
-			AND = {
-				has_role = politician
-				is_ruler = no
-				is_heir = no
-				is_interest_group_type = ig_armed_forces
-				mr_com_special_character_blocker = yes
-			}
-			has_role = general
-		}
-	}
+    exists = scope:character
+    scope:character ?= {
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_heir = no
+                is_interest_group_type = ig_armed_forces
+                mr_com_special_character_blocker = yes
+            }
+            has_role = general
+        }
+    }
 }
 
 COM_is_admiral_leader = {
-	exists = scope:character
-	scope:character ?= {
-		OR = {
-			AND = {
-				has_role = politician
-				is_ruler = no
-				is_heir = no
-				is_interest_group_type = ig_armed_forces
-				mr_com_special_character_blocker = yes
-			}
-			has_role = admiral
-		}
-	}
+    exists = scope:character
+    scope:character ?= {
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_heir = no
+                is_interest_group_type = ig_armed_forces
+                mr_com_special_character_blocker = yes
+            }
+            has_role = admiral
+        }
+    }
 }
 
 
 # SASHES SCA TRIGGERS
 
 COM_is_swedish_SCA = {
-	exists = scope:character
-	scope:character ?= {
+    exists = scope:character
+    scope:character ?= {
         has_culture = cu:swedish
-			OR = {
-				AND = {
-					has_role = politician
-					is_ruler = no
-					is_interest_group_type = ig_armed_forces
-				}
-				has_role = general
-				has_role = admiral
-			}
-		owner ?= {
-			NOT = {
-				has_technology_researched = bolt_action_rifles
-			}
-			OR = {
-				c:SCA ?= this
-        		was_formed_from = SCA
-    		}
-		}
-	}
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_interest_group_type = ig_armed_forces
+            }
+            has_role = general
+            has_role = admiral
+        }
+        owner ?= {
+            NOT = {
+                has_technology_researched = bolt_action_rifles
+            }
+            OR = {
+                c:SCA ?= this
+                was_formed_from = SCA
+            }
+        }
+    }
 }
 
 COM_is_danish_SCA = {
-	exists = scope:character
-	scope:character ?= {
+    exists = scope:character
+    scope:character ?= {
         has_culture = cu:danish
-			OR = {
-				AND = {
-					has_role = politician
-					is_ruler = no
-					is_interest_group_type = ig_armed_forces
-				}
-				has_role = general
-				has_role = admiral
-			}
-		owner ?= {
-			NOT = {
-				has_technology_researched = bolt_action_rifles
-			}
-			OR = {
-				c:SCA ?= this
-        		was_formed_from = SCA
-    		}
-		}
-	}
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_interest_group_type = ig_armed_forces
+            }
+            has_role = general
+            has_role = admiral
+        }
+        owner ?= {
+            NOT = {
+                has_technology_researched = bolt_action_rifles
+            }
+            OR = {
+                c:SCA ?= this
+                was_formed_from = SCA
+            }
+        }
+    }
 }
 
 COM_is_norwegian_SCA = {
-	exists = scope:character
-	scope:character ?= {
+    exists = scope:character
+    scope:character ?= {
         has_culture = cu:norwegian
-			OR = {
-				AND = {
-					has_role = politician
-					is_ruler = no
-					is_interest_group_type = ig_armed_forces
-				}
-				has_role = general
-				has_role = admiral
-			}
-		owner ?= {
-			NOT = {
-				has_technology_researched = bolt_action_rifles
-			}
-			OR = {
-				c:SCA ?= this
-        		was_formed_from = SCA
-    		}
-		}
-	}
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_interest_group_type = ig_armed_forces
+            }
+            has_role = general
+            has_role = admiral
+        }
+        owner ?= {
+            NOT = {
+                has_technology_researched = bolt_action_rifles
+            }
+            OR = {
+                c:SCA ?= this
+                was_formed_from = SCA
+            }
+        }
+    }
 }
 
 COM_is_finnish_SCA = {
-	exists = scope:character
-	scope:character ?= {
+    exists = scope:character
+    scope:character ?= {
         has_culture = cu:finnish
-			OR = {
-				AND = {
-					has_role = politician
-					is_ruler = no
-					is_interest_group_type = ig_armed_forces
-				}
-				has_role = general
-				has_role = admiral
-			}
-		owner ?= {
-			NOT = {
-				has_technology_researched = bolt_action_rifles
-			}
-			OR = {
-				c:SCA ?= this
-        		was_formed_from = SCA
-    		}
-		}
-	}
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_interest_group_type = ig_armed_forces
+            }
+            has_role = general
+            has_role = admiral
+        }
+        owner ?= {
+            NOT = {
+                has_technology_researched = bolt_action_rifles
+            }
+            OR = {
+                c:SCA ?= this
+                was_formed_from = SCA
+            }
+        }
+    }
 }
 
 COM_is_icelandic_SCA = {
-	exists = scope:character
-	scope:character ?= {
+    exists = scope:character
+    scope:character ?= {
         has_culture = cu:icelandic
-			OR = {
-				AND = {
-					has_role = politician
-					is_ruler = no
-					is_interest_group_type = ig_armed_forces
-				}
-				has_role = general
-				has_role = admiral
-			}
-		owner ?= {
-			NOT = {
-				has_technology_researched = bolt_action_rifles
-			}
-			OR = {
-				c:SCA ?= this
-        		was_formed_from = SCA
-    		}
-		}
-	}
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_interest_group_type = ig_armed_forces
+            }
+            has_role = general
+            has_role = admiral
+        }
+        owner ?= {
+            NOT = {
+                has_technology_researched = bolt_action_rifles
+            }
+            OR = {
+                c:SCA ?= this
+                was_formed_from = SCA
+            }
+        }
+    }
 }
 
 COM_is_other_SCA = {
-	exists = scope:character
-	scope:character ?= {
-		OR = {
-			AND = {
-				has_role = politician
-				is_ruler = no
-				is_interest_group_type = ig_armed_forces
-			}
-			has_role = general
-			has_role = admiral
-		}
-		owner ?= {
-			NOT = {
-				has_technology_researched = bolt_action_rifles
-			}
-			OR = {
-				c:SCA ?= this
-        		was_formed_from = SCA
-    		}
-		}
-	}
+    exists = scope:character
+    scope:character ?= {
+        OR = {
+            AND = {
+                has_role = politician
+                is_ruler = no
+                is_interest_group_type = ig_armed_forces
+            }
+            has_role = general
+            has_role = admiral
+        }
+        owner ?= {
+            NOT = {
+                has_technology_researched = bolt_action_rifles
+            }
+            OR = {
+                c:SCA ?= this
+                was_formed_from = SCA
+            }
+        }
+    }
 }
 
 
 ### Austria triggers
 
-ulf_austrian_clothes_trigger = {
-	scope:character ?= {
-		home_country ?= {
-			OR = {
-				AND = {
-					c:AUS ?= this
-					is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-				}
-				top_overlord = {
-					was_formed_from = AUS
-				}
-				is_subject_of = c:AUS
-				was_formed_from = AUS
-			}
-		}
-	}
+COM_is_austrian = {
+    OR = {
+        scope:character ?= {
+            home_country ?= {
+                OR = {
+                    AND = {
+                        c:AUS ?= this
+                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                    }
+                    top_overlord = {
+                        was_formed_from = AUS
+                    }
+                    is_subject_of = c:AUS
+                    was_formed_from = AUS
+                }
+            }
+        }
+        scope:pop ?= {
+            home_country ?= {
+                OR = {
+                    AND = {
+                        c:AUS ?= this
+                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                    }
+                    top_overlord = {
+                        was_formed_from = AUS
+                    }
+                    is_subject_of = c:AUS
+                    was_formed_from = AUS
+                }
+            }
+        }
+    }
 }
-ulf_austrian_clothes_trigger_strict = {
-	scope:character ?= {
-		home_country ?= {
-			OR = {
-				AND = {
-					c:AUS ?= this
-					is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-				}
-				was_formed_from = AUS
-			}
-		}
-	}
-}
-
-ulf_austrian_clothes_pop_trigger = {
-	scope:pop ?= {
-		home_country ?= {
-			OR = {
-				AND = {
-					c:AUS ?= this
-					is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-				}
-				top_overlord = {
-					was_formed_from = AUS
-				}
-				is_subject_of = c:AUS
-				was_formed_from = AUS
-			}
-		}
-	}
-}
-
-
-# late military uniform triggers
-
-ulf_late_military_trigger = {
-	OR = {
-		has_technology_researched = bolt_action_rifles
-		has_technology_researched = trench_works
-	}
-}
-
-ulf_late_military_clothes_trigger = {
-	scope:character ?= {
-		owner ?= {
-			ulf_late_military_trigger = yes
-		}
-	}
-}
-
-ulf_late_military_clothes_pop_trigger = {
-	scope:pop ?= {
-		owner ?= {
-			OR = {
-			    ulf_late_military_trigger = yes
-			}
-		}
-	}
+COM_is_austrian_strict = {
+    OR = {
+        scope:character ?= {
+            home_country ?= {
+                OR = {
+                    AND = {
+                        c:AUS ?= this
+                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                    }
+                    was_formed_from = AUS
+                }
+            }
+        }
+        scope:pop ?= {
+            home_country ?= {
+                OR = {
+                    AND = {
+                        c:AUS ?= this
+                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                    }
+                    was_formed_from = AUS
+                }
+            }
+        }
+    }
 }
