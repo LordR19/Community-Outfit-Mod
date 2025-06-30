@@ -3020,8 +3020,8 @@ COM_west_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_AUS_noble_coats
-                range = { 0 1 } # For the randomness to work correctly
+                template = com_AUS_military_coats
+                accessory = com_male_military_coat_AUS_06
             }
             accessory = {
                 mode = add
