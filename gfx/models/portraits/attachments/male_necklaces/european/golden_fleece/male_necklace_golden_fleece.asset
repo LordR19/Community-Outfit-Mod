@@ -1,4 +1,4 @@
-pdxmesh = {
+﻿pdxmesh = {
 	name = "male_necklace_golden_fleece_mesh"
 	file = "male_necklace_golden_fleece.mesh"
 
@@ -24,7 +24,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_necklaces/european/golden_fleece/male_necklace_golden_fleece_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_necklaces/european/golden_fleece/male_necklace_golden_fleece_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "male_necklace_golden_fleece"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
