@@ -10,7 +10,7 @@
         com_necklaces = {
             inheritable = no
 
-            necklace_golden_fleece = {
+            com_necklace_golden_fleece = {
                 index = 0
 
                 male = {

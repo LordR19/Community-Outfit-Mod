@@ -1,0 +1,60 @@
+﻿special_genes = {
+    accessory_genes = {
+
+        #####################################
+        #									#
+        # 			   MEDALS   			#
+        #									#
+        #####################################
+
+        com_medals = {
+            inheritable = no
+
+            com_no_medals = {
+                index = 0
+
+                male = {
+                    1 = 0
+                }
+
+                female = {
+
+                }
+
+                boy = male
+                girl = female
+            }
+
+            com_all_medals = {
+                index = 1
+
+                male = {
+                    1 = male_medals_austrian_01_01
+                }
+
+                female = {
+
+                }
+
+                boy = male
+                girl = female
+            }
+
+            com_medals_AUS = {
+                index = 2
+
+                male = {
+                    1 = male_medals_austrian_01_01
+                }
+
+                female = {
+
+                }
+
+                boy = male
+                girl = female
+            }
+        }
+    }
+}
+

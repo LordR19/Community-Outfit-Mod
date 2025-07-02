@@ -1,0 +1,16 @@
+﻿
+    ###################
+    # By UlfDerDritte #
+    ###################
+
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
+
+#################################
+#								#
+# 			 MEDALS 			#
+#								#
+#################################
+
+male_medals_austrian_01_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_01_entity" }
+}

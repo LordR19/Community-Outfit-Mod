@@ -94,14 +94,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                accessory = male_medals_generic_01_03
-            }
-            accessory = {
-                mode = add
                 gene = com_necklaces
-                template = necklace_golden_fleece
+                template = com_necklace_golden_fleece
                 accessory = male_necklace_golden_fleece
             }
             accessory = {
@@ -109,6 +103,12 @@ COM_central_europe_clothes = {
                 gene = com_sashes
                 template = com_AUS_sashes
                 accessory = com_male_sash_AUS
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                accessory = male_medals_austrian_01_01
             }
         }
         weight = {
@@ -193,15 +193,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                accessory = male_medals_generic_01_03
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
             }
             accessory = {
                 mode = add
-                gene = com_necklaces
-                template = necklace_golden_fleece
-                accessory = male_necklace_golden_fleece
+                gene = com_medals
+                template = com_medals_AUS
+                accessory = male_medals_austrian_01_01
             }
         }
         weight = {
