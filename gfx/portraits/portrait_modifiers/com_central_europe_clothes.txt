@@ -252,6 +252,12 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
@@ -283,9 +289,9 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.1 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -398,9 +404,9 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -494,9 +500,9 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 }
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -594,9 +600,9 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 }
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -688,6 +694,12 @@ COM_central_europe_clothes = {
                 template = com_AUS_legwear
                 accessory = male_legwear_european_01_red
             }
+            # accessory = {
+            #     mode = add
+            #     gene = com_medals
+            #     template = com_medals_AUS
+            #     range = { 0.875 1 } # For the randomness to work correctly
+            # }
         }
 
         weight = {
@@ -782,6 +794,12 @@ COM_central_europe_clothes = {
                 template = com_AUS_legwear_late
                 accessory = com_male_legwear_AUS_late_military_01
             }
+            # accessory = {
+            #     mode = add
+            #     gene = com_medals
+            #     template = com_medals_AUS
+            #     range = { 0.875 1 } # For the randomness to work correctly
+            # }
             accessory = {
                 mode = add
                 gene = com_headgear

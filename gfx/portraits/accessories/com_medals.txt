@@ -14,3 +14,35 @@
 male_medals_austrian_01_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_01_entity" }
 }
+
+male_medals_austrian_01_02 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_02_entity" }
+}
+
+male_medals_austrian_01_03 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_03_entity" }
+}
+
+male_medals_austrian_01_04 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_04_entity" }
+}
+
+male_medals_austrian_01_05 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_05_entity" }
+}
+
+male_medals_austrian_01_06 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_06_entity" }
+}
+
+male_medals_austrian_01_07 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_07_entity" }
+}
+
+male_medals_austrian_01_08 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_08_entity" }
+}
+
+male_medals_austrian_01_09 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_medals_austrian_01_09_entity" }
+}
