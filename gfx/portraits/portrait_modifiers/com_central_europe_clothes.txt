@@ -406,7 +406,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_medals
                 template = com_medals_AUS
-                range = { 0.4 1 } # For the randomness to work correctly
+                range = { 0.4 0.925 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add

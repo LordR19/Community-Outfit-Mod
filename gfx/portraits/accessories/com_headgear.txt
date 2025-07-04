@@ -217,3 +217,8 @@ male_headgear_european_stahlhelm_01_AUS = {
 	set_tags ="no_hair"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_stahlhelm_01_AUS_entity" }
 }
+
+com_male_headgear_adrian = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_adrian_entity" }
+}
