@@ -3,6 +3,7 @@
 	file = "male_medals_austrian_01_01.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_01_bs_fat"	type = "male_medals_austrian_01_01_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_01_bs_thick"	type = "male_medals_austrian_01_01_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_01shape"
@@ -20,6 +21,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_01_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_01_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_01_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -37,6 +39,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_02.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_02_bs_fat"	type = "male_medals_austrian_01_02_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_02_bs_thick"	type = "male_medals_austrian_01_02_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_02shape"
@@ -54,6 +57,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_02_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_02_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_02_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -71,6 +75,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_03.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_03_bs_fat"	type = "male_medals_austrian_01_03_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_03_bs_thick"	type = "male_medals_austrian_01_03_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_03shape"
@@ -88,6 +93,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_03_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_03_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_03_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -105,6 +111,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_04.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_04_bs_fat"	type = "male_medals_austrian_01_04_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_04_bs_thick"	type = "male_medals_austrian_01_04_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_04shape"
@@ -122,6 +129,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_04_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_04_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_04_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -139,6 +147,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_05.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_05_bs_fat"	type = "male_medals_austrian_01_05_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_05_bs_thick"	type = "male_medals_austrian_01_05_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_05shape"
@@ -156,6 +165,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_05_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_05_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_05_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -173,6 +183,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_06.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_06_bs_fat"	type = "male_medals_austrian_01_06_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_06_bs_thick"	type = "male_medals_austrian_01_06_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_06shape"
@@ -190,6 +201,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_06_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_06_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_06_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -207,6 +219,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_07.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_07_bs_fat"	type = "male_medals_austrian_01_07_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_07_bs_thick"	type = "male_medals_austrian_01_07_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_07shape"
@@ -224,6 +237,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_07_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_07_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_07_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -241,6 +255,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_08.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_08_bs_fat"	type = "male_medals_austrian_01_08_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_08_bs_thick"	type = "male_medals_austrian_01_08_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_08shape"
@@ -258,6 +273,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_08_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_08_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_08_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
@@ -275,6 +291,7 @@ pdxmesh = {
 	file = "male_medals_austrian_01_09.mesh"
 
 	blend_shape = { id = "male_medals_austrian_01_09_bs_fat"	type = "male_medals_austrian_01_09_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_09_bs_thick"	type = "male_medals_austrian_01_09_bs_thick.mesh"  }
 
 	meshsettings = {
 		name = "male_medals_austrian_01_09shape"
@@ -292,6 +309,7 @@ entity = {
 	pdxmesh = "male_medals_austrian_01_09_mesh"
 
 	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_09_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_09_bs_thick" }
 
 	game_data = {
 		portrait_entity_user_data = {
