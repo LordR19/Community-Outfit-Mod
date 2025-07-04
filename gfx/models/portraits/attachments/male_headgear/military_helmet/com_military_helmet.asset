@@ -1,0 +1,41 @@
+
+### STAHLHELM
+
+	pdxmesh = {
+		name = "male_headgear_european_stahlhelm_01_mesh"
+		file = "com_stahlhelm.mesh"
+
+		meshsettings = {
+			name = "com_stahlhelm"
+			index = 0
+			texture_diffuse = "com_helmet_d.dds"
+			texture_normal = "com_helmet_n.dds"
+			texture_specular = "com_helmet_p.dds"
+			shader = "portrait_attachment_pattern"
+			shader_file = "gfx/FX/jomini/portrait.shader"
+		}
+	}
+
+	entity = {
+		name = "male_headgear_european_stahlhelm_01_AUS_entity"
+		pdxmesh = "male_headgear_european_stahlhelm_01_mesh"
+
+			game_data = {
+	            portrait_entity_user_data = {
+				portrait_accessory = {
+					pattern_mask = "gfx/models/portraits/attachments/male_headgear/military_helmet/stahlhelm/com_helmet_masks.dds"
+
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+					variation = "male_headgear_european_stahlhelm_01_AUS"	#A "variation" object in gfx/portraits/accessory_variations/
+				}
+	    	}
+		}
+	}
+
+### NEW HELMET
+
+
+### NEW HELMET
+
+
+### NEW HELMET
