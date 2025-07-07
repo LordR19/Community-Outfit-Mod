@@ -2660,6 +2660,12 @@ COM_west_europe_clothes = {
                 template = LUC_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
+            }
 
             #Remove
             accessory = {
@@ -2753,6 +2759,12 @@ COM_west_europe_clothes = {
                 gene = belts
                 template = all_belts
                 range = { 0.1 0.7 } # For the randomness to work correctly
+            }
+            accessory = {   # Austrian branch
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
             }
 
             #Remove
@@ -2857,6 +2869,12 @@ COM_west_europe_clothes = {
                 gene = aiguillettes
                 template = all_aiguillettes
                 range = { 0 0.79 }
+            }
+            accessory = {   # Austrian branch
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
             }
 
             #Remove
@@ -3047,6 +3065,12 @@ COM_west_europe_clothes = {
                 template = all_belts
                 range = { 0.1 0.7 } # For the randomness to work correctly
             }
+            accessory = {   # Austrian branch
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
+            }
 
             #Remove
             accessory = {
@@ -3147,6 +3171,12 @@ COM_west_europe_clothes = {
                 gene = com_epaulettes
                 template = NET_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {   # Spanish branch of the order, rn using Austrian neck badge
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
             }
 
             #Remove
@@ -4380,6 +4410,12 @@ COM_west_europe_clothes = {
                 gene = com_epaulettes
                 template = NET_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {   # Spanish branch of the order, rn using Austrian neck badge
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
             }
 
             #Remove
