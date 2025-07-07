@@ -65,6 +65,39 @@
 		}
 	}
 
+### ADRIAN FRA
+
+	pdxmesh = {
+		name = "male_headgear_adrian_fra_mesh"
+		file = "com_adrian_fra.mesh"
+
+		meshsettings = {
+			name = "com_adrian_fra"
+			index = 0
+			texture_diffuse = "com_helmet_adrian_fra_d.dds"
+			texture_normal = "com_helmet_adrian_fra_n.dds"
+			texture_specular = "com_helmet_p.dds"
+			shader = "portrait_attachment_pattern_alpha_to_coverage"
+			shader_file = "gfx/FX/jomini/portrait.shader"
+		}
+	}
+
+	entity = {
+		name = "com_male_headgear_adrian_fra_entity"
+		pdxmesh = "male_headgear_adrian_fra_mesh"
+
+			game_data = {
+	            portrait_entity_user_data = {
+				portrait_accessory = {
+					pattern_mask = "gfx/models/portraits/attachments/male_headgear/military_helmet/com_helmet_masks.dds"
+
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+					variation = "com_male_headgear_adrian"	#A "variation" object in gfx/portraits/accessory_variations/
+				}
+	    	}
+		}
+	}
+
 ### NEW HELMET
 
 

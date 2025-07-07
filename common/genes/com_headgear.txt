@@ -58,6 +58,7 @@ special_genes = {
 					1 = male_headgear_european_kepi_01_AUS
 					1 = male_headgear_european_stahlhelm_01_AUS
 					1 = com_male_headgear_adrian
+					1 = com_male_headgear_adrian_fra
 				}
 				female = {
 					1 = empty

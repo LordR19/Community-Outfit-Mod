@@ -222,3 +222,8 @@ com_male_headgear_adrian = {
 	set_tags ="no_hair"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_adrian_entity" }
 }
+
+com_male_headgear_adrian_fra = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_adrian_fra_entity" }
+}

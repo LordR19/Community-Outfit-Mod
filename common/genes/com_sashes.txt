@@ -132,7 +132,7 @@ special_genes = {
 				index = 2
 				male = {
 					1 = 0
-					1 = com_male_sash_AUS
+					1 = com_male_sash_AUS	# Maria Theresia Orden
 				}
 
 				female = {
