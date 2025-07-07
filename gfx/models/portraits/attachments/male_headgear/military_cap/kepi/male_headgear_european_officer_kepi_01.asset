@@ -28,3 +28,19 @@ entity = {
 		}
 	}
 }
+
+entity = {
+	name = "male_headgear_european_kepi_01_AUS_interwar_entity"
+	pdxmesh = "male_headgear_european_officer_kepi_01_mesh"
+
+		game_data = {
+			portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/military_cap/kepi/male_headgear_european_officer_kepi_01_masks.dds"
+
+			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_headgear_european_feldkappe_01_AUS_interwar"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}

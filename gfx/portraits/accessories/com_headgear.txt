@@ -218,6 +218,16 @@ male_headgear_european_kepi_01_AUS = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_kepi_01_AUS_entity" }
 }
 
+male_headgear_european_feldkappe_01_AUS_interwar = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_feldkappe_01_AUS_interwar_entity" }
+}
+
+male_headgear_european_kepi_01_AUS_interwar = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_kepi_01_AUS_interwar_entity" }
+}
+
 male_headgear_european_stahlhelm_01_AUS = {
 	set_tags ="no_hair"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_european_stahlhelm_01_AUS_entity" }

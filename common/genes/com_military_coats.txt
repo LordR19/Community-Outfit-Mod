@@ -36,6 +36,7 @@ special_genes = {
                     2 = com_male_military_coat_AUS_navy_11
                     1 = com_male_military_coat_AUS_late_06
                     1 = com_male_military_coat_AUS_late
+                    1 = com_male_military_coat_AUS_interwar
 					1 = com_male_military_coat_BAD_royal_03
 					1 = com_male_military_coat_BAV_royal_01
 					1 = com_male_military_coat_BAV_royal_06
@@ -1011,6 +1012,18 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+            com_AUS_military_coats_interwar = {
+                index = 62
+                male = {
+                    1 = com_male_military_coat_AUS_interwar
+                }
+
+                female = {
+                    1 = female_outfit_european_common_01 # fallback
+                }
+                boy = male
+                girl = female
+            }
 		}
 	}
 }

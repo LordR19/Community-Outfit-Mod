@@ -3,7 +3,7 @@
     # By Lord R #
     #############
 
-# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
 
 #####################
 #					#
@@ -12,66 +12,69 @@
 #####################
 
 com_male_belt_generic_01_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_red_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_red_entity" }
 }
 
 com_male_belt_generic_02_red = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_red_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_red_entity" }
 }
 
 com_male_belt_generic_01_orange = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_orange_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_orange_entity" }
 }
 
 com_male_belt_generic_02_orange = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_orange_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_orange_entity" }
 }
 
 com_male_belt_generic_01_yellow = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_yellow_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_yellow_entity" }
 }
 
 com_male_belt_generic_02_yellow = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_yellow_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_yellow_entity" }
 }
 
 com_male_belt_generic_01_gold_pale = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_gold_pale_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_gold_pale_entity" }
 }
 
 com_male_belt_generic_02_gold_pale = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_gold_pale_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_gold_pale_entity" }
 }
 
 com_male_belt_generic_01_gold = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_gold_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_gold_entity" }
 }
 
 com_male_belt_generic_02_gold = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_gold_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_gold_entity" }
 }
 
 com_male_belt_generic_01_black = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_black_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_black_entity" }
 }
 
 com_male_belt_generic_02_black = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_black_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_black_entity" }
 }
 
 com_male_belt_generic_01_black_gold = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_black_gold_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_black_gold_entity" }
 }
 
 com_male_belt_generic_02_black_gold = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_black_gold_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_black_gold_entity" }
 }
 
 com_male_belt_generic_01_brown_gold = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_brown_gold_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_01_brown_gold_entity" }
 }
 
 com_male_belt_generic_02_brown_gold = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_brown_gold_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_generic_02_brown_gold_entity" }
 }
 
+com_male_belt_military_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_military_01_entity" }
+}

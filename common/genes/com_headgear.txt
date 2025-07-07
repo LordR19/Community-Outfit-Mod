@@ -57,6 +57,8 @@ special_genes = {
 					1 = male_headgear_european_military_05
 					1 = male_headgear_european_feldkappe_01_AUS
 					1 = male_headgear_european_kepi_01_AUS
+					1 = male_headgear_european_feldkappe_01_AUS_interwar
+					1 = male_headgear_european_kepi_01_AUS_interwar
 					1 = male_headgear_european_stahlhelm_01_AUS
 					1 = com_male_headgear_adrian
 					1 = com_male_headgear_adrian_fra
@@ -365,10 +367,10 @@ special_genes = {
 			com_AUS_headgear_late = {
 				index = 23
 				male = {
-					1 = 0
+					1 = male_headgear_european_stahlhelm_01_AUS
 					4 = male_headgear_european_feldkappe_01_AUS
-					4 = male_headgear_european_stahlhelm_01_AUS
 					1 = 0
+					4 = male_headgear_european_kepi_01_AUS
 				}
 
 				female = {
@@ -378,12 +380,13 @@ special_genes = {
 				girl = female
 			}
 
-			com_AUS_headgear_late_general = {
+			com_AUS_headgear_interwar = {
 				index = 24
 				male = {
+					1 = male_headgear_european_stahlhelm_01_AUS
+					4 = male_headgear_european_feldkappe_01_AUS_interwar
 					1 = 0
-					4 = male_headgear_european_kepi_01_AUS
-					2 = male_headgear_european_feldkappe_01_AUS
+					4 = male_headgear_european_kepi_01_AUS_interwar
 				}
 
 				female = {

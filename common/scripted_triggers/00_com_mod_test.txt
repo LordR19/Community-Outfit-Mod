@@ -81,6 +81,27 @@ COM_is_late_military = {
     }
 }
 
+COM_is_interwar_military = {
+    OR = {
+        scope:character ?= {
+            owner ?= {
+                OR = {
+                    has_technology_researched = stormtroopers
+                    has_technology_researched = nco_training
+                }
+            }
+        }
+        scope:pop ?= {
+            owner ?= {
+                OR = {
+                    has_technology_researched = stormtroopers
+                    has_technology_researched = nco_training
+                }
+            }
+        }
+    }
+}
+
 COM_is_monarch_leader = {
     exists = scope:character
     scope:character ?= {

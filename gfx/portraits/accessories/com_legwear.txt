@@ -91,3 +91,8 @@ com_male_legwear_AUS_late_military_01 = {
 	set_tags = "shrink_legs"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_AUS_late_military_01_entity" }
 }
+
+com_male_legwear_AUS_late_military_01_interwar = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_AUS_late_military_01_interwar_entity" }
+}

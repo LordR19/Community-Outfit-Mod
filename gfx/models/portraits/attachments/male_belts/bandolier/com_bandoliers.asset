@@ -134,7 +134,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -155,7 +155,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -176,7 +176,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -203,7 +203,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -224,7 +224,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -245,7 +245,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -272,7 +272,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -293,7 +293,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -314,7 +314,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -341,7 +341,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -362,9 +362,9 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_bandolier_late_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -383,9 +383,9 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_bandolier_late_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -410,7 +410,7 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_bandolier_white"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
@@ -431,9 +431,9 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_bandolier_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_bandolier_late_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -452,9 +452,9 @@ entity = {
 	game_data = {
 		portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"	
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier/com_bandolier_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_bandolier_black"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_bandolier_late_black"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

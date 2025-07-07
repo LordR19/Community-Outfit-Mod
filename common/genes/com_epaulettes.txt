@@ -486,6 +486,17 @@ special_genes = {
                 boy = male
                 girl = female
             }
+            AUS_epaulettes_interwar = {
+                index = 32
+                male = {
+                    1 = com_male_epaulettes_military_01_AUS_interwar
+                }
+
+                female = {
+                }
+                boy = male
+                girl = female
+            }
 		}
 	}
 }

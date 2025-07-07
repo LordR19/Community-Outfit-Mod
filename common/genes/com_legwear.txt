@@ -368,6 +368,17 @@ special_genes = {
                 boy = male
                 girl = female
             }
+            com_AUS_legwear_interwar = {
+                index = 26
+                male = {
+                    1 = com_male_legwear_AUS_late_military_01_interwar
+                }
+                female = {
+                    #
+                }
+                boy = male
+                girl = female
+            }
 		}
 	}
 }
