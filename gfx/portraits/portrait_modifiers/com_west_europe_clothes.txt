@@ -1291,7 +1291,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_SPA_legwear
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_legwear_european_red
             }
             accessory = {
                 mode = add
@@ -1388,7 +1388,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_SPA_legwear
-                range = { 0 0.65 } # For the randomness to work correctly
+                accessory = com_male_legwear_european_red
             }
             accessory = {
                 mode = add
