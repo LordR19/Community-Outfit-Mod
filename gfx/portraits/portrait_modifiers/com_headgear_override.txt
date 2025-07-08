@@ -93,7 +93,7 @@ COM_headgear_override = {
                 has_dlc_feature = ep1_cosmetics
                 COM_is_austrian = yes
 
-                OR  {
+                OR = {
                     AND = {
                         OR = {
                             COM_is_general_leader = yes
@@ -141,7 +141,7 @@ COM_headgear_override = {
                 COM_is_austrian = yes
                 COM_is_late_military = yes
 
-                OR  {
+                OR = {
                     AND = {
                         OR = {
                             COM_is_general_leader = yes
@@ -189,7 +189,7 @@ COM_headgear_override = {
                 COM_is_austrian = yes
                 COM_is_interwar_military = yes
 
-                OR  {
+                OR = {
                     AND = {
                         OR = {
                             COM_is_general_leader = yes
