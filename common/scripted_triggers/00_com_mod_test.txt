@@ -60,6 +60,29 @@ COM_is_early_military = {
     }
 }
 
+COM_is_mid_military = {
+    OR = {
+        scope:character ?= {
+            owner ?= {
+                has_technology_researched = general_staff
+                OR = {
+                    has_technology_researched = repeaters
+                    has_technology_researched = breech_loading_artillery
+                }
+            }
+        }
+        scope:pop ?= {
+            owner ?= {
+                has_technology_researched = general_staff
+                OR = {
+                    has_technology_researched = repeaters
+                    has_technology_researched = breech_loading_artillery
+                }
+            }
+        }
+    }
+}
+
 COM_is_late_military = {
     OR = {
         scope:character ?= {

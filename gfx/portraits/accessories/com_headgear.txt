@@ -26,6 +26,16 @@ com_male_headgear_arabic_common_01_white = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_arabic_common_01_white_entity" }
 }
 
+com_male_headgear_arabic_common_01_hechtgrau = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_arabic_common_01_hechtgrau_entity" }
+}
+
+com_male_headgear_arabic_common_01_feldgrau = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_arabic_common_01_feldgrau_entity" }
+}
+
 com_male_headgear_european_military_01_SWI = {
     set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_01_SWI_entity" }

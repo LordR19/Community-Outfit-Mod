@@ -1,80 +1,183 @@
 ﻿
-    #############
-    # By Lord R #
-    #############
+#############
+# By Lord R #
+#############
 
-    COM_headgear_override = {
-        usage = game
-        selection_behavior = weighted_random
-    
-#KOR Pickelhaube
+COM_headgear_override = {
+    usage = game
+    selection_behavior = weighted_random
 
-        COM_KOR_war_headgear = {
-            dna_modifiers = {
-                accessory = {
-                    mode = add
-                    gene = com_headgear
-                    template = com_KOR_headgear
-                    range = { 0 1 } # For the randomness to work correctly
-                }
-                #Remove
-                accessory = {
-                    mode = add
-                    gene = headgear
-                    template = no_headgear
-                    range = { 0 1 } # For the randomness to work correctly
+    #KOR Pickelhaube
+
+    COM_KOR_war_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_KOR_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            #Remove
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = scope:character
+                scope:character ?= {
+                    monarchy_clothes_trigger = yes
+                    is_female = no
+                    age >= 10
+                    has_role = general
+                    owner ?= {
+                        has_variable = KOR_korean_empire_declared
+                        OR = {
+                            c:KOR ?= this
+                            was_formed_from = KOR
+                        }
+                    }
                 }
             }
-            weight = {
-                base = 0
-                modifier = {
-                    add = 1000
-                    exists = scope:character
-                    scope:character ?= {
-                        monarchy_clothes_trigger = yes
-                        is_female = no
-                        age >= 10
-                        has_role = general
-                        owner ?= {
-                            has_variable = KOR_korean_empire_declared
-                            OR = {
-                                c:KOR ?= this
-                                was_formed_from = KOR
-                            }
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+                scope:character ?= {
+                    has_role = general
+                    owner ?= {
+                        OR = {
+                            c:KOR ?= this
+                            was_formed_from = KOR
                         }
                     }
                 }
-                # WCR compatibility
-                modifier = {
-                    add = 1000
-                    COM_WCR_enable_outfit = yes
-                    scope:character ?= {
-                        has_role = general
-                        owner ?= {
-                            OR = {
-                                c:KOR ?= this
-                                was_formed_from = KOR
-                            }
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
+                scope:character ?= {
+                    has_role = general
+                    owner ?= {
+                        OR = {
+                            c:KOR ?= this
+                            was_formed_from = KOR
                         }
                     }
                 }
-                modifier = {
-                    add = -1000
-                    COM_WCR_disable_outfit = yes
-                    scope:character ?= {
-                        has_role = general
-                        owner ?= {
+            }
+        }
+    }
+
+    ### Austrian Bosnian unit fez
+
+    COM_AUS_bosnian_fez = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_fez
+                accessory = com_male_headgear_arabic_common_01_red
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 11010
+                has_dlc_feature = ep1_cosmetics
+                COM_is_austrian = yes
+
+                    AND = {
+                        soldier_clothes_pop_trigger = yes
+                        scope:pop ?= {
                             OR = {
-                                c:KOR ?= this
-                                was_formed_from = KOR
+                                religion = rel:sunni
+                                religion = rel:shiite
+                                state = {
+                                    state_region = s:STATE_BOSNIA
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+    COM_late_AUS_bosnian_fez = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_fez
+                accessory = com_male_headgear_arabic_common_01_hechtgrau
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12010
+                has_dlc_feature = ep1_cosmetics
+                COM_is_austrian = yes
+                COM_is_late_military = yes
+
+                OR  {
+                    AND = {
+                        soldier_clothes_pop_trigger = yes
+                        scope:pop ?= {
+                            OR = {
+                                religion = rel:sunni
+                                religion = rel:shiite
+                                state = {
+                                    state_region = s:STATE_BOSNIA
+                                }
                             }
                         }
                     }
                 }
             }
         }
-    
-
-###
-
     }
+
+    COM_interwar_AUS_bosnian_fez = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_fez
+                accessory = com_male_headgear_arabic_common_01_feldgrau
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 13010
+                has_dlc_feature = ep1_cosmetics
+                COM_is_austrian = yes
+                COM_is_interwar_military = yes
+
+                OR  {
+                    AND = {
+                        soldier_clothes_pop_trigger = yes
+                        scope:pop ?= {
+                            OR = {
+                                religion = rel:sunni
+                                religion = rel:shiite
+                                state = {
+                                    state_region = s:STATE_BOSNIA
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

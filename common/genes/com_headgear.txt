@@ -395,6 +395,22 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			com_AUS_headgear_fez = {
+				index = 25
+				male = {
+					1 = 0
+					1 = com_male_headgear_arabic_common_01_red
+					1 = com_male_headgear_arabic_common_01_hechtgrau
+					1 = com_male_headgear_arabic_common_01_feldgrau
+				}
+
+				female = {
+					#
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }
