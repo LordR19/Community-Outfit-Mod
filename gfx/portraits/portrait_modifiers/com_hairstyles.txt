@@ -1,0 +1,26 @@
+﻿com_hairstyles = {
+    usage = game
+    selection_behavior = weighted_random
+
+    adult_franz_joseph = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = hairstyles
+                template = european_hairstyles
+                accessory = male_hair_european_08
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 90000
+
+                scope:character ?= {
+                    has_template = aus_franz_josef_I_habsburg_template
+                    age >= 40
+                }
+            }
+        }
+    }
+}

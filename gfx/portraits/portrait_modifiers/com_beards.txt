@@ -1,0 +1,85 @@
+﻿com_beards = {
+    usage = game
+    selection_behavior = weighted_random
+
+    austrian_facial_hair_military = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_beards
+                template = austrian_beards_military
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = replace
+                gene = beards
+                template = no_beard
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = replace
+                gene = mustaches
+                template = european_mustaches
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 102
+                COM_is_austrian = yes
+                OR = {
+                    scope:character ?= {
+                        age > 18
+                        is_historical = no
+                        is_ruler = no
+                        OR = {
+                            has_role = general
+                            has_role = admiral
+                            AND = {
+                                has_role = politician
+                                is_interest_group_type = ig_armed_forces
+                            }
+                        }
+                    }
+                    soldier_clothes_pop_trigger = yes
+                    officers_clothes_pop_trigger = yes
+                }
+            }
+        }
+    }
+
+    adult_franz_joseph = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_beards
+                template = austrian_beards_military
+                accessory = male_beard_european_11_alt
+            }
+            accessory = {
+                mode = replace
+                gene = beards
+                template = no_beard
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = replace
+                gene = mustaches
+                template = european_mustaches
+                accessory = male_mustache_european_12
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 90000
+
+                scope:character ?= {
+                    has_template = aus_franz_josef_I_habsburg_template
+                    age >= 20
+                }
+            }
+        }
+    }
+}

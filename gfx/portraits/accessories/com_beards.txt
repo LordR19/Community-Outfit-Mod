@@ -1,0 +1,17 @@
+﻿
+    ###################
+    # By UlfDerDritte #
+    ###################
+
+# These assets are then used in the genes (game/common/genes/..) at the bottom of the file.
+
+#############################
+#							#
+# 	        Beards			#
+#							#
+#############################
+
+male_beard_european_11_alt = {
+	entity = { required_tags = "no_beard"			shared_pose_entity = head		 }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_beard_european_11_alt_entity" }
+}

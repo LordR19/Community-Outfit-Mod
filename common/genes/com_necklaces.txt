@@ -1,0 +1,61 @@
+﻿special_genes = {
+    accessory_genes = {
+
+        #####################################
+        #									#
+        # 			   NECKLACES			#
+        #									#
+        #####################################
+
+        com_necklaces = {
+            inheritable = no
+
+            com_no_necklaces = {
+                index = 0
+
+                male = {
+                    1 = empty
+                }
+
+                female = {
+
+                }
+
+                boy = male
+                girl = female
+            }
+
+            com_all_necklaces = {
+                index = 1
+
+                male = {
+                    1 = male_necklace_golden_fleece
+                }
+
+                female = {
+
+                }
+
+                boy = male
+                girl = female
+            }
+
+            com_necklace_golden_fleece = {
+                index = 2
+
+                male = {
+                    1 = male_necklace_golden_fleece
+                    1 = empty
+                }
+
+                female = {
+
+                }
+
+                boy = male
+                girl = female
+            }
+        }
+    }
+}
+

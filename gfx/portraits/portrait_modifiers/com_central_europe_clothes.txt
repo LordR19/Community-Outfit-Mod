@@ -10,52 +10,32 @@ COM_central_europe_clothes = {
 
 ### AUSTRIA
 
-    #Clothes for the Austrian Royals
-    COM_AUS_royal_clothes = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_AUS_noble_coats
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_AUS_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_sashes
-                template = com_AUS_sashes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
 
-            #Remove
+    ###################
+    # By UlfDerDritte #
+    ###################
+
+
+    COM_early_AUS_royal_clothes = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
             accessory = {
                 mode = add
                 gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+                template  = no_coat
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
-                gene = aiguillettes
-                template = no_aiguillettes
-                range = { 0 1 } # For the randomness to work correctly
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
@@ -65,21 +45,27 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = headgear
                 template = no_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
@@ -87,39 +73,1259 @@ COM_central_europe_clothes = {
                 template = no_sash
                 range = { 0 1 }
             }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats
+                accessory = com_male_military_coat_AUS_06
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = male_legwear_european_01_red
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = generic_belts
+                accessory = male_belt_generic_01
+            }
+            accessory = {
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_AUS_sashes
+                accessory = com_male_sash_AUS
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                accessory = male_medals_austrian_01_01
+            }
         }
         weight = {
             base = 0
             modifier = {
-                add = 500
+                add = 20000
+                COM_is_austrian_strict = yes
                 COM_is_monarch_leader = yes
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:AUS ?= this
-                            was_formed_from = AUS
-                        }
-                    }
+            }
+        }
+    }
+
+    COM_late_AUS_royal_clothes = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_coat_AUS_late_06
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = com_male_legwear_european_black_red_stripe
+            }
+            accessory = {
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                accessory = male_medals_austrian_01_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 20001
+                COM_is_austrian_strict = yes
+                COM_is_late_military = yes
+                COM_is_monarch_leader = yes
+            }
+        }
+    }
+
+    ### Army Uniforms
+
+    COM_early_AUS_general_rank_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = male_legwear_european_01_red
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = generic_belts
+                range = { 0 0.49 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.1 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_AUS_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear
+                range = { 0 0.875 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10001
+                COM_is_austrian = yes
+                OR = {
+                    COM_is_general_leader = yes
+                    COM_is_monarch_leader = yes
                 }
             }
         }
     }
 
 
-    #Outfit Early Austrian Admiral Characters
-    COM_early_AUS_admiral_outfit = {
+    COM_late_AUS_general_rank_outfit = {
         dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_AUS_military_coats_early
-                accessory = com_male_military_coat_AUS_early_06_b
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_coat_AUS_late
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = AUS_epaulettes_late
+                accessory = com_male_epaulettes_military_01_AUS
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear_late
+                accessory = com_male_legwear_AUS_late_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 0.925 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_late
+                range = { 0.4 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 12001
+                has_dlc_feature = ep1_cosmetics
+                COM_is_austrian = yes
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
+            }
+        }
+    }
+
+    COM_interwar_AUS_general_rank_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_interwar
+                accessory = com_male_military_coat_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = AUS_epaulettes_interwar
+                accessory = com_male_epaulettes_military_01_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear_interwar
+                accessory = com_male_legwear_AUS_late_military_01_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 0.925 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_interwar
+                range = { 0.4 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 13001
+                has_dlc_feature = ep1_cosmetics
+                COM_is_austrian = yes
+                COM_is_interwar_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
+            }
+        }
+    }
+
+    COM_late_AUS_field_marshall_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_coat_AUS_late_06
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = com_male_legwear_european_black_red_stripe
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_late
+                range = { 0.55 0.9 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 13002
+                has_dlc_feature = ep1_cosmetics
+                COM_is_austrian = yes
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                scope:character ?= {
+                    commander_rank = 5
+                }
+                NOT = { COM_is_monarch_leader = yes }
+            }
+        }
+    }
+
+    COM_early_AUS_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = male_legwear_european_01_red
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = generic_belts
+                range = { 0 0.49 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                COM_is_austrian = yes
+                officers_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    COM_late_AUS_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_coat_AUS_late
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = AUS_epaulettes_late
+                accessory = com_male_epaulettes_military_01_AUS
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear_late
+                accessory = com_male_legwear_AUS_late_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_late
+                range = { 0.1 1 }
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                has_dlc_feature = ep1_cosmetics
+                COM_is_late_military = yes
+                COM_is_austrian = yes
+                officers_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    COM_interwar_AUS_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_interwar
+                accessory = com_male_military_coat_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = AUS_epaulettes_interwar
+                accessory = com_male_epaulettes_military_01_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear_interwar
+                accessory = com_male_legwear_AUS_late_military_01_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.4 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_interwar
+                range = { 0.1 1 }
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 13000
+                has_dlc_feature = ep1_cosmetics
+                COM_is_interwar_military = yes
+                COM_is_austrian = yes
+                officers_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    COM_early_AUS_soldier_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats
+                range = { 0 0.49 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue
+                accessory = com_male_legwear_european_light_blue_yellow_stripe
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear
+                range = { 0.85 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_bandoliers
+                template = com_all_bandoliers
+                accessory = com_x_bandolier_white
+            }
+            accessory = {
+                mode = add
+                gene = com_backpacks
+                template = com_all_backpacks
+                accessory = com_male_backpack_01_swi
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                COM_is_austrian = yes
+                soldier_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    COM_late_AUS_soldier_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_coat_AUS_late
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = AUS_epaulettes_late
+                accessory = com_male_epaulettes_military_01_AUS
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear_late
+                accessory = com_male_legwear_AUS_late_military_01
+            }
+            # accessory = {
+            #     mode = add
+            #     gene = com_medals
+            #     template = com_medals_AUS
+            #     range = { 0.875 1 } # For the randomness to work correctly
+            # }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_late
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_bandoliers
+                template = com_all_bandoliers
+                accessory = com_side_bandolier_right_late_brown
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                has_dlc_feature = ep1_cosmetics
+                COM_is_late_military = yes
+                COM_is_austrian = yes
+                soldier_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    COM_interwar_AUS_soldier_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_interwar
+                accessory = com_male_military_coat_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = AUS_epaulettes_interwar
+                accessory = com_male_epaulettes_military_01_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear_interwar
+                accessory = com_male_legwear_AUS_late_military_01_interwar
+            }
+            # accessory = {
+            #     mode = add
+            #     gene = com_medals
+            #     template = com_medals_AUS
+            #     range = { 0.875 1 } # For the randomness to work correctly
+            # }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_AUS_headgear_interwar
+                range = { 0 0.175 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_bandoliers
+                template = com_all_bandoliers
+                accessory = com_side_bandolier_right_late_brown
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 13000
+                has_dlc_feature = ep1_cosmetics
+                COM_is_interwar_military = yes
+                COM_is_austrian = yes
+                soldier_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    ### NAVY
+
+    COM_AUS_admiral_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats
+                range = { 0.5 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_AUS_legwear
+                range = { 0.25 0.75 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -129,343 +1335,27 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_sashes
-                template = com_AUS_sashes
-                range = { 0 0.6 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
                 gene = medals
                 template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.5 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
-                gene = headgear
-                template = european_admiral_headgear
-                accessory = male_headgear_european_military_05
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = aiguillettes
-                template = no_aiguillettes
-                range = { 0 1 } # For the randomness to work correctly
+                gene = com_headgear
+                template = com_AUS_headgear
+                range = { 0.375 0.875 } # For the randomness to work correctly
             }
         }
+
         weight = {
             base = 0
             modifier = {
-                add = 500
+                add = 10000
+                COM_is_austrian = yes
                 COM_is_admiral_leader = yes
-                COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:AUS ?= this
-                            was_formed_from = AUS
-                        }
-                    }
-                }
             }
         }
     }
-
-
-    #Outfit Early Austrian General Characters
-    COM_early_AUS_general_rank_outfit = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_AUS_military_coats_early
-                range = { 0.41 0.79 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_red
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_sashes
-                template = com_AUS_sashes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = headgear
-                template = no_headgear
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = epaulettes
-                template = no_epaulette
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = aiguillettes
-                template = no_aiguillettes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = outfits
-                template = no_outfit
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 500
-                COM_is_general_leader = yes
-                COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:AUS ?= this
-                            was_formed_from = AUS
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-
-    #Outfit Early Austrian Officer Pops
-    COM_early_AUS_officer_outfit = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_AUS_military_coats_early
-                accessory = com_male_military_coat_AUS_early_03_a
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = epaulettes
-                template = no_epaulette
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = headgear
-                template = no_headgear
-                range = { 0 1 }
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 500
-                COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = officers
-                    owner ?= {
-                        OR = {
-                            c:AUS ?= this
-                            was_formed_from = AUS
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    #Outfit Early Austrian Soldier Pops
-    COM_early_AUS_soldier_outfit = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_AUS_military_coats_early
-                accessory = com_male_military_coat_AUS_early_01
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_light_blue
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = epaulettes
-                template = no_epaulette
-                range = { 0 1 }
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 500
-                COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = soldiers
-                    owner ?= {
-                        OR = {
-                            c:AUS ?= this
-                            was_formed_from = AUS
-                        }
-                    }
-                }
-            }
-        }
-    }
-
 
 ### BADEN
 
@@ -644,7 +1534,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
+
                 year >= 1871
                 COM_is_monarch_leader = yes
                 exists = scope:character
@@ -1693,7 +2583,7 @@ COM_central_europe_clothes = {
                 template = HAN_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
-            
+
             #Remove
             accessory = {
                 mode = add
@@ -1905,7 +2795,7 @@ COM_central_europe_clothes = {
                 template = com_all_epaulettes
                 accessory = com_male_epaulettes_04_silver
             }
-            
+
             #Remove
             accessory = {
                 mode = add
@@ -2107,7 +2997,7 @@ COM_central_europe_clothes = {
                 template = MEC_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
-            
+
             #Remove
             accessory = {
                 mode = add
@@ -2214,7 +3104,7 @@ COM_central_europe_clothes = {
                 template = com_all_epaulettes
                 accessory = com_male_epaulettes_04_NAS
             }
-            
+
             #Remove
             accessory = {
                 mode = add
@@ -2280,7 +3170,7 @@ COM_central_europe_clothes = {
 
 
 
-### OLDENBURG 
+### OLDENBURG
 
 
     #Clothes for the Oldenburg Royals
@@ -3117,7 +4007,7 @@ COM_central_europe_clothes = {
     }
 
 
-        
+
     #Outfit Early Saxon Admiral Characters
     COM_early_SAX_admiral_rank_outfit = {
         dna_modifiers = {
@@ -4329,7 +5219,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
+
                 year >= 1866
                 COM_is_early_military = yes
                 exists = scope:pop
@@ -4410,7 +5300,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                
+
                 year < 1866
                 COM_is_early_military = yes
                 exists = scope:pop
@@ -4514,6 +5404,6 @@ COM_central_europe_clothes = {
         }
     }
 
-### 
+###
 
 }

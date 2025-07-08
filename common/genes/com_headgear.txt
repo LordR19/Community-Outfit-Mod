@@ -19,12 +19,12 @@ special_genes = {
 				index = 0
 				male = {
 					1 = empty
-				}		   
+				}
 				female = male
 				boy = male
 				girl = male
-			}	
-			
+			}
+
 			com_all_headgear = {
 				index = 1
 				male = {
@@ -50,8 +50,18 @@ special_genes = {
 					1 = com_male_headgear_shako_01_pompom
 					1 = com_male_headgear_shako_01_pompom_SWI
 					1 = com_male_headgear_shako_01_pompom_decorated_SWI
+					1 = com_male_headgear_shako_01_pompom_decorated_AUS
 					1 = com_male_headgear_korean_pickelhaube
 					1 = com_male_headgear_european_military_02_FRA
+					1 = male_headgear_austrian_military_03
+					1 = male_headgear_european_military_05
+					1 = male_headgear_european_feldkappe_01_AUS
+					1 = male_headgear_european_kepi_01_AUS
+					1 = male_headgear_european_feldkappe_01_AUS_interwar
+					1 = male_headgear_european_kepi_01_AUS_interwar
+					1 = male_headgear_european_stahlhelm_01_AUS
+					1 = com_male_headgear_adrian
+					1 = com_male_headgear_adrian_fra
 				}
 				female = {
 					1 = empty
@@ -337,6 +347,54 @@ special_genes = {
 				girl = female
 			}
 
+			com_AUS_headgear = {
+				index = 22
+				male = {
+					1 = 0
+					2 = male_headgear_austrian_military_03
+					3 = male_headgear_european_military_05
+					1 = 0
+					1 = com_male_headgear_shako_01_pompom_decorated_AUS
+				}
+
+				female = {
+					#
+				}
+				boy = male
+				girl = female
+			}
+
+			com_AUS_headgear_late = {
+				index = 23
+				male = {
+					1 = male_headgear_european_stahlhelm_01_AUS
+					4 = male_headgear_european_feldkappe_01_AUS
+					1 = 0
+					4 = male_headgear_european_kepi_01_AUS
+				}
+
+				female = {
+					#
+				}
+				boy = male
+				girl = female
+			}
+
+			com_AUS_headgear_interwar = {
+				index = 24
+				male = {
+					1 = male_headgear_european_stahlhelm_01_AUS
+					4 = male_headgear_european_feldkappe_01_AUS_interwar
+					1 = 0
+					4 = male_headgear_european_kepi_01_AUS_interwar
+				}
+
+				female = {
+					#
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

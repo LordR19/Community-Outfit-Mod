@@ -14,16 +14,32 @@ pdxmesh = {
 }
 
 entity = {
+	name = "male_headgear_austrian_military_02_entity"
+	pdxmesh = "male_headgear_european_military_02_mesh"
+
+		game_data = {
+			portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
+			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_headgear_austrian_military_02"
+			}
+		}
+	}
+}
+
+entity = {
 	name = "com_male_headgear_european_military_02_BEL_a_entity"
 	pdxmesh = "com_male_headgear_european_military_02_mesh"
 
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_BEL_a"	
+				variation = "com_male_headgear_european_military_02_BEL_a"
 			}
         }
 	}
@@ -36,10 +52,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_BEL_b"	
+				variation = "com_male_headgear_european_military_02_BEL_b"
 			}
         }
 	}
@@ -52,10 +68,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_ITA"	
+				variation = "com_male_headgear_european_military_02_ITA"
 			}
         }
 	}
@@ -68,10 +84,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SCA_a"	
+				variation = "com_male_headgear_european_military_02_SCA_a"
 			}
         }
 	}
@@ -84,10 +100,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SCA_b"	
+				variation = "com_male_headgear_european_military_02_SCA_b"
 			}
         }
 	}
@@ -100,10 +116,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SER_a"	
+				variation = "com_male_headgear_european_military_02_SER_a"
 			}
         }
 	}
@@ -116,10 +132,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SER_b"	
+				variation = "com_male_headgear_european_military_02_SER_b"
 			}
         }
 	}
@@ -132,10 +148,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SPA"	
+				variation = "com_male_headgear_european_military_02_SPA"
 			}
         }
 	}
@@ -148,10 +164,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SWE"	
+				variation = "com_male_headgear_european_military_02_SWE"
 			}
         }
 	}
@@ -164,10 +180,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SWI"	
+				variation = "com_male_headgear_european_military_02_SWI"
 			}
         }
 	}
@@ -180,10 +196,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_WUR"	
+				variation = "com_male_headgear_european_military_02_WUR"
 			}
         }
 	}
@@ -211,10 +227,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_big_stripe_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_big_stripe_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_SWE_cavalry"	
+				variation = "com_male_headgear_european_military_02_SWE_cavalry"
 			}
         }
 	}
@@ -229,10 +245,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_FRA"	
+				variation = "com_male_headgear_european_military_02_FRA"
 			}
         }
 	}
@@ -247,10 +263,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"	
-	
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/02/male_headgear_european_military_02_masks.dds"
+
 			#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_headgear_european_military_02_DEI"	
+				variation = "com_male_headgear_european_military_02_DEI"
 			}
         }
 	}

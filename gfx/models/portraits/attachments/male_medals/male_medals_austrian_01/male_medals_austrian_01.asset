@@ -1,0 +1,323 @@
+﻿pdxmesh = {
+	name = "male_medals_austrian_01_01_mesh"
+	file = "male_medals_austrian_01_01.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_01_bs_fat"	type = "male_medals_austrian_01_01_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_01_bs_thick"	type = "male_medals_austrian_01_01_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_01shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_01_entity"
+	pdxmesh = "male_medals_austrian_01_01_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_01_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_01_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_02_mesh"
+	file = "male_medals_austrian_01_02.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_02_bs_fat"	type = "male_medals_austrian_01_02_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_02_bs_thick"	type = "male_medals_austrian_01_02_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_02shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_02_entity"
+	pdxmesh = "male_medals_austrian_01_02_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_02_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_02_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_03_mesh"
+	file = "male_medals_austrian_01_03.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_03_bs_fat"	type = "male_medals_austrian_01_03_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_03_bs_thick"	type = "male_medals_austrian_01_03_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_03shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_03_entity"
+	pdxmesh = "male_medals_austrian_01_03_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_03_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_03_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_04_mesh"
+	file = "male_medals_austrian_01_04.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_04_bs_fat"	type = "male_medals_austrian_01_04_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_04_bs_thick"	type = "male_medals_austrian_01_04_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_04shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_04_entity"
+	pdxmesh = "male_medals_austrian_01_04_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_04_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_04_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_05_mesh"
+	file = "male_medals_austrian_01_05.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_05_bs_fat"	type = "male_medals_austrian_01_05_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_05_bs_thick"	type = "male_medals_austrian_01_05_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_05shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_05_entity"
+	pdxmesh = "male_medals_austrian_01_05_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_05_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_05_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_06_mesh"
+	file = "male_medals_austrian_01_06.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_06_bs_fat"	type = "male_medals_austrian_01_06_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_06_bs_thick"	type = "male_medals_austrian_01_06_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_06shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_06_entity"
+	pdxmesh = "male_medals_austrian_01_06_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_06_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_06_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_07_mesh"
+	file = "male_medals_austrian_01_07.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_07_bs_fat"	type = "male_medals_austrian_01_07_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_07_bs_thick"	type = "male_medals_austrian_01_07_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_07shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_07_entity"
+	pdxmesh = "male_medals_austrian_01_07_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_07_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_07_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_08_mesh"
+	file = "male_medals_austrian_01_08.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_08_bs_fat"	type = "male_medals_austrian_01_08_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_08_bs_thick"	type = "male_medals_austrian_01_08_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_08shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_08_entity"
+	pdxmesh = "male_medals_austrian_01_08_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_08_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_08_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "male_medals_austrian_01_09_mesh"
+	file = "male_medals_austrian_01_09.mesh"
+
+	blend_shape = { id = "male_medals_austrian_01_09_bs_fat"	type = "male_medals_austrian_01_09_bs_fat.mesh"  }
+	blend_shape = { id = "male_medals_austrian_01_09_bs_thick"	type = "male_medals_austrian_01_09_bs_thick.mesh"  }
+
+	meshsettings = {
+		name = "male_medals_austrian_01_09shape"
+		index = 0
+		texture_diffuse = "male_medals_austrian_01_diffuse.dds"
+		texture_normal = "male_medals_austrian_01_normal.dds"
+		texture_specular = "male_medals_austrian_01_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_medals_austrian_01_09_entity"
+	pdxmesh = "male_medals_austrian_01_09_mesh"
+
+	attribute = { name = "body_bs_fat"					blend_shape = "male_medals_austrian_01_09_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "male_medals_austrian_01_09_bs_thick" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_medals/male_medals_austrian_01/male_medals_austrian_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "male_medals_austrian_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+		}
+	}
+}

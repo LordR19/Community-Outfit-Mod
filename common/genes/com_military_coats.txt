@@ -19,17 +19,24 @@ special_genes = {
 				index = 0
 				male = {
 					1 = empty
-				}		   
+				}
 				female = male
 				boy = male
 				girl = male
 			}
-			
+
 			com_all_military_coats = {
 				index = 1
 				male = {
-					1 = com_male_military_coat_AUS_royal_01
-					1 = com_male_military_coat_AUS_royal_06
+                    1 = com_male_military_coat_AUS_03
+                    3 = com_male_military_coat_AUS_06
+                    1 = com_male_military_coat_AUS_10
+                    1 = com_male_military_coat_AUS_navy_03
+                    2 = com_male_military_coat_AUS_navy_06
+                    2 = com_male_military_coat_AUS_navy_11
+                    1 = com_male_military_coat_AUS_late_06
+                    1 = com_male_military_coat_AUS_late
+                    1 = com_male_military_coat_AUS_interwar
 					1 = com_male_military_coat_BAD_royal_03
 					1 = com_male_military_coat_BAV_royal_01
 					1 = com_male_military_coat_BAV_royal_06
@@ -131,19 +138,23 @@ special_genes = {
 				girl = female
 			}
 
-			com_AUS_noble_coats = {
-				index = 2
-				male = {
-					1 = com_male_military_coat_AUS_royal_01
-					1 = com_male_military_coat_AUS_royal_06
-				}
+            com_AUS_military_coats = {
+                index = 2
+                male = {
+                    1 = com_male_military_coat_AUS_03
+                    3 = com_male_military_coat_AUS_06
+                    1 = com_male_military_coat_AUS_10
+                    1 = com_male_military_coat_AUS_navy_03
+                    2 = com_male_military_coat_AUS_navy_06
+                    2 = com_male_military_coat_AUS_navy_11
+                }
 
-				female = {
-					1 = female_outfit_european_common_01
-				}
-				boy = male
-				girl = female
-			}
+                female = {
+                    1 = female_outfit_european_common_01 # fallback
+                }
+                boy = male
+                girl = female
+            }
 
 			com_BAV_noble_coats = {
 				index = 3
@@ -282,8 +293,7 @@ special_genes = {
 			com_MOD_noble_coats = {
 				index = 12
 				male = {
-					2 = com_male_military_coat_AUS_royal_01
-					2 = com_male_military_coat_AUS_royal_06
+					4 = com_male_military_coat_AUS_06
 					1 = com_male_military_coat_SIC_b_royal_01
 				}
 
@@ -334,7 +344,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			com_WUR_noble_coats = {
 				index = 16
 				male = {
@@ -684,22 +694,19 @@ special_genes = {
 				girl = female
 			}
 
-			com_AUS_military_coats_early = {
-				index = 40
-				male = {
-					1 = com_male_military_coat_AUS_early_01 #Soldier
-					1 = com_male_military_coat_AUS_early_03_a #Officer
-					1 = com_male_military_coat_AUS_early_03_b #General
-					1 = com_male_military_coat_AUS_early_06_a #General
-					1 = com_male_military_coat_AUS_early_06_b #Admiral
-				}
+            com_AUS_military_coats_late = {
+                index = 40
+                male = {
+                    1 = com_male_military_coat_AUS_late
+                    1 = com_male_military_coat_AUS_late_06
+                }
 
-				female = {
-					1 = female_outfit_european_common_01
-				}
-				boy = male
-				girl = female
-			}
+                female = {
+                    1 = female_outfit_european_common_01 # fallback
+                }
+                boy = male
+                girl = female
+            }
 
 			com_SER_military_coats_early = {
 				index = 41
@@ -995,7 +1002,7 @@ special_genes = {
 			com_FRA_military_coats_no_aiguillettes = {
 				index = 61
 				male = {
-					1 = male_coat_french_06 
+					1 = male_coat_french_06
 					1 = com_male_military_coat_FRA_early_10 #General and Admiral only
 				}
 
@@ -1005,7 +1012,18 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+            com_AUS_military_coats_interwar = {
+                index = 62
+                male = {
+                    1 = com_male_military_coat_AUS_interwar
+                }
 
+                female = {
+                    1 = female_outfit_european_common_01 # fallback
+                }
+                boy = male
+                girl = female
+            }
 		}
 	}
 }
