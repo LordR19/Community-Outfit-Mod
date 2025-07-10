@@ -42,6 +42,7 @@ special_genes = {
 					1 = com_male_belt_generic_02_black_gold
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -57,6 +58,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -71,6 +73,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -85,6 +88,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -99,6 +103,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -113,6 +118,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -127,6 +133,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -141,6 +148,7 @@ special_genes = {
 				}
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female

@@ -42,6 +42,7 @@ special_genes = {
 					1 = com_side_bandolier_right_late_black
 
 				female = {
+					1 = empty
 				}
 				boy = male
 				girl = female

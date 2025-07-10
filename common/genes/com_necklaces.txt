@@ -18,7 +18,7 @@
                 }
 
                 female = {
-
+					1 = empty
                 }
 
                 boy = male
@@ -33,7 +33,7 @@
                 }
 
                 female = {
-
+					1 = empty
                 }
 
                 boy = male
@@ -49,7 +49,7 @@
                 }
 
                 female = {
-
+					1 = empty
                 }
 
                 boy = male
