@@ -78,3 +78,11 @@ com_male_belt_generic_02_brown_gold = {
 com_male_belt_military_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_military_01_entity" }
 }
+
+com_male_belt_military_plate = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_military_plate_entity" }
+}
+
+com_male_belt_military_plate_AUS = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_military_plate_AUS_entity" }
+}

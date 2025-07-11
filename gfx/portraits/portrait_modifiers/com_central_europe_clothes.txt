@@ -524,7 +524,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_belt_military_plate_AUS
             }
             accessory = {
                 mode = add
@@ -638,7 +638,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_belt_military_plate_AUS
             }
             accessory = {
                 mode = add
@@ -1054,7 +1054,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_belt_military_plate_AUS
             }
             accessory = {
                 mode = add
@@ -1162,7 +1162,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_belt_military_plate_AUS
             }
             accessory = {
                 mode = add
@@ -1485,7 +1485,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_belt_military_plate_AUS
             }
             accessory = {
                 mode = add
@@ -1605,7 +1605,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = com_male_belt_military_plate_AUS
             }
             accessory = {
                 mode = add

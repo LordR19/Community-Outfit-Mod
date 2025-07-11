@@ -36,7 +36,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_belts/military/military_01/male_belt_military_01_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_military_01"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
