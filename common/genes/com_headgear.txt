@@ -358,7 +358,7 @@ special_genes = {
 				}
 
 				female = {
-					#
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -374,7 +374,7 @@ special_genes = {
 				}
 
 				female = {
-					#
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -390,7 +390,7 @@ special_genes = {
 				}
 
 				female = {
-					#
+					1 = empty
 				}
 				boy = male
 				girl = female
@@ -406,7 +406,7 @@ special_genes = {
 				}
 
 				female = {
-					#
+					1 = empty
 				}
 				boy = male
 				girl = female
