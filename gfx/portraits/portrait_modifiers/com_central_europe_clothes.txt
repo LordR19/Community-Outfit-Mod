@@ -1021,6 +1021,12 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = medals
                 template = no_medals
                 range = { 0 1 }
@@ -1125,6 +1131,12 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = aiguillettes
                 template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
                 range = { 0 1 }
             }
             accessory = {
