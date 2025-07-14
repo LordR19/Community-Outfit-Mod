@@ -36,7 +36,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_belts/military/com_military_plate/com_male_belt_military_plate_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_military_brown_brass"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -83,6 +83,52 @@ entity = {
 				pattern_mask = "gfx/models/portraits/attachments/male_belts/military/com_military_plate/com_male_belt_military_plate_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_belt_military_brown_brass"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+### Prussian version
+
+pdxmesh = {
+	name = "com_male_belt_military_plate_PRU_mesh"
+	file = "com_male_belt_military_plate.mesh"
+
+	blend_shape = { id = "com_male_belt_military_plate_bs_fat"		    type = "com_male_belt_military_plate_bs_fat.mesh" }
+	blend_shape = { id = "com_male_belt_military_plate_bs_gaunt"		type = "com_male_belt_military_plate_bs_gaunt.mesh" }
+	blend_shape = { id = "com_male_belt_military_plate_bs_old"		    type = "com_male_belt_military_plate_bs_old.mesh" }
+	blend_shape = { id = "com_male_belt_military_plate_bs_infant"		type = "com_male_belt_military_plate_bs_infant.mesh" }
+	blend_shape = { id = "com_male_belt_military_plate_bs_thick"		type = "com_male_belt_military_plate_bs_thick.mesh" }
+	blend_shape = { id = "com_male_belt_military_plate_bs_thin"		type = "com_male_belt_military_plate_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "com_male_belt_military_plateShape"
+		index = 0
+		texture_diffuse = "com_male_belt_military_plate_PRU_diffuse.dds"
+		texture_normal = "com_male_belt_military_plate_PRU_normal.dds"
+		texture_specular = "com_male_belt_military_plate_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "com_male_belt_military_plate_PRU_entity"
+	pdxmesh = "com_male_belt_military_plate_PRU_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "com_male_belt_military_plate_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_belt_military_plate_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "com_male_belt_military_plate_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "com_male_belt_military_plate_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "com_male_belt_military_plate_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "com_male_belt_military_plate_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/military/com_military_plate/com_male_belt_military_plate_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

@@ -560,6 +560,11 @@ com_male_military_coat_PRU_early_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_PRU_early_01_entity" }
 }
 
+com_male_military_coat_PRU_late_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_PRU_late_01_entity" }
+}
+
 com_male_military_coat_PRU_early_03_a = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_PRU_early_03_a_entity" }

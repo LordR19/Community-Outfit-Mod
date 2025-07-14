@@ -366,7 +366,7 @@ COM_is_austrian = {
         }
     }
 }
-COM_is_austrian_strict = {
+COM_is_austrian_strict = {  ### doesn't include vassals
     OR = {
         scope:character ?= {
             home_country ?= {
@@ -387,6 +387,43 @@ COM_is_austrian_strict = {
                         is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
                     }
                     was_formed_from = AUS
+                }
+            }
+        }
+    }
+}
+
+### Prussia triggers
+
+COM_is_prussian = {
+    OR = {
+        scope:character ?= {
+            home_country ?= {
+                OR = {
+                    AND = {
+                        c:PRU ?= this
+                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                    }
+                    # top_overlord = {
+                    #     was_formed_from = PRU
+                    # }
+                    # is_subject_of = c:PRU
+                    was_formed_from = PRU
+                }
+            }
+        }
+        scope:pop ?= {
+            home_country ?= {
+                OR = {
+                    AND = {
+                        c:PRU ?= this
+                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                    }
+                    # top_overlord = {
+                    #     was_formed_from = PRU
+                    # }
+                    # is_subject_of = c:PRU
+                    was_formed_from = PRU
                 }
             }
         }

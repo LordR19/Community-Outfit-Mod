@@ -163,6 +163,7 @@ special_genes = {
 					1 = com_male_belt_military_01
 					1 = com_male_belt_military_plate
 					1 = com_male_belt_military_plate_AUS
+					1 = com_male_belt_military_plate_PRU
 				}
 				female = {
 					1 = empty

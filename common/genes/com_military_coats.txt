@@ -1029,6 +1029,18 @@ special_genes = {
                 boy = male
                 girl = female
             }
+            com_PRU_military_coats_late = {
+                index = 63
+                male = {
+                    1 = com_male_military_coat_PRU_late_01
+                }
+
+                female = {
+                    1 = female_outfit_european_common_01 # fallback
+                }
+                boy = male
+                girl = female
+            }
 		}
 	}
 }

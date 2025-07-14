@@ -1,0 +1,27 @@
+pdxmesh = {
+	name = "com_male_pickelhaube_fabric_mesh"
+	file = "com_male_pickelhaube_fabric.mesh"
+
+	meshsettings = {
+		name = "com_male_pickelhaube_fabricShape"
+		index = 0
+		texture_diffuse = "com_male_pickelhaube_fabric_diffuse.dds"
+		texture_normal = "com_male_pickelhaube_fabric_normal.dds"
+		texture_specular = "com_male_pickelhaube_fabric_properties.dds"
+        shader = "portrait_attachment_pattern"
+        shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+    name      = "com_male_headgear_pickelhaube_fabric_entity"
+    pdxmesh   = "com_male_pickelhaube_fabric_mesh"
+    game_data = {
+        portrait_entity_user_data = {
+            portrait_accessory = {
+                pattern_mask   = "gfx/models/portraits/attachments/male_headgear/european_military/pickelhaube_fabric/com_male_pickelhaube_fabric_masks.dds"
+                variation      = "com_male_headgear_pickelhaube_fabric"
+            }
+        }
+    }
+}
