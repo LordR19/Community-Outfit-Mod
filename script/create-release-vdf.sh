@@ -48,8 +48,6 @@ printf '\t"previewfile" "%s/thumbnail.png"' "$mod_path" >> workshop.vdf
 printf '\n' >> workshop.vdf
 printf '\t"title" "%s"' "$title" >> workshop.vdf
 printf '\n' >> workshop.vdf
-printf '\t"description" "%s"' "$description" >> workshop.vdf
-printf '\n' >> workshop.vdf
 printf '}' >> workshop.vdf
 
 cat workshop.vdf
