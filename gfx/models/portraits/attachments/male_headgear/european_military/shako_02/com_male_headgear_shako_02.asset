@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "com_male_headgear_shako_02_mesh"
+	file = "com_male_headgear_shako_02.mesh"
+
+	meshsettings = {
+		name = "com_male_headgear_shako_02Shape"
+		index = 0
+		texture_diffuse = "com_male_headgear_shako_02_diffuse.dds"
+		texture_normal = "com_male_headgear_shako_02_normal.dds"
+		texture_specular = "com_male_headgear_shako_02_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "com_male_headgear_shako_02_entity"
+	pdxmesh = "com_male_headgear_shako_02_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/shako_02/com_male_headgear_shako_02_masks.dds"
+
+				variation = "male_headgear_gb_01_military"
+			}
+		}
+	}
+}
