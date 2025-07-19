@@ -954,7 +954,7 @@ COM_south_america_clothes = {
                     }
                     monarchy_clothes_trigger = yes
                     is_female = no
-                    age >= 16
+                    define:NCharacters|ADULT_AGE > 16
                 }
             }
         }

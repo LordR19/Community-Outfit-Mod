@@ -383,7 +383,7 @@ COM_asia_clothes = {
                 exists = scope:character
                 scope:character ?= {
                     is_ruler = yes
-                    age >= 16
+                    define:NCharacters|ADULT_AGE > 16
                     owner ?= {
                             country_has_primary_culture = cu:dutch
                         OR = {
