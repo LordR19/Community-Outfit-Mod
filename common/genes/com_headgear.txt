@@ -52,6 +52,7 @@ special_genes = {
 					1 = com_male_headgear_shako_01_pompom_decorated_SWI
 					1 = com_male_headgear_shako_01_pompom_decorated_AUS
 					1 = com_male_headgear_shako_02
+					1 = com_male_headgear_shako_02_AUS
 					1 = com_male_headgear_korean_pickelhaube
 					1 = com_male_headgear_european_military_02_FRA
 					1 = male_headgear_austrian_military_03

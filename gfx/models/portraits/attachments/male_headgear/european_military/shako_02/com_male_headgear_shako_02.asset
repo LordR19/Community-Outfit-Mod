@@ -27,3 +27,18 @@ entity = {
 		}
 	}
 }
+
+entity = {
+	name = "com_male_headgear_shako_02_AUS_entity"
+	pdxmesh = "com_male_headgear_shako_02_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/european_military/shako_02/com_male_headgear_shako_02_masks.dds"
+
+				variation = "com_male_headgear_shako_01_pompom_decorated_AUS"
+			}
+		}
+	}
+}

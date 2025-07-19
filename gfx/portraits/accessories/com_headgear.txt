@@ -201,6 +201,11 @@ com_male_headgear_shako_02 = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_02_entity" }
 }
 
+com_male_headgear_shako_02_AUS = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_shako_02_AUS_entity" }
+}
+
 com_male_headgear_korean_pickelhaube = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_korean_pickelhaube_entity" }
