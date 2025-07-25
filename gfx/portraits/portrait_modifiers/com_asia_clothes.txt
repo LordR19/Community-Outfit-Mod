@@ -132,7 +132,7 @@ COM_asia_clothes = {
             }
         }
     }
-                
+
 
 
 ### KOREA
@@ -383,7 +383,7 @@ COM_asia_clothes = {
                 exists = scope:character
                 scope:character ?= {
                     is_ruler = yes
-                    define:NCharacters|ADULT_AGE > 16
+                    age >= define:NCharacters|ADULT_AGE
                     owner ?= {
                             country_has_primary_culture = cu:dutch
                         OR = {
@@ -816,6 +816,6 @@ COM_asia_clothes = {
     }
 
 
-### 
+###
 
 }
