@@ -321,7 +321,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0 0.875 } # For the randomness to work correctly
+                range = { 0.5 0.875 } # For the randomness to work correctly
             }
         }
         weight = {

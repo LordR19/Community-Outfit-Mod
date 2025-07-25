@@ -14,6 +14,53 @@ COM_asia_clothes = {
     #Clothes for the Japanese Royals
     COM_JAP_royal_clothes = {
         dna_modifiers = {
+            #Remove
+
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template = no_coat
+                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+
+            ### ADD
+
             accessory = {
                 mode = add
                 gene = com_military_coats
@@ -55,38 +102,6 @@ COM_asia_clothes = {
                 gene = aiguillettes
                 template = all_aiguillettes
                 range = { 0 0.79 }
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = epaulettes
-                template = no_epaulette
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
             }
         }
         weight = {
@@ -185,6 +200,18 @@ COM_asia_clothes = {
                 range = { 0 0.79 }
             }
             #Remove
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
             accessory = {
                 mode = add
                 gene = headgear
@@ -335,6 +362,12 @@ COM_asia_clothes = {
             #Remove
             accessory = {
                 mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = outfits
                 template = no_outfit
                 range = { 0 1 }
@@ -452,6 +485,18 @@ COM_asia_clothes = {
             #Remove
             accessory = {
                 mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = coats
                 template = no_coat
                 range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
@@ -553,6 +598,18 @@ COM_asia_clothes = {
             }
 
             #Remove
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
             accessory = {
                 mode = add
                 gene = belts
@@ -658,6 +715,18 @@ COM_asia_clothes = {
             #Remove
             accessory = {
                 mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = belts
                 template = no_belt
                 range = { 0 1 } # For the randomness to work correctly
@@ -747,6 +816,18 @@ COM_asia_clothes = {
             }
 
             #Remove
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
             accessory = {
                 mode = add
                 gene = aiguillettes
