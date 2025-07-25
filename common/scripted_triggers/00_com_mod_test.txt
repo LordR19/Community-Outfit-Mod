@@ -344,7 +344,10 @@ COM_is_austrian = {
                     top_overlord = {
                         was_formed_from = AUS
                     }
-                    is_subject_of = c:AUS
+                    AND = {
+                        exists = c:AUS
+                        is_subject_of ?= c:AUS
+                    }
                     was_formed_from = AUS
                 }
             }
@@ -359,7 +362,10 @@ COM_is_austrian = {
                     top_overlord = {
                         was_formed_from = AUS
                     }
-                    is_subject_of = c:AUS
+                    AND = {
+                        exists = c:AUS
+                        is_subject_of = c:AUS
+                    }
                     was_formed_from = AUS
                 }
             }
@@ -407,7 +413,10 @@ COM_is_prussian = {
                     # top_overlord = {
                     #     was_formed_from = PRU
                     # }
-                    # is_subject_of = c:PRU
+                    # AND = {
+                    #     exists = c:PRU
+                    #     is_subject_of = c:PRU
+                    # }
                     was_formed_from = PRU
                 }
             }
@@ -422,7 +431,10 @@ COM_is_prussian = {
                     # top_overlord = {
                     #     was_formed_from = PRU
                     # }
-                    # is_subject_of = c:PRU
+                    # AND = {
+                    #     exists = c:PRU
+                    #     is_subject_of = c:PRU
+                    # }
                     was_formed_from = PRU
                 }
             }
