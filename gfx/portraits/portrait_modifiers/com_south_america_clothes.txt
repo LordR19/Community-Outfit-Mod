@@ -907,13 +907,24 @@ COM_south_america_clothes = {
                 template = NET_epaulettes
                 range = { 0 1 } # For the randomness to work correctly
             }
-
             #Remove
             accessory = {
                 mode = add
                 gene = coats
                 template = no_coat
                 range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+            }
+            accessory = {
+                mode = add
+                gene = civilian_coats
+                template  = no_civilian_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = waistcoats
+                template  = no_waistcoat
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
@@ -944,7 +955,8 @@ COM_south_america_clothes = {
             base = 0
             modifier = {
                 add = 500
-
+                COM_is_monarch_leader = yes
+                exists = scope:character
                 scope:character ?= {
                     owner ?= {
                         OR = {
@@ -952,9 +964,6 @@ COM_south_america_clothes = {
                             was_formed_from = BRZ
                         }
                     }
-                    monarchy_clothes_trigger = yes
-                    is_female = no
-                    age >= 16
                 }
             }
         }
