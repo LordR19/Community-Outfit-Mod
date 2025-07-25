@@ -256,3 +256,28 @@ variation = {
 
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/belts/color_palette_male_belt_military_brown_brass.dds" }
 }
+
+variation = {
+	name = "com_male_belt_military_brown_mixed"
+
+	pattern = {
+		weight = 10
+
+		r = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01"					layout = "plain_fabric_layout" }
+		b = { textures = "generic_medal_metals_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"			layout = "plain_fabric_layout" }
+	}
+
+		pattern = {
+		weight = 1
+
+		r = { textures = "generic_leather_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01"					layout = "plain_fabric_layout" }
+		b = { textures = "generic_medal_metals_01" 					layout = "plain_fabric_layout" }
+		a = { textures = "generic_silk_standard_plain_01"			layout = "plain_fabric_layout" }
+	}
+
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/belts/color_palette_male_belt_military_brown_mixed.dds" }
+}

@@ -16,12 +16,12 @@ special_genes = {
 				index = 0
 				male = {
 					1 = empty
-				}		   
+				}
 				female = male
 				boy = male
 				girl = male
-			}	
-			
+			}
+
 			com_all_bandoliers = {
 				index = 1
 				male = {
@@ -40,6 +40,7 @@ special_genes = {
 					1 = com_side_bandolier_right_late_white
 					1 = com_side_bandolier_right_late_brown
 					1 = com_side_bandolier_right_late_black
+					1 = com_male_suspenders_military_01
 
 				female = {
 					1 = empty
