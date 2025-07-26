@@ -765,7 +765,6 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 13002
-                has_dlc_feature = ep1_cosmetics
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes

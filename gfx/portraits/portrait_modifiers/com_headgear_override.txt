@@ -91,7 +91,7 @@ COM_headgear_override = {
             modifier = {
                 add = 11010
                 has_dlc_feature = ep1_cosmetics
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
 
                 OR = {
                     AND = {
@@ -138,7 +138,7 @@ COM_headgear_override = {
             modifier = {
                 add = 12010
                 has_dlc_feature = ep1_cosmetics
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
 
                 OR = {
@@ -186,7 +186,7 @@ COM_headgear_override = {
             modifier = {
                 add = 13010
                 has_dlc_feature = ep1_cosmetics
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_interwar_military = yes
 
                 OR = {

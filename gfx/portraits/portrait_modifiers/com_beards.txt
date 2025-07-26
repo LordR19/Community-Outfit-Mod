@@ -27,7 +27,7 @@
             base = 0
             modifier = {
                 add = 102
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 OR = {
                     scope:character ?= {
                         age > 18
