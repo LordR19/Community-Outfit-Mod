@@ -121,7 +121,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 20000
-                COM_is_austrian_strict = yes
+                COM_is_or_was_tag_strict = { TAG = AUS }
                 COM_is_monarch_leader = yes
             }
         }
@@ -220,7 +220,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 20001
-                COM_is_austrian_strict = yes
+                COM_is_or_was_tag_strict = { TAG = AUS }
                 COM_is_late_military = yes
                 COM_is_monarch_leader = yes
             }
@@ -328,7 +328,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10001
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 OR = {
                     COM_is_general_leader = yes
                     COM_is_monarch_leader = yes
@@ -436,7 +436,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 11001
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_mid_military = yes
                 COM_is_general_leader = yes
                 NOT = { COM_is_monarch_leader = yes }
@@ -550,7 +550,7 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 12001
                 has_dlc_feature = ep1_cosmetics
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
                 NOT = { COM_is_monarch_leader = yes }
@@ -664,7 +664,7 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 13001
                 has_dlc_feature = ep1_cosmetics
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_interwar_military = yes
                 COM_is_general_leader = yes
                 NOT = { COM_is_monarch_leader = yes }
@@ -766,7 +766,7 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 13002
                 has_dlc_feature = ep1_cosmetics
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
                 scope:character ?= {
@@ -873,7 +873,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10000
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -973,7 +973,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 11000
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_mid_military = yes
                 officers_clothes_pop_trigger = yes
             }
@@ -1088,7 +1088,7 @@ COM_central_europe_clothes = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
                 COM_is_late_military = yes
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -1202,7 +1202,7 @@ COM_central_europe_clothes = {
                 add = 13000
                 has_dlc_feature = ep1_cosmetics
                 COM_is_interwar_military = yes
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -1290,7 +1290,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.85 1 } # For the randomness to work correctly
+                range = { 0.9 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -1310,7 +1310,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10000
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -1396,7 +1396,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.85 1 } # For the randomness to work correctly
+                range = { 0.9 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -1410,7 +1410,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 11000
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_mid_military = yes
                 soldier_clothes_pop_trigger = yes
             }
@@ -1531,7 +1531,7 @@ COM_central_europe_clothes = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
                 COM_is_late_military = yes
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -1651,7 +1651,7 @@ COM_central_europe_clothes = {
                 add = 13000
                 has_dlc_feature = ep1_cosmetics
                 COM_is_interwar_military = yes
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -1753,7 +1753,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 10000
-                COM_is_austrian = yes
+                COM_is_or_was_tag = { TAG = AUS }
                 COM_is_admiral_leader = yes
             }
         }
@@ -3774,18 +3774,8 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                exists = scope:character
-                scope:character ?= {
-                    monarchy_clothes_trigger = yes
-                    is_female = no
-                    age >= 10
-                    owner ?= {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = PRU }
+                COM_is_monarch_leader = yes
             }
         }
     }
@@ -3892,15 +3882,7 @@ COM_central_europe_clothes = {
                 add = 500
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }
@@ -4025,7 +4007,7 @@ COM_central_europe_clothes = {
                 add = 12000
                 COM_is_general_leader = yes
                 COM_is_late_military = yes
-                COM_is_prussian = yes
+                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }
@@ -4113,16 +4095,8 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 500
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = officers
-                    owner ?= {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = PRU }
+                officers_clothes_pop_trigger = yes
             }
         }
     }
@@ -4240,7 +4214,7 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 12000
                 COM_is_late_military = yes
-                COM_is_prussian = yes
+                COM_is_or_was_tag_strict = { TAG = PRU }
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -4317,16 +4291,8 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 500
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = soldiers
-                    owner ?= {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = PRU }
+                soldier_clothes_pop_trigger = yes
             }
         }
     }
@@ -4432,7 +4398,7 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 12000
                 COM_is_late_military = yes
-                COM_is_prussian = yes
+                COM_is_or_was_tag_strict = { TAG = PRU }
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -4561,15 +4527,7 @@ COM_central_europe_clothes = {
                 year < 1860
                 COM_is_admiral_leader = yes
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }
@@ -4696,15 +4654,7 @@ COM_central_europe_clothes = {
                 year >= 1860
                 COM_is_admiral_leader = yes
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:PRU ?= this
-                            was_formed_from = PRU
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }

@@ -354,8 +354,7 @@ special_genes = {
 				index = 22
 				male = {
 					1 = 0
-					2 = male_headgear_austrian_military_03
-					3 = male_headgear_european_military_05
+					5 = male_headgear_european_military_05
 					1 = 0
 					1 = com_male_headgear_shako_02_AUS
 				}

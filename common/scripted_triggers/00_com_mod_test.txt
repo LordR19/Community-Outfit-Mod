@@ -177,7 +177,6 @@ COM_is_admiral_leader = {
     }
 }
 
-
 # SASHES SCA TRIGGERS
 
 COM_is_swedish_SCA = {
@@ -330,25 +329,26 @@ COM_is_other_SCA = {
 }
 
 
-### Austria triggers
+### TAG triggers
 
-COM_is_austrian = {
+    # checks whether your tag is, was formed from or is a vassal of the tag in curly brackets like "COM_is_or_was_tag = { TAG = AUS}" for Austria
+COM_is_or_was_tag = {
     OR = {
         scope:character ?= {
             home_country ?= {
                 OR = {
                     AND = {
-                        c:AUS ?= this
+                        c:$TAG$ ?= this
                         is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
                     }
                     top_overlord = {
-                        was_formed_from = AUS
+                        was_formed_from = $TAG$
                     }
                     AND = {
-                        exists = c:AUS
-                        is_subject_of ?= c:AUS
+                        exists = c:$TAG$
+                        is_subject_of ?= c:$TAG$
                     }
-                    was_formed_from = AUS
+                    was_formed_from = $TAG$
                 }
             }
         }
@@ -356,68 +356,35 @@ COM_is_austrian = {
             home_country ?= {
                 OR = {
                     AND = {
-                        c:AUS ?= this
+                        c:$TAG$ ?= this
                         is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
                     }
                     top_overlord = {
-                        was_formed_from = AUS
+                        was_formed_from = $TAG$
                     }
                     AND = {
-                        exists = c:AUS
-                        is_subject_of = c:AUS
+                        exists = c:$TAG$
+                        is_subject_of = c:$TAG$
                     }
-                    was_formed_from = AUS
-                }
-            }
-        }
-    }
-}
-COM_is_austrian_strict = {  ### doesn't include vassals
-    OR = {
-        scope:character ?= {
-            home_country ?= {
-                OR = {
-                    AND = {
-                        c:AUS ?= this
-                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-                    }
-                    was_formed_from = AUS
-                }
-            }
-        }
-        scope:pop ?= {
-            home_country ?= {
-                OR = {
-                    AND = {
-                        c:AUS ?= this
-                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-                    }
-                    was_formed_from = AUS
+                    was_formed_from = $TAG$
                 }
             }
         }
     }
 }
 
-### Prussia triggers
-
-COM_is_prussian = {
+    # checks whether your tag is or was formed from the tag in curly brackets like "COM_is_or_was_tag = { TAG = AUS}" for Austria
+    # this one excludes vassals
+COM_is_or_was_tag_strict = {  ### doesn't include vassals
     OR = {
         scope:character ?= {
             home_country ?= {
                 OR = {
                     AND = {
-                        c:PRU ?= this
+                        c:$TAG$ ?= this
                         is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
                     }
-                    # top_overlord = {
-                    #     was_formed_from = PRU
-                    # }
-                    # AND = {
-                    #     exists = c:PRU
-                    #     is_subject_of = c:PRU
-                    # }
-                    was_formed_from = PRU
+                    was_formed_from = $TAG$
                 }
             }
         }
@@ -425,17 +392,10 @@ COM_is_prussian = {
             home_country ?= {
                 OR = {
                     AND = {
-                        c:PRU ?= this
+                        c:$TAG$ ?= this
                         is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
                     }
-                    # top_overlord = {
-                    #     was_formed_from = PRU
-                    # }
-                    # AND = {
-                    #     exists = c:PRU
-                    #     is_subject_of = c:PRU
-                    # }
-                    was_formed_from = PRU
+                    was_formed_from = $TAG$
                 }
             }
         }
