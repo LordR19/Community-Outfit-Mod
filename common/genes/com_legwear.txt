@@ -379,6 +379,18 @@ special_genes = {
                 boy = male
                 girl = female
             }
+            com_PRU_legwear_late = {
+                index = 27
+                male = {
+					1 = com_male_legwear_european_grey
+                    1 = com_male_legwear_AUS_late_military_01_interwar
+                }
+                female = {
+					1 = empty
+                }
+                boy = male
+                girl = female
+            }
 		}
 	}
 }

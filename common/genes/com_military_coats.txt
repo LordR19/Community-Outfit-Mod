@@ -1033,6 +1033,7 @@ special_genes = {
                 index = 63
                 male = {
                     1 = com_male_military_coat_PRU_late_01
+                    1 = com_male_military_coat_AUS_interwar
                 }
 
                 female = {

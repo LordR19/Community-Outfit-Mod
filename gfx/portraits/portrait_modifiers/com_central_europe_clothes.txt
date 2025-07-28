@@ -3960,7 +3960,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_legwear
-                template = com_all_legwear
+                template = com_PRU_legwear_late
                 accessory = com_male_legwear_european_grey
             }
             accessory = {
@@ -4013,95 +4013,6 @@ COM_central_europe_clothes = {
 
     #Outfit Early Prussian Officer Pops
     COM_early_PRU_officer_outfit = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_PRU_military_coats_early
-                accessory = com_male_military_coat_PRU_early_03_a
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_grey
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_epaulettes
-                template = PRU_epaulettes_military_generals
-                accessory = male_epaulettes_02_silver
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = prussian_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_headgear
-                template = com_PRU_headgear_military
-                range = { 0.25 1 }
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = epaulettes
-                template = no_epaulette
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = headgear
-                template = no_headgear
-                range = { 0 1 }
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 500
-                COM_is_early_military = yes
-                COM_is_or_was_tag_strict = { TAG = PRU }
-                officers_clothes_pop_trigger = yes
-            }
-        }
-    }
-
-    #Outfit late Prussian Officer Pops
-    COM_late_PRU_officer_outfit = {
         dna_modifiers = {
             ### REMOVE
             accessory = {
@@ -4168,8 +4079,8 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_PRU_military_coats_late
-                accessory = com_male_military_coat_PRU_late_01
+                template = com_PRU_military_coats_early
+                accessory = com_male_military_coat_PRU_early_03_a
             }
             accessory = {
                 mode = add
@@ -4179,9 +4090,9 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_belts
-                template = com_late_military_belts
-                accessory = com_male_belt_military_plate_PRU
+                gene = belts
+                template = all_belts
+                range = { 0.1 0.7 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -4198,8 +4109,121 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_headgear
+                template = com_PRU_headgear_military
+                range = { 0.25 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                COM_is_early_military = yes
+                COM_is_or_was_tag_strict = { TAG = PRU }
+                officers_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    #Outfit late Prussian Officer Pops
+    COM_late_PRU_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            # accessory = {
+            #     mode = add
+            #     gene = medals
+            #     template = no_medals
+            #     range = { 0 1 }
+            # }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_late
+                accessory = com_male_military_coat_PRU_late_01
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_PRU_legwear_late
+                accessory = com_male_legwear_european_grey
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                accessory = com_male_belt_military_plate_PRU
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = prussian_epaulettes
+                accessory = male_epaulettes_02
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = prussian_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
                 template = com_PRU_headgear_late_military
-                range = { 0 0.69 }
+                range = { 0.21 0.69 }
             }
             accessory = {
                 mode = add
@@ -4222,6 +4246,68 @@ COM_central_europe_clothes = {
     #Outfit Early Prussian Soldier Pops
     COM_early_PRU_soldier_outfit = {
         dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            # accessory = {
+            #     mode = add
+            #     gene = belts
+            #     template  = no_belt
+            #     range = { 0 1 }
+            # }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
             accessory = {
                 mode = add
                 gene = com_military_coats
@@ -4246,44 +4332,6 @@ COM_central_europe_clothes = {
                 template = com_PRU_headgear_military
                 range = { 0.3 0.49 }
             }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = top_layer
-                template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = epaulettes
-                template = no_epaulette
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = headgear
-                template = no_headgear
-                range = { 0 1 }
-            }
         }
         weight = {
             base = 0
@@ -4296,7 +4344,6 @@ COM_central_europe_clothes = {
         }
     }
 
-    #Outfit Late Prussian Soldier Pops
     COM_late_PRU_soldier_outfit = {
         dna_modifiers = {
             ### REMOVE
@@ -4370,7 +4417,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_legwear
-                template = com_all_legwear
+                template = com_PRU_legwear_late
                 accessory = com_male_legwear_european_grey
             }
             accessory = {
@@ -4383,7 +4430,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_PRU_headgear_late_military
-                range = { 0 0.49 }
+                range = { 0.26 0.49 }
             }
             accessory = {
                 mode = add
@@ -4403,6 +4450,111 @@ COM_central_europe_clothes = {
         }
     }
 
+    COM_interwar_PRU_soldier_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_PRU_military_coats_late
+                accessory = com_male_military_coat_AUS_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_PRU_legwear_late
+                accessory = com_male_legwear_AUS_late_military_01_interwar
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                accessory = com_male_belt_military_plate_PRU
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_PRU_headgear_late_military
+                accessory = male_headgear_european_stahlhelm_01_AUS
+            }
+            accessory = {
+                mode = add
+                gene = com_bandoliers
+                template = com_all_bandoliers
+                accessory = com_male_suspenders_military_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 13000
+                COM_is_interwar_military = yes
+                COM_is_or_was_tag_strict = { TAG = PRU }
+                soldier_clothes_pop_trigger = yes
+            }
+        }
+    }
 
     #Outfit Early Prussian Admiral Characters
     COM_early_PRU_admiral_outfit = {

@@ -997,6 +997,24 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_POR_uniform_royal.dds" }
 }
 
+#Prusian interwar military Uniform
+variation = {
+	name = "com_male_military_coat_PRU_interwar"
+
+
+	pattern = {
+		weight = 1
+
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+	}
+
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_PRU_uniform_late_feldgrau.dds" }
+}
+
 #Royal Prussian Uniform 03
 variation = {
 	name = "com_male_military_coat_PRU_royal_03"
