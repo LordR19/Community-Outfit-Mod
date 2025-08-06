@@ -3975,7 +3975,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_PRU_legwear_late
-                accessory = com_male_legwear_european_grey
+                accessory = com_male_legwear_PRU_military_01
             }
             accessory = {
                 mode = add
@@ -4021,6 +4021,15 @@ COM_central_europe_clothes = {
                 COM_is_general_leader = yes
                 COM_is_late_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+            }
+            modifier = {    # use for generic Germans with lower priority than unique uniforms
+                add = 1200
+                COM_is_general_leader = yes
+                COM_is_late_military = yes
+                OR = {
+                    german_clothes_trigger = yes
+                    german_clothes_pop_trigger = yes
+                }
             }
         }
     }
@@ -4213,7 +4222,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_PRU_legwear_late
-                accessory = com_male_legwear_european_grey
+                accessory = com_male_legwear_PRU_military_01
             }
             accessory = {
                 mode = add
@@ -4252,6 +4261,15 @@ COM_central_europe_clothes = {
                 add = 12000
                 COM_is_late_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                officers_clothes_pop_trigger = yes
+            }
+            modifier = {    # use for generic Germans with lower priority than unique uniforms
+                add = 1200
+                COM_is_late_military = yes
+                OR = {
+                    german_clothes_trigger = yes
+                    german_clothes_pop_trigger = yes
+                }
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -4432,7 +4450,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_PRU_legwear_late
-                accessory = com_male_legwear_european_grey
+                accessory = com_male_legwear_PRU_military_01
             }
             accessory = {
                 mode = add
@@ -4465,6 +4483,15 @@ COM_central_europe_clothes = {
                 add = 12000
                 COM_is_late_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                soldier_clothes_pop_trigger = yes
+            }
+            modifier = {    # use for generic Germans with lower priority than unique uniforms
+                add = 1200
+                COM_is_late_military = yes
+                OR = {
+                    german_clothes_trigger = yes
+                    german_clothes_pop_trigger = yes
+                }
                 soldier_clothes_pop_trigger = yes
             }
         }

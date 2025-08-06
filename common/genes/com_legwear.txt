@@ -47,6 +47,9 @@ special_genes = {
 					1 = com_male_legwear_european_light_blue_yellow_stripe
 					1 = com_male_legwear_european_azure_red_stripe_thin
 					1 = com_male_legwear_european_dark_blue_red_stripe_thin
+					1 = com_male_legwear_AUS_late_military_01
+					1 = com_male_legwear_AUS_late_military_01_interwar
+					1 = com_male_legwear_PRU_military_01
 				}
 				female = {
 					1 = empty
@@ -382,7 +385,7 @@ special_genes = {
             com_PRU_legwear_late = {
                 index = 27
                 male = {
-					1 = com_male_legwear_european_grey
+					1 = com_male_legwear_PRU_military_01
                     1 = com_male_legwear_AUS_late_military_01_interwar
                 }
                 female = {
