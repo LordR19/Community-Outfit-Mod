@@ -35,6 +35,8 @@ mr_com_special_character_blocker = {
 #       GENERAL TRIGGERS      #
 ###############################
 
+### Military Age Triggers
+
 COM_is_early_military = {
     OR = {
         AND = {
@@ -125,6 +127,8 @@ COM_is_interwar_military = {
     }
 }
 
+### Leader Triggers
+
 COM_is_monarch_leader = {
     exists = scope:character
     scope:character ?= {
@@ -173,6 +177,47 @@ COM_is_admiral_leader = {
                 mr_com_special_character_blocker = yes
             }
             has_role = admiral
+        }
+    }
+}
+
+### Continent Triggers
+
+COM_is_european = {     # taken from the vanilla europe triggers with some adjustments
+    OR = {
+        scope:character ?= {
+            AND = {
+                culture = {
+                    has_discrimination_trait = european_heritage
+                }
+                NOT = {
+                    culture = cu:circassian
+                }
+                NOT = {
+                    AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
+                        culture = cu:albanian
+                        exists = home_country
+                        OR = {
+                            home_country = {
+                                exists = c:TUR
+                                c:TUR = this
+                            }
+                            home_country = {
+                                exists = c:EGY
+                                c:EGY = this
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        scope:pop ?= {
+            culture = {
+                has_discrimination_trait = european_heritage
+            }
+            NOT = {
+                culture = cu:circassian
+            }
         }
     }
 }

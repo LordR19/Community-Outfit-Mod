@@ -2105,8 +2105,359 @@ COM_west_europe_clothes = {
     }
 
 
+### Great Britain
 
 
+    ### Army Uniforms
+
+    ### Generals
+
+    COM_late_GBR_general_rank_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = coats
+                template = male_coat_great_britain
+                accessory = male_coat_late_british_military_01
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = late_military_epaulettes
+                accessory = male_epaulettes_late_british_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                accessory = com_male_belt_military_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = european_late_military_legwear
+                accessory = male_legwear_british_late_military_01
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = all_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_GBR_headgear_late
+                range = { 0.35 0.95 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12001
+                has_dlc_feature = ep1_cosmetics
+                COM_is_or_was_tag = { TAG = GBR }
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
+            }
+        }
+    }
+
+    ### Officers
+
+    COM_late_GBR_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = coats
+                template = male_coat_great_britain
+                accessory = male_coat_late_british_military_01
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = late_military_epaulettes
+                accessory = male_epaulettes_late_british_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                accessory = com_male_belt_military_01
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = european_late_military_legwear
+                accessory = male_legwear_british_late_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_GBR_headgear_late
+                accessory = com_male_headgear_european_late_military_04_GBR
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                has_dlc_feature = ep1_cosmetics
+                COM_is_late_military = yes
+                COM_is_or_was_tag = { TAG = GBR }
+                officers_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    ### Soldiers
+
+    COM_late_GBR_soldier_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = coats
+                template = male_coat_great_britain
+                accessory = male_coat_late_british_military_01
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = late_military_epaulettes
+                accessory = male_epaulettes_late_british_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_late_military_belts
+                accessory = com_male_belt_military_01_canvas
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = european_late_military_legwear
+                accessory = male_legwear_british_late_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_GBR_headgear_late
+                range = { 0 0.3 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_suspenders
+                template = com_suspenders_late
+                accessory = com_male_suspenders_military_01_canvas
+            }
+            accessory = {
+                mode = add
+                gene = com_pouches
+                template = com_GBR_pouches
+                range = { 0 1 }
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                has_dlc_feature = ep1_cosmetics
+                COM_is_late_military = yes
+                COM_is_or_was_tag = { TAG = GBR }
+                soldier_clothes_pop_trigger = yes
+            }
+        }
+    }
 
 ### NETHERLANDS
 

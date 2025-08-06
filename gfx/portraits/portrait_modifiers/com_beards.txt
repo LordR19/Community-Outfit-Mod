@@ -2,12 +2,64 @@
     usage = game
     selection_behavior = weighted_random
 
-    austrian_facial_hair_military = {
+### European
+
+    com_late_european_facial_hair_military = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = com_beards
-                template = austrian_beards_military
+                template = com_european_beards_military
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = replace
+                gene = beards
+                template = no_beard
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = replace
+                gene = mustaches
+                template = european_mustaches
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 102
+                COM_is_european = yes
+                COM_is_late_military = yes
+                OR = {
+                    scope:character ?= {
+                        age > 18
+                        is_historical = no
+                        is_ruler = no
+                        OR = {
+                            has_role = general
+                            has_role = admiral
+                            AND = {
+                                has_role = politician
+                                is_interest_group_type = ig_armed_forces
+                            }
+                        }
+                    }
+                    soldier_clothes_pop_trigger = yes
+                    officers_clothes_pop_trigger = yes
+                }
+            }
+        }
+    }
+
+### Austria
+
+    com_austrian_facial_hair_military = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_beards
+                template = com_european_beards_military
                 range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
@@ -49,12 +101,12 @@
         }
     }
 
-    adult_franz_joseph = {
+    com_adult_franz_joseph = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = com_beards
-                template = austrian_beards_military
+                template = com_european_beards_military
                 accessory = male_beard_european_11_alt
             }
             accessory = {

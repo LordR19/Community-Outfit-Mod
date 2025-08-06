@@ -9,3 +9,7 @@
 com_male_suspenders_military_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_suspenders_military_01_entity" }
 }
+
+com_male_suspenders_military_01_canvas = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_suspenders_military_01_canvas_entity" }
+}

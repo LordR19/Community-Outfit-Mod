@@ -32,7 +32,20 @@ special_genes = {
 					1 = com_pouches_03
 					# 1 = com_pouches_03bis
 					1 = com_pouches_04
-					# 1 = com_pouches_04bis
+					1 = com_pouches_04bis
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+				}
+			}
+
+			com_GBR_pouches = {
+				index = 2
+				male = {
+					1 = com_pouches_04
+					1 = com_pouches_04bis
 				female = {
 					1 = empty
 				}

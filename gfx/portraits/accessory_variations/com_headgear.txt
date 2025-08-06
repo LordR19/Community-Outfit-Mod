@@ -694,14 +694,49 @@ variation = {
 	pattern = {
 		weight = 1
 
-   	    r = { textures = "generic_leather_standard_plain_01"     layout = "plain_fabric_layout" }
-      	g = { textures = "generic_medal_metals_01"            layout = "plain_fabric_layout" }
-    	b = { textures = "generic_wool_standard_plain_01"     layout = "plain_fabric_layout" }
-     	a = { textures = "generic_medal_metals_01"            layout = "plain_fabric_layout" }
+   	    r = { textures = "generic_leather_standard_plain_01"	layout = "plain_fabric_layout" }
+      	g = { textures = "generic_medal_metals_01"				layout = "plain_fabric_layout" }
+    	b = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+     	a = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
 	}
 
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/color_palette_headgear_adrian.dds" }
 }
+
+# Great Britain
+
+variation = {
+	name = "com_male_headgear_brodie"
+
+
+	pattern = {
+		weight = 1
+
+   	    r = { textures = "generic_leather_standard_plain_01"	layout = "plain_fabric_layout" }
+      	g = { textures = "generic_medal_metals_01"            	layout = "plain_fabric_layout" }
+    	b = { textures = "generic_wool_standard_plain_01"     	layout = "plain_fabric_layout" }
+     	a = { textures = "generic_medal_metals_01"            	layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/color_palette_headgear_brodie.dds" }
+}
+
+variation = {
+	name = "com_male_headgear_european_late_military_04_GBR"
+
+
+	pattern = {
+		weight = 1
+
+		r = { textures = "generic_wool_standard_fine_01"		layout = "plain_fabric_layout" }
+		g = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_wool_standard_fine_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/color_palette_male_headgear_european_late_military_04_GBR.dds" }
+}
+
 
 # Prussian
 

@@ -136,6 +136,11 @@ com_male_headgear_european_military_03_PRU_late = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_03_PRU_late_entity" }
 }
 
+com_male_headgear_european_late_military_04_GBR = {
+    set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_late_military_04_GBR_entity" }
+}
+
 com_male_headgear_european_military_05_BAV = {
     set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_05_BAV_entity" }
@@ -266,6 +271,11 @@ com_male_headgear_adrian = {
 com_male_headgear_adrian_fra = {
 	set_tags ="no_hair"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_adrian_fra_entity" }
+}
+
+com_male_headgear_brodie = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_brodie_entity" }
 }
 
 com_male_headgear_pickelhaube_fabric = {

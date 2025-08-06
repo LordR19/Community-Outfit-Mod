@@ -64,6 +64,7 @@ special_genes = {
 					1 = male_headgear_european_stahlhelm_01_AUS
 					1 = com_male_headgear_adrian
 					1 = com_male_headgear_adrian_fra
+					1 = com_male_headgear_brodie
 					1 = com_male_headgear_pickelhaube_fabric
 				}
 				female = {
@@ -414,7 +415,7 @@ special_genes = {
 				girl = female
 			}
 
-			com_PRU_headgear_late_military = {
+			com_PRU_headgear_late = {
 				index = 26
 				male = {
 					2 = male_headgear_european_stahlhelm_01_AUS
@@ -424,6 +425,22 @@ special_genes = {
 					1 = empty
 					2 = male_headgear_european_military_10 #plain pickelhaube
 				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_GBR_headgear_late = {
+				index = 27
+				male = {
+					1 = com_male_headgear_brodie
+					4 = com_male_headgear_european_late_military_04_GBR
+					4 = male_headgear_european_late_military_04
+					1 = 0
+				}
+
 				female = {
 					1 = empty
 				}
