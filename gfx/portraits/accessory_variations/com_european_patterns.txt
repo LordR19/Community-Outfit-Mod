@@ -8,3 +8,17 @@ pattern_textures = {
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/european/striped/com_european_wool_standard_striped_02_horizontal_normal.dds"
 	properties	= "gfx/portraits/accessory_variations/textures/patterns/european/striped/com_european_wool_standard_striped_02_horizontal_properties.dds"
 }
+
+pattern_textures = {
+	name = "com_generic_leather_standard_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/com_generic_leather_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/com_generic_leather_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/com_generic_leather_standard_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "com_generic_leather_standard_fine_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/com_generic_leather_standard_fine_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/com_generic_leather_standard_fine_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/com_generic_leather_standard_fine_01_properties.dds"
+}

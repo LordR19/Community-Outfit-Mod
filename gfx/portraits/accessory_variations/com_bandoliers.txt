@@ -60,10 +60,10 @@ variation = {
 	pattern = {
 		weight = 1
 
-		r = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
-		g = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
-		b = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
-		a = { textures = "generic_leather_standard_plain_01"		layout = "plain_fabric_layout" }
+		r = { textures = "com_generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "com_generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "com_generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "com_generic_leather_standard_plain_01"		layout = "plain_fabric_layout" }
 	}
 
 
@@ -77,10 +77,10 @@ variation = {
 	pattern = {
 		weight = 1
 
-		r = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
-		g = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
-		b = { textures = "generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
-		a = { textures = "generic_leather_standard_plain_01"		layout = "plain_fabric_layout" }
+		r = { textures = "com_generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "com_generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "com_generic_leather_standard_plain_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "com_generic_leather_standard_plain_01"		layout = "plain_fabric_layout" }
 	}
 
 
