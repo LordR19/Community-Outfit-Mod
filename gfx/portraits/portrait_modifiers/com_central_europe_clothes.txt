@@ -1518,8 +1518,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_bandoliers
-                template = com_all_bandoliers
+                gene = com_suspenders
+                template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
         }
@@ -1638,8 +1638,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_bandoliers
-                template = com_all_bandoliers
+                gene = com_suspenders
+                template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
         }
@@ -4227,8 +4227,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_bandoliers
-                template = com_all_bandoliers
+                gene = com_suspenders
+                template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
         }
@@ -4434,8 +4434,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_bandoliers
-                template = com_all_bandoliers
+                gene = com_suspenders
+                template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
         }
@@ -4540,8 +4540,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_bandoliers
-                template = com_all_bandoliers
+                gene = com_suspenders
+                template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
         }

@@ -73,7 +73,3 @@ com_side_bandolier_right_late_brown = {
 com_side_bandolier_right_late_black = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_side_bandolier_right_late_black_entity" }
 }
-
-com_male_suspenders_military_01 = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_suspenders_military_01_entity" }
-}

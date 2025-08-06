@@ -1,0 +1,11 @@
+﻿
+
+#####################
+#					#
+#     SUSPENDERS	#
+#					#
+#####################
+
+com_male_suspenders_military_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_suspenders_military_01_entity" }
+}
