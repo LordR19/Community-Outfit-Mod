@@ -1,0 +1,37 @@
+﻿
+
+#####################
+#					#
+#      POUCHES		#
+#					#
+#####################
+
+### models by Miss Duce
+
+com_pouches_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_01_entity" }	}
+com_pouches_01bis = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_01bis_entity" }	}
+
+com_pouches_02 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_02_entity" }	}
+com_pouches_02bis = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_02bis_entity" }	}
+
+com_pouches_03 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_03_entity" }	}
+com_pouches_03bis = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_03bis_entity" }	}
+
+com_pouches_04 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_04_entity" }	}
+com_pouches_04bis = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+		entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_pouches_04bis_entity" }	}

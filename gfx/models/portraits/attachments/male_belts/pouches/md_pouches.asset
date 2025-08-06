@@ -1,0 +1,288 @@
+### JAPANESE/BOX STYLE POUCHES
+
+pdxmesh = {
+	name = "md_pouches_01_mesh"
+	file = "md_pouches_01.mesh"
+
+	blend_shape = { id = "md_pouches_01_bs_fat"		    type = "md_pouches_01_bs_fat.mesh" }
+	blend_shape = { id = "md_pouches_01_bs_gaunt"		type = "md_pouches_01_bs_gaunt.mesh" }
+	blend_shape = { id = "md_pouches_01_bs_old"		    type = "md_pouches_01_bs_old.mesh" }
+	blend_shape = { id = "md_pouches_01_bs_thick"		type = "md_pouches_01_bs_thick.mesh" }
+	blend_shape = { id = "md_pouches_01_bs_thin"		type = "md_pouches_01_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_pouches_01"
+		index = 0
+		texture_diffuse = "md_pouches_01_d.dds"
+		texture_normal = "md_pouches_01_n.dds"
+		texture_specular = "md_pouches_01_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "com_pouches_01_entity"
+	pdxmesh = "md_pouches_01_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_01_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_01_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_01_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_01_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_01_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+entity = {
+	name = "com_pouches_01bis_entity"
+	pdxmesh = "md_pouches_01_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_01_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_01_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_01_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_01_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_01_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_01_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "md_pouches_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+#### GERMAN STYLE POUCHES
+
+pdxmesh = {
+	name = "md_pouches_02_mesh"
+	file = "md_pouches_02.mesh"
+
+	blend_shape = { id = "md_pouches_02_bs_fat"		    type = "md_pouches_02_bs_fat.mesh" }
+	blend_shape = { id = "md_pouches_02_bs_gaunt"		type = "md_pouches_02_bs_gaunt.mesh" }
+	blend_shape = { id = "md_pouches_02_bs_old"		    type = "md_pouches_02_bs_old.mesh" }
+	blend_shape = { id = "md_pouches_02_bs_thick"		type = "md_pouches_02_bs_thick.mesh" }
+	blend_shape = { id = "md_pouches_02_bs_thin"		type = "md_pouches_02_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_pouches_02"
+		index = 0
+		texture_diffuse = "md_pouches_02_d.dds"
+		texture_normal = "md_pouches_02_n.dds"
+		texture_specular = "md_pouches_02_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "com_pouches_02_entity"
+	pdxmesh = "md_pouches_02_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_02_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_02_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_02_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_02_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_02_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_02_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+entity = {
+	name = "com_pouches_02bis_entity"
+	pdxmesh = "md_pouches_02_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_02_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_02_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_02_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_02_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_02_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_02_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "md_pouches_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+#### FRENCH STYLE POUCHES
+
+pdxmesh = {
+	name = "md_pouches_03_mesh"
+	file = "md_pouches_03.mesh"
+
+	blend_shape = { id = "md_pouches_03_bs_fat"		    type = "md_pouches_03_bs_fat.mesh" }
+	blend_shape = { id = "md_pouches_03_bs_gaunt"		type = "md_pouches_03_bs_gaunt.mesh" }
+	blend_shape = { id = "md_pouches_03_bs_old"		    type = "md_pouches_03_bs_old.mesh" }
+	blend_shape = { id = "md_pouches_03_bs_thick"		type = "md_pouches_03_bs_thick.mesh" }
+	blend_shape = { id = "md_pouches_03_bs_thin"		type = "md_pouches_03_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_pouches_03"
+		index = 0
+		texture_diffuse = "md_pouches_03_d.dds"
+		texture_normal = "md_pouches_03_n.dds"
+		texture_specular = "md_pouches_03_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "com_pouches_03_entity"
+	pdxmesh = "md_pouches_03_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_03_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_03_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_03_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_03_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_03_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_03_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+entity = {
+	name = "com_pouches_03bis_entity"
+	pdxmesh = "md_pouches_03_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_03_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_03_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_03_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_03_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_03_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_03_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "md_pouches_black"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+#### BRIT/US STYLE POUCHES
+
+pdxmesh = {
+	name = "md_pouches_04_mesh"
+	file = "md_pouches_04.mesh"
+
+	blend_shape = { id = "md_pouches_04_bs_fat"		    type = "md_pouches_04_bs_fat.mesh" }
+	blend_shape = { id = "md_pouches_04_bs_gaunt"		type = "md_pouches_04_bs_gaunt.mesh" }
+	blend_shape = { id = "md_pouches_04_bs_old"		    type = "md_pouches_04_bs_old.mesh" }
+	blend_shape = { id = "md_pouches_04_bs_thick"		type = "md_pouches_04_bs_thick.mesh" }
+	blend_shape = { id = "md_pouches_04_bs_thin"		type = "md_pouches_04_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_pouches_04"
+		index = 0
+		texture_diffuse = "md_pouches_04_d.dds"
+		texture_normal = "md_pouches_04_n.dds"
+		texture_specular = "md_pouches_04_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "com_pouches_04_entity"
+	pdxmesh = "md_pouches_04_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_04_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_04_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_04_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_04_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_04_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_04_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+pdxmesh = {
+	name = "md_pouches_04bis_mesh"
+	file = "md_pouches_04bis.mesh"
+
+	blend_shape = { id = "md_pouches_04bis_bs_fat"		    type = "md_pouches_04bis_bs_fat.mesh" }
+	blend_shape = { id = "md_pouches_04bis_bs_gaunt"		type = "md_pouches_04bis_bs_gaunt.mesh" }
+	blend_shape = { id = "md_pouches_04bis_bs_old"		    type = "md_pouches_04bis_bs_old.mesh" }
+	blend_shape = { id = "md_pouches_04bis_bs_thick"		type = "md_pouches_04bis_bs_thick.mesh" }
+	blend_shape = { id = "md_pouches_04bis_bs_thin"		type = "md_pouches_04bis_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "md_pouches_04"
+		index = 0
+		texture_diffuse = "md_pouches_04_d.dds"
+		texture_normal = "md_pouches_04_n.dds"
+		texture_specular = "md_pouches_04_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+
+entity = {
+	name = "com_pouches_04bis_entity"
+	pdxmesh = "md_pouches_04bis_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_04bis_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_04bis_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "md_pouches_04bis_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "md_pouches_04bis_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "md_pouches_04bis_bs_thin" }
+
+		game_data = {
+            portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_04_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "md_pouches_khaki"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
