@@ -26,13 +26,13 @@ special_genes = {
 				index = 1
 				male = {
 					1 = com_pouches_01
-					1 = com_pouches_01bis
+					# 1 = com_pouches_01bis
 					1 = com_pouches_02
-					1 = com_pouches_02bis
+					# 1 = com_pouches_02bis
 					1 = com_pouches_03
-					1 = com_pouches_03bis
+					# 1 = com_pouches_03bis
 					1 = com_pouches_04
-					1 = com_pouches_04bis
+					# 1 = com_pouches_04bis
 				female = {
 					1 = empty
 				}

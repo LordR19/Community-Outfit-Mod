@@ -1522,6 +1522,12 @@ COM_central_europe_clothes = {
                 template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
+            accessory = {
+                mode = add
+                gene = com_pouches
+                template = com_all_pouches
+                accessory = com_pouches_02
+            }
         }
 
         weight = {
@@ -1641,6 +1647,12 @@ COM_central_europe_clothes = {
                 gene = com_suspenders
                 template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_pouches
+                template = com_all_pouches
+                accessory = com_pouches_02
             }
         }
 
@@ -4437,6 +4449,12 @@ COM_central_europe_clothes = {
                 gene = com_suspenders
                 template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
+            }
+            accessory = {
+                mode = add
+                gene = com_pouches
+                template = com_all_pouches
+                accessory = com_pouches_02
             }
         }
         weight = {

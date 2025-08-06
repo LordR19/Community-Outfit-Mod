@@ -238,7 +238,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_04_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "com_male_belt_military_brown"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_belt_military_canvas"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
@@ -281,7 +281,7 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_belts/pouches/md_pouches_04_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
-				variation = "md_pouches_khaki"	#A "variation" object in gfx/portraits/accessory_variations/
+				variation = "com_male_belt_military_canvas"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}
