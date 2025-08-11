@@ -121,7 +121,12 @@ COM_north_america_clothes = {
             modifier = {
                 add = 12001
                 has_dlc_feature = ep1_cosmetics
-                COM_is_or_was_tag = { TAG = USA }
+                OR = {
+                    COM_is_or_was_tag = { TAG = USA }
+                    COM_is_culture_tag = { culture = yankee }
+                    COM_is_culture_tag = { culture = dixie }
+                    COM_is_culture_tag = { culture = afro_american }
+                }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
                 NOT = { COM_is_monarch_leader = yes }
@@ -232,8 +237,13 @@ COM_north_america_clothes = {
             modifier = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
+                OR = {
+                    COM_is_or_was_tag = { TAG = USA }
+                    COM_is_culture_tag = { culture = yankee }
+                    COM_is_culture_tag = { culture = dixie }
+                    COM_is_culture_tag = { culture = afro_american }
+                }
                 COM_is_late_military = yes
-                COM_is_or_was_tag = { TAG = USA }
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -354,8 +364,13 @@ COM_north_america_clothes = {
             modifier = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
+                OR = {
+                    COM_is_or_was_tag = { TAG = USA }
+                    COM_is_culture_tag = { culture = yankee }
+                    COM_is_culture_tag = { culture = dixie }
+                    COM_is_culture_tag = { culture = afro_american }
+                }
                 COM_is_late_military = yes
-                COM_is_or_was_tag = { TAG = USA }
                 soldier_clothes_pop_trigger = yes
             }
         }

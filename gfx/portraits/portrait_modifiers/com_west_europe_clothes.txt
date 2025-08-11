@@ -2217,12 +2217,26 @@ COM_west_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 12001
+                add = 12000
                 has_dlc_feature = ep1_cosmetics
-                COM_is_or_was_tag = { TAG = GBR }
+                COM_is_or_was_tag_strict = { TAG = GBR }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
                 NOT = { COM_is_monarch_leader = yes }
+            }
+            modifier = {    # British subjects and releasables
+                add = 1200
+                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    COM_is_or_was_tag = { TAG = GBR }
+                    COM_is_culture_tag = { culture = british }
+                    COM_is_culture_tag = { culture = scottish }
+                    COM_is_culture_tag = { culture = welsh }
+                    COM_is_culture_tag = { culture = irish }
+                }
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                # NOT = { COM_is_monarch_leader = yes }
             }
         }
     }
@@ -2330,8 +2344,21 @@ COM_west_europe_clothes = {
             modifier = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
+                COM_is_or_was_tag_strict = { TAG = GBR }
                 COM_is_late_military = yes
-                COM_is_or_was_tag = { TAG = GBR }
+                officers_clothes_pop_trigger = yes
+            }
+            modifier = {
+                add = 1200
+                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    COM_is_or_was_tag = { TAG = GBR }
+                    COM_is_culture_tag = { culture = british }
+                    COM_is_culture_tag = { culture = scottish }
+                    COM_is_culture_tag = { culture = welsh }
+                    COM_is_culture_tag = { culture = irish }
+                }
+                COM_is_late_military = yes
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -2452,8 +2479,21 @@ COM_west_europe_clothes = {
             modifier = {
                 add = 12000
                 has_dlc_feature = ep1_cosmetics
+                COM_is_or_was_tag_strict = { TAG = GBR }
                 COM_is_late_military = yes
-                COM_is_or_was_tag = { TAG = GBR }
+                soldier_clothes_pop_trigger = yes
+            }
+            modifier = {
+                add = 1200
+                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    COM_is_or_was_tag = { TAG = GBR }
+                    COM_is_culture_tag = { culture = british }
+                    COM_is_culture_tag = { culture = scottish }
+                    COM_is_culture_tag = { culture = welsh }
+                    COM_is_culture_tag = { culture = irish }
+                }
+                COM_is_late_military = yes
                 soldier_clothes_pop_trigger = yes
             }
         }

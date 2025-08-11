@@ -295,6 +295,21 @@ COM_is_or_was_tag_strict = {  ### doesn't include vassals
     }
 }
 
+COM_is_culture_tag = {
+    OR = {
+        scope:character ?= {
+            home_country ?= {
+			    country_has_primary_culture = cu:$culture$
+            }
+        }
+        scope:pop ?= {
+            home_country ?= {
+			    country_has_primary_culture = cu:$culture$
+            }
+        }
+    }
+}
+
 # SASHES SCA TRIGGERS
 
 COM_is_swedish_SCA = {

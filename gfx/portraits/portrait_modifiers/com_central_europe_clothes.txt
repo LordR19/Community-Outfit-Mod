@@ -329,7 +329,7 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 10001
+                add = 10000
                 COM_is_or_was_tag = { TAG = AUS }
                 OR = {
                     COM_is_general_leader = yes
@@ -437,7 +437,7 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 11001
+                add = 11000
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_mid_military = yes
                 COM_is_general_leader = yes
@@ -550,7 +550,7 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 12001
+                add = 12000
                 has_dlc_feature = ep1_cosmetics
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
@@ -664,7 +664,7 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 13001
+                add = 13000
                 has_dlc_feature = ep1_cosmetics
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_interwar_military = yes
@@ -766,7 +766,7 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 13002
+                add = 13001
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
@@ -3893,9 +3893,9 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
+                COM_is_or_was_tag_strict = { TAG = PRU }
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
-                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }
@@ -4018,18 +4018,21 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 12000
+                COM_is_or_was_tag_strict = { TAG = PRU }
                 COM_is_general_leader = yes
                 COM_is_late_military = yes
-                COM_is_or_was_tag_strict = { TAG = PRU }
+                NOT = { COM_is_monarch_leader = yes }
             }
             modifier = {    # use for generic Germans with lower priority than unique uniforms
                 add = 1200
-                COM_is_general_leader = yes
-                COM_is_late_military = yes
                 OR = {
+                    COM_is_or_was_tag = { TAG = PRU } # also for Prussian subjects
                     german_clothes_trigger = yes
                     german_clothes_pop_trigger = yes
                 }
+                COM_is_general_leader = yes
+                COM_is_late_military = yes
+                NOT = { COM_is_monarch_leader = yes }
             }
         }
     }
@@ -4140,8 +4143,8 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_early_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                COM_is_early_military = yes
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -4259,17 +4262,18 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 12000
-                COM_is_late_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                COM_is_late_military = yes
                 officers_clothes_pop_trigger = yes
             }
             modifier = {    # use for generic Germans with lower priority than unique uniforms
                 add = 1200
-                COM_is_late_military = yes
                 OR = {
+                    COM_is_or_was_tag = { TAG = PRU } # also for Prussian subjects
                     german_clothes_trigger = yes
                     german_clothes_pop_trigger = yes
                 }
+                COM_is_late_military = yes
                 officers_clothes_pop_trigger = yes
             }
         }
@@ -4369,8 +4373,8 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_early_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                COM_is_early_military = yes
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -4481,17 +4485,18 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 12000
-                COM_is_late_military = yes
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                COM_is_late_military = yes
                 soldier_clothes_pop_trigger = yes
             }
             modifier = {    # use for generic Germans with lower priority than unique uniforms
                 add = 1200
-                COM_is_late_military = yes
                 OR = {
+                    COM_is_or_was_tag = { TAG = PRU } # also for Prussian subjects
                     german_clothes_trigger = yes
                     german_clothes_pop_trigger = yes
                 }
+                COM_is_late_military = yes
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -4591,13 +4596,31 @@ COM_central_europe_clothes = {
                 template = com_suspenders_late
                 accessory = com_male_suspenders_military_01
             }
+            accessory = {
+                mode = add
+                gene = com_pouches
+                template = com_all_pouches
+                accessory = com_pouches_02
+            }
         }
         weight = {
             base = 0
             modifier = {
                 add = 13000
-                COM_is_interwar_military = yes
+                has_dlc_feature = ep1_cosmetics
                 COM_is_or_was_tag_strict = { TAG = PRU }
+                COM_is_interwar_military = yes
+                soldier_clothes_pop_trigger = yes
+            }
+            modifier = {    # use for generic Germans with lower priority than unique uniforms
+                add = 1200
+                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    COM_is_or_was_tag = { TAG = PRU } # also for Prussian subjects
+                    german_clothes_trigger = yes
+                    german_clothes_pop_trigger = yes
+                }
+                COM_is_interwar_military = yes
                 soldier_clothes_pop_trigger = yes
             }
         }
@@ -4721,11 +4744,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-
+                COM_is_or_was_tag_strict = { TAG = PRU }
                 year < 1860
                 COM_is_admiral_leader = yes
                 COM_is_early_military = yes
-                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }
@@ -4848,11 +4870,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-
+                COM_is_or_was_tag_strict = { TAG = PRU }
                 year >= 1860
                 COM_is_admiral_leader = yes
                 COM_is_early_military = yes
-                COM_is_or_was_tag_strict = { TAG = PRU }
             }
         }
     }
