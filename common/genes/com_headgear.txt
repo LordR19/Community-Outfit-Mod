@@ -66,6 +66,7 @@ special_genes = {
 					1 = com_male_headgear_adrian_fra
 					1 = com_male_headgear_brodie
 					1 = com_male_headgear_pickelhaube_fabric
+					1 = com_male_headgear_campaign_hat
 				}
 				female = {
 					1 = empty

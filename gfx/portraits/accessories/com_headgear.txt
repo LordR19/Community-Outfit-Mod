@@ -282,3 +282,8 @@ com_male_headgear_pickelhaube_fabric = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_pickelhaube_fabric_entity" }
 }
+
+com_male_headgear_campaign_hat = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_campaign_hat_entity" }
+}
