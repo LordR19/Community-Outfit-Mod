@@ -55,7 +55,6 @@ special_genes = {
 					1 = com_male_headgear_shako_02_AUS
 					1 = com_male_headgear_korean_pickelhaube
 					1 = com_male_headgear_european_military_02_FRA
-					1 = male_headgear_austrian_military_03
 					1 = male_headgear_european_military_05
 					1 = male_headgear_european_feldkappe_01_AUS
 					1 = male_headgear_european_kepi_01_AUS
@@ -65,8 +64,10 @@ special_genes = {
 					1 = com_male_headgear_adrian
 					1 = com_male_headgear_adrian_fra
 					1 = com_male_headgear_brodie
+					2 = com_male_headgear_european_military_03_PRU_late
 					1 = com_male_headgear_pickelhaube_fabric
 					1 = com_male_headgear_campaign_hat
+					1 = com_male_headgear_european_military_03_USA_late
 				}
 				female = {
 					1 = empty
@@ -439,6 +440,23 @@ special_genes = {
 					1 = com_male_headgear_brodie
 					4 = com_male_headgear_european_late_military_04_GBR
 					4 = male_headgear_european_late_military_04
+					1 = 0
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_USA_headgear_late = {
+				index = 28
+				male = {
+					3 = com_male_headgear_brodie
+					3 = com_male_headgear_campaign_hat
+					3 = com_male_headgear_european_military_03_USA_late
+					# 4 = com_male_headgear_european_late_military_04_GBR
 					1 = 0
 				}
 
