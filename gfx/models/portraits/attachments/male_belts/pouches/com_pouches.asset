@@ -1,7 +1,7 @@
 ### JAPANESE/BOX STYLE POUCHES
 
 pdxmesh = {
-	name = "md_pouches_01_mesh"
+	name = "com_pouches_01_mesh"
 	file = "md_pouches_01.mesh"
 
 	blend_shape = { id = "md_pouches_01_bs_fat"		    type = "md_pouches_01_bs_fat.mesh" }
@@ -24,7 +24,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_pouches_01_entity"
-	pdxmesh = "md_pouches_01_mesh"
+	pdxmesh = "com_pouches_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_01_bs_gaunt" }
@@ -44,7 +44,7 @@ entity = {
 }
 entity = {
 	name = "com_pouches_01bis_entity"
-	pdxmesh = "md_pouches_01_mesh"
+	pdxmesh = "com_pouches_01_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_01_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_01_bs_gaunt" }
@@ -68,7 +68,7 @@ entity = {
 #### GERMAN STYLE POUCHES
 
 pdxmesh = {
-	name = "md_pouches_02_mesh"
+	name = "com_pouches_02_mesh"
 	file = "md_pouches_02.mesh"
 
 	blend_shape = { id = "md_pouches_02_bs_fat"		    type = "md_pouches_02_bs_fat.mesh" }
@@ -91,7 +91,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_pouches_02_entity"
-	pdxmesh = "md_pouches_02_mesh"
+	pdxmesh = "com_pouches_02_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_02_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_02_bs_gaunt" }
@@ -111,7 +111,7 @@ entity = {
 }
 entity = {
 	name = "com_pouches_02bis_entity"
-	pdxmesh = "md_pouches_02_mesh"
+	pdxmesh = "com_pouches_02_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_02_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_02_bs_gaunt" }
@@ -135,7 +135,7 @@ entity = {
 #### FRENCH STYLE POUCHES
 
 pdxmesh = {
-	name = "md_pouches_03_mesh"
+	name = "com_pouches_03_mesh"
 	file = "md_pouches_03.mesh"
 
 	blend_shape = { id = "md_pouches_03_bs_fat"		    type = "md_pouches_03_bs_fat.mesh" }
@@ -158,7 +158,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_pouches_03_entity"
-	pdxmesh = "md_pouches_03_mesh"
+	pdxmesh = "com_pouches_03_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_03_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_03_bs_gaunt" }
@@ -178,7 +178,7 @@ entity = {
 }
 entity = {
 	name = "com_pouches_03bis_entity"
-	pdxmesh = "md_pouches_03_mesh"
+	pdxmesh = "com_pouches_03_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_03_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_03_bs_gaunt" }
@@ -202,7 +202,7 @@ entity = {
 #### BRIT/US STYLE POUCHES
 
 pdxmesh = {
-	name = "md_pouches_04_mesh"
+	name = "com_pouches_04_mesh"
 	file = "md_pouches_04.mesh"
 
 	blend_shape = { id = "md_pouches_04_bs_fat"		    type = "md_pouches_04_bs_fat.mesh" }
@@ -225,7 +225,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_pouches_04_entity"
-	pdxmesh = "md_pouches_04_mesh"
+	pdxmesh = "com_pouches_04_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_04_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_04_bs_gaunt" }
@@ -245,7 +245,7 @@ entity = {
 }
 
 pdxmesh = {
-	name = "md_pouches_04bis_mesh"
+	name = "com_pouches_04bis_mesh"
 	file = "md_pouches_04bis.mesh"
 
 	blend_shape = { id = "md_pouches_04bis_bs_fat"		    type = "md_pouches_04bis_bs_fat.mesh" }
@@ -268,7 +268,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_pouches_04bis_entity"
-	pdxmesh = "md_pouches_04bis_mesh"
+	pdxmesh = "com_pouches_04bis_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_pouches_04bis_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_pouches_04bis_bs_gaunt" }

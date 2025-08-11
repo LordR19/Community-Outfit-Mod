@@ -4,7 +4,7 @@
 # X Shaped bandolier
 
 pdxmesh = {
-	name = "md_x_bandolier_mesh"
+	name = "com_x_bandolier_mesh"
 	file = "md_x_bandolier.mesh"
 
 	blend_shape = { id = "md_x_bandolier_bs_fat"			type = "md_x_bandolier_bs_fat.mesh" }
@@ -27,7 +27,7 @@ pdxmesh = {
 # EARLY LEFT BANDOLIER
 
 pdxmesh = {
-	name = "md_side_bandolier_left_mesh"
+	name = "com_side_bandolier_left_mesh"
 	file = "md_side_bandolier_left.mesh"
 
 	blend_shape = { id = "md_side_bandolier_left_bs_fat"			type = "md_side_bandolier_left_bs_fat.mesh" }
@@ -50,7 +50,7 @@ pdxmesh = {
 # EARLY RIGHT BANDOLIER
 
 pdxmesh = {
-	name = "md_side_bandolier_right_mesh"
+	name = "com_side_bandolier_right_mesh"
 	file = "md_side_bandolier_right.mesh"
 
 	blend_shape = { id = "md_side_bandolier_right_bs_fat"				type = "md_side_bandolier_right_bs_fat.mesh" }
@@ -73,7 +73,7 @@ pdxmesh = {
 # LATE LEFT BANDOLIER
 
 pdxmesh = {
-	name = "md_side_bandolier_left_late_mesh"
+	name = "com_side_bandolier_left_late_mesh"
 	file = "md_side_bandolier_left_late.mesh"
 
 	blend_shape = { id = "md_side_bandolier_left_late_bs_fat"				type = "md_side_bandolier_left_late_bs_fat.mesh" }
@@ -96,7 +96,7 @@ pdxmesh = {
 # LATE RIGHT BANDOLIER
 
 pdxmesh = {
-	name = "md_side_bandolier_right_late_mesh"
+	name = "com_side_bandolier_right_late_mesh"
 	file = "md_side_bandolier_right_late.mesh"
 
 	blend_shape = { id = "md_side_bandolier_right_late_bs_fat"				type = "md_side_bandolier_right_late_bs_fat.mesh" }
@@ -123,7 +123,7 @@ pdxmesh = {
 
 entity = {
 	name = "com_x_bandolier_white_entity"
-	pdxmesh = "md_x_bandolier_mesh"
+	pdxmesh = "com_x_bandolier_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_x_bandolier_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_x_bandolier_bs_gaunt" }
@@ -144,7 +144,7 @@ entity = {
 
 entity = {
 	name = "com_x_bandolier_brown_entity"
-	pdxmesh = "md_x_bandolier_mesh"
+	pdxmesh = "com_x_bandolier_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_x_bandolier_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_x_bandolier_bs_gaunt" }
@@ -165,7 +165,7 @@ entity = {
 
 entity = {
 	name = "com_x_bandolier_black_entity"
-	pdxmesh = "md_x_bandolier_mesh"
+	pdxmesh = "com_x_bandolier_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_x_bandolier_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_x_bandolier_bs_gaunt" }
@@ -192,7 +192,7 @@ entity = {
 
 entity = {
 	name = "com_side_bandolier_left_white_entity"
-	pdxmesh = "md_side_bandolier_left_mesh"
+	pdxmesh = "com_side_bandolier_left_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_bs_gaunt" }
@@ -213,7 +213,7 @@ entity = {
 
 entity = {
 	name = "com_side_bandolier_left_brown_entity"
-	pdxmesh = "md_side_bandolier_left_mesh"
+	pdxmesh = "com_side_bandolier_left_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_bs_gaunt" }
@@ -234,7 +234,7 @@ entity = {
 
 entity = {
 	name = "com_side_bandolier_left_black_entity"
-	pdxmesh = "md_side_bandolier_left_mesh"
+	pdxmesh = "com_side_bandolier_left_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_left_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_left_bs_gaunt" }
@@ -261,7 +261,7 @@ entity = {
 
 entity = {
 	name = "com_side_bandolier_right_white_entity"
-	pdxmesh = "md_side_bandolier_right_mesh"
+	pdxmesh = "com_side_bandolier_right_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_bs_gaunt" }
@@ -282,7 +282,7 @@ entity = {
 
 entity = {
 	name = "com_side_bandolier_right_brown_entity"
-	pdxmesh = "md_side_bandolier_right_mesh"
+	pdxmesh = "com_side_bandolier_right_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_bs_gaunt" }
@@ -303,7 +303,7 @@ entity = {
 
 entity = {
 	name = "com_side_bandolier_right_black_entity"
-	pdxmesh = "md_side_bandolier_right_mesh"
+	pdxmesh = "com_side_bandolier_right_mesh"
 
 		attribute = { name = "body_bs_fat"					blend_shape = "md_side_bandolier_right_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "md_side_bandolier_right_bs_gaunt" }
