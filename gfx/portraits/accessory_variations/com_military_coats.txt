@@ -77,7 +77,7 @@ variation = {
 
 #Austrian Uniform 03 navy
 variation = {
-	name = "male_coats_austrian_navy"
+	name = "com_male_coats_austrian_navy"
 
 
 	pattern = {

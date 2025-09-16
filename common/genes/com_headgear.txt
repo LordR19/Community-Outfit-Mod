@@ -93,6 +93,7 @@ special_genes = {
 				index = 3
 				male = {
 					1 = com_male_headgear_european_military_05_GRE
+					3 = male_headgear_european_military_02_greek
 					2 = empty
 				}
 				female = {
@@ -357,9 +358,11 @@ special_genes = {
 				index = 22
 				male = {
 					1 = 0
-					5 = male_headgear_european_military_05
+					1 = male_headgear_european_military_05
+					3 = male_headgear_austrian_military_cap_02
 					1 = 0
-					1 = com_male_headgear_shako_02_AUS
+					2 = com_male_headgear_shako_02_AUS
+					2 = male_headgear_austrian_military_cap_01
 				}
 
 				female = {

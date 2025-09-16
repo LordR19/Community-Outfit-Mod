@@ -188,7 +188,7 @@ COM_is_european = {     # taken from the vanilla europe triggers with some adjus
         scope:character ?= {
             AND = {
                 culture = {
-                    has_discrimination_trait = european_heritage
+                    has_discrimination_trait_group = heritage_group_european
                 }
                 NOT = {
                     culture = cu:circassian
@@ -213,7 +213,7 @@ COM_is_european = {     # taken from the vanilla europe triggers with some adjus
         }
         scope:pop ?= {
             culture = {
-                has_discrimination_trait = european_heritage
+                has_discrimination_trait_group = heritage_group_european
             }
             NOT = {
                 culture = cu:circassian
@@ -236,10 +236,16 @@ COM_is_or_was_tag = {
                     }
                     top_overlord = {
                         was_formed_from = $TAG$
+                        NOT = {
+					        is_diplomatic_play_enemy_of = overlord
+                        }
                     }
                     AND = {
                         exists = c:$TAG$
                         is_subject_of = c:$TAG$
+                        NOT = {
+					        is_diplomatic_play_enemy_of = overlord
+                        }
                     }
                     was_formed_from = $TAG$
                 }
@@ -254,10 +260,16 @@ COM_is_or_was_tag = {
                     }
                     top_overlord = {
                         was_formed_from = $TAG$
+                        NOT = {
+					        is_diplomatic_play_enemy_of = overlord
+                        }
                     }
                     AND = {
                         exists = c:$TAG$
                         is_subject_of = c:$TAG$
+                        NOT = {
+					        is_diplomatic_play_enemy_of = overlord
+                        }
                     }
                     was_formed_from = $TAG$
                 }

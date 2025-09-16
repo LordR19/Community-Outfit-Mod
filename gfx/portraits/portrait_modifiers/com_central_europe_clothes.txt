@@ -1,14 +1,14 @@
 ﻿
-    #############
-    # By Lord R #
-    #############
+#############
+# By Lord R #
+#############
 
 COM_central_europe_clothes = {
     usage = game
     selection_behavior = weighted_random
 
 
-### AUSTRIA
+    ### AUSTRIA
 
 
     ###################
@@ -57,12 +57,6 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template  = no_belt
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
                 gene = medals
                 template = no_medals
                 range = { 0 1 }
@@ -71,12 +65,6 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = headgear
                 template = no_headgear
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
                 range = { 0 1 }
             }
             ### ADD
@@ -88,15 +76,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_legwear
-                template = com_AUS_legwear
-                accessory = male_legwear_european_01_red
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = generic_belts
-                accessory = male_belt_generic_01
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = male_legwear_austrian_01_red
             }
             accessory = {
                 mode = add
@@ -106,9 +94,9 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_sashes
-                template = com_AUS_sashes
-                accessory = com_male_sash_AUS
+                gene = sashes
+                template = male_sashes_austrian_01
+                accessory = male_sashes_austrian_01
             }
             accessory = {
                 mode = add
@@ -199,9 +187,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01
+            }
+            accessory = {
+                mode = add
                 gene = com_legwear
                 template = com_AUS_legwear
-                accessory = com_male_legwear_european_black_red_stripe
+                accessory = male_legwear_austrian_01_black
             }
             accessory = {
                 mode = add
@@ -254,12 +248,6 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = legwear
-                template = no_legwear
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
                 gene = epaulettes
                 template = no_epaulette
                 range = { 0 1 }
@@ -297,15 +285,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = com_legwear
-                template = com_AUS_legwear
-                accessory = male_legwear_european_01_red
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = generic_belts
-                range = { 0 0.49 } # For the randomness to work correctly
+                gene = com_legwear
+                template = com_AUS_legwear
+                accessory = male_legwear_austrian_01_red
             }
             accessory = {
                 mode = add
@@ -323,7 +311,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.5 0.875 } # For the randomness to work correctly
+                range = { 0.05 0.2 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -412,8 +400,8 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = belts
-                template = generic_belts
-                range = { 0 0.49 } # For the randomness to work correctly
+                template = belt_austrian
+                accessory = male_belt_austrian_01
             }
             accessory = {
                 mode = add
@@ -431,7 +419,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.5 0.875 } # For the randomness to work correctly
+                range = { 0 0.5 } # For the randomness to work correctly
             }
         }
         weight = {
@@ -551,7 +539,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 12000
-                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
@@ -658,14 +649,17 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear_interwar
-                range = { 0.4 1 }
+                range = { 0.8 1 }
             }
         }
         weight = {
             base = 0
             modifier = {
                 add = 13000
-                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_interwar_military = yes
                 COM_is_general_leader = yes
@@ -693,12 +687,6 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = coats
                 template  = no_coat
-                range = { 0 1 }
-            }
-            accessory = {
-                mode = add
-                gene = legwear
-                template = no_legwear
                 range = { 0 1 }
             }
             accessory = {
@@ -746,9 +734,21 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01
+            }
+            accessory = {
+                mode = add
                 gene = com_legwear
                 template = com_AUS_legwear
-                accessory = com_male_legwear_european_black_red_stripe
+                accessory = male_legwear_austrian_01_black
+            }
+            accessory = {
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                range = { 0 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -853,8 +853,8 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = belts
-                template = generic_belts
-                range = { 0 0.49 } # For the randomness to work correctly
+                template = belt_austrian
+                accessory = male_belt_austrian_01
             }
             accessory = {
                 mode = add
@@ -866,7 +866,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0.05 0.2 } # For the randomness to work correctly
             }
         }
 
@@ -953,8 +953,8 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = belts
-                template = generic_belts
-                range = { 0 0.49 } # For the randomness to work correctly
+                template = belt_austrian
+                accessory = male_belt_austrian_01
             }
             accessory = {
                 mode = add
@@ -966,7 +966,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.5 } # For the randomness to work correctly
             }
         }
 
@@ -1087,7 +1087,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 12000
-                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
                 COM_is_late_military = yes
                 COM_is_or_was_tag = { TAG = AUS }
                 officers_clothes_pop_trigger = yes
@@ -1201,7 +1204,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 13000
-                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
                 COM_is_interwar_military = yes
                 COM_is_or_was_tag = { TAG = AUS }
                 officers_clothes_pop_trigger = yes
@@ -1291,7 +1297,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.9 1 } # For the randomness to work correctly
+                accessory = com_male_headgear_shako_02_AUS
             }
             accessory = {
                 mode = add
@@ -1397,7 +1403,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.9 1 } # For the randomness to work correctly
+                range = { 0.8 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -1536,7 +1542,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 12000
-                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
                 COM_is_late_military = yes
                 COM_is_or_was_tag = { TAG = AUS }
                 soldier_clothes_pop_trigger = yes
@@ -1662,7 +1671,10 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 13000
-                has_dlc_feature = ep1_cosmetics
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
                 COM_is_interwar_military = yes
                 COM_is_or_was_tag = { TAG = AUS }
                 soldier_clothes_pop_trigger = yes
@@ -1719,6 +1731,12 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = headgear
                 template = no_headgear
                 range = { 0 1 }
@@ -1738,9 +1756,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01
+            }
+            accessory = {
+                mode = add
                 gene = com_legwear
                 template = com_AUS_legwear
-                range = { 0.25 0.75 } # For the randomness to work correctly
+                range = { 0.3 0.6 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -1750,15 +1774,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 0.5 } # For the randomness to work correctly
+                gene = com_medals
+                template = com_medals_AUS
+                range = { 0.1 1 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear
-                range = { 0.375 0.875 } # For the randomness to work correctly
+                accessory = male_headgear_european_military_05
             }
         }
 
@@ -1772,7 +1796,7 @@ COM_central_europe_clothes = {
         }
     }
 
-### BADEN
+    ### BADEN
 
     #Clothes for the Baden Royals (early)
     COM_BAD_royal_clothes = {
@@ -2352,7 +2376,7 @@ COM_central_europe_clothes = {
 
 
 
-### BAVARIA
+    ### BAVARIA
 
     #Clothes for the Bavarian Royals
     COM_BAV_royal_clothes = {
@@ -2851,7 +2875,7 @@ COM_central_europe_clothes = {
 
 
 
-### BRUNSWICK
+    ### BRUNSWICK
 
     #Clothes for the Brunswick Royals
     COM_BRA_royal_clothes = {
@@ -2957,7 +2981,7 @@ COM_central_europe_clothes = {
 
 
 
-### HANNOVER
+    ### HANNOVER
 
     #Clothes for the Hanoverian Royals
     COM_HAN_royal_clothes = {
@@ -3064,7 +3088,7 @@ COM_central_europe_clothes = {
 
 
 
-### HESSE-KASSEL
+    ### HESSE-KASSEL
 
 
 
@@ -3166,7 +3190,7 @@ COM_central_europe_clothes = {
 
 
 
-### HESSE
+    ### HESSE
 
 
 
@@ -3270,7 +3294,7 @@ COM_central_europe_clothes = {
 
 
 
-### HOHENZOLLERN - SIGMARINGEN
+    ### HOHENZOLLERN - SIGMARINGEN
 
     #Clothes for the Hohenzollern-Sigmaringen Royals
     COM_HOH_royal_clothes = {
@@ -3369,7 +3393,7 @@ COM_central_europe_clothes = {
     }
 
 
-### MECKLENBURG
+    ### MECKLENBURG
 
 
 
@@ -3385,8 +3409,8 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_black_red_stripe
+                template = com_AUS_legwear
+                accessory = male_legwear_austrian_01_black
             }
             accessory = {
                 mode = add
@@ -3477,7 +3501,7 @@ COM_central_europe_clothes = {
     }
 
 
-### NASSAU
+    ### NASSAU
 
 
     #Clothes for the Nassau Royals
@@ -3493,7 +3517,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_black_red_stripe
+                accessory = male_legwear_austrian_01_black
             }
             accessory = {
                 mode = add
@@ -3585,7 +3609,7 @@ COM_central_europe_clothes = {
 
 
 
-### OLDENBURG
+    ### OLDENBURG
 
 
     #Clothes for the Oldenburg Royals
@@ -3691,7 +3715,7 @@ COM_central_europe_clothes = {
     }
 
 
-### PRUSSIA
+    ### PRUSSIA
 
     #Clothes for the Prussian Royals
     COM_PRU_royal_clothes = {
@@ -4879,7 +4903,7 @@ COM_central_europe_clothes = {
     }
 
 
-### SAXONY
+    ### SAXONY
 
     #Clothes for the Saxony Royals
     COM_SAX_royal_clothes = {
@@ -5363,7 +5387,7 @@ COM_central_europe_clothes = {
 
 
 
-### WALDEN
+    ### WALDEN
 
 
     #Clothes for the Waldeck Royals
@@ -5379,7 +5403,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_black_red_stripe
+                accessory = male_legwear_austrian_01_black
             }
             accessory = {
                 mode = add
@@ -5468,7 +5492,7 @@ COM_central_europe_clothes = {
         }
     }
 
-### WURTEMBERG
+    ### WURTEMBERG
 
 
 
@@ -6375,6 +6399,6 @@ COM_central_europe_clothes = {
         }
     }
 
-###
+    ###
 
 }

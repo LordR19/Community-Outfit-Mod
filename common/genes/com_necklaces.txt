@@ -30,6 +30,7 @@
 
                 male = {
                     1 = male_necklace_golden_fleece
+                    1 = empty
                 }
 
                 female = {

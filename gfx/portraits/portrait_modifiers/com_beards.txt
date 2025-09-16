@@ -129,7 +129,7 @@
 
                 scope:character ?= {
                     has_template = aus_franz_josef_I_habsburg_template
-                    age >= 20
+                    age >= 18
                 }
             }
         }

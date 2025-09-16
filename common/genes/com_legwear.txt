@@ -40,6 +40,7 @@ special_genes = {
 					1 = com_male_legwear_european_white
 					1 = com_male_legwear_european_very_black
 					1 = com_male_legwear_european_black_red_stripe
+					1 = male_legwear_austrian_01_black
 					1 = com_male_legwear_european_black_red_stripe_thin
 					1 = com_male_legwear_european_black_yellow_stripe_thin
 					1 = com_male_legwear_european_black_light_yellow_stripe_thin
@@ -50,6 +51,7 @@ special_genes = {
 					1 = com_male_legwear_AUS_late_military_01
 					1 = com_male_legwear_AUS_late_military_01_interwar
 					1 = com_male_legwear_PRU_military_01
+					1 = com_male_legwear_austrian_black_yellow_stripes
 				}
 				female = {
 					1 = empty
@@ -63,8 +65,9 @@ special_genes = {
 				male = {
                     1 = male_legwear_european_01_red
                     1 = male_legwear_european_01_white
-                    1 = male_legwear_european_01_black
-					1 = com_male_legwear_european_black_red_stripe
+					1 = com_male_legwear_austrian_black_yellow_stripes
+                    1 = male_legwear_austrian_01_red
+					1 = male_legwear_austrian_01_black
 				}
 				female = {
 					1 = empty
@@ -269,8 +272,7 @@ special_genes = {
 			com_BUL_military_legwear = {
 				index = 18
 				male = {
-					1 = male_legwear_european_01_black
-					1 = com_male_legwear_european_dark_blue
+					1 = male_legwear_austrian_01_black
 				}
 				female = {
 					1 = empty
