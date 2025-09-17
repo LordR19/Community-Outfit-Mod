@@ -1,14 +1,14 @@
 ﻿
-    #############
-    # By Lord R #
-    #############
+#############
+# By Lord R #
+#############
 
 COM_west_europe_clothes = {
     usage = game
     selection_behavior = weighted_random
 
 
-### BELGIUM
+    ### BELGIUM
 
     #Clothes for the Belgian Royals
     COM_BEL_royal_clothes = {
@@ -506,7 +506,7 @@ COM_west_europe_clothes = {
         }
     }
 
-### SWITZERLAND
+    ### SWITZERLAND
 
 
     #Outfit Swiss Admiral Characters
@@ -1276,7 +1276,7 @@ COM_west_europe_clothes = {
 
 
 
-### FRANCE
+    ### FRANCE
 
     #Clothes for the French Royals (regular)
     COM_FRA_royal_clothes = {
@@ -2105,7 +2105,7 @@ COM_west_europe_clothes = {
     }
 
 
-### Great Britain
+    ### Great Britain
 
 
     ### Army Uniforms
@@ -2499,7 +2499,7 @@ COM_west_europe_clothes = {
         }
     }
 
-### NETHERLANDS
+    ### NETHERLANDS
 
 
 
@@ -3009,7 +3009,7 @@ COM_west_europe_clothes = {
 
 
 
-### LUCCA
+    ### LUCCA
 
 
     #Clothes for the Lucca Royals
@@ -3116,7 +3116,7 @@ COM_west_europe_clothes = {
 
 
 
-### MODENA
+    ### MODENA
 
     #Clothes for the Modena Royals
     COM_MOD_royal_clothes = {
@@ -3219,7 +3219,7 @@ COM_west_europe_clothes = {
 
 
 
-### PARMA
+    ### PARMA
 
 
     #Clothes for the Parma Royals
@@ -3319,7 +3319,7 @@ COM_west_europe_clothes = {
     }
 
 
-### SARDIGNIA
+    ### SARDIGNIA
 
 
     #Clothes for the Sardinian Royals
@@ -3419,7 +3419,7 @@ COM_west_europe_clothes = {
     }
 
 
-### TUSCANY
+    ### TUSCANY
 
 
 
@@ -3521,7 +3521,7 @@ COM_west_europe_clothes = {
 
 
 
-### TWO SICILIES
+    ### TWO SICILIES
 
 
     #Clothes for the Two Sicily Royals
@@ -3628,7 +3628,7 @@ COM_west_europe_clothes = {
 
 
 
-### UNIFIED ITALY
+    ### UNIFIED ITALY
 
 
 
@@ -3846,7 +3846,11 @@ COM_west_europe_clothes = {
                 COM_is_early_military = yes
                 exists = scope:character
                 scope:character ?= {
-                    commander_rank = 3
+                    OR = {
+                        commander_rank = 3
+                        commander_rank = 4
+                        commander_rank = 5
+                    }
                     owner ?= {
                         OR = {
                             c:ITA ?= this
@@ -4293,7 +4297,7 @@ COM_west_europe_clothes = {
         }
     }
 
-### PORTUGAL
+    ### PORTUGAL
 
 
     #Clothes for the Portuguese Royals
@@ -4760,7 +4764,7 @@ COM_west_europe_clothes = {
 
 
 
-### SPAIN
+    ### SPAIN
 
 
     #Clothes for the Spanish Royals
@@ -5233,6 +5237,6 @@ COM_west_europe_clothes = {
 
 
 
-###
+    ###
 
 }
