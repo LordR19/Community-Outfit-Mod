@@ -59,6 +59,7 @@ special_genes = {
 					1 = com_male_military_coat_POR_royal_06
 					1 = com_male_military_coat_PRU_royal_03
 					1 = com_male_military_coat_PRU_royal_09
+					1 = com_male_military_coat_PRU_late_01
 					1 = com_male_military_coat_SAR_royal_01
 					1 = com_male_military_coat_SAR_royal_06
 					1 = com_male_military_coat_SER_royal_03
