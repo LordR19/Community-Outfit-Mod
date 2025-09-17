@@ -67,6 +67,12 @@ COM_central_europe_clothes = {
                 template = no_headgear
                 range = { 0 1 }
             }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
             ### ADD
             accessory = {
                 mode = add
@@ -94,8 +100,8 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = sashes
-                template = male_sashes_austrian_01
+                gene = com_sashes
+                template = com_AUS_sashes
                 accessory = male_sashes_austrian_01
             }
             accessory = {
@@ -254,6 +260,12 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = com_epaulettes
+                template = com_no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = aiguillettes
                 template  = no_aiguillettes
                 range = { 0 1 }
@@ -305,7 +317,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_sashes
                 template = com_AUS_sashes
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.5 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add
@@ -413,7 +425,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_sashes
                 template = com_AUS_sashes
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.5 } # For the randomness to work correctly
             }
             accessory = {
                 mode = add

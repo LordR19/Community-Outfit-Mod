@@ -106,7 +106,7 @@ COM_characters_override = {
                 mode = add
                 gene = com_medals
                 template = com_medals_AUS
-                range = { 0 0.5 } # For the randomness to work correctly
+                accessory = male_medals_austrian_01_04
             }
         }
 
@@ -121,4 +121,43 @@ COM_characters_override = {
         }
     }
 
+    COM_rudolf_habsburg_clothes = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sashes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_no_medals
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_AUS_sashes
+                accessory = male_sashes_austrian_01_metternich
+            }
+            accessory = {
+                mode = add
+                gene = com_medals
+                template = com_medals_AUS
+                accessory = male_medals_austrian_01_03
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 90000
+                scope:character ?= {
+                    has_template = aus_rudolf_habsburg
+                }
+            }
+        }
+    }
 }

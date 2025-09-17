@@ -132,7 +132,9 @@ special_genes = {
 				index = 2
 				male = {
 					1 = 0
-					1 = com_male_sash_AUS	# Maria Theresia Orden
+					# 1 = com_male_sash_AUS	# Maria Theresia Orden
+					2 = male_sashes_austrian_01	# Maria Theresia Orden
+					1 = male_sashes_austrian_01_metternich
 				}
 
 				female = {
