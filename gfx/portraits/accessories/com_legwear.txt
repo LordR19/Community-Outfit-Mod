@@ -51,28 +51,8 @@ com_male_legwear_european_black_dark_boots = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_dark_boots_entity" }
 }
 
-com_male_legwear_european_very_black = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_very_black_entity" }
-}
-
-com_male_legwear_european_black_red_stripe = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_entity" }
-}
-
-com_male_legwear_european_black_red_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_red_stripe_thin_entity" }
-}
-
-com_male_legwear_european_black_yellow_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_yellow_stripe_thin_entity" }
-}
-
 com_male_legwear_european_black_light_yellow_stripe_thin = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_light_yellow_stripe_thin_entity" }
-}
-
-com_male_legwear_european_dark_blue_yellow_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_yellow_stripe_thin_entity" }
 }
 
 com_male_legwear_european_light_blue_yellow_stripe = {
@@ -94,6 +74,18 @@ com_male_legwear_PRU_military_01 = {
 
 com_male_legwear_austrian_black_yellow_stripes = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_black_yellow_stripes_entity" }
+}
+
+com_male_legwear_austrian_black_red_stripe_thin = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_black_red_stripe_thin_entity" }
+}
+
+com_male_legwear_austrian_blue_yellow_stripes = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_blue_yellow_stripes_entity" }
+}
+
+com_male_legwear_austrian_blue_yellow_stripe_thin = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_blue_yellow_stripe_thin_entity" }
 }
 
 com_male_legwear_AUS_late_military_01 = {

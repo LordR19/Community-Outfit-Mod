@@ -1850,7 +1850,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -1949,7 +1949,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2050,7 +2050,7 @@ COM_central_europe_clothes = {
                 accessory = male_headgear_european_military_05
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2141,7 +2141,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2250,7 +2250,7 @@ COM_central_europe_clothes = {
                 range = { 0.51 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2335,7 +2335,7 @@ COM_central_europe_clothes = {
                 range = { 0.1 0.49 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2430,7 +2430,7 @@ COM_central_europe_clothes = {
                 range = { 0 0.79 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2534,7 +2534,7 @@ COM_central_europe_clothes = {
                 accessory = com_male_headgear_european_military_05_BAV
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2579,14 +2579,7 @@ COM_central_europe_clothes = {
                 COM_is_admiral_leader = yes
                 COM_is_early_military = yes
                 exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:BAV ?= this
-                            was_formed_from = BAV
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = BAV }
             }
         }
     }
@@ -2637,7 +2630,7 @@ COM_central_europe_clothes = {
                 range = { 0 0.75 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2694,14 +2687,7 @@ COM_central_europe_clothes = {
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
                 exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:BAV ?= this
-                            was_formed_from = BAV
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = BAV }
             }
         }
     }
@@ -2746,7 +2732,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2789,16 +2775,8 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 500
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = officers
-                    owner ?= {
-                        OR = {
-                            c:BAV ?= this
-                            was_formed_from = BAV
-                        }
-                    }
-                }
+                officers_clothes_pop_trigger = yes
+                COM_is_or_was_tag_strict = { TAG = BAV }
             }
         }
     }
@@ -2832,7 +2810,7 @@ COM_central_europe_clothes = {
                 range = { 0 0.49 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -2869,16 +2847,8 @@ COM_central_europe_clothes = {
             modifier = {
                 add = 500
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = soldiers
-                    owner ?= {
-                        OR = {
-                            c:BAV ?= this
-                            was_formed_from = BAV
-                        }
-                    }
-                }
+                soldier_clothes_pop_trigger = yes
+                COM_is_or_was_tag_strict = { TAG = BAV }
             }
         }
     }
@@ -2929,7 +2899,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3035,7 +3005,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3107,44 +3077,7 @@ COM_central_europe_clothes = {
     #Clothes for the Hesse-Kassel Royals
     COM_HEK_royal_clothes = {
         dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_HEK_noble_coats
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_black_red_stripe_thin
-            }
-            accessory = {
-                mode = add
-                gene = com_sashes
-                template = com_HEK_sashes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.25 0.66 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_epaulettes
-                template = com_all_epaulettes
-                accessory = com_male_epaulettes_04_HEK
-            }
-
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3181,6 +3114,43 @@ COM_central_europe_clothes = {
                 template = no_aiguillettes
                 range = { 0 1 } # For the randomness to work correctly
             }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_HEK_noble_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_austrian_black_red_stripe_thin
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_HEK_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = all_belts
+                range = { 0.25 0.66 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = com_all_epaulettes
+                accessory = com_male_epaulettes_04_HEK
+            }
         }
         weight = {
             base = 0
@@ -3210,44 +3180,7 @@ COM_central_europe_clothes = {
     #Clothes for the Hessian Royals
     COM_HES_royal_clothes = {
         dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_HES_noble_coats
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_all_legwear
-                accessory = com_male_legwear_european_very_black
-            }
-            accessory = {
-                mode = add
-                gene = com_sashes
-                template = com_HES_sashes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.25 0.66 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_epaulettes
-                template = com_all_epaulettes
-                accessory = com_male_epaulettes_04_silver
-            }
-
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3284,7 +3217,49 @@ COM_central_europe_clothes = {
                 template = no_aiguillettes
                 range = { 0 0.79 }
             }
-
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_HES_noble_coats
+                accessory = com_male_military_coat_HES_royal_01_a
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = male_legwear_european_01_black
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_HES_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01_white
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = com_all_epaulettes
+                accessory = male_epaulettes_04
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template = all_aiguillettes
+                range = { 0 0.79 }
+            }
         }
         weight = {
             base = 0
@@ -3292,14 +3267,7 @@ COM_central_europe_clothes = {
                 add = 500
                 COM_is_monarch_leader = yes
                 exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:HES ?= this
-                            was_formed_from = HES
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = HES }
             }
         }
     }
@@ -3354,7 +3322,7 @@ COM_central_europe_clothes = {
                 range = { 0 0.79 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3449,7 +3417,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3556,7 +3524,7 @@ COM_central_europe_clothes = {
                 accessory = com_male_epaulettes_04_NAS
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3637,7 +3605,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_very_black
+                accessory = male_legwear_european_01_black
             }
             accessory = {
                 mode = add
@@ -3670,7 +3638,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3714,14 +3682,7 @@ COM_central_europe_clothes = {
                 add = 500
                 COM_is_monarch_leader = yes
                 exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:OLD ?= this
-                            was_formed_from = OLD
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = OLD }
             }
         }
     }
@@ -3769,7 +3730,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -3881,7 +3842,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -4957,7 +4918,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5067,7 +5028,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5170,7 +5131,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5261,7 +5222,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5346,7 +5307,7 @@ COM_central_europe_clothes = {
                 range = { 0.1 0.7 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5442,7 +5403,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5554,7 +5515,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5658,7 +5619,7 @@ COM_central_europe_clothes = {
                 accessory = male_headgear_european_military_05
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5763,7 +5724,7 @@ COM_central_europe_clothes = {
                 accessory = com_male_headgear_european_military_03_PRU_b
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5874,7 +5835,7 @@ COM_central_europe_clothes = {
                 range = { 0.15 0.49 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -5985,7 +5946,7 @@ COM_central_europe_clothes = {
                 range = { 0.55 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -6084,7 +6045,7 @@ COM_central_europe_clothes = {
                 range = { 0 1 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -6184,7 +6145,7 @@ COM_central_europe_clothes = {
                 range = { 0.51 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -6265,7 +6226,7 @@ COM_central_europe_clothes = {
                 range = { 0.1 0.7 } # For the randomness to work correctly
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -6352,7 +6313,7 @@ COM_central_europe_clothes = {
                 range = { 0.65 1 }
             }
 
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats

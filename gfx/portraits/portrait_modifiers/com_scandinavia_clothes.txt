@@ -500,7 +500,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = com_male_legwear_austrian_black_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -598,7 +598,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = com_male_legwear_austrian_black_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -695,7 +695,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = male_legwear_austrian_01_black
             }
             accessory = {
                 mode = add
@@ -810,7 +810,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = male_legwear_austrian_01_black
             }
             accessory = {
                 mode = add
@@ -1143,7 +1143,7 @@ COM_scandinavia_clothes = {
             base = 0
             modifier = {
                 add = 1000
-                
+
                 COM_is_monarch_leader = yes
                 exists = scope:character
                 scope:character ?= {
@@ -1166,7 +1166,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -1229,7 +1229,7 @@ COM_scandinavia_clothes = {
             base = 0
             modifier = {
                 add = 1000
-                
+
                 COM_is_monarch_leader = yes
                 exists = scope:character
                 scope:character ?= {
@@ -1252,7 +1252,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -1315,7 +1315,7 @@ COM_scandinavia_clothes = {
             base = 0
             modifier = {
                 add = 1000
-                
+
                 COM_is_monarch_leader = yes
                 exists = scope:character
                 scope:character ?= {
@@ -1344,7 +1344,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -1401,7 +1401,7 @@ COM_scandinavia_clothes = {
             base = 0
             modifier = {
                 add = 1000
-                
+
                 COM_is_monarch_leader = yes
                 exists = scope:character
                 scope:character ?= {
@@ -1430,7 +1430,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -1493,7 +1493,7 @@ COM_scandinavia_clothes = {
             base = 0
             modifier = {
                 add = 1000
-                
+
                 COM_is_monarch_leader = yes
                 exists = scope:character
                 scope:character ?= {
@@ -1523,7 +1523,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_dark_blue_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -1606,7 +1606,7 @@ COM_scandinavia_clothes = {
             base = 0
             modifier = {
                 add = 1000
-                
+
                 COM_is_monarch_leader = yes
                 exists = scope:character
                 scope:character ?= {
@@ -1843,7 +1843,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_black_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripe_thin
             }
             accessory = {
                 mode = add
@@ -1945,7 +1945,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_black_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripe_thin
             }
             accessory = {
                 mode = add
@@ -2125,7 +2125,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_black_dark_boots
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -2201,7 +2201,7 @@ COM_scandinavia_clothes = {
             }
         }
     }
-                
+
 
     #Outfit Early Swedish Cavalry Soldier Pops
     COM_early_SWE_soldier_cavalry_outfit = {
@@ -2216,7 +2216,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_black_yellow_stripe_thin
+                accessory = com_male_legwear_austrian_blue_yellow_stripe_thin
             }
             accessory = {
                 mode = add
@@ -2857,7 +2857,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = com_male_legwear_austrian_black_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -2968,7 +2968,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = male_legwear_european_01_black
+                accessory = com_male_legwear_austrian_black_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -3073,7 +3073,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_light_blue_yellow_stripe
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -3176,7 +3176,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_light_blue_yellow_stripe
+                accessory = com_male_legwear_austrian_blue_yellow_stripes
             }
             accessory = {
                 mode = add
@@ -3273,7 +3273,7 @@ COM_scandinavia_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_all_legwear
-                accessory = com_male_legwear_european_light_blue_yellow_stripe
+                accessory = com_male_legwear_austrian_blue_yellow_stripe_thin
             }
             accessory = {
                 mode = add
