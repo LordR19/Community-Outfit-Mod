@@ -65,9 +65,19 @@ com_male_military_coat_AUS_late = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_late_entity" }
 }
 
+com_male_military_greatcoat_AUS_late = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_greatcoat_AUS_late_entity" }
+}
+
 com_male_military_coat_AUS_interwar = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_coat_AUS_interwar_entity" }
+}
+
+com_male_military_greatcoat_AUS_interwar = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_military_greatcoat_AUS_interwar_entity" }
 }
 
 com_male_military_coat_BAD_royal_03 = {

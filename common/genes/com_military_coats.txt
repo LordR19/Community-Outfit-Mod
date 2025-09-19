@@ -705,6 +705,7 @@ special_genes = {
                 male = {
                     1 = com_male_military_coat_AUS_late
                     1 = com_male_military_coat_AUS_late_06
+                    1 = com_male_military_greatcoat_AUS_late
                 }
 
                 female = {
@@ -1022,6 +1023,7 @@ special_genes = {
                 index = 62
                 male = {
                     1 = com_male_military_coat_AUS_interwar
+                    1 = com_male_military_greatcoat_AUS_interwar
                 }
 
                 female = {

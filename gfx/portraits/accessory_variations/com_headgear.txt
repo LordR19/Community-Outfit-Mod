@@ -664,7 +664,7 @@ variation = {
 		a = { textures = "generic_medal_metals_01" 					layout = "plain_fabric_layout" }
 	}
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform_late_hechtgrau.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/com_color_palette_AUS_uniform_late_hechtgrau.dds" }
 }
 
 variation = {
@@ -680,7 +680,7 @@ variation = {
 		a = { textures = "generic_medal_metals_01" 					layout = "plain_fabric_layout" }
 	}
 
-	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/military_coats/com_color_palette_AUS_uniform_late_feldgrau.dds" }
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/headgear/com_color_palette_AUS_uniform_late_feldgrau.dds" }
 }
 
 # Generic

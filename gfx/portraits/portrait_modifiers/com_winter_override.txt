@@ -1,0 +1,218 @@
+﻿
+COM_winter_override = {
+    usage = game
+    selection_behavior = weighted_random
+
+    COM_late_AUS_general_rank_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_no_belts
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_greatcoat_AUS_late
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_or_was_tag = { TAG = AUS }
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+            }
+        }
+    }
+
+    COM_interwar_AUS_general_rank_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_no_belts
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_interwar
+                accessory = com_male_military_greatcoat_AUS_interwar
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 13000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_or_was_tag = { TAG = AUS }
+                COM_is_interwar_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+            }
+        }
+    }
+
+    ### Officers
+
+    COM_late_AUS_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_no_belts
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_greatcoat_AUS_late
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_late_military = yes
+                COM_is_or_was_tag = { TAG = AUS }
+                officers_clothes_pop_trigger = yes
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+            }
+        }
+    }
+
+    COM_interwar_AUS_officer_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_no_belts
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_interwar
+                accessory = com_male_military_greatcoat_AUS_interwar
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 13000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_interwar_military = yes
+                COM_is_or_was_tag = { TAG = AUS }
+                officers_clothes_pop_trigger = yes
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+            }
+        }
+    }
+
+    ### Soldiers
+
+    COM_late_AUS_soldier_outfit = {
+        dna_modifiers = {
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_late
+                accessory = com_male_military_greatcoat_AUS_late
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 12000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_late_military = yes
+                COM_is_or_was_tag = { TAG = AUS }
+                soldier_clothes_pop_trigger = yes
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+            }
+        }
+    }
+
+    COM_interwar_AUS_soldier_outfit = {
+        dna_modifiers = {
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_AUS_military_coats_interwar
+                accessory = com_male_military_greatcoat_AUS_interwar
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 13000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_interwar_military = yes
+                COM_is_or_was_tag = { TAG = AUS }
+                soldier_clothes_pop_trigger = yes
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+            }
+        }
+    }
+
+}
