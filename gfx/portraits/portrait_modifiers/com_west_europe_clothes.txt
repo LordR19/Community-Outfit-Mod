@@ -3722,16 +3722,16 @@ COM_west_europe_clothes = {
                         OR = {
                             c:ITA ?= this
                             was_formed_from = ITA
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:south_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
                             }
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:north_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
@@ -3867,16 +3867,16 @@ COM_west_europe_clothes = {
                         OR = {
                             c:ITA ?= this
                             was_formed_from = ITA
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:south_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
                             }
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:north_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
@@ -4008,16 +4008,16 @@ COM_west_europe_clothes = {
                         OR = {
                             c:ITA ?= this
                             was_formed_from = ITA
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:south_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
                             }
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:north_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
@@ -4138,16 +4138,16 @@ COM_west_europe_clothes = {
                         OR = {
                             c:ITA ?= this
                             was_formed_from = ITA
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:south_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
                             }
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:north_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
@@ -4255,16 +4255,16 @@ COM_west_europe_clothes = {
                         OR = {
                             c:ITA ?= this
                             was_formed_from = ITA
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:south_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
                             }
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:north_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
@@ -4348,16 +4348,16 @@ COM_west_europe_clothes = {
                         OR = {
                             c:ITA ?= this
                             was_formed_from = ITA
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:south_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
                             }
-                            NAND = {
+                            AND = {
                                 country_has_primary_culture = cu:north_italian
-                                OR = {
+                                NOR = {
                                     COM_is_or_was_tag = { TAG = AUS }
                                     COM_is_or_was_tag = { TAG = HRE }
                                 }
