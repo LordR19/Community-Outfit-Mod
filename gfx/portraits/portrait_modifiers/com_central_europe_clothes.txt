@@ -261,7 +261,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = com_epaulettes
-                template = com_no_epaulette
+                template = com_no_epaulettes
                 range = { 0 1 }
             }
             accessory = {

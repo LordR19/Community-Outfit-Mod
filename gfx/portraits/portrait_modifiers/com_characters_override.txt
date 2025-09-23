@@ -127,7 +127,7 @@ COM_characters_override = {
             accessory = {
                 mode = add
                 gene = sashes
-                template = no_sashes
+                template = no_sash
                 range = { 0 1 }
             }
             accessory = {
