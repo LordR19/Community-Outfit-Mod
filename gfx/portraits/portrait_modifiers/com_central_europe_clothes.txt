@@ -69,6 +69,12 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = necklaces
+                template = no_necklaces
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = sashes
                 template = no_sash
                 range = { 0 1 }
@@ -176,6 +182,12 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = headgear
                 template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = necklaces
+                template = no_necklaces
                 range = { 0 1 }
             }
             accessory = {
