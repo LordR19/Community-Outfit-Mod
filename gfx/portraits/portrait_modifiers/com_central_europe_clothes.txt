@@ -254,6 +254,12 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = epaulettes
                 template = no_epaulette
                 range = { 0 1 }
@@ -297,15 +303,15 @@ COM_central_europe_clothes = {
             }
             accessory = {
                 mode = add
-                gene = belts
-                template = belt_austrian
-                accessory = male_belt_austrian_01
-            }
-            accessory = {
-                mode = add
                 gene = com_legwear
                 template = com_AUS_legwear
                 accessory = male_legwear_austrian_01_red
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01
             }
             accessory = {
                 mode = add
