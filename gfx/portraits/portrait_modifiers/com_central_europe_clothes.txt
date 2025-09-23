@@ -1819,7 +1819,7 @@ COM_central_europe_clothes = {
         weight = {
             base = 0
             modifier = {
-                add = 10000
+                add = 9000
                 COM_is_or_was_tag = { TAG = AUS }
                 COM_is_admiral_leader = yes
             }
