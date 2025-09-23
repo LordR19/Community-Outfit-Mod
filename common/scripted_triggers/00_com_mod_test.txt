@@ -68,7 +68,7 @@ COM_is_mid_military = {
             owner ?= {
                 has_technology_researched = general_staff
                 OR = {
-                    has_technology_researched = repeaters
+                    has_technology_researched = rifling
                     has_technology_researched = breech_loading_artillery
                 }
             }
@@ -77,7 +77,7 @@ COM_is_mid_military = {
             owner ?= {
                 has_technology_researched = general_staff
                 OR = {
-                    has_technology_researched = repeaters
+                    has_technology_researched = rifling
                     has_technology_researched = breech_loading_artillery
                 }
             }
