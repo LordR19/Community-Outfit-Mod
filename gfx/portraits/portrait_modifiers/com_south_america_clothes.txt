@@ -910,9 +910,15 @@ COM_south_america_clothes = {
             #Remove
             accessory = {
                 mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
                 gene = coats
-                template = no_coat
-                range = { 0 0.27 } # limiting the set to single-breasted coats, so aiguillettes work
+                template  = no_coat
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
@@ -930,7 +936,13 @@ COM_south_america_clothes = {
                 mode = add
                 gene = top_layer
                 template = no_top_layer
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = shirt
+                template = no_shirts
+                range = { 0 1 } 
             }
             accessory = {
                 mode = add
