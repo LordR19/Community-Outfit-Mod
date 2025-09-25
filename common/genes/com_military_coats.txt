@@ -132,6 +132,8 @@ special_genes = {
 					1 = com_male_military_coat_SAX_early_01 #General
 					1 = com_male_military_coat_FRA_early_09 #General only
 					1 = com_male_military_coat_FRA_early_10 #General and Admiral only
+					1 = com_male_coat_european_civil_dress_uniform_02
+					1 = com_male_coat_european_civil_dress_uniform_02_black_red
 				}
 
 				female = {
