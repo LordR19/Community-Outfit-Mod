@@ -51,22 +51,6 @@ com_male_legwear_european_black_dark_boots = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_dark_boots_entity" }
 }
 
-com_male_legwear_european_black_light_yellow_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_black_light_yellow_stripe_thin_entity" }
-}
-
-com_male_legwear_european_light_blue_yellow_stripe = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_light_blue_yellow_stripe_entity" }
-}
-
-com_male_legwear_european_azure_red_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_azure_red_stripe_thin_entity" }
-}
-
-com_male_legwear_european_dark_blue_red_stripe_thin = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_european_dark_blue_red_stripe_thin_entity" }
-}
-
 com_male_legwear_PRU_military_01 = {
 	set_tags = "shrink_legs"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_PRU_military_01_entity" }
@@ -86,6 +70,14 @@ com_male_legwear_austrian_blue_yellow_stripes = {
 
 com_male_legwear_austrian_blue_yellow_stripe_thin = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_blue_yellow_stripe_thin_entity" }
+}
+
+com_male_legwear_austrian_blue_red_stripes = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_blue_red_stripes_entity" }
+}
+
+com_male_legwear_austrian_blue_red_stripe_thin = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_legwear_austrian_blue_red_stripe_thin_entity" }
 }
 
 com_male_legwear_AUS_late_military_01 = {

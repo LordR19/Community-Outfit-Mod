@@ -122,3 +122,53 @@ entity = {
         }
     }
 }
+
+entity = {
+    name = "com_male_legwear_austrian_blue_red_stripes_entity"
+    pdxmesh = "com_male_legwear_austrian_01_mesh"
+
+
+    attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_austrian_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_austrian_01_bs_gaunt" }
+    attribute = { name = "body_bs_old"					blend_shape = "male_legwear_austrian_01_bs_old" }
+
+    attribute = { name = "body_bs_thick"				blend_shape = "male_legwear_austrian_01_bs_thick" }
+    attribute = { name = "body_bs_thin"					blend_shape = "male_legwear_austrian_01_bs_thin" }
+
+
+
+    game_data = {
+        portrait_entity_user_data = {
+            portrait_accessory = {
+                pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/male_legwear_austrian_01/male_legwear_austrian_01_masks.dds"
+                #Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+                variation = "com_male_legwear_austrian_blue_red_stripes"	#A "variation" object in gfx/portraits/accessory_variations/
+            }
+        }
+    }
+}
+
+entity = {
+    name = "com_male_legwear_austrian_blue_red_stripe_thin_entity"
+    pdxmesh = "com_male_legwear_austrian_01_mesh"
+
+
+    attribute = { name = "body_bs_fat"					blend_shape = "male_legwear_austrian_01_bs_fat" }
+    attribute = { name = "body_bs_gaunt"				blend_shape = "male_legwear_austrian_01_bs_gaunt" }
+    attribute = { name = "body_bs_old"					blend_shape = "male_legwear_austrian_01_bs_old" }
+
+    attribute = { name = "body_bs_thick"				blend_shape = "male_legwear_austrian_01_bs_thick" }
+    attribute = { name = "body_bs_thin"					blend_shape = "male_legwear_austrian_01_bs_thin" }
+
+
+
+    game_data = {
+        portrait_entity_user_data = {
+            portrait_accessory = {
+                pattern_mask = "gfx/models/portraits/attachments/male_legwear/european/male_legwear_austrian_01/com_male_legwear_austrian_01_stripe_thin_masks.dds"
+                #Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+                variation = "com_male_legwear_austrian_blue_red_stripes"	#A "variation" object in gfx/portraits/accessory_variations/
+            }
+        }
+    }
+}

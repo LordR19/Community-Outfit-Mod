@@ -7,9 +7,7 @@ COM_central_europe_clothes = {
     usage = game
     selection_behavior = weighted_random
 
-
-    ### AUSTRIA
-
+### AUSTRIA
 
     ###################
     # By UlfDerDritte #
@@ -1826,7 +1824,7 @@ COM_central_europe_clothes = {
         }
     }
 
-    ### BADEN
+### BADEN
 
     #Clothes for the Baden Royals (early)
     COM_BAD_royal_clothes = {
@@ -2404,9 +2402,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### BAVARIA
+### BAVARIA
 
     #Clothes for the Bavarian Royals
     COM_BAV_royal_clothes = {
@@ -2871,11 +2867,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-
-
-    ### BRUNSWICK
+### BRUNSWICK
 
     #Clothes for the Brunswick Royals
     COM_BRA_royal_clothes = {
@@ -2979,9 +2971,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### HANNOVER
+### HANNOVER
 
     #Clothes for the Hanoverian Royals
     COM_HAN_royal_clothes = {
@@ -3086,11 +3076,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### HESSE-KASSEL
-
-
+### HESSE-KASSEL
 
     #Clothes for the Hesse-Kassel Royals
     COM_HEK_royal_clothes = {
@@ -3188,12 +3174,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### HESSE
-
-
-
+### HESSE
 
     #Clothes for the Hessian Royals
     COM_HES_royal_clothes = {
@@ -3290,9 +3271,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### HOHENZOLLERN - SIGMARINGEN
+### HOHENZOLLERN - SIGMARINGEN
 
     #Clothes for the Hohenzollern-Sigmaringen Royals
     COM_HOH_royal_clothes = {
@@ -3390,10 +3369,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-    ### MECKLENBURG
-
-
+### MECKLENBURG
 
     #Clothes for the Mecklenburgian Royals
     COM_MEC_royal_clothes = {
@@ -3498,9 +3474,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-    ### NASSAU
-
+### NASSAU
 
     #Clothes for the Nassau Royals
     COM_NAS_royal_clothes = {
@@ -3605,10 +3579,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### OLDENBURG
-
+### OLDENBURG
 
     #Clothes for the Oldenburg Royals
     COM_OLD_royal_clothes = {
@@ -3698,15 +3669,14 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_monarch_leader = yes
+                COM_is_monarch_leader = yes1
                 exists = scope:character
                 COM_is_or_was_tag_strict = { TAG = OLD }
             }
         }
     }
 
-
-    ### PRUSSIA
+### PRUSSIA
 
     #Clothes for the Prussian Royals
     COM_PRU_royal_clothes = {
@@ -4893,8 +4863,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-    ### SAXONY
+### SAXONY
 
     #Clothes for the Saxony Royals
     COM_SAX_royal_clothes = {
@@ -5007,7 +4976,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_SAX_legwear
-                accessory = com_male_legwear_european_dark_blue_red_stripe_thin
+                accessory = com_male_legwear_austrian_blue_red_stripe_thin
             }
             accessory = {
                 mode = add
@@ -5110,7 +5079,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_SAX_legwear
-                accessory = com_male_legwear_european_dark_blue_red_stripe_thin
+                accessory = com_male_legwear_austrian_blue_red_stripe_thin
             }
             accessory = {
                 mode = add
@@ -5219,7 +5188,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_SAX_legwear
-                accessory = com_male_legwear_european_azure_red_stripe_thin
+                accessory = com_male_legwear_austrian_blue_red_stripe_thin
             }
             accessory = {
                 mode = add
@@ -5316,7 +5285,7 @@ COM_central_europe_clothes = {
                 mode = add
                 gene = com_legwear
                 template = com_SAX_legwear
-                accessory = com_male_legwear_european_azure_red_stripe_thin
+                accessory = com_male_legwear_austrian_blue_red_stripe_thin
             }
             accessory = {
                 mode = add
@@ -5376,10 +5345,7 @@ COM_central_europe_clothes = {
         }
     }
 
-
-
-    ### WALDEN
-
+### WALDEN
 
     #Clothes for the Waldeck Royals
     COM_WLD_royal_clothes = {
@@ -5483,9 +5449,7 @@ COM_central_europe_clothes = {
         }
     }
 
-    ### WURTEMBERG
-
-
+### WURTEMBERG
 
     #Clothes for the Württemberg Royals
     COM_WUR_royal_clothes = {
