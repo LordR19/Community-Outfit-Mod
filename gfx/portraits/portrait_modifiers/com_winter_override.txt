@@ -37,6 +37,24 @@ COM_winter_override = {
                     month > 10
                 }
             }
+            modifier = {
+                add = 1000
+                OR = {
+                    has_dlc_feature = ep1_cosmetics
+                    has_dlc_feature = ip3_cosmetics
+                }
+                COM_is_or_was_tag = { TAG = AUS }
+                COM_is_late_military = yes
+                COM_is_general_leader = yes
+                NOT = { COM_is_monarch_leader = yes }
+                OR = {  # November to February
+                    month < 3
+                    month > 10
+                }
+                scope:character ?= {
+                    commander_rank = 5
+                }
+            }
         }
     }
 

@@ -232,7 +232,11 @@ COM_is_or_was_tag = {
                 OR = {
                     AND = {
                         c:$TAG$ ?= this
-                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                        is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
+                    }
+                    AND = {
+                        was_formed_from = $TAG$
+                        is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
                     }
                     top_overlord = {
                         was_formed_from = $TAG$
@@ -247,7 +251,6 @@ COM_is_or_was_tag = {
 					        is_diplomatic_play_enemy_of = overlord
                         }
                     }
-                    was_formed_from = $TAG$
                 }
             }
         }
@@ -256,7 +259,11 @@ COM_is_or_was_tag = {
                 OR = {
                     AND = {
                         c:$TAG$ ?= this
-                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
+                        is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
+                    }
+                    AND = {
+                        was_formed_from = $TAG$
+                        is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
                     }
                     top_overlord = {
                         was_formed_from = $TAG$
@@ -271,7 +278,6 @@ COM_is_or_was_tag = {
 					        is_diplomatic_play_enemy_of = overlord
                         }
                     }
-                    was_formed_from = $TAG$
                 }
             }
         }
@@ -285,23 +291,19 @@ COM_is_or_was_tag_strict = {  ### doesn't include vassals
         scope:character ?= {
             home_country ?= {
                 OR = {
-                    AND = {
-                        c:$TAG$ ?= this
-                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-                    }
+                    c:$TAG$ ?= this
                     was_formed_from = $TAG$
                 }
+                is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
             }
         }
         scope:pop ?= {
             home_country ?= {
                 OR = {
-                    AND = {
-                        c:$TAG$ ?= this
-                        is_subject = no # preventing uniform conflicts if AUS becomes a subject of another country with puppet uniforms
-                    }
+                    c:$TAG$ ?= this
                     was_formed_from = $TAG$
                 }
+                is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
             }
         }
     }
@@ -312,11 +314,13 @@ COM_is_culture_tag = {
         scope:character ?= {
             home_country ?= {
 			    country_has_primary_culture = cu:$culture$
+                is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
             }
         }
         scope:pop ?= {
             home_country ?= {
 			    country_has_primary_culture = cu:$culture$
+                is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
             }
         }
     }
