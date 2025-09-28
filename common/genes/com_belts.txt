@@ -45,6 +45,7 @@ special_genes = {
 					1 = com_male_belt_military_plate
 					1 = com_male_belt_military_plate_AUS
 					1 = com_male_belt_military_plate_PRU
+					1 = com_male_belts_sash_power_bloc_04_blue
 
 				female = {
 					1 = empty

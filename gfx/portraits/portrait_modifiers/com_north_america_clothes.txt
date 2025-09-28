@@ -7,7 +7,7 @@ COM_north_america_clothes = {
     usage = game
     selection_behavior = weighted_random
 
-### Great Britain
+### United States
 
 
     ### Army Uniforms
@@ -376,4 +376,164 @@ COM_north_america_clothes = {
         }
     }
 
+### MEXICO
+
+    #Sashes for Mexican Presidents
+    COM_MEX_sashes_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_MEX_civil_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            #Remove
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 400
+                COM_is_republic_leader = yes
+                COM_is_or_was_tag_strict = { TAG = MEX }
+            }
+        }
+    }
+
+    COM_MEX_royal_clothes = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = no_top_layer
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = outfits
+                template = no_outfit
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = civilian_coats
+                template  = no_coat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = waistcoats
+                template  = no_waistcoat
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = no_legwear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = epaulettes
+                template = no_epaulette
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = aiguillettes
+                template  = no_aiguillettes
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template  = no_belt
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = no_medals
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = necklaces
+                template = no_necklaces
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = sashes
+                template = no_sash
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_military_coats
+                template = com_all_military_coats
+                accessory = com_male_coat_european_civil_dress_uniform_02_black_red
+            }
+            accessory = {
+                mode = add
+                gene = com_belts
+                template = com_all_belts
+                accessory = com_male_belts_sash_power_bloc_04_blue
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_all_legwear
+                accessory = com_male_legwear_european_white
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = com_all_epaulettes
+                accessory = male_epaulettes_04
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_MEX_sashes
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 20000
+                COM_is_or_was_tag_strict = { TAG = MEX }
+                OR = {
+                    COM_is_monarch_leader = yes
+                    scope:character = {
+                        COM_is_republic_leader = yes
+                        owner ?= {
+                            coa_military_trigger = yes
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

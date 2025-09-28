@@ -61,6 +61,7 @@ special_genes = {
 					1 = com_male_sash_JAP_4
 					1 = com_male_sash_LUC
 					1 = com_male_sash_GRE
+					1 = com_male_sash_MEX
 					1 = com_male_sash_MOD
 					1 = com_male_sash_NET
 					1 = com_male_sash_NOR
@@ -1157,6 +1158,20 @@ special_genes = {
 				index = 73
 				male = {
 					1 = com_male_sash_european_red
+					1 = empty
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_MEX_sashes = {
+				index = 74
+				male = {
+					1 = com_male_sash_MEX
 					1 = empty
 				}
 

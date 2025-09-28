@@ -94,3 +94,7 @@ com_male_belt_military_plate_AUS = {
 com_male_belt_military_plate_PRU = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_military_plate_PRU_entity" }
 }
+
+com_male_belts_sash_power_bloc_04_blue = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belts_sash_power_bloc_04_blue_entity" }
+}

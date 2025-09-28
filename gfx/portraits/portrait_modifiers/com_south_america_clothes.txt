@@ -432,42 +432,6 @@ COM_south_america_clothes = {
         }
     }
 
-    #Sashes for Mexican Presidents
-    COM_MEX_sashes_clothes = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_sashes
-                template = com_MEX_civil_sashes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-
-            #Remove
-            accessory = {
-                mode = add
-                gene = sashes
-                template = no_sash
-                range = { 0 1 }
-            }
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 400
-                COM_is_republic_leader = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:MEX ?= this
-                            was_formed_from = MEX
-                        }
-                    }
-                }
-            }
-        }
-    }
-
     #Sashes for North Peruvian Presidents
     COM_NPU_sashes_clothes = {
         dna_modifiers = {
@@ -942,7 +906,7 @@ COM_south_america_clothes = {
                 mode = add
                 gene = shirt
                 template = no_shirts
-                range = { 0 1 } 
+                range = { 0 1 }
             }
             accessory = {
                 mode = add
