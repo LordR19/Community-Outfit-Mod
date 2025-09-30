@@ -32,7 +32,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -50,7 +50,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
@@ -68,7 +68,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = necklaces
-                template = no_necklaces
+                template = no_necklace
                 range = { 0 1 }
             }
             accessory = {
@@ -143,7 +143,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -161,13 +161,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -185,7 +185,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = necklaces
-                template = no_necklaces
+                template = no_necklace
                 range = { 0 1 }
             }
             accessory = {
@@ -259,7 +259,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -283,7 +283,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
@@ -373,7 +373,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -391,7 +391,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
@@ -480,7 +480,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -498,13 +498,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -597,7 +597,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -615,13 +615,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -714,7 +714,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -726,13 +726,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -826,7 +826,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -844,13 +844,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -926,7 +926,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -944,13 +944,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1027,7 +1027,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1045,13 +1045,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1144,7 +1144,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1162,13 +1162,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1263,7 +1263,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1281,13 +1281,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1369,7 +1369,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1387,13 +1387,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1470,7 +1470,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1488,13 +1488,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1599,7 +1599,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1617,13 +1617,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -1730,7 +1730,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -1748,13 +1748,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -3669,7 +3669,7 @@ COM_central_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_monarch_leader = yes1
+                COM_is_monarch_leader = yes
                 exists = scope:character
                 COM_is_or_was_tag_strict = { TAG = OLD }
             }
@@ -3904,7 +3904,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -3922,13 +3922,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -4041,7 +4041,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4059,13 +4059,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -4154,7 +4154,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4172,13 +4172,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             # accessory = {
@@ -4283,7 +4283,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4301,13 +4301,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             # accessory = {
             #     mode = add
             #     gene = belts
-            #     template  = no_belt
+            #     template = no_belt
             #     range = { 0 1 }
             # }
             accessory = {
@@ -4383,7 +4383,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4401,13 +4401,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -4505,7 +4505,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4523,13 +4523,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -4630,7 +4630,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4648,13 +4648,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {
@@ -4756,7 +4756,7 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
@@ -4774,13 +4774,13 @@ COM_central_europe_clothes = {
             accessory = {
                 mode = add
                 gene = aiguillettes
-                template  = no_aiguillettes
+                template = no_aiguillettes
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = belts
-                template  = no_belt
+                template = no_belt
                 range = { 0 1 }
             }
             accessory = {

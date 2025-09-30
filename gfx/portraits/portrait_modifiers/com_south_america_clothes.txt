@@ -881,19 +881,19 @@ COM_south_america_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template  = no_coat
+                template = no_coat
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = civilian_coats
-                template  = no_civilian_coat
+                template = no_civilian_coat
                 range = { 0 1 }
             }
             accessory = {
                 mode = add
                 gene = waistcoats
-                template  = no_waistcoat
+                template = no_waistcoat
                 range = { 0 1 }
             }
             accessory = {
