@@ -81,7 +81,7 @@ COM_north_america_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = male_coat_great_britain
+                template = european_late_military_coats
                 accessory = male_coat_late_british_military_01
             }
             accessory = {
@@ -203,7 +203,7 @@ COM_north_america_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = male_coat_great_britain
+                template = european_late_military_coats
                 accessory = male_coat_late_british_military_01
             }
             accessory = {
@@ -318,7 +318,7 @@ COM_north_america_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = male_coat_great_britain
+                template = european_late_military_coats
                 accessory = male_coat_late_british_military_01
             }
             accessory = {

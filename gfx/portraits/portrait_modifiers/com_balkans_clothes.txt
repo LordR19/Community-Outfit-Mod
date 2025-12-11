@@ -48,7 +48,7 @@ COM_balkans_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = bulgarian_coats
+                template = bulgarian_uniform_coats
                 accessory = male_coat_bulgarian_03
             }
             accessory = {
@@ -1348,7 +1348,7 @@ COM_balkans_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = mid_greek_coats
+                template = greek_uniform_coats
                 accessory = male_coat_greek_03
             }
             accessory = {
@@ -1475,7 +1475,7 @@ COM_balkans_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = mid_greek_coats
+                template = greek_uniform_coats
                 accessory = male_coat_greek_soldier_01
             }
             accessory = {
@@ -1577,7 +1577,7 @@ COM_balkans_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = mid_greek_coats
+                template = greek_uniform_coats
                 accessory = male_coat_greek_soldier_01
             }
             accessory = {

@@ -1461,7 +1461,7 @@ COM_west_europe_clothes = {
                 exists = scope:character
                 scope:character ?= {
                     NOT = { has_template = fra_napoleon_iii_character_template }
-                    has_variable = bonapartist_leader
+                    has_variable = house_bonaparte
                     owner ?= {
                         OR = {
                             c:FRA ?= this
@@ -1918,7 +1918,7 @@ COM_west_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = french_coats
+                template = french_uniform_coats
                 range = { 0 1 }
             }
             accessory = {
@@ -2014,7 +2014,7 @@ COM_west_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = french_coats
+                template = french_uniform_coats
                 range = { 0 1 }
             }
             accessory = {
@@ -2179,7 +2179,7 @@ COM_west_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = male_coat_great_britain
+                template = european_late_military_coats
                 accessory = male_coat_late_british_military_01
             }
             accessory = {
@@ -2310,7 +2310,7 @@ COM_west_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = male_coat_great_britain
+                template = european_late_military_coats
                 accessory = male_coat_late_british_military_01
             }
             accessory = {
@@ -2433,7 +2433,7 @@ COM_west_europe_clothes = {
             accessory = {
                 mode = add
                 gene = coats
-                template = male_coat_great_britain
+                template = european_late_military_coats
                 accessory = male_coat_late_british_military_01
             }
             accessory = {
