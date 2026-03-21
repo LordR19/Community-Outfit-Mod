@@ -4,7 +4,7 @@
 # # By 1230james #
 # ################
 #
-# File last updated: 2024-03-21
+# File last updated: 2026-03-21
 # See WCR's copy for latest documentation
 #     https://steamcommunity.com/sharedfiles/filedetails/?id=2981574864
 #     https://github.com/1230james/vic3-western-clothes
@@ -33,7 +33,7 @@
 #     Japan
 #
 #   Militaries
-#     None
+#     Ottomans/Turkey
 #
 # ==================================================================================================================== #
 
