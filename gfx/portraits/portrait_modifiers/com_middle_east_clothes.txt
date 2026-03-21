@@ -105,6 +105,35 @@ COM_middle_east_clothes = {
                     }
                 }
             }
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+                COM_is_admiral_leader = yes
+                COM_is_early_military = yes
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
+                COM_is_admiral_leader = yes
+                COM_is_early_military = yes
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -205,6 +234,35 @@ COM_middle_east_clothes = {
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
                 exists = scope:character
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+                COM_is_general_leader = yes
+                COM_is_early_military = yes
+                scope:character ?= {
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
+                COM_is_general_leader = yes
+                COM_is_early_military = yes
                 scope:character ?= {
                     owner ?= {
                         OR = {
@@ -324,6 +382,35 @@ COM_middle_east_clothes = {
                     }
                 }
             }
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+                COM_is_early_military = yes
+                scope:pop ?= {
+                    is_pop_type = officers
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
+                COM_is_early_military = yes
+                scope:pop ?= {
+                    is_pop_type = officers
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -399,6 +486,35 @@ COM_middle_east_clothes = {
                 add = 500
                 COM_is_early_military = yes
                 exists = scope:pop
+                scope:pop ?= {
+                    is_pop_type = soldiers
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
+            # WCR compatibility
+            modifier = {
+                add = 1000
+                COM_WCR_enable_outfit = yes
+                COM_is_early_military = yes
+                scope:pop ?= {
+                    is_pop_type = soldiers
+                    owner ?= {
+                        OR = {
+                            c:TUR ?= this
+                            was_formed_from = TUR
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = -1000
+                COM_WCR_disable_outfit = yes
+                COM_is_early_military = yes
                 scope:pop ?= {
                     is_pop_type = soldiers
                     owner ?= {
