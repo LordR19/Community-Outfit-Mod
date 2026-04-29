@@ -35,12 +35,12 @@
                     scope:character ?= {
                         age > 18
                         is_historical = no
-                        is_ruler = no
+                        is_ruler_of_own_country = no
                         OR = {
-                            has_role = general
-                            has_role = admiral
+                            has_role_of_type = general
+                            has_role_of_type = admiral
                             AND = {
-                                has_role = politician
+                                has_role_of_type = politician
                                 is_interest_group_type = ig_armed_forces
                             }
                         }
@@ -84,12 +84,12 @@
                     scope:character ?= {
                         age > 18
                         is_historical = no
-                        is_ruler = no
+                        is_ruler_of_own_country = no
                         OR = {
-                            has_role = general
-                            has_role = admiral
+                            has_role_of_type = general
+                            has_role_of_type = admiral
                             AND = {
-                                has_role = politician
+                                has_role_of_type = politician
                                 is_interest_group_type = ig_armed_forces
                             }
                         }

@@ -1,0 +1,8 @@
+﻿md_chinese_uniform_pack_active_trigger = {
+    always = no
+}
+
+md_japanese_uniform_pack_active_trigger = {
+    always = no
+}
+

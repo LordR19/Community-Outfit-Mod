@@ -144,7 +144,7 @@ COM_is_republic_leader = {
         owner ?= {
             coa_republic_trigger = yes
         }
-        is_ruler = yes
+        is_ruler_of_own_country = yes
         age >= define:NCharacters|ADULT_AGE
     }
 }
@@ -154,13 +154,13 @@ COM_is_general_leader = {
     scope:character ?= {
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
-                is_heir = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
+                is_heir_of_own_country = no
                 is_interest_group_type = ig_armed_forces
                 mr_com_special_character_blocker = yes
             }
-            has_role = general
+            has_role_of_type = general
         }
     }
 }
@@ -170,13 +170,13 @@ COM_is_admiral_leader = {
     scope:character ?= {
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
-                is_heir = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
+                is_heir_of_own_country = no
                 is_interest_group_type = ig_armed_forces
                 mr_com_special_character_blocker = yes
             }
-            has_role = admiral
+            has_role_of_type = admiral
         }
     }
 }
@@ -334,12 +334,12 @@ COM_is_swedish_SCA = {
         has_culture = cu:swedish
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
                 is_interest_group_type = ig_armed_forces
             }
-            has_role = general
-            has_role = admiral
+            has_role_of_type = general
+            has_role_of_type = admiral
         }
         owner ?= {
             NOT = {
@@ -359,12 +359,12 @@ COM_is_danish_SCA = {
         has_culture = cu:danish
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
                 is_interest_group_type = ig_armed_forces
             }
-            has_role = general
-            has_role = admiral
+            has_role_of_type = general
+            has_role_of_type = admiral
         }
         owner ?= {
             NOT = {
@@ -384,12 +384,12 @@ COM_is_norwegian_SCA = {
         has_culture = cu:norwegian
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
                 is_interest_group_type = ig_armed_forces
             }
-            has_role = general
-            has_role = admiral
+            has_role_of_type = general
+            has_role_of_type = admiral
         }
         owner ?= {
             NOT = {
@@ -409,12 +409,12 @@ COM_is_finnish_SCA = {
         has_culture = cu:finnish
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
                 is_interest_group_type = ig_armed_forces
             }
-            has_role = general
-            has_role = admiral
+            has_role_of_type = general
+            has_role_of_type = admiral
         }
         owner ?= {
             NOT = {
@@ -434,12 +434,12 @@ COM_is_icelandic_SCA = {
         has_culture = cu:icelandic
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
                 is_interest_group_type = ig_armed_forces
             }
-            has_role = general
-            has_role = admiral
+            has_role_of_type = general
+            has_role_of_type = admiral
         }
         owner ?= {
             NOT = {
@@ -458,12 +458,12 @@ COM_is_other_SCA = {
     scope:character ?= {
         OR = {
             AND = {
-                has_role = politician
-                is_ruler = no
+                has_role_of_type = politician
+                is_ruler_of_own_country = no
                 is_interest_group_type = ig_armed_forces
             }
-            has_role = general
-            has_role = admiral
+            has_role_of_type = general
+            has_role_of_type = admiral
         }
         owner ?= {
             NOT = {
