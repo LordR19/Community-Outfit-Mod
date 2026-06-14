@@ -4454,16 +4454,9 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = POR }
                 COM_is_monarch_leader = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:POR ?= this
-                            was_formed_from = POR
-                        }
-                    }
-                }
             }
         }
     }
@@ -4551,17 +4544,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_admiral_leader = yes
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = POR }
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:POR ?= this
-                            was_formed_from = POR
-                        }
-                    }
-                }
+                COM_is_admiral_leader = yes
             }
         }
     }
@@ -4654,17 +4640,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_general_leader = yes
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = POR }
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:POR ?= this
-                            was_formed_from = POR
-                        }
-                    }
-                }
+                COM_is_general_leader = yes
             }
         }
     }
@@ -4738,17 +4717,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = officers
-                    owner ?= {
-                        OR = {
-                            c:POR ?= this
-                            was_formed_from = POR
-                        }
-                    }
-                }
+                officers_clothes_pop_trigger = yes
             }
         }
     }
@@ -4817,17 +4789,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = soldiers
-                    owner ?= {
-                        OR = {
-                            c:POR ?= this
-                            was_formed_from = POR
-                        }
-                    }
-                }
+                soldier_clothes_pop_trigger = yes
             }
         }
     }
@@ -4842,50 +4807,7 @@ COM_west_europe_clothes = {
     #Clothes for the Spanish Royals
     COM_SPA_royal_clothes = {
         dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = com_military_coats
-                template = com_BEL_noble_coats
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_legwear
-                template = com_SPA_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_sashes
-                template = com_SPA_sashes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = medals
-                template = generic_medals
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = belts
-                template = all_belts
-                range = { 0.1 0.7 } # For the randomness to work correctly
-            }
-            accessory = {
-                mode = add
-                gene = com_epaulettes
-                template = NET_epaulettes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-            accessory = {   # Spanish branch of the order, rn using Austrian neck badge
-                mode = add
-                gene = com_necklaces
-                template = com_necklace_golden_fleece
-                accessory = male_necklace_golden_fleece
-            }
-
-            #Remove
+            ### REMOVE
             accessory = {
                 mode = add
                 gene = coats
@@ -4922,21 +4844,58 @@ COM_west_europe_clothes = {
                 template = no_sash
                 range = { 0 1 }
             }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = coats
+                template = spanish_uniform_coats
+                accessory = male_coat_vested_tailcoat_03_spanish
+            }
+            accessory = {
+                mode = add
+                gene = com_legwear
+                template = com_SPA_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_sashes
+                template = com_SPA_sashes
+                range = { 0.25 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = medals
+                template = generic_medals
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = belt_austrian
+                accessory = male_belt_austrian_01_red
+            }
+            accessory = {
+                mode = add
+                gene = com_epaulettes
+                template = NET_epaulettes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {   # Spanish branch of the order, rn using Austrian neck badge
+                mode = add
+                gene = com_necklaces
+                template = com_necklace_golden_fleece
+                accessory = male_necklace_golden_fleece
+            }
+
         }
         weight = {
             base = 0
             modifier = {
-                add = 500
+                add = 20000
+                has_dlc_feature = ip4_cosmetics
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_monarch_leader = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:SPA ?= this
-                            was_formed_from = SPA
-                        }
-                    }
-                }
             }
         }
     }
@@ -5024,17 +4983,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_admiral_leader = yes
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:SPA ?= this
-                            was_formed_from = SPA
-                        }
-                    }
-                }
+                COM_is_admiral_leader = yes
             }
         }
     }
@@ -5133,17 +5085,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
-                COM_is_general_leader = yes
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:SPA ?= this
-                            was_formed_from = SPA
-                        }
-                    }
-                }
+                COM_is_general_leader = yes
             }
         }
     }
@@ -5218,17 +5163,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = officers
-                    owner ?= {
-                        OR = {
-                            c:SPA ?= this
-                            was_formed_from = SPA
-                        }
-                    }
-                }
+                officers_clothes_pop_trigger = yes
             }
         }
     }
@@ -5291,17 +5229,10 @@ COM_west_europe_clothes = {
             base = 0
             modifier = {
                 add = 500
+                NOT = { has_dlc_feature = ip4_cosmetics }
+                COM_is_or_was_tag_strict = { TAG = SPA }
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = soldiers
-                    owner ?= {
-                        OR = {
-                            c:SPA ?= this
-                            was_formed_from = SPA
-                        }
-                    }
-                }
+                soldier_clothes_pop_trigger = yes
             }
         }
     }

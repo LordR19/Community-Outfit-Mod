@@ -82,8 +82,6 @@ special_genes = {
 					1 = com_male_sash_SER_6
 					1 = com_male_sash_SER_7
 					1 = com_male_sash_SIC
-					1 = com_male_sash_SPA_1
-					1 = com_male_sash_SPA_2
 					1 = com_male_sash_SPA_military_1
 					1 = com_male_sash_SPA_military_2
 					1 = com_male_sash_SPA_navy
@@ -120,6 +118,7 @@ special_genes = {
 					1 = com_male_sash_civil_UCA
 					1 = com_male_sash_civil_VNZ
 					1 = com_male_sash_slavic_grey
+					1 = com_male_sash_tricolor_SPA_01
 				}
 
 				female = {
@@ -217,8 +216,8 @@ special_genes = {
 			com_SPA_sashes = {
 				index = 8
 				male = {
-					2 = com_male_sash_SPA_1
-					2 = com_male_sash_SPA_2
+					2 = com_male_sash_tricolor_SPA_01
+					2 = male_sashes_tricolor_argentina
 				}
 
 				female = {
@@ -1171,7 +1170,8 @@ special_genes = {
 			com_MEX_sashes = {
 				index = 74
 				male = {
-					1 = com_male_sash_MEX
+					# 1 = com_male_sash_MEX
+					1 = male_sashes_tricolor_mexico
 					1 = empty
 				}
 

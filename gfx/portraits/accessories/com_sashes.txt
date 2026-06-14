@@ -323,8 +323,8 @@ com_male_sash_SIC = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SIC_entity" }
 }
 
-com_male_sash_SPA_1 = {
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_SPA_1_entity" }
+com_male_sash_tricolor_SPA_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_sash_tricolor_SPA_01_entity" }
 }
 
 com_male_sash_SPA_2 = {
