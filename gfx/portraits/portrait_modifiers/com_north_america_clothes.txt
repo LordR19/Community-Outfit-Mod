@@ -516,7 +516,7 @@ COM_north_america_clothes = {
                 mode = add
                 gene = com_sashes
                 template = com_MEX_sashes
-                range = { 0 1 }
+                range = { 0 0 }
             }
         }
         weight = {
@@ -526,12 +526,8 @@ COM_north_america_clothes = {
                 COM_is_or_was_tag_strict = { TAG = MEX }
                 OR = {
                     COM_is_monarch_leader = yes
-                    scope:character = {
-                        COM_is_republic_leader = yes
-                        owner ?= {
-                            coa_military_trigger = yes
-                        }
-                    }
+                    COM_is_general_leader = yes
+                    junta_clothes_trigger = yes
                 }
             }
         }

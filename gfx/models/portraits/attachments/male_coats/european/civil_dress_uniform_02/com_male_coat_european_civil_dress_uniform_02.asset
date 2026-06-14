@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "com_male_coat_european_civil_dress_uniform_02_mesh"
 	file = "com_male_coat_european_civil_dress_uniform_02.mesh"
-	
+
 	blend_shape = { id = "com_male_coat_european_civil_dress_uniform_02_bs_fat"		type = "com_male_coat_european_civil_dress_uniform_02_bs_fat.mesh" }
 	blend_shape = { id = "com_male_coat_european_civil_dress_uniform_02_bs_gaunt"		type = "com_male_coat_european_civil_dress_uniform_02_bs_gaunt.mesh" }
 	blend_shape = { id = "com_male_coat_european_civil_dress_uniform_02_bs_old"		type = "com_male_coat_european_civil_dress_uniform_02_bs_old.mesh" }
@@ -23,7 +23,7 @@ pdxmesh = {
 entity = {
 	name = "com_male_coat_european_civil_dress_uniform_02_entity"
 	pdxmesh = "com_male_coat_european_civil_dress_uniform_02_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "com_male_coat_european_civil_dress_uniform_02_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_coat_european_civil_dress_uniform_02_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "com_male_coat_european_civil_dress_uniform_02_bs_old" }
@@ -34,10 +34,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/civil_dress_uniform_01/com_male_coat_european_civil_dress_uniform_02_masks.dds"
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/civil_dress_uniform_02/com_male_coat_european_civil_dress_uniform_02_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "male_coat_european_civil_dress_uniform_01"	#A "variation" object in gfx/portraits/accessory_variations/
-			} 
+			}
         }
 	}
 }
@@ -45,7 +45,7 @@ entity = {
 entity = {
 	name = "com_male_coat_european_civil_dress_uniform_02_black_red_entity"
 	pdxmesh = "com_male_coat_european_civil_dress_uniform_02_mesh"
-		
+
 		attribute = { name = "body_bs_fat"					blend_shape = "com_male_coat_european_civil_dress_uniform_02_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_coat_european_civil_dress_uniform_02_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "com_male_coat_european_civil_dress_uniform_02_bs_old" }
@@ -56,10 +56,10 @@ entity = {
 		game_data = {
             portrait_entity_user_data = {
 			portrait_accessory = {
-				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/civil_dress_uniform_01/com_male_coat_european_civil_dress_uniform_02_masks.dds"
+				pattern_mask = "gfx/models/portraits/attachments/male_coats/european/civil_dress_uniform_02/com_male_coat_european_civil_dress_uniform_02_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_coat_european_civil_dress_uniform_02_black_red"	#A "variation" object in gfx/portraits/accessory_variations/
-			} 
+			}
         }
 	}
 }
