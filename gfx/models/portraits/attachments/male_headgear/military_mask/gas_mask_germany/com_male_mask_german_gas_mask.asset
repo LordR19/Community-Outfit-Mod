@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "com_male_mask_german_gas_mask_mesh"
+	file = "com_male_mask_german_gas_mask.mesh"
+
+	meshsettings = {
+		name = "com_male_mask_german_gas_maskShape"
+		index = 0
+		texture_diffuse = "com_male_mask_german_gas_mask_diffuse.dds"
+		texture_normal = "com_male_mask_german_gas_mask_normal.dds"
+		texture_specular = "com_male_mask_german_gas_mask_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "com_male_mask_german_gas_mask_entity"
+	pdxmesh = "com_male_mask_german_gas_mask_mesh"
+
+		game_data = {
+			portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/military_mask/gas_mask_germany/com_male_mask_german_gas_mask_masks.dds"
+
+				variation = "com_male_mask_german_gas_mask"
+			}
+		}
+	}
+}

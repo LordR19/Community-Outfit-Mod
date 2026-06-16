@@ -40,7 +40,6 @@ mr_com_special_character_blocker = {
 COM_is_early_military = {
     OR = {
         AND = {
-            exists = scope:character
             scope:character ?= {
                 owner ?= {
                     NOT = {
@@ -50,7 +49,6 @@ COM_is_early_military = {
             }
         }
         AND = {
-            exists = scope:pop
             scope:pop ?= {
                 owner ?= {
                     NOT = {
@@ -126,6 +124,44 @@ COM_is_interwar_military = {
         }
     }
 }
+
+### mobilization option triggers
+
+COM_has_mobilization_option = { # use this trigger like for example "COM_has_mobilization_option = { OPTION = chemical_weapons }" for the chemical weapons mobilization option
+    OR = {
+        scope:character ?= {
+            owner ?= {
+                any_military_formation = {
+                    has_mobilization_option = mobilization_option:mobilization_option_$OPTION$
+                }
+            }
+        }
+        scope:pop ?= {
+            owner ?= {
+                any_military_formation = {
+                    has_mobilization_option = mobilization_option:mobilization_option_$OPTION$
+                }
+            }
+        }
+    }
+}
+
+                # workplace ?= {    #forbidden mobilization option check that kills you and the game performance
+                #     any_combat_unit = {
+                #         save_temporary_scope_as = unit
+                #         scope:pop = {
+                #             owner ?= {
+                #                 any_military_formation = {
+                #                     any_combat_unit = {
+                #                         this = scope:unit
+                #                     }
+                #                     has_mobilization_option = mobilization_option:mobilization_option_$OPTION$
+                #                 }
+                #             }
+                #         }
+                #     }
+                # }
+
 
 ### Leader Triggers
 

@@ -1,0 +1,39 @@
+﻿
+
+special_genes = {
+	accessory_genes = {
+
+	#########################################
+	#										#
+	# 			  	COM MASK		  		#
+	#										#
+	#########################################
+
+		com_masks = {
+			inheritable = no
+
+			com_no_masks = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			com_all_masks = {
+				index = 1
+				male = {
+					1 = com_male_mask_german_gas_mask
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+				}
+			}
+		}
+	}
+}
