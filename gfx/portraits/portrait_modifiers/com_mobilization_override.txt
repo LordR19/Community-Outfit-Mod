@@ -38,7 +38,7 @@ COM_mobilization_override = {
                 mode = add
                 gene = com_headgear
                 template = com_AUS_headgear_interwar
-                accesssory = male_headgear_european_stahlhelm_01_AUS
+                accessory = male_headgear_european_stahlhelm_01_AUS
             }
             accessory = {
                 mode = add
