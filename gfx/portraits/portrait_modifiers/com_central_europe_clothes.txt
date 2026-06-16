@@ -4610,7 +4610,7 @@ COM_central_europe_clothes = {
                 soldier_clothes_pop_trigger = yes
             }
             modifier = {    # use for generic Germans with lower priority than unique uniforms
-                add = 1200
+                add = 1300
                 has_dlc_feature = ep1_cosmetics
                 OR = {
                     COM_is_or_was_tag = { TAG = PRU } # also for Prussian subjects
