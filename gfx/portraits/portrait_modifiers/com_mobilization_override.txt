@@ -64,4 +64,52 @@ COM_mobilization_override = {
             }
         }
     }
+
+    COM_chemical_warfare_FRA_soldier_outfit = {
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = replace
+                gene = mustaches
+                template = no_mustache
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = replace
+                gene = beards
+                template = no_beard
+                range = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = com_beards
+                template = com_no_beards
+                range = { 0 1 }
+            }
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_all_headgear
+                accessory = com_male_headgear_adrian_fra
+            }
+            accessory = {
+                mode = add
+                gene = com_masks
+                template = com_all_masks
+                accessory = com_male_mask_german_gas_mask
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 30
+                COM_is_late_military = yes
+                COM_is_or_was_tag = { TAG = FRA }
+                soldier_clothes_pop_trigger = yes
+                COM_has_mobilization_option =  { OPTION = chemical_weapons }
+            }
+        }
+    }
 }

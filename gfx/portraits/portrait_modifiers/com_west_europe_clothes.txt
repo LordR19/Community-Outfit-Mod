@@ -1674,15 +1674,7 @@ COM_west_europe_clothes = {
                 add = 500
                 COM_is_admiral_leader = yes
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:FRA ?= this
-                            was_formed_from = FRA
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = FRA }
             }
         }
     }
@@ -1783,15 +1775,7 @@ COM_west_europe_clothes = {
                 add = 10
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:FRA ?= this
-                            was_formed_from = FRA
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = FRA }
             }
         }
     }
@@ -1897,15 +1881,7 @@ COM_west_europe_clothes = {
                 add = 10
                 COM_is_general_leader = yes
                 COM_is_early_military = yes
-                exists = scope:character
-                scope:character ?= {
-                    owner ?= {
-                        OR = {
-                            c:FRA ?= this
-                            was_formed_from = FRA
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = FRA }
             }
         }
     }
@@ -1994,16 +1970,8 @@ COM_west_europe_clothes = {
             modifier = {
                 add = 500
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = officers
-                    owner ?= {
-                        OR = {
-                            c:FRA ?= this
-                            was_formed_from = FRA
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = FRA }
+                officers_clothes_pop_trigger = yes
             }
         }
     }
@@ -2090,16 +2058,37 @@ COM_west_europe_clothes = {
             modifier = {
                 add = 500
                 COM_is_early_military = yes
-                exists = scope:pop
-                scope:pop ?= {
-                    is_pop_type = soldiers
-                    owner ?= {
-                        OR = {
-                            c:FRA ?= this
-                            was_formed_from = FRA
-                        }
-                    }
-                }
+                COM_is_or_was_tag_strict = { TAG = FRA }
+                soldier_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    COM_interwar_FRA_soldier_outfit = { # using the vanilla late war outfit, just adding the Adrian helmet
+        dna_modifiers = {
+            ### REMOVE
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+
+            ### ADD
+            accessory = {
+                mode = add
+                gene = com_headgear
+                template = com_all_headgear
+                accessory = com_male_headgear_adrian_fra
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                COM_is_or_was_tag_strict = { TAG = FRA }
+                COM_is_interwar_military = yes
+                soldier_clothes_pop_trigger = yes
             }
         }
     }

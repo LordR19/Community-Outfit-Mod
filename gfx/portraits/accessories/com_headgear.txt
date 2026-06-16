@@ -274,7 +274,7 @@ com_male_headgear_adrian_fra = {
 }
 
 com_male_headgear_brodie = {
-	set_tags ="no_hair"
+	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_brodie_entity" }
 }
 
