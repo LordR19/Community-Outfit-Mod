@@ -2181,7 +2181,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                accessory = com_male_belt_military_01
+                accessory = com_male_belt_sam_browne
             }
             accessory = {
                 mode = add
@@ -2200,6 +2200,12 @@ COM_west_europe_clothes = {
                 gene = com_headgear
                 template = com_GBR_headgear_late
                 range = { 0.35 0.95 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = com_suspenders
+                template = com_suspenders_late
+                accessory = com_male_suspenders_sam_browne
             }
         }
 
@@ -2312,7 +2318,7 @@ COM_west_europe_clothes = {
                 mode = add
                 gene = com_belts
                 template = com_late_military_belts
-                accessory = com_male_belt_military_01
+                accessory = com_male_belt_sam_browne
             }
             accessory = {
                 mode = add
@@ -2325,6 +2331,12 @@ COM_west_europe_clothes = {
                 gene = com_headgear
                 template = com_GBR_headgear_late
                 accessory = com_male_headgear_european_late_military_04_GBR
+            }
+            accessory = {
+                mode = add
+                gene = com_suspenders
+                template = com_suspenders_late
+                accessory = com_male_suspenders_sam_browne
             }
         }
 

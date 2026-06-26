@@ -27,6 +27,7 @@ special_genes = {
 				male = {
 					1 = com_male_suspenders_military_01
 					1 = com_male_suspenders_military_01_canvas
+					1 = com_male_suspenders_sam_browne
 
 				female = {
 					1 = empty
@@ -41,6 +42,7 @@ special_genes = {
 				male = {
 					1 = com_male_suspenders_military_01
 					1 = com_male_suspenders_military_01_canvas
+					1 = com_male_suspenders_sam_browne
 
 				female = {
 					1 = empty
