@@ -68,7 +68,6 @@ special_genes = {
 					1 = com_male_headgear_pickelhaube_fabric
 					1 = com_male_headgear_campaign_hat
 					1 = com_male_headgear_european_military_03_USA_late
-					1 = com_male_mask_german_gas_mask
 				}
 				female = {
 					1 = empty

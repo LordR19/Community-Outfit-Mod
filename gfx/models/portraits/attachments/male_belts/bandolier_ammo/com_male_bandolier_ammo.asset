@@ -84,6 +84,29 @@ entity = {
 }
 
 entity = {
+	name = "com_male_bandolier_ammo_black_entity"
+	pdxmesh = "com_male_bandolier_ammo_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "com_male_bandolier_ammo_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_bandolier_ammo_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "com_male_bandolier_ammo_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "com_male_bandolier_ammo_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "com_male_bandolier_ammo_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier_ammo/com_male_bandolier_ammo_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_black_brass"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+### LEFT
+
+entity = {
 	name = "com_male_bandolier_ammo_left_entity"
 	pdxmesh = "com_male_bandolier_ammo_left_mesh"
 
@@ -105,6 +128,29 @@ entity = {
 }
 
 entity = {
+	name = "com_male_bandolier_ammo_left_black_entity"
+	pdxmesh = "com_male_bandolier_ammo_left_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "com_male_bandolier_ammo_left_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_bandolier_ammo_left_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "com_male_bandolier_ammo_left_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "com_male_bandolier_ammo_left_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "com_male_bandolier_ammo_left_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier_ammo/com_male_bandolier_ammo_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_black_brass"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+### CROSS
+
+entity = {
 	name = "com_male_bandolier_ammo_cross_entity"
 	pdxmesh = "com_male_bandolier_ammo_cross_mesh"
 
@@ -120,6 +166,27 @@ entity = {
 				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier_ammo/com_male_bandolier_ammo_masks.dds"
 				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
 				variation = "com_male_belt_military_brown_brass"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "com_male_bandolier_ammo_cross_black_entity"
+	pdxmesh = "com_male_bandolier_ammo_cross_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "com_male_bandolier_ammo_cross_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_bandolier_ammo_cross_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "com_male_bandolier_ammo_cross_bs_old" }
+		attribute = { name = "body_bs_thick"				blend_shape = "com_male_bandolier_ammo_cross_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "com_male_bandolier_ammo_cross_bs_thin" }
+
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_belts/bandolier_ammo/com_male_bandolier_ammo_masks.dds"
+				#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "com_male_belt_military_black_brass"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

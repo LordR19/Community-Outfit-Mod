@@ -28,6 +28,7 @@ special_genes = {
 					1 = com_male_suspenders_military_01
 					1 = com_male_suspenders_military_01_canvas
 					1 = com_male_suspenders_sam_browne
+					1 = com_male_suspenders_sam_browne_black
 
 				female = {
 					1 = empty
@@ -43,6 +44,7 @@ special_genes = {
 					1 = com_male_suspenders_military_01
 					1 = com_male_suspenders_military_01_canvas
 					1 = com_male_suspenders_sam_browne
+					1 = com_male_suspenders_sam_browne_black
 
 				female = {
 					1 = empty

@@ -482,7 +482,7 @@ special_genes = {
 				girl = female
 			}
 
-			com_SAR_military_coats_early = {
+			com_MEX_military_coats = {
 				index = 25
 				male = {
 				#	1 = com_male_military_coat_SAR_early_03

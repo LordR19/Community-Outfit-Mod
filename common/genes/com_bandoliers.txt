@@ -41,15 +41,34 @@ special_genes = {
 					1 = com_side_bandolier_right_late_brown
 					1 = com_side_bandolier_right_late_black
 					1 = com_male_bandolier_ammo
+					1 = com_male_bandolier_ammo_black
 					1 = com_male_bandolier_ammo_left
+					1 = com_male_bandolier_ammo_left_black
 					1 = com_male_bandolier_ammo_cross
-
+					1 = com_male_bandolier_ammo_cross_black
+				}
 				female = {
 					1 = empty
 				}
 				boy = male
 				girl = female
+			}
+
+			com_bandoliers_ammo = {
+				index = 2
+				male = {
+					1 = com_male_bandolier_ammo
+					1 = com_male_bandolier_ammo_black
+					1 = com_male_bandolier_ammo_left
+					1 = com_male_bandolier_ammo_left_black
+					1 = com_male_bandolier_ammo_cross
+					1 = com_male_bandolier_ammo_cross_black
 				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
 			}
 
 		}
