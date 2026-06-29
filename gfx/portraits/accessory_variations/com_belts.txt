@@ -226,7 +226,7 @@ variation = {
 		r = { textures = "com_generic_leather_standard_fine_01" 		layout = "plain_fabric_layout" }
 		g = { textures = "generic_medal_metals_01"					layout = "plain_fabric_layout" }
 		b = { textures = "generic_medal_metals_01" 					layout = "plain_fabric_layout" }
-		a = { textures = "generic_silk_standard_plain_01"			layout = "plain_fabric_layout" }
+		a = { textures = "com_generic_leather_standard_fine_01"			layout = "plain_fabric_layout" }
 	}
 
 
