@@ -46,6 +46,12 @@ special_genes = {
 					1 = com_male_bandolier_ammo_left_black
 					1 = com_male_bandolier_ammo_cross
 					1 = com_male_bandolier_ammo_cross_black
+					1 = com_male_bandolier_ammo_02
+					1 = com_male_bandolier_ammo_02_black
+					1 = com_male_bandolier_ammo_02_left
+					1 = com_male_bandolier_ammo_02_left_black
+					1 = com_male_bandolier_ammo_02_cross
+					1 = com_male_bandolier_ammo_02_cross_black
 				}
 				female = {
 					1 = empty
@@ -63,6 +69,12 @@ special_genes = {
 					1 = com_male_bandolier_ammo_left_black
 					1 = com_male_bandolier_ammo_cross
 					1 = com_male_bandolier_ammo_cross_black
+					1 = com_male_bandolier_ammo_02
+					1 = com_male_bandolier_ammo_02_black
+					1 = com_male_bandolier_ammo_02_left
+					1 = com_male_bandolier_ammo_02_left_black
+					1 = com_male_bandolier_ammo_02_cross
+					1 = com_male_bandolier_ammo_02_cross_black
 				}
 				female = {
 					1 = empty

@@ -48,6 +48,8 @@ special_genes = {
 					1 = com_male_belt_sam_browne
 					1 = com_male_belt_sam_browne_black
 					1 = com_male_belts_sash_power_bloc_04_blue
+					1 = com_male_belt_ammo
+					1 = com_male_belt_ammo_black
 
 				female = {
 					1 = empty
@@ -172,6 +174,19 @@ special_genes = {
 					1 = com_male_belt_military_plate_PRU
 					1 = com_male_belt_sam_browne
 					1 = com_male_belt_sam_browne_black
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			com_ammo_belts = {
+				index = 10
+				male = {
+					1 = com_male_belt_ammo
+					1 = com_male_belt_ammo_black
 				}
 				female = {
 					1 = empty

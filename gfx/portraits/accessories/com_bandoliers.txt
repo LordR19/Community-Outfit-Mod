@@ -97,3 +97,27 @@ com_male_bandolier_ammo_cross = {
 com_male_bandolier_ammo_cross_black = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_cross_black_entity" }
 }
+
+com_male_bandolier_ammo_02 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_02_entity" }
+}
+
+com_male_bandolier_ammo_02_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_02_black_entity" }
+}
+
+com_male_bandolier_ammo_02_left = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_02_left_entity" }
+}
+
+com_male_bandolier_ammo_02_left_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_02_left_black_entity" }
+}
+
+com_male_bandolier_ammo_02_cross = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_02_cross_entity" }
+}
+
+com_male_bandolier_ammo_02_cross_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_bandolier_ammo_02_cross_black_entity" }
+}

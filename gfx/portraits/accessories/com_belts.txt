@@ -106,3 +106,11 @@ com_male_belt_sam_browne_black = {
 com_male_belts_sash_power_bloc_04_blue = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belts_sash_power_bloc_04_blue_entity" }
 }
+
+com_male_belt_ammo = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_ammo_entity" }
+}
+
+com_male_belt_ammo_black = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "com_male_belt_ammo_black_entity" }
+}
