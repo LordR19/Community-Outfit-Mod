@@ -101,7 +101,7 @@
         }
     }
 
-    com_adult_franz_joseph = {
+    com_adult_franz_josef = {
         dna_modifiers = {
             accessory = {
                 mode = add

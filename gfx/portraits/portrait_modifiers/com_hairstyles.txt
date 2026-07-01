@@ -2,7 +2,7 @@
     usage = game
     selection_behavior = weighted_random
 
-    adult_franz_joseph = {
+    adult_franz_josef = {
         dna_modifiers = {
             accessory = {
                 mode = replace
