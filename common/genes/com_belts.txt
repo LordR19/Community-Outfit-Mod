@@ -185,8 +185,10 @@ special_genes = {
 			com_ammo_belts = {
 				index = 10
 				male = {
-					1 = com_male_belt_ammo
-					1 = com_male_belt_ammo_black
+					1 = empty
+					2 = com_male_belt_ammo
+					2 = com_male_belt_ammo_black
+					1 = empty
 				}
 				female = {
 					1 = empty

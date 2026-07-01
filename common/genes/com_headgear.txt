@@ -469,6 +469,22 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			com_MEX_headgear_irregular = {
+				index = 29
+				male = {
+					5 = male_headgear_south_american_agitator_01
+					5 = male_headgear_indian_bhagat_singh
+					1 = 0
+				}
+
+				female = {
+					1 = female_headgear_european_common_01
+					3 = 0
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

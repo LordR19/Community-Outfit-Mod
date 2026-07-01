@@ -217,6 +217,18 @@ COM_is_admiral_leader = {
     }
 }
 
+### Pop Triggers
+
+COM_pop_is_conscript= {
+    exists = scope:pop
+    scope:pop = {
+		is_pop_type = soldiers
+        workplace ?= {
+            is_building_type = building_conscription_center
+        }
+    }
+}
+
 ### Continent Triggers
 
 COM_is_european = {     # taken from the vanilla europe triggers with some adjustments

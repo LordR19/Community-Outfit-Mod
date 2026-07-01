@@ -1,0 +1,54 @@
+﻿
+
+special_genes = {
+	accessory_genes = {
+
+	#########################################
+	#										#
+	# 			  	COM SHIRT		  		#
+	#										#
+	#########################################
+
+		com_shirt = {
+			inheritable = no
+
+			com_no_shirt = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			com_all_shirts = {
+				index = 1
+				male = {
+					1 = male_shirt_european_01
+					1 = male_outfit_polynesian_01_high
+				}
+				female = {
+					1 = female_outfit_peasant_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			com_MEX_shirts_irregular = {
+				index = 2
+				male = {
+					3 = male_shirt_european_01
+					1 = male_outfit_polynesian_01_high
+					3 = male_outfit_south_american_01_low
+				}
+				female = {
+					3 = female_outfit_peasant_common_01
+					1 = female_outfit_south_american_01_low
+				}
+				boy = male
+				girl = female
+			}
+		}
+	}
+}
