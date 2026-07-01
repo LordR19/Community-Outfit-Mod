@@ -15,7 +15,7 @@ pdxmesh = {
 		texture_diffuse = "com_male_bandolier_ammo_diffuse.dds"
 		texture_normal = "com_male_bandolier_ammo_normal.dds"
 		texture_specular = "com_male_bandolier_ammo_properties.dds"
-		shader = "portrait_attachment_pattern"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
@@ -36,7 +36,7 @@ pdxmesh = {
 		texture_diffuse = "com_male_bandolier_ammo_diffuse.dds"
 		texture_normal = "com_male_bandolier_ammo_normal.dds"
 		texture_specular = "com_male_bandolier_ammo_properties.dds"
-		shader = "portrait_attachment_pattern"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
@@ -57,7 +57,7 @@ pdxmesh = {
 		texture_diffuse = "com_male_bandolier_ammo_diffuse.dds"
 		texture_normal = "com_male_bandolier_ammo_normal.dds"
 		texture_specular = "com_male_bandolier_ammo_properties.dds"
-		shader = "portrait_attachment_pattern"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
