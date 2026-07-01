@@ -485,8 +485,8 @@ special_genes = {
 			com_MEX_military_coats = {
 				index = 25
 				male = {
-				#	1 = com_male_military_coat_SAR_early_03
-				#	1 = com_male_military_coat_SAR_early_09
+					1 = male_coat_british_10
+					1 = com_male_military_coat_TUR_OTO_early_01_b
 				}
 
 				female = {

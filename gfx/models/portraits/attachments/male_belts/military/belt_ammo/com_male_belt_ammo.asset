@@ -5,7 +5,7 @@
 	blend_shape = { id = "com_male_belt_ammo_bs_fat"		    type = "com_male_belt_ammo_bs_fat.mesh" }
 	blend_shape = { id = "com_male_belt_ammo_bs_gaunt"		type = "com_male_belt_ammo_bs_gaunt.mesh" }
 	blend_shape = { id = "com_male_belt_ammo_bs_old"		    type = "com_male_belt_ammo_bs_old.mesh" }
-	blend_shape = { id = "com_male_belt_ammo_bs_infant"		type = "com_male_belt_ammo_bs_infant.mesh" }
+
 	blend_shape = { id = "com_male_belt_ammo_bs_thick"		type = "com_male_belt_ammo_bs_thick.mesh" }
 	blend_shape = { id = "com_male_belt_ammo_bs_thin"		type = "com_male_belt_ammo_bs_thin.mesh" }
 
@@ -15,7 +15,7 @@
 		texture_diffuse = "com_male_belt_ammo_diffuse.dds"
 		texture_normal = "com_male_belt_ammo_normal.dds"
 		texture_specular = "com_male_belt_ammo_properties.dds"
-		shader = "portrait_attachment_pattern"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
 }
@@ -27,7 +27,7 @@ entity = {
 		attribute = { name = "body_bs_fat"					blend_shape = "com_male_belt_ammo_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_belt_ammo_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "com_male_belt_ammo_bs_old" }
-		attribute = { name = "body_bs_infant"				blend_shape = "com_male_belt_ammo_bs_infant" }
+
 		attribute = { name = "body_bs_thick"				blend_shape = "com_male_belt_ammo_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "com_male_belt_ammo_bs_thin" }
 
@@ -49,7 +49,7 @@ entity = {
 		attribute = { name = "body_bs_fat"					blend_shape = "com_male_belt_ammo_bs_fat" }
 		attribute = { name = "body_bs_gaunt"				blend_shape = "com_male_belt_ammo_bs_gaunt" }
 		attribute = { name = "body_bs_old"					blend_shape = "com_male_belt_ammo_bs_old" }
-		attribute = { name = "body_bs_infant"				blend_shape = "com_male_belt_ammo_bs_infant" }
+
 		attribute = { name = "body_bs_thick"				blend_shape = "com_male_belt_ammo_bs_thick" }
 		attribute = { name = "body_bs_thin"					blend_shape = "com_male_belt_ammo_bs_thin" }
 

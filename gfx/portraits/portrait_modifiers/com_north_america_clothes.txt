@@ -754,8 +754,8 @@ COM_north_america_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_all_military_coats
-                accessory = com_male_military_coat_SER_royal_03
+                template = com_MEX_military_coats
+                accessory = male_coat_british_10
             }
             accessory = {
                 mode = add
@@ -880,7 +880,7 @@ COM_north_america_clothes = {
             accessory = {
                 mode = add
                 gene = com_military_coats
-                template = com_all_military_coats
+                template = com_MEX_military_coats
                 accessory = com_male_military_coat_TUR_OTO_early_01_b
             }
             accessory = {
