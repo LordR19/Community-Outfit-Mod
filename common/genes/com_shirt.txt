@@ -41,6 +41,7 @@ special_genes = {
 					3 = male_shirt_european_01
 					1 = male_outfit_polynesian_01_high
 					3 = male_outfit_south_american_01_low
+					2 = male_top_layer_south_american_gaucho_01
 				}
 				female = {
 					3 = female_outfit_peasant_common_01

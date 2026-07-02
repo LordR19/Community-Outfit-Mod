@@ -11,7 +11,7 @@
 #########################################################################
 #########################################################################
 
-pop_environment = {
+REPLACE:pop_environment = {
 	cubemap = "gfx/portraits/environments/events_farms_01.dds"
  	cubemap_intensity = 0.8
 
@@ -90,7 +90,7 @@ pop_environment = {
 	}
 }
 
-small_pop_environment = {
+REPLACE:small_pop_environment = {
 	cubemap = "gfx/portraits/environments/events_farms_01.dds"
  	cubemap_intensity = 0.6
 
@@ -169,7 +169,7 @@ small_pop_environment = {
 	}
 }
 
-characters_portrait_environment = {
+REPLACE:characters_portrait_environment = {
 	cubemap = "gfx/portraits/environments/events_farms_01.dds"
  	cubemap_intensity = 0.8
 
@@ -248,7 +248,7 @@ characters_portrait_environment = {
 	}
 }
 
-ruler_environment = {
+REPLACE:ruler_environment = {
 	cubemap = "gfx/portraits/environments/castle_interior_01.dds"
  	cubemap_intensity = 2
 
@@ -331,7 +331,7 @@ ruler_environment = {
 	}
 }
 
-general_environment = {
+REPLACE:general_environment = {
 	cubemap = "gfx/portraits/environments/castle_interior_01.dds"
  	cubemap_intensity = 1.4
 
@@ -410,7 +410,7 @@ general_environment = {
 	}
 }
 
-general_environment_02 = {
+REPLACE:general_environment_02 = {
 	cubemap = "gfx/portraits/environments/castle_interior_01.dds"
  	cubemap_intensity = 1.6
 
@@ -489,7 +489,7 @@ general_environment_02 = {
 	}
 }
 
-admiral_environment = {
+REPLACE:admiral_environment = {
 	cubemap = "gfx/portraits/environments/events_battlefield_01.dds"
  	cubemap_intensity = 1.1
 
