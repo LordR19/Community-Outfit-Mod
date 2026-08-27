@@ -3216,12 +3216,7 @@ COM_west_europe_clothes = {
     }
 
 
-
-
-
-
     ### PARMA
-
 
     #Clothes for the Parma Royals
     COM_PAR_royal_clothes = {
@@ -3320,8 +3315,7 @@ COM_west_europe_clothes = {
     }
 
 
-    ### SARDIGNIA
-
+    ### SARDINIA
 
     #Clothes for the Sardinian Royals
     COM_SAR_royal_clothes = {
@@ -5237,9 +5231,6 @@ COM_west_europe_clothes = {
             }
         }
     }
-
-
-
 
     ###
 
