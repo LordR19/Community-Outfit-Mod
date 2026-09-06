@@ -2228,6 +2228,8 @@ COM_west_europe_clothes = {
                     COM_is_culture_tag = { culture = scottish }
                     COM_is_culture_tag = { culture = welsh }
                     COM_is_culture_tag = { culture = irish }
+                    COM_is_culture_tag = { culture = anglo_canadian }
+                    COM_is_culture_tag = { culture = australian }
                 }
                 COM_is_late_military = yes
                 COM_is_general_leader = yes
@@ -2358,6 +2360,8 @@ COM_west_europe_clothes = {
                     COM_is_culture_tag = { culture = scottish }
                     COM_is_culture_tag = { culture = welsh }
                     COM_is_culture_tag = { culture = irish }
+                    COM_is_culture_tag = { culture = anglo_canadian }
+                    COM_is_culture_tag = { culture = australian }
                 }
                 COM_is_late_military = yes
                 officers_clothes_pop_trigger = yes
@@ -2493,6 +2497,8 @@ COM_west_europe_clothes = {
                     COM_is_culture_tag = { culture = scottish }
                     COM_is_culture_tag = { culture = welsh }
                     COM_is_culture_tag = { culture = irish }
+                    COM_is_culture_tag = { culture = anglo_canadian }
+                    COM_is_culture_tag = { culture = australian }
                 }
                 COM_is_late_military = yes
                 soldier_clothes_pop_trigger = yes
