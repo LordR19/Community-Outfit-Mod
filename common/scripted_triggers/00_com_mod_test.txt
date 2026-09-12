@@ -374,6 +374,27 @@ COM_is_culture_tag = {
     }
 }
 
+COM_has_discrimination_trait_tag = {
+    OR = {
+        scope:character ?= {
+            home_country ?= {
+                any_primary_culture = {
+                    has_discrimination_trait = $trait$
+                }
+                is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
+            }
+        }
+        scope:pop ?= {
+            home_country ?= {
+                any_primary_culture = {
+                    has_discrimination_trait = $trait$
+                }
+                is_subject = no # preventing uniform conflicts if TAG becomes a subject of another country with puppet uniforms
+            }
+        }
+    }
+}
+
 # SASHES SCA TRIGGERS
 
 COM_is_swedish_SCA = {
